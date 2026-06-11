@@ -42,5 +42,11 @@ extern int rnd(int low, int high);
 #endif
 
 int read_file(char *name);
-char *read_getlin();
-char *read_getlin_ew();
+char *read_getlin(void);
+char *read_getlin_ew(void);
+
+extern void asfail(char *file, int line, char *cond);
+extern void lcase(char *s);
+extern void copy_fp(FILE *a, FILE *b);
+extern void init_random(void);
+extern void test_random(void);

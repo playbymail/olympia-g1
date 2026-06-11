@@ -174,10 +174,7 @@ int subloc_counter = SUBLOC_OFF;
 
 struct tile *map[MAX_ROW][MAX_COL];
 
-struct tile *adjacent_tile_terr();
-struct tile *adjacent_tile_water();
-struct tile *adjacent_tile_sup();
-char *fetch_inside_name();
+#include	"proto.h"	/* BUGFIX (modernization): cross-file prototypes */
 
 #define		MAX_SUBLOC	20000
 
