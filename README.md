@@ -12,8 +12,8 @@ effort is underway to make it compile cleanly on 64-bit systems.
 
 ## Targets
 
-- `g1-olympia` — the main game engine
-- `g1-mapgen` — the map generator (inputs `Map`/`Land`/`Cities`/`Regions`,
+- `olympia-g1` — the main game engine
+- `mapgen-g1` — the map generator (inputs `Map`/`Land`/`Cities`/`Regions`,
   outputs `gate`/`loc`/`road`)
 
 ## Building
@@ -23,7 +23,7 @@ Requires CMake (>= 4.1), Ninja, and a Clang or GCC toolchain.
 ```bash
 cmake --preset debug
 cmake --build --preset debug
-# Binaries: build/debug/g1-olympia, build/debug/g1-mapgen
+# Binaries: build/debug/olympia-g1, build/debug/mapgen-g1
 ```
 
 Presets (see `CMakePresets.json`): `debug` (default), `release`, `asan-ubsan`.
@@ -47,15 +47,15 @@ cmake --build .
 Build first (default `debug` preset), then:
 
 ```bash
-# mapgen: generates gate/loc/road and can be compared to tests/g1/mapgen/golden
-./run/g1/mapgen/mapgen.sh
+# mapgen: generates gate/loc/road and can be compared to tests/mapgen/golden
+./run/mapgen/mapgen.sh
 
 # olympia: extracts fixtures, runs a turn, saves the database
-./run/g1-olympia.sh
+./run/olympia-g1.sh
 
 # compare the olympia run output against the golden snapshot
-./tests/g1/olympia/golden_check.sh           # YES = match
-./tests/g1/olympia/golden_check.sh --update   # refresh the snapshot
+./tests/olympia/golden_check.sh           # YES = match
+./tests/olympia/golden_check.sh --update   # refresh the snapshot
 ```
 
 The scripts auto-detect the repo root and look for binaries at
@@ -63,12 +63,12 @@ The scripts auto-detect the repo root and look for binaries at
 
 ## Layout
 
-- `g1/olympia/` — the G1 engine sources and headers
-- `g1/mapgen/` — the map generator
+- `olympia/` — the G1 engine sources and headers
+- `mapgen/` — the map generator
 - `lib/` — shared support code (entity lists, tiles, roads, allocation, …)
-- `tests/g1/` — golden-test fixtures and golden files
+- `tests/` — golden-test fixtures and golden files
 - `run/` — run/test driver scripts and scratch run directories
-- `g1/doc/` — assorted G1 design/reference notes
+- `doc/` — assorted G1 design/reference notes
 
 ## License
 

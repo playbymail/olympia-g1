@@ -3,7 +3,7 @@ set -euo pipefail
 ############################################################################
 #
 # Resolve the repo root from this script's location so the repo is relocatable.
-OLYMPIA_ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/../../.." && pwd)"
+OLYMPIA_ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/../.." && pwd)"
 OLYMPIA_PRESET="${OLYMPIA_PRESET:-debug}"
 OLYMPIA_BIN="${OLYMPIA_ROOT}/build/${OLYMPIA_PRESET}"
 OLYMPIA_FIXTURES="${OLYMPIA_ROOT}/tests"
@@ -13,8 +13,8 @@ OLYMPIA_COMMAND=olympia
 ############################################################################
 #
 ROOT="${OLYMPIA_ROOT}"
-RUN_LIB="${ROOT}/run/g1/olympia/lib"
-GOLDEN="${ROOT}/tests/g1/olympia/golden"
+RUN_LIB="${ROOT}/run/olympia/lib"
+GOLDEN="${ROOT}/tests/olympia/golden"
 
 usage() {
   echo "usage: $0 [--update]"

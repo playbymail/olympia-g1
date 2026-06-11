@@ -17,7 +17,7 @@
 
 
 #include	<stdio.h>
-#include "../../lib/lists.h" /* BUGFIX (modernization): update lists */
+#include "../lib/lists.h" /* BUGFIX (modernization): update lists */
 #include	"z.h"
 
 

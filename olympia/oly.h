@@ -1,4 +1,4 @@
-#include "../../lib/lists.h" /* BUGFIX (modernization): update lists */
+#include "../lib/lists.h" /* BUGFIX (modernization): update lists */
 
 typedef		unsigned char	uchar;
 typedef		signed char	schar;

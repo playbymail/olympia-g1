@@ -204,22 +204,22 @@ endif ()
 # ------------------------------------------------------------------------------
 # G1 mapgen
 # ------------------------------------------------------------------------------
-add_executable(g1-mapgen)
-target_sources(g1-mapgen PRIVATE
-    g1/mapgen/mapgen.c g1/mapgen/z.c
+add_executable(mapgen-g1)
+target_sources(mapgen-g1 PRIVATE
+    mapgen/mapgen.c mapgen/z.c
     lib/cstrings.c lib/exit_views.c
     lib/ilist.c lib/roads.c lib/tiles.c
 )
-target_sources(g1-mapgen PRIVATE
+target_sources(mapgen-g1 PRIVATE
     FILE_SET HEADERS
     BASE_DIRS
-        g1/mapgen lib
+        mapgen lib
     FILES
-        g1/mapgen/z.h
+        mapgen/z.h
         lib/lists.h
 )
-target_include_directories(g1-mapgen PRIVATE g1/mapgen/ lib/)
-target_compile_options(g1-mapgen PRIVATE
+target_include_directories(mapgen-g1 PRIVATE mapgen/ lib/)
+target_compile_options(mapgen-g1 PRIVATE
     ${LEGACY_C_FLAGS} -Og -g
     -Wint-conversion -Werror=int-conversion
     -Wint-to-pointer-cast -Werror=int-to-pointer-cast
@@ -230,36 +230,36 @@ target_compile_options(g1-mapgen PRIVATE
 # ------------------------------------------------------------------------------
 # G1 olympia (main game engine)
 # ------------------------------------------------------------------------------
-add_executable(g1-olympia)
-target_sources(g1-olympia PRIVATE
-    g1/olympia/add.c g1/olympia/adv.c g1/olympia/alchem.c g1/olympia/art.c g1/olympia/basic.c
-    g1/olympia/beast.c g1/olympia/build.c g1/olympia/buy.c g1/olympia/check.c g1/olympia/c1.c
-    g1/olympia/c2.c g1/olympia/cloud.c g1/olympia/code.c g1/olympia/combat.c g1/olympia/day.c
-    g1/olympia/dir.c g1/olympia/display.c g1/olympia/eat.c g1/olympia/faery.c g1/olympia/garr.c
-    g1/olympia/gate.c g1/olympia/glob.c g1/olympia/gm.c g1/olympia/hades.c g1/olympia/immed.c
-    g1/olympia/input.c g1/olympia/io.c g1/olympia/loc.c g1/olympia/lore.c g1/olympia/main.c
-    g1/olympia/make.c g1/olympia/move.c g1/olympia/necro.c g1/olympia/npc.c g1/olympia/order.c
-    g1/olympia/perm.c g1/olympia/produce.c g1/olympia/quest.c g1/olympia/relig.c
-    g1/olympia/report.c g1/olympia/savage.c g1/olympia/scry.c g1/olympia/seed.c
-    g1/olympia/sout.c g1/olympia/stack.c g1/olympia/stealth.c g1/olympia/storm.c
-    g1/olympia/summary.c g1/olympia/swear.c g1/olympia/u.c g1/olympia/use.c g1/olympia/z.c
+add_executable(olympia-g1)
+target_sources(olympia-g1 PRIVATE
+    olympia/add.c olympia/adv.c olympia/alchem.c olympia/art.c olympia/basic.c
+    olympia/beast.c olympia/build.c olympia/buy.c olympia/check.c olympia/c1.c
+    olympia/c2.c olympia/cloud.c olympia/code.c olympia/combat.c olympia/day.c
+    olympia/dir.c olympia/display.c olympia/eat.c olympia/faery.c olympia/garr.c
+    olympia/gate.c olympia/glob.c olympia/gm.c olympia/hades.c olympia/immed.c
+    olympia/input.c olympia/io.c olympia/loc.c olympia/lore.c olympia/main.c
+    olympia/make.c olympia/move.c olympia/necro.c olympia/npc.c olympia/order.c
+    olympia/perm.c olympia/produce.c olympia/quest.c olympia/relig.c
+    olympia/report.c olympia/savage.c olympia/scry.c olympia/seed.c
+    olympia/sout.c olympia/stack.c olympia/stealth.c olympia/storm.c
+    olympia/summary.c olympia/swear.c olympia/u.c olympia/use.c olympia/z.c
 
     lib/admits.c lib/cstrings.c lib/exit_views.c lib/fights.c lib/flag_ents.c
     lib/ilist.c lib/item_ents.c
     lib/orders.c lib/req_ents.c lib/roads.c lib/skill_ents.c lib/tiles.c lib/trades.c lib/wait_args.c
 )
-target_sources(g1-olympia PRIVATE
+target_sources(olympia-g1 PRIVATE
     FILE_SET HEADERS
     BASE_DIRS
-        g1/olympia lib
+        olympia lib
     FILES
-        g1/olympia/code.h g1/olympia/dir.h g1/olympia/display.h g1/olympia/etc.h g1/olympia/garr.h
-	    g1/olympia/loc.h g1/olympia/loop.h g1/olympia/oly.h g1/olympia/order.h g1/olympia/sout.h
-	    g1/olympia/stack.h g1/olympia/swear.h g1/olympia/u.h g1/olympia/use.h g1/olympia/z.h
+        olympia/code.h olympia/dir.h olympia/display.h olympia/etc.h olympia/garr.h
+	    olympia/loc.h olympia/loop.h olympia/oly.h olympia/order.h olympia/sout.h
+	    olympia/stack.h olympia/swear.h olympia/u.h olympia/use.h olympia/z.h
         lib/lists.h
 )
-target_include_directories(g1-olympia PRIVATE g1/olympia/ lib/)
-target_compile_options(g1-olympia PRIVATE
+target_include_directories(olympia-g1 PRIVATE olympia/ lib/)
+target_compile_options(olympia-g1 PRIVATE
     ${LEGACY_C_FLAGS} -O1 -g
     -Wint-conversion -Werror=int-conversion
     -Wint-to-pointer-cast -Werror=int-to-pointer-cast
