@@ -864,8 +864,6 @@ do_eat_command(struct command *c, FILE *fp)
 
 	if (c->cmd == cmd_wait)
 	{
-		extern char *parse_wait_args();
-		extern char *clear_wait_parse();
 		char *s;
 
 		s = parse_wait_args(c);

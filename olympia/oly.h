@@ -1225,3 +1225,7 @@ extern ilist new_players;		/* new players added this turn */
 
 #define	MAX_POST 60	/* max line length for posts and messages */
 
+
+#include	<stdio.h>		/* for FILE, used by proto.h */
+#include	"proto.h"		/* BUGFIX (modernization): cross-file prototypes */
+
