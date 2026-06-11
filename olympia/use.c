@@ -16,65 +16,7 @@ struct use_tbl_ent {
 	int poll;		/* call finish each day, not just at end */
 };
 
-int v_sail(), d_sail(), i_sail();
-int v_brew(), d_brew_heal(), d_brew_death(), d_brew_slave();
-int v_add_ram(), d_add_ram();
-
-int v_mine_iron(), d_mine_iron(), v_mine_gold(), d_mine_gold();
-int v_mine_mithril(), d_mine_mithril(), v_quarry();
-int v_wood(), v_yew(), v_catch();
-int v_spy_inv(), d_spy_inv(), v_spy_lord(), d_spy_lord();
-int v_spy_skills(), d_spy_skills();
-int v_adv_med(), d_adv_med(), v_hinder_med(), d_hinder_med();
-
-int v_defense(), d_defense();
-int v_archery(), d_archery();
-int v_swordplay(), d_swordplay();
-
-int v_detect_gates(), d_detect_gates(), v_jump_gate(), v_teleport();
-int v_reverse_jump(), v_reveal_key(), d_reveal_key();
-int v_seal_gate(), d_seal_gate(), v_unseal_gate(), d_unseal_gate();
-int v_notify_unseal(), d_notify_unseal(), v_rem_seal(), d_rem_seal();
-int v_notify_jump(), d_notify_jump(), v_meditate(), d_meditate();
-int v_heal(), d_heal(), v_reveal_mage(), d_reveal_mage(), v_appear_common();
-int v_view_aura(), d_view_aura(), v_shroud_abil(), d_shroud_abil();
-int v_detect_abil(), d_detect_abil(), v_detect_scry(), d_detect_scry();
-int v_scry_region(), d_scry_region(), v_shroud_region(), d_shroud_region();
-int v_dispel_region(), d_dispel_region(), v_dispel_abil(), d_dispel_abil();
-int v_proj_cast(), d_proj_cast(), v_locate_char(), d_locate_char();
-int v_bar_loc(), d_bar_loc(), v_unbar_loc(), d_unbar_loc();
-int v_forge_palantir(), d_forge_palantir(), v_destroy_art(), d_destroy_art();
-int v_show_art_creat(), d_show_art_creat(), v_show_art_reg(), d_show_art_reg();
-int v_save_proj(), d_save_proj(), v_save_quick(), d_save_quick();
-int v_quick_cast(), d_quick_cast(), v_rem_art_cloak(), d_rem_art_cloak();
-int v_write_spell(), d_write_spell(), v_curse_noncreat(), d_curse_noncreat();
-int v_cloak_creat(), d_cloak_creat(), v_cloak_reg(), d_cloak_reg();
-int v_forge_aura(), d_forge_aura(), v_bribe(), d_bribe();
-int v_shipbuild(), v_summon_savage(), v_keep_savage(), d_keep_savage();
-int v_improve_opium(), d_improve_opium(), v_lead_to_gold(), d_lead_to_gold();
-int v_raise(), d_raise(), v_rally(), d_rally(), v_incite(), d_incite();
-int v_bird_spy(), d_bird_spy(), v_eat_dead(), d_eat_dead();
-int v_raise_corpses(), v_undead_lord(), d_undead_lord();
-int v_banish_undead(), d_banish_undead(), v_keep_undead(), d_keep_undead();
-int v_aura_blast(), d_aura_blast(), v_aura_reflect(), v_banish_corpses(), d_banish_corpses();
-int v_summon_rain(), d_summon_rain(), v_summon_wind(), d_summon_wind();
-int v_summon_fog(), d_summon_fog(), v_dissipate(), d_dissipate();
-int v_direct_storm(), v_renew_storm(), d_renew_storm();
-int v_lightning(), d_lightning();
-int v_seize_storm(), d_seize_storm(), v_death_fog(), d_death_fog();
-int v_hide(), d_hide(), v_sneak(), d_sneak(), v_fierce_wind(), d_fierce_wind();
-int v_mage_menial(), d_mage_menial(), v_reveal_vision(), d_reveal_vision();
-int v_resurrect(), d_resurrect(), v_prep_ritual(), d_prep_ritual();
-int v_last_rites(), d_last_rites(), v_remove_bless(), d_remove_bless();
-int v_find_rich(), d_find_rich(), v_torture(), d_torture();
-int v_fight_to_death(), v_breed(), d_breed(), v_fish();
-int v_petty_thief(), d_petty_thief(), v_persuade_oath(), d_persuade_oath();
-int v_forge_art_x(), d_forge_art_x(), v_trance(), d_trance();
-int v_teleport_item(), d_teleport_item(), v_tap_health(), d_tap_health();
-int v_bind_storm(), d_bind_storm();
-int v_use_train_riding(), v_use_train_war();
-
-int v_implicit();
+/* command handlers are declared in proto.h (via oly.h) */
 
 struct use_tbl_ent use_tbl[] = {
 {NULL, 0,                0,                0,                0,        0, 0},

@@ -29,39 +29,7 @@ int cookie_init = FALSE;
 int garrison_magic = 999;
 
 
-int v_look(), v_stack(), v_unstack(), v_promote(), v_die();
-int v_explore(), d_explore(), v_name(), v_banner(), v_notab();
-int v_move(), d_move(), v_sail(), d_sail(), i_sail();
-int v_give(), v_pay(), v_repair(), d_repair(), i_repair(), v_claim();
-int v_swear(), v_form(), d_form(), v_use(), d_use(), i_use();
-int v_study(), d_study(), v_research(), d_research(), v_format();
-int v_wait(), d_wait(), i_wait(), v_flag(), v_discard(), v_guard();
-int v_recruit(), v_make(), d_make(), i_make(), v_pillage(), d_pillage();
-int v_attack(), v_behind(), v_bribe(), d_bribe();
-int v_buy(), v_sell(), v_execute(), v_tell(), v_surrender();
-int v_honor(), v_oath(), v_terrorize(), d_terrorize(), v_quit();
-int v_build(), d_build(), v_quarry(), v_fish(), v_emote();
-int v_post(), v_message(), v_rumor(), v_press();
-int v_collect(), d_collect(), i_collect(), v_raze(), d_raze();
-int v_wood(), v_yew(), v_catch(), v_mallorn(), v_stop();
-int v_raise(), d_raise(), v_rally(), d_rally(), v_reclaim();
-int v_incite(), v_forget(), v_garrison(), v_pledge();
-int v_fly(), d_fly(), v_exhume(), d_exhume(), v_sneak(), d_sneak();
-int v_admit(), v_hostile(), v_defend(), v_neutral(), v_att_clear();
-int v_hide(), d_hide(), v_contact(), v_seek(), d_seek();
-int v_opium(), v_get(), v_breed(), d_breed(), v_decree(), v_ungarrison();
-int v_torture(), d_torture(), v_trance(), d_trance();
-int v_fee(), v_board(), v_ferry(), v_unload(), v_split();
-int v_bind_storm(), d_bind_storm(), v_credit(), v_xyzzy(), v_plugh();
-int v_fullname(), v_times();
-
-int v_enter(), v_exit(), v_north(), v_south(), v_east(), v_west();
-
-int v_be(), v_listcmds(), v_poof(), v_see_all(), v_invent();
-int v_add_item(), v_sub_item(), v_dump(), v_makeloc(), v_seed();
-int v_lore(), v_know(), v_skills(), v_save(), v_postproc();
-int v_los(), v_kill(), v_take_pris(), v_ct(), v_fix(), v_fix2();
-int v_seedmarket(), v_relore(), v_remail();
+/* command handlers are declared in proto.h (via oly.h) */
 
 
 /*
@@ -387,7 +355,7 @@ char *month_names[] = {
 
 
 void
-glob_init()
+glob_init(void)
 {
 	int i;
 
