@@ -274,7 +274,7 @@ load_player_orders(int pl)
 
 
 void
-load_orders()
+load_orders(void)
 {
 	DIR *d;
 	struct dirent *e;
@@ -314,7 +314,7 @@ load_orders()
 
 
 void
-save_orders()
+save_orders(void)
 {
 	int i;
 
@@ -492,7 +492,7 @@ orders_template(int who, int pl)
 
 
 void
-list_order_templates()
+list_order_templates(void)
 {
 	int pl;
 

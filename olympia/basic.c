@@ -886,7 +886,7 @@ v_mage_menial(struct command *c)
 
 
 static char *
-mage_menial_how()
+mage_menial_how(void)
 {
 
 	switch (rnd(1,9))

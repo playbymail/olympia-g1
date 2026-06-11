@@ -53,7 +53,7 @@ static void next();
 
 #if HAVEFP
 double
-drand48()
+drand48(void)
 {
 #if pdp11
 	static double two16m; /* old pdp11 cc can't compile an expression */
@@ -108,14 +108,14 @@ unsigned short m;
 #endif
 
 long
-lrand48()
+lrand48(void)
 {
 	next();
 	return (((long)x[2] << (N - 1)) + (x[1] >> 1));
 }
 
 long
-mrand48()
+mrand48(void)
 {
 	register long l;
 
@@ -126,7 +126,7 @@ mrand48()
 }
 
 static void
-next()
+next(void)
 {
 	unsigned p[2], q[2], r[2], carry0, carry1;
 
@@ -444,7 +444,7 @@ readfile(char *path)
 
 
 char *
-readlin()
+readlin(void)
 {
 	static char *buf = NULL;
 	static unsigned int size = 0;
@@ -493,7 +493,7 @@ readlin()
 
 
 char *
-readlin_ew()
+readlin_ew(void)
 {
 	char *line;
 	char *p;
@@ -537,7 +537,7 @@ char lower_array[256];
 
 
 void
-init_lower()
+init_lower(void)
 {
 	int i;
 
@@ -706,7 +706,7 @@ fuzzy_strcmp(char *one, char *two)
 unsigned short seed[3];
 
 void
-init_random()
+init_random(void)
 {
 	long l;
 
@@ -748,7 +748,7 @@ int high;
 
 
 void
-test_random()
+test_random(void)
 {
 	int i;
 

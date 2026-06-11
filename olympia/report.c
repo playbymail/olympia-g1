@@ -29,7 +29,7 @@ sort_for_output(ilist l)
 
 
 void
-determine_output_order()
+determine_output_order(void)
 {
 	int count = 0;
 	int reg;
@@ -413,7 +413,7 @@ char_rep_stack_info(int who, int num)
 static int pledge_backlinks = FALSE;
 
 static void
-collect_pledge_backlinks()
+collect_pledge_backlinks(void)
 {
 	int i;
 	int n;
@@ -669,7 +669,7 @@ char_rep_sup(int who, int num)
 
 
 void
-character_report()
+character_report(void)
 {
 	int who;
 
@@ -739,7 +739,7 @@ show_unclaimed(int who, int num)
 
 
 void
-player_ent_info()
+player_ent_info(void)
 {
 	int pl;
 
@@ -1272,7 +1272,7 @@ stack_capacity_report(int pl)
 
 
 void
-player_report()
+player_report(void)
 {
 	int pl;
 
@@ -1518,7 +1518,7 @@ gen_include_sup(int pl)
 
 
 void
-gen_include_section()
+gen_include_section(void)
 {
 	int pl;
 
@@ -1538,7 +1538,7 @@ gen_include_section()
 
 
 void
-turn_end_loc_reports()
+turn_end_loc_reports(void)
 {
 	int pl;
 	int i;
@@ -1594,7 +1594,7 @@ turn_end_loc_reports()
 
 
 void
-player_banner()
+player_banner(void)
 {
 	int pl;
 	struct entity_player *p;
@@ -1726,7 +1726,7 @@ report_account_sup(int pl)
 
 
 void
-report_account()
+report_account(void)
 {
 	int pl;
 
@@ -1750,7 +1750,7 @@ report_account()
 
 
 void
-charge_account()
+charge_account(void)
 {
 	int pl;
 	struct entity_player *p;

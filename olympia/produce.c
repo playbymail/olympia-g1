@@ -116,7 +116,7 @@ mine_production(int where)
 
 
 void
-location_production()
+location_production(void)
 {
     int where;
     int i;
@@ -509,7 +509,7 @@ static ilist collectors = NULL;
 
 
 void
-init_collect_list()
+init_collect_list(void)
 {
 	int i;
 	struct command *c;

@@ -70,7 +70,7 @@ rc_to_region(int row, int col)
 
 
 void
-determine_map_edges()
+determine_map_edges(void)
 {
 	int i;
 	int row, col;
@@ -139,7 +139,7 @@ los_province_distance(int a, int b)
 
 
 void
-dir_assert()
+dir_assert(void)
 {
 	int row, col, reg;
 
@@ -321,7 +321,7 @@ province_has_port_city(int where)
 
 
 static int
-summer_uldim_open_now()
+summer_uldim_open_now(void)
 {
 	extern int month_done;
 

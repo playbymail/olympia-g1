@@ -332,7 +332,7 @@ char *months[] = {
 
 
 void
-open_times()
+open_times(void)
 {
 	char *fnam;
 
@@ -374,7 +374,7 @@ open_times()
 
 
 void
-times_masthead()
+times_masthead(void)
 {
 	char *fnam;
 	time_t l;
@@ -429,7 +429,7 @@ times_masthead()
 
 
 void
-close_times()
+close_times(void)
 {
 
 	if (press_fp != NULL)

@@ -205,7 +205,7 @@ i_strncmp(char *s, char *t, int n)
 unsigned short seed[3];
 
 void
-init_random()
+init_random(void)
 {
 	long l;
 
@@ -261,7 +261,7 @@ int high;
 
 
 void
-test_random()
+test_random(void)
 {
 	int i;
 

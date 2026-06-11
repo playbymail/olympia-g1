@@ -19,7 +19,7 @@ int cloud_region = 0;
 	
 
 void
-create_cloudlands()
+create_cloudlands(void)
 {
 	int r, c;
 	int map[SZ+1][SZ+1];

@@ -230,7 +230,7 @@ int main(int argc, char **argv)
 }
 
 
-int call_init_routines()
+int call_init_routines(void)
 {
 
 	init_lower();
@@ -242,7 +242,7 @@ int call_init_routines()
 }
 
 
-int write_totimes()
+int write_totimes(void)
 {
 	FILE *fp;
 	char *fnam;
@@ -274,7 +274,7 @@ int write_totimes()
 }
 
 
-int write_email()
+int write_email(void)
 {
 	FILE *fp;
 	char *fnam;
@@ -345,7 +345,7 @@ list_a_player(FILE *fp, int pl, int *flag)
 }
 
 
-int write_player_list()
+int write_player_list(void)
 {
 	FILE *fp;
 	char *fnam;
@@ -400,7 +400,7 @@ int write_forward_sup(int who_for, int target, FILE *fp)
 }
 
 
-int write_forwards()
+int write_forwards(void)
 {
 	FILE *fp;
 	char *fnam;
@@ -459,7 +459,7 @@ int write_faction_sup(int who_for, int target, FILE *fp)
 }
 
 
-int write_factions()
+int write_factions(void)
 {
 	FILE *fp;
 	char *fnam;
@@ -648,7 +648,7 @@ send_rep(int pl, int turn)
 #endif
 
 
-int mail_reports()
+int mail_reports(void)
 {
 	int pl;
 

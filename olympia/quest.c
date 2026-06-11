@@ -402,7 +402,7 @@ seed_subloc_with_monster(int where)
 
 
 void
-seed_monster_sublocs()
+seed_monster_sublocs(void)
 {
 	int where;
 

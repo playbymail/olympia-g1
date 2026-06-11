@@ -746,7 +746,7 @@ d_move(struct command *c)
 
 
 void
-init_ocean_chars()
+init_ocean_chars(void)
 {
 	int i;
 	int where;
@@ -763,7 +763,7 @@ init_ocean_chars()
 
 
 void
-check_ocean_chars()
+check_ocean_chars(void)
 {
 	int i;
 	int where;

@@ -93,7 +93,7 @@ prop_city_near_list(int city)
 
 
 void
-seed_city_near_lists()
+seed_city_near_lists(void)
 {
 	int city;
 
@@ -114,7 +114,7 @@ seed_city_near_lists()
 
 
 void
-seed_mob_cookies()
+seed_mob_cookies(void)
 {
 	int i;
 
@@ -133,7 +133,7 @@ seed_mob_cookies()
 
 
 void
-seed_undead_cookies()
+seed_undead_cookies(void)
 {
 	int i;
 
@@ -149,7 +149,7 @@ seed_undead_cookies()
 
 
 void
-seed_weather_cookies()
+seed_weather_cookies(void)
 {
 	int i;
 
@@ -184,7 +184,7 @@ seed_weather_cookies()
 
 
 void
-seed_cookies()
+seed_cookies(void)
 {
 
 	stage("INIT: seed_cookies()");
@@ -276,7 +276,7 @@ compute_dist_generic(int terr)
  */
 
 void
-compute_dist_gate()
+compute_dist_gate(void)
 {
 	int where;
 	exit_views_list l;
@@ -350,7 +350,7 @@ compute_dist_gate()
 
 
 void
-compute_nearby_graves()
+compute_nearby_graves(void)
 {
 	int where;
 	exit_views_list l;
@@ -450,7 +450,7 @@ compute_nearby_graves()
 
 
 void
-compute_dist()
+compute_dist(void)
 {
 	int i;
 
@@ -1012,7 +1012,7 @@ seed_long_routes()
 
 
 void
-seed_common_tradegoods()
+seed_common_tradegoods(void)
 {
 	int reg;
 	int i, j;
@@ -1078,7 +1078,7 @@ seed_common_tradegoods()
 
 
 void
-seed_rare_tradegoods()
+seed_rare_tradegoods(void)
 {
 	int reg;
 	int i, j;
@@ -1162,7 +1162,7 @@ seed_city(int where)
 
 
 void
-seed_initial_locations()
+seed_initial_locations(void)
 {
 
 	int i;
@@ -1187,7 +1187,7 @@ seed_initial_locations()
 
 
 void
-seed_taxes()
+seed_taxes(void)
 {
 	int where;
 	int base;

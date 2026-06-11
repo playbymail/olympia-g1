@@ -42,7 +42,7 @@ fetch_inp(FILE *fp)
 #if 1
 
 static int
-pick_starting_city()
+pick_starting_city(void)
 {
 	int i;
 	int n = 0;
@@ -193,7 +193,7 @@ make_new_players_sup(char *acct, FILE *fp)
 
 
 static void
-make_new_players()
+make_new_players(void)
 {
 	DIR *d;
 	struct dirent *e;
@@ -238,7 +238,7 @@ make_new_players()
 
 
 void
-rename_act_join_files()
+rename_act_join_files(void)
 {
 	int i;
 	int pl;
@@ -266,7 +266,7 @@ rename_act_join_files()
 
 
 static void
-new_player_banners()
+new_player_banners(void)
 {
 	int pl;
 	int i;
@@ -325,7 +325,7 @@ new_player_banners()
 
 
 static void
-show_new_char_locs()
+show_new_char_locs(void)
 {
 	int i;
 	int where;
@@ -358,7 +358,7 @@ show_new_char_locs()
 
 
 static void
-new_player_report()
+new_player_report(void)
 {
 	int i;
 
@@ -377,7 +377,7 @@ new_player_report()
 
 
 static void
-new_char_report()
+new_char_report(void)
 {
 	int i;
 
@@ -391,7 +391,7 @@ new_char_report()
 
 
 static void
-mail_initial_reports()
+mail_initial_reports(void)
 {
 	int i;
 	char *s, *t;
@@ -419,7 +419,7 @@ mail_initial_reports()
 
 
 static void
-new_order_templates()
+new_order_templates(void)
 {
 	int pl, i;
 
@@ -465,7 +465,7 @@ new_player_list_sup(int who, int pl)
 
 
 void
-new_player_list()
+new_player_list(void)
 {
 	int pl;
 	int i;
@@ -518,7 +518,7 @@ new_player_top(int mail)
 
 
 void
-add_new_players()
+add_new_players(void)
 {
 
 	stage("add_new_players()");

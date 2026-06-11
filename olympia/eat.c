@@ -43,7 +43,7 @@ static int line_count = 0;
 
 
 static void
-find_meta_commands()
+find_meta_commands(void)
 {
 	extern int fuzzy_find;
 
@@ -126,7 +126,7 @@ find_meta_commands()
 
 
 static void
-init_eat_vars()
+init_eat_vars(void)
 {
 
 	if (cmd_begin < 0)
@@ -959,7 +959,7 @@ parse_and_munch(FILE *fp)
 
 
 static void
-eat_banner()
+eat_banner(void)
 {
 	char *to;
 	char *full_name = "";
@@ -1034,7 +1034,7 @@ include_orig(FILE *fp)
 
 
 static void
-show_pending()
+show_pending(void)
 {
 
 	out_alt_who = EAT_QUEUE;
@@ -1128,7 +1128,7 @@ eat(char *fnam)
 
 
 static void
-write_remind_list()
+write_remind_list(void)
 {
 	FILE *fp;
 	char *fnam;
@@ -1169,7 +1169,7 @@ write_remind_list()
 
 
 static int
-read_spool()
+read_spool(void)
 {
 	DIR *d;
 	struct dirent *e;
@@ -1216,7 +1216,7 @@ read_spool()
 
 
 void
-eat_loop()
+eat_loop(void)
 {
 
 	setbuf(stdout, NULL);

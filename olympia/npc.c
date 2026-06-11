@@ -440,7 +440,7 @@ create_peasant_mob(int where)
 
 
 void
-queue_npc_orders()
+queue_npc_orders(void)
 {
 	int who;
 

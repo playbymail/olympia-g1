@@ -23,7 +23,7 @@
  */
 
 static void
-check_here()
+check_here(void)
 {
     int i;
     int j;
@@ -76,7 +76,7 @@ check_here()
  */
 
 static void
-check_swear()
+check_swear(void)
 {
     int i;
     int j;
@@ -120,7 +120,7 @@ check_swear()
 
 
 static void
-check_indep()
+check_indep(void)
 {
 	int i;
 
@@ -152,7 +152,7 @@ check_indep()
 
 
 static void
-check_gm()
+check_gm(void)
 {
 
 	if (bx[gm_player] == NULL)
@@ -171,7 +171,7 @@ check_gm()
 
 
 static void
-check_skill_player()
+check_skill_player(void)
 {
 
 	if (bx[skill_player] == NULL)
@@ -190,7 +190,7 @@ check_skill_player()
 
 
 static void
-check_eat_player()
+check_eat_player(void)
 {
 
 	if (bx[eat_pl] == NULL)
@@ -209,7 +209,7 @@ check_eat_player()
 
 
 static void
-check_npc_player()
+check_npc_player(void)
 {
 
 	if (bx[npc_pl] == NULL)
@@ -228,7 +228,7 @@ check_npc_player()
 
 
 static void
-check_garr_player()
+check_garr_player(void)
 {
 
 	if (bx[garr_pl] == NULL)
@@ -252,7 +252,7 @@ check_garr_player()
  */
 
 static void
-check_glob()
+check_glob(void)
 {
 	int i;
 
@@ -267,7 +267,7 @@ check_glob()
 
 
 static void
-check_nowhere()
+check_nowhere(void)
 {
 	int i;
 
@@ -299,7 +299,7 @@ check_nowhere()
 
 
 static void
-check_skills()
+check_skills(void)
 {
 	int sk;
 	struct entity_skill *p;
@@ -387,7 +387,7 @@ check_skills()
 
 
 static void
-check_item_counts()
+check_item_counts(void)
 {
 	int i;
 	struct item_ent *e;
@@ -447,7 +447,7 @@ check_item_counts()
 
 
 static void
-check_loc_name_lengths()
+check_loc_name_lengths(void)
 {
 	int i;
 	int len;
@@ -464,7 +464,7 @@ check_loc_name_lengths()
 
 
 static void
-check_moving()
+check_moving(void)
 {
 	int i;
 	struct command *c;
@@ -503,7 +503,7 @@ check_moving()
 
 
 static void
-check_prisoner()
+check_prisoner(void)
 {
 	int who;
 
@@ -527,7 +527,7 @@ check_prisoner()
  *  Always notes a database correction with a message to strerr.
  */
 
-int check_db()
+int check_db(void)
 {
 
 	stage("check_db()");

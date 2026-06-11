@@ -1083,7 +1083,7 @@ v_death_fog(struct command *c)
 
 
 static char *
-fog_excuse()
+fog_excuse(void)
 {
 
 	switch (rnd(1,3))
@@ -1437,7 +1437,7 @@ create_some_storms(int num, int kind)
 
 
 void
-natural_weather()
+natural_weather(void)
 {
 	int nprov = nprovinces();
 	int n;
@@ -1526,7 +1526,7 @@ update_weather_view_locs(int stack, int where)
 
 
 void
-init_weather_views()
+init_weather_views(void)
 {
 	int who;
 
