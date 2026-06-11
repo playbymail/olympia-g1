@@ -55,10 +55,7 @@ str_save(char *s)
 
 
 void
-asfail(file, line, cond)
-char *file;
-int line;
-char *cond;
+asfail(char *file, int line, char *cond)
 {
 	fprintf(stderr, "assertion failure: %s (%d): %s\n",
 						file, line, cond);
@@ -68,8 +65,7 @@ char *cond;
 
 
 void
-lcase(s)
-char *s;
+lcase(char *s)
 {
 
 	while (*s)
@@ -158,9 +154,7 @@ getlin_ew(FILE *fp)
 #define	COPY_LEN	1024
 
 void
-copy_fp(a, b)
-FILE *a;
-FILE *b;
+copy_fp(FILE *a, FILE *b)
 {
 	char buf[COPY_LEN];
 

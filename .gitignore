@@ -19,3 +19,6 @@ build32/
 
 # keep golden-test fixtures (overrides *.tgz above)
 !tests/**/*.tgz
+
+# phase-4 scratch tooling
+run/scratch/
