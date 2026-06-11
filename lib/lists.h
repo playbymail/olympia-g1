@@ -9,21 +9,6 @@
 
 #define		ILIST_ALLOC	6	/* doubles with each realloc */
 
-// 'accept_ents_list' reallocing array definitions
-typedef struct accept_ent **accept_ents_list;
-extern void accept_ents_append(accept_ents_list *l, struct accept_ent *n);
-extern void accept_ents_clear(accept_ents_list *l);
-extern accept_ents_list accept_ents_copy(accept_ents_list l);
-extern void accept_ents_delete(accept_ents_list *l, int i);
-extern int accept_ents_len(accept_ents_list l);
-extern int accept_ents_lookup(accept_ents_list l, struct accept_ent *n);
-extern void accept_ents_prepend(accept_ents_list *l, struct accept_ent *n);
-extern void accept_ents_reclaim(accept_ents_list *l);
-extern void accept_ents_rem_value(accept_ents_list *l, struct accept_ent *n);
-extern void accept_ents_scramble(accept_ents_list l);
-extern void accept_ents_shuffle(accept_ents_list l);
-extern void accept_ents_test(void);
-
 // 'admits_list' reallocing array definitions
 typedef struct admit **admits_list;
 extern void admits_append(admits_list *l, struct admit *n);
@@ -53,36 +38,6 @@ extern void cstrings_rem_value(cstrings_list *l, char *n);
 extern void cstrings_scramble(cstrings_list l);
 extern void cstrings_shuffle(cstrings_list l);
 extern void cstrings_test(void);
-
-// 'effects_list' reallocing array definitions
-typedef struct effect **effects_list;
-extern void effects_append(effects_list *l, struct effect *n);
-extern void effects_clear(effects_list *l);
-extern effects_list effects_copy(effects_list l);
-extern void effects_delete(effects_list *l, int i);
-extern int effects_len(effects_list l);
-extern int effects_lookup(effects_list l, struct effect *n);
-extern void effects_prepend(effects_list *l, struct effect *n);
-extern void effects_reclaim(effects_list *l);
-extern void effects_rem_value(effects_list *l, struct effect *n);
-extern void effects_scramble(effects_list l);
-extern void effects_shuffle(effects_list l);
-extern void effects_test(void);
-
-// 'entity_builds_list' reallocing array definitions
-typedef struct entity_build **entity_builds_list;
-extern void entity_builds_append(entity_builds_list *l, struct entity_build *n);
-extern void entity_builds_clear(entity_builds_list *l);
-extern entity_builds_list entity_builds_copy(entity_builds_list l);
-extern void entity_builds_delete(entity_builds_list *l, int i);
-extern int entity_builds_len(entity_builds_list l);
-extern int entity_builds_lookup(entity_builds_list l, struct entity_build *n);
-extern void entity_builds_prepend(entity_builds_list *l, struct entity_build *n);
-extern void entity_builds_reclaim(entity_builds_list *l);
-extern void entity_builds_rem_value(entity_builds_list *l, struct entity_build *n);
-extern void entity_builds_scramble(entity_builds_list l);
-extern void entity_builds_shuffle(entity_builds_list l);
-extern void entity_builds_test(void);
 
 // 'exit_views_list' reallocing array definitions
 typedef struct exit_view **exit_views_list;
