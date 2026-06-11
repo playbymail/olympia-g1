@@ -19,9 +19,7 @@ int flush_always = FALSE;
 int time_self = FALSE;		/* print timing info */
 int save_flag = FALSE;
 
-int main(argc, argv)
-int argc;
-char **argv;
+int main(int argc, char **argv)
 {
 	extern int optind, opterr;
 	extern char *optarg;
@@ -664,8 +662,7 @@ int mail_reports()
 }
 
 int
-v_remail(c)
-struct command *c;
+v_remail(struct command *c)
 {
 	mail_reports();
 	return TRUE;

@@ -21,10 +21,10 @@ int gold_opium = 0;
 
 
 static int
-skill_use_comp(a, b)
-int *a;
-int *b;
+skill_use_comp(const void *av, const void *bv)
 {
+	int *a = (int *) av;
+	int *b = (int *) bv;
 	struct entity_skill *pa;
 	struct entity_skill *pb;
 
@@ -86,10 +86,10 @@ gm_show_skill_use_counts(int pl)
 
 
 static int
-skills_known_comp(a, b)
-int *a;
-int *b;
+skills_known_comp(const void *av, const void *bv)
 {
+	int *a = (int *) av;
+	int *b = (int *) bv;
 
 	return bx[*b]->temp - bx[*a]->temp;
 }
@@ -649,10 +649,10 @@ gm_loyalty_stats(int pl)
 
 
 static int
-region_occupy_comp(a, b)
-int *a;
-int *b;
+region_occupy_comp(const void *av, const void *bv)
 {
+	int *a = (int *) av;
+	int *b = (int *) bv;
 
 	return bx[*b]->temp - bx[*a]->temp;
 }
@@ -705,10 +705,10 @@ gm_land_stats(int pl)
 
 
 static int
-wealth_list_comp(a, b)
-int *a;
-int *b;
+wealth_list_comp(const void *av, const void *bv)
 {
+	int *a = (int *) av;
+	int *b = (int *) bv;
 
 	return bx[*b]->temp - bx[*a]->temp;
 }
@@ -758,10 +758,10 @@ gm_faction_wealth(int pl)
 
 
 static int
-nobles_list_comp(a, b)
-int *a;
-int *b;
+nobles_list_comp(const void *av, const void *bv)
 {
+	int *a = (int *) av;
+	int *b = (int *) bv;
 
 	return bx[*b]->temp - bx[*a]->temp;
 }

@@ -41,7 +41,7 @@
 #define SEED(x0, x1, x2) (SET3(x, x0, x1, x2), SET3(a, A0, A1, A2), c = C)
 #define REST(v)	for (i = 0; i < 3; i++) { xsubi[i] = x[i]; x[i] = temp[i]; } \
 		return (v);
-#define NEST(TYPE, f, F)	TYPE f(xsubi) register unsigned short *xsubi; { \
+#define NEST(TYPE, f, F)	TYPE f(register unsigned short *xsubi) { \
 	register int i; register TYPE v; unsigned temp[3]; \
 	for (i = 0; i < 3; i++) { temp[i] = x[i]; x[i] = LOW(xsubi[i]); }  \
 	v = F(); REST(v); }
@@ -143,15 +143,13 @@ next()
 }
 
 void
-srand48(seedval)
-long seedval;
+srand48(long seedval)
 {
 	SEED(X0, LOW(seedval), HIGH(seedval));
 }
 
 unsigned short *
-seed48(seed16v)
-unsigned short seed16v[3];
+seed48(unsigned short seed16v[3])
 {
 	SETLOW(lastx, x, 0);
 	SEED(LOW(seed16v[0]), LOW(seed16v[1]), LOW(seed16v[2]));
@@ -159,8 +157,7 @@ unsigned short seed16v[3];
 }
 
 void
-lcong48(param)
-unsigned short param[7];
+lcong48(unsigned short param[7])
 {
 	SETLOW(x, param, 0);
 	SETLOW(a, param, 3);
@@ -308,8 +305,7 @@ asfail(char *file, int line, char *cond)
 
 
 void
-lcase(s)
-char *s;
+lcase(char *s)
 {
 
 	while (*s)
@@ -528,9 +524,7 @@ readlin_ew()
 #define	COPY_LEN	1024
 
 void
-copy_fp(a, b)
-FILE *a;
-FILE *b;
+copy_fp(FILE *a, FILE *b)
 {
 	char buf[COPY_LEN];
 

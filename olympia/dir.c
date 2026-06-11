@@ -299,8 +299,7 @@ is_port_city(int where)
 
 
 int
-province_has_port_city(where)
-int where;
+province_has_port_city(int where)
 {
 	int i;
 	int ret = 0;

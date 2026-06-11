@@ -12,9 +12,7 @@
  */
 
 static
-int rank_comp(a, b)
-int *a;
-int *b;
+int rank_comp(int *a, int *b)
 {
 
 	return bx[*b]->temp - bx[*a]->temp;

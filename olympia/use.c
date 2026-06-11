@@ -1117,10 +1117,10 @@ skill_school(int sk)
  */
 
 static int
-rep_skill_comp(a, b)
-skill_ents_list a;
-skill_ents_list b;
+rep_skill_comp(const void *av, const void *bv)
 {
+	skill_ents_list a = (skill_ents_list) av;
+	skill_ents_list b = (skill_ents_list) bv;
 	int pa;		/* parent skill of a */
 	int pb;		/* parent skill of b */
 
@@ -1149,10 +1149,10 @@ skill_ents_list b;
 
 
 static int
-flat_skill_comp(a, b)
-skill_ents_list a;
-skill_ents_list b;
+flat_skill_comp(const void *av, const void *bv)
 {
+	skill_ents_list a = (skill_ents_list) av;
+	skill_ents_list b = (skill_ents_list) bv;
 
 	return (*a)->skill - (*b)->skill;
 }

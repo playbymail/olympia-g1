@@ -244,10 +244,10 @@ queue_lore(int who, int num, int anyway)
 
 
 static int
-lore_comp(a, b)
-int *a;
-int *b;
+lore_comp(const void *av, const void *bv)
 {
+	int *a = (int *) av;
+	int *b = (int *) bv;
 
 	return *a - *b;
 }

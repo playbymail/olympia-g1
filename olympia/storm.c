@@ -208,8 +208,7 @@ new_storm(int new, int sk, int aura, int where)
 
 
 void
-storm_report(pl)
-int pl;
+storm_report(int pl)
 {
 	int first = TRUE;
 	int owner;
