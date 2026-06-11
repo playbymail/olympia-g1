@@ -739,22 +739,6 @@ extern void experience_use_speedup(struct command *c);
 extern void list_partial_skills(int who, int num);
 extern void list_skill_sup(int who, struct skill_ent *e);
 
-/* olympia/z.c */
-extern double erand48(unsigned short *xsubi);
-extern long nrand48(unsigned short *xsubi);
-extern long jrand48(unsigned short *xsubi);
-extern char *readlin(void);
-extern char *readlin_ew(void);
-extern double drand48(void);
-extern long lrand48(void);
-extern long mrand48(void);
-extern unsigned short *seed48(unsigned short seed16v[3]);
-extern void copy_fp(FILE *a, FILE *b);
-extern void init_lower(void);
-extern void init_random(void);
-extern void lcase(char *s);
-extern void lcong48(unsigned short param[7]);
-extern void srand48(long seedval);
-extern void test_random(void);
+/* olympia/z.c functions are declared in z.h (included before oly.h) */
 
 #endif

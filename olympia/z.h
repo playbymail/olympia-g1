@@ -56,6 +56,23 @@ extern void asfail(char *file, int line, char *cond);
 #endif
 
 extern int readfile(char *path);
-extern char *readlin();
-extern char *readlin_ew();
+extern char *readlin(void);
+extern char *readlin_ew(void);
 extern char *eat_leading_trailing_whitespace(char *s);
+
+extern void copy_fp(FILE *a, FILE *b);
+extern void lcase(char *s);
+extern void init_lower(void);
+extern void init_random(void);
+extern void test_random(void);
+
+/* drand48-family pseudo-random number generator (z.c) */
+extern double drand48(void);
+extern double erand48(unsigned short *xsubi);
+extern long lrand48(void);
+extern long nrand48(unsigned short *xsubi);
+extern long mrand48(void);
+extern long jrand48(unsigned short *xsubi);
+extern void srand48(long seedval);
+extern unsigned short *seed48(unsigned short seed16v[3]);
+extern void lcong48(unsigned short param[7]);
