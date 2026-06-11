@@ -1,0 +1,51 @@
+-------------------------
+WORK 
+Time:    7 days
+-------------------------
+
+Nobles desperate for funds may perform unskilled labor for wages.
+Menial labor does not pay well, usually 2-3 gold per day.
+Unskilled labor jobs are generally available only in cities.
+
+
+One:
+
+Because of their well-to-do upbringing, Nobles cannot stand
+performing menial labor for more than two weeks each month.
+
+
+Two:
+
+Because of their well-to-do upbringing, nobles find menial labor
+distasteful.  While they will endure some amount of drudgery each
+month, nobles quickly grow dissatisfied with a lord that wastes
+their talent on unskilled tasks.  The first week of menial labor
+each month will not change a noble's loyalty.  Additional work,
+however, will reduce the noble's loyalty, and may eventually
+convince him to find a better lord to serve.
+
+
+
+Ideas:
+
+	1st week - make money, no problem
+	2nd	1
+	3rd	2
+	4th	3
+
+	3rd week - 33% chance make more money
+		   33% loyalty hit, but make money
+		   33% spend the week in a pub, lose money
+
+
+%s claims that no menial jobs were available, and instead
+spent the week
+
+%s refused to engage in further menial labor, and
+instead spent the week 
+		in a pub
+		in a brothel
+		chasing locals of the opposite sex
+		starting fights in the town square (health hit)
+
+%s claims to have contracted an illness, and so was unable to work.

@@ -1,0 +1,164 @@
+
+What is Olympia?
+================
+
+   Olympia is an open-ended computer moderated fantasy simulation.
+   Characters move, battle, explore and study in the Olympian world.
+   Each week, players submit orders for their units.  After the turn
+   runs, Olympia sends reports to the players detailing what happened.
+
+   Olympia is set in a low technology fantasy world.  Characters do not have
+   fixed goals.  They may study whatever skills they believe will be useful
+   and pursue goals as they find them.  Olympia has no victory conditions;
+   no winner is ever declared.
+
+   An aspiring heroic fighter may purchase weapons, study combat and slay
+   monsters.  Business-minded individuals can establish a profitable trading
+   empire.  The study of magic could furnish tools to advance dark plans.
+   An explorer could trade his gold to a shipbuilder for a galley, and set
+   out on the high seas to find adventure and treasure.
+
+Olympia turn reports tend to be long, detailed and dense.  Since your
+player character may hire other units which can study, move and fight
+on their own, large factions of characters may be organized.  Supplying
+orders for many units in a large faction can be a lot of work!
+
+A turn report for a new player controlling three characters is about
+five (66 line) pages.  Average turn reports tend to be 15-25 pages.
+The size of the report will depend on whether a player chooses to
+concentrate development in a few characters, or to pursue an empire-
+building strategy of acquiring many units and controlling as much
+territory as possible.
+
+
+An Olympian Province
+====================
+
+What does Olympia look like?  Here is a typical city description.
+The turn report includes a description for each place that a player's
+characters can see.
+
+   Carim [ev18], port city, in province Forest [cl44]
+   
+   Routes leaving Carim [ev18]: 
+      South, to Ocean [cm44], Atnos Sea, 1 day
+      West, to Ocean [cl43], Atnos Sea, 1 day
+      Out, to Forest [cl44], 1 day
+   
+   Skills taught here:
+      Shipcraft [120], Combat [121], Persuasion [124], Alchemy [126]
+   
+   Inner locations:
+      Caslte Carim [lh80], castle, defense 40, owner:
+         Tudor [2508], with nine soldiers, eight elite guard, 22 swordsmen
+       
+   Posted in Carim:
+      Sign [6008], posted by Hyren Baranur [5220]:
+         "Here in Carim lives Hyren Baranur, a peaceful former trader,
+          retired explorer, and novice weaponsmith.  All Drassans welcome
+          to have a chat."
+   
+   Seen here:
+      Targer Wolf [4609], "pondering over what to do next", with five
+      crossbowmen, accompanied by:
+         Comte de le Sang [5418], unsworn, prisoner
+      Hyren Baranur [5220], with eight workers
+      Stygian Hauling Company [1235], with three oxen, six horses
+   
+   Ships docked at port:
+      Sea Wolf [gl12], galley, defense 10, owner:
+         Zeldar [4776], lord 4859, with five workers, seven sailors
+   
+   Market report:
+      
+      trade    who    price    qty   item
+      -----    ---    -----    ---   ----
+        buy   ev18        7      9   clay pots [95]
+        buy   ev18       15     30   pipeweed [89]
+        buy   ev18        3    100   fish [87]
+       sell   ev18        5     25   fish oil [97]
+
+
+Sample Orders
+=============
+
+Some orders for a unit:
+
+   begin 560	# player 560, "Master Bogomil's Family"
+
+   unit 2508	# Tudor
+      stop
+      give 3241 78 40
+      study 162
+      move out
+      move in
+      train 14
+      train 15
+      wait unit 2947
+      pay 2947 300
+      train 20
+   end
+
+The report as the character executes these orders:
+   
+   Tudor [2508]
+   ------------
+    0: > stop
+    0: Interrupt current order.
+    1: > give 3241 78 40
+    1: Gave 40 stone to Nagog [3241].
+    1: Received 400 gold from Nagog [3241].
+    1: Received 40 stone from Nagog [3241].
+    1: > study 162
+    1: Study Scrying for seven days.
+    8: > move out
+    8: Arrival at Carim [ev18].
+    8: Sold 16 fish oil [97] to Carim [ev18] for 272 gold.
+    8: > move in
+    8: (assuming 'move lh80')
+    8: Arrival at Castle Carim [lh80].
+    8: > train 14
+   13: Trained five knights.
+   14: > train 15
+   18: Received five yew from Milo [2947].
+   18: Received 29 clay pots from Milo [2947].
+   19: Trained five elite guard.
+   20: > wait unit 2947
+   20: Wait finished: [2947] is here.
+   20: > pay 2947 300
+   20: Gave 300 gold to Milo [2947].
+   20: > train 20
+   21: Trained one swordsman.
+   30: Collected 600 gold in taxes.
+   30: Paid maintenance of 151 gold.
+   
+
+Some Olympian commands:
+
+        admit attack banner behind bribe build buy catch collect defend
+        drop execute exhume explore fish flag fly forget form garrison
+	give guard honor hostile make move neutral oath pay pillage post
+	promote quarry raze sail sell stack stone study swear recruit
+	repair research train terrorize use wait
+
+
+Skill categories which may be learned:
+
+	Shipcraft	Forestry
+	Combat		Beastmastery
+	Stealth		Persuasion
+	Construction	Mining
+	Alchemy		Weather magic
+	Scrying		Gatecraft
+	Necromancy	Artifact construction
+	Basic magic
+
+(Each category contains a number of skills which may be learned)
+
+
+How to Join
+===========
+
+Send mail to olympia@rt.com asking for a registration form.
+
+

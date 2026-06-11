@@ -1,0 +1,18241 @@
+1 item 0
+na gold
+CH
+CM
+ sr 1
+IT
+ pl gold
+
+10 item 0
+na peasant
+IT
+ pl peasants
+ wt 100
+ lc 100
+ mu 1
+ pr 1
+ at 1
+ df 1
+
+11 item 0
+na worker
+IT
+ pl workers
+ wt 100
+ lc 100
+ mu 1
+ pr 1
+ at 1
+ df 1
+
+12 item 0
+na soldier
+IT
+ pl soldiers
+ wt 100
+ lc 100
+ mu 1
+ pr 1
+ at 5
+ df 5
+
+13 item 0
+na archer
+IT
+ pl archers
+ wt 100
+ lc 100
+ mu 1
+ pr 1
+ at 5
+ df 5
+ mi 50
+
+14 item 0
+na knight
+IT
+ pl knights
+ wt 400
+ lc 100
+ rc 100
+ fc 0
+ mu 1
+ pr 1
+ at 45
+ df 45
+
+15 item 0
+na elite guard
+IT
+ pl elite guard
+ wt 400
+ lc 100
+ rc 100
+ fc 0
+ mu 1
+ pr 1
+ at 90
+ df 90
+
+16 item 0
+na pikeman
+IT
+ pl pikemen
+ wt 100
+ lc 100
+ mu 1
+ pr 1
+ at 5
+ df 30
+
+17 item 0
+na blessed soldier
+IT
+ pl blessed soldiers
+ wt 100
+ lc 100
+ mu 1
+ pr 1
+ at 5
+ df 5
+
+18 item 0
+na ghost warrior
+IT
+ pl ghost warriors
+ mu 1
+ pr 1
+
+19 item 0
+na sailor
+IT
+ pl sailors
+ wt 100
+ lc 100
+ mu 1
+ pr 1
+ at 1
+ df 1
+
+20 item 0
+na swordsman
+IT
+ pl swordsmen
+ wt 100
+ lc 100
+ mu 1
+ pr 1
+ at 15
+ df 15
+
+21 item 0
+na crossbowman
+IT
+ pl crossbowmen
+ wt 100
+ lc 100
+ mu 1
+ pr 1
+ at 1
+ df 1
+ mi 25
+
+22 item 0
+na elite archer
+IT
+ pl elite archers
+ wt 100
+ lc 100
+ mu 1
+ pr 1
+ at 10
+ df 10
+ mi 75
+
+23 item 0
+na angry peasant
+IT
+ pl angry peasants
+ wt 100
+ lc 100
+ mu 1
+ pr 1
+ at 2
+ df 1
+
+24 item 0
+na pirate
+IT
+ pl pirates
+ wt 100
+ lc 100
+ mu 1
+ pr 1
+ at 5
+ df 5
+
+25 item 0
+na elf
+IT
+ pl elves
+ wt 100
+ lc 100
+ mu 1
+ pr 1
+ at 50
+ df 50
+ mi 100
+
+26 item 0
+na spirit
+IT
+ pl spirits
+ wt 100
+ lc 100
+ mu 1
+ pr 1
+ at 50
+ df 50
+
+31 item 0
+na undead
+IT
+ pl undead
+ wt 100
+ lc 100
+ mu 1
+ pr 1
+ at 1
+ df 1
+
+32 item 0
+na savage
+IT
+ pl savages
+ wt 100
+ lc 100
+ mu 1
+ pr 1
+ at 1
+ df 1
+
+33 item 0
+na skeleton
+IT
+ pl skeleton
+ wt 100
+ lc 100
+ mu 1
+ pr 1
+ at 5
+ df 5
+
+34 item 0
+na barbarian
+IT
+ pl barbarians
+ wt 100
+ lc 100
+ mu 1
+ pr 1
+ at 2
+ df 1
+
+51 item 0
+na wild horse
+IT
+ pl wild horses
+ wt 300
+ lc -1
+ rc -1
+ fc 0
+ pr 1
+ an 1
+
+52 item 0
+na riding horse
+IT
+ pl riding horses
+ wt 300
+ lc 150
+ rc 150
+ fc 0
+ pr 1
+ an 1
+
+53 item 0
+na warmount
+IT
+ pl warmounts
+ wt 300
+ lc 150
+ rc 150
+ fc 0
+ pr 1
+ an 1
+
+54 item 0
+na winged horse
+IT
+ pl winged horses
+ wt 300
+ lc 150
+ rc 150
+ fc 150
+ pr 1
+ an 1
+
+55 item 0
+na nazgul
+IT
+ pl nazgul
+ wt 300
+ lc 150
+ rc 150
+ fc 150
+ pr 1
+ an 1
+ at 80
+ df 80
+
+59 item 0
+na flotsam
+IT
+ pl flotsam
+ wt 30
+
+60 item 0
+na battering ram
+IT
+ pl battering rams
+ wt 300
+ pr 1
+ at 30
+ df 250
+
+61 item 0
+na catapult
+IT
+ pl catapults
+ wt 300
+ pr 1
+ at 25
+ df 200
+ mi 25
+
+62 item 0
+na siege tower
+IT
+ pl siege towers
+ wt 300
+ pr 1
+ at 30
+ df 250
+
+63 item 0
+na ratspider venom
+IT
+ pl ratspider venom
+
+64 item 0
+na lana bark
+IT
+ pl lana bark
+ wt 1
+
+65 item 0
+na avinia leaf
+IT
+ pl avinia leaves
+ wt 1
+
+66 item 0
+na spiny root
+IT
+ pl spiny roots
+ wt 1
+
+67 item 0
+na farrenstone
+IT
+ pl farrenstone
+ wt 1
+
+68 item 0
+na yew
+IT
+ pl yew
+ wt 3
+
+69 item 0
+na elfstone
+IT
+ pl elfstones
+ wt 1
+IM
+ uk 8
+ lo 9007
+
+70 item 0
+na mallorn wood
+IT
+ pl mallorn wood
+ wt 30
+
+71 item 0
+na pretus bones
+IT
+ pl pretus bones
+ wt 1
+
+72 item 0
+na longbow
+IT
+ pl longbows
+ wt 3
+
+73 item 0
+na plate armor
+IT
+ pl plate armor
+ wt 5
+
+74 item 0
+na longsword
+IT
+ pl longswords
+ wt 5
+
+75 item 0
+na pike
+IT
+ pl pikes
+ wt 5
+
+76 item 0
+na ox
+IT
+ pl oxen
+ wt 1000
+ lc 1500
+ rc -1
+ fc 0
+ pr 1
+ an 1
+
+77 item 0
+na wood
+IT
+ pl wood
+ wt 30
+
+78 item 0
+na stone
+IT
+ pl stone
+ wt 100
+
+79 item 0
+na iron
+IT
+ pl iron
+ wt 10
+
+80 item 0
+na leather
+IT
+ pl leather
+ wt 30
+
+81 item 0
+na ratspider
+IT
+ pl ratspiders
+ wt 1
+ at 5
+ df 5
+ ca 1
+
+82 item 0
+na mithril
+IT
+ pl mithril
+ wt 5
+
+83 item 0
+na gate crystal
+IT
+ pl gate crystals
+ wt 1
+
+84 item 0
+na blank scroll
+IT
+ pl blank scrolls
+ wt 2
+
+85 item 0
+na crossbow
+IT
+ pl crossbows
+ wt 10
+
+86 item 0
+na rug
+IT
+ pl rugs
+ wt 100
+ bp 53
+
+87 item 0
+na fish
+IT
+ pl fish
+ wt 2
+
+88 item 0
+na pepper
+IT
+ pl pepper
+ wt 5
+ bp 16
+
+89 item 0
+na pipeweed
+IT
+ pl pipeweed
+ wt 10
+ bp 46
+
+90 item 0
+na ale
+IT
+ pl ale
+ wt 50
+ bp 43
+
+91 item 0
+na wool
+IT
+ pl wool
+ wt 50
+ bp 14
+
+92 item 0
+na jewels
+IT
+ pl jewels
+ wt 3
+
+93 item 0
+na opium
+IT
+ pl opium
+ wt 1
+
+94 item 0
+na woven basket
+IT
+ pl woven baskets
+ wt 1
+
+95 item 0
+na clay pot
+IT
+ pl clay pots
+ wt 5
+
+96 item 0
+na tax cookie
+IT
+ pl tax cookies
+
+97 item 0
+na fish oil
+IT
+ pl fish oil
+ wt 10
+
+98 item 0
+na drum
+IT
+ pl drums
+ wt 2
+IM
+ uk 7
+
+99 item 0
+na hide
+IT
+ pl hides
+ wt 50
+
+101 item 0
+na mob cookie
+IT
+ pl mob cookies
+
+102 item 0
+na lead
+IT
+ pl lead
+ wt 10
+
+103 item 0
+na fine cloak
+IT
+ pl fine cloaks
+ wt 15
+ bp 56
+
+104 item 0
+na chocolate
+IT
+ pl chocolate
+ wt 25
+ bp 30
+
+105 item 0
+na ivory
+IT
+ pl ivory
+ wt 100
+ bp 22
+
+106 item 0
+na cardamom
+IT
+ pl cardamom
+ wt 5
+ bp 33
+
+107 item 0
+na honey
+IT
+ pl honey
+ wt 100
+ bp 20
+
+108 item 0
+na ink
+IT
+ pl ink
+ wt 50
+ bp 32
+
+109 item 0
+na licorice
+IT
+ pl licorice
+ wt 50
+ bp 45
+
+110 item 0
+na soap
+IT
+ pl soap
+ wt 50
+ bp 20
+
+111 item 0
+na old book
+IT
+ pl old books
+ wt 25
+ bp 45
+
+112 item 0
+na jade idol
+IT
+ pl jade idols
+ wt 100
+ bp 16
+
+113 item 0
+na purple cloth
+IT
+ pl purple cloth
+ wt 100
+ bp 39
+
+114 item 0
+na rose perfume
+IT
+ pl rose perfume
+ wt 15
+ bp 43
+
+115 item 0
+na silk
+IT
+ pl silk
+ wt 25
+ bp 34
+
+116 item 0
+na incense
+IT
+ pl incense
+ wt 30
+ bp 19
+
+117 item 0
+na ochre
+IT
+ pl ochre
+ wt 75
+ bp 36
+
+118 item 0
+na jeweled egg
+IT
+ pl jeweled eggs
+ wt 30
+ bp 55
+
+119 item 0
+na obsidian
+IT
+ pl obsidian
+ wt 100
+ bp 9
+
+251 item 0
+na orange
+IT
+ pl oranges
+ wt 100
+ bp 24
+
+252 item 0
+na cinnabar
+IT
+ pl cinnabar
+ wt 50
+ bp 15
+
+253 item 0
+na myrrh
+IT
+ pl myrrh
+ wt 25
+ bp 45
+
+254 item 0
+na saffron
+IT
+ pl saffron
+ wt 25
+ bp 34
+
+255 item 0
+na dried fish
+IT
+ pl dried fish
+ wt 5
+
+256 item 0
+na tallow
+IT
+ pl tallow
+ wt 50
+ bp 47
+
+257 item 0
+na candles
+IT
+ pl candles
+ wt 25
+ bp 25
+
+258 item 0
+na wax
+IT
+ pl wax
+ wt 50
+ bp 10
+
+259 item 0
+na sugar
+IT
+ pl sugar
+ wt 100
+ bp 17
+
+260 item 0
+na salt
+IT
+ pl salt
+ wt 100
+ bp 39
+
+261 item 0
+na pitch
+IT
+ pl pitch
+ wt 100
+
+262 item 0
+na linen
+IT
+ pl linen
+ wt 100
+ bp 36
+
+263 item 0
+na beans
+IT
+ pl beans
+ wt 100
+ bp 10
+
+264 item 0
+na walnuts
+IT
+ pl walnuts
+ wt 100
+ bp 16
+
+265 item 0
+na flax
+IT
+ pl flax
+ wt 100
+ bp 25
+
+266 item 0
+na flute
+IT
+ pl flutes
+ wt 5
+ bp 34
+
+267 item 0
+na cassava
+IT
+ pl cassava
+ wt 100
+ bp 24
+
+268 item 0
+na plum wine
+IT
+ pl plum wine
+ wt 50
+ bp 29
+
+269 item 0
+na vinegar
+IT
+ pl vinegar
+ wt 50
+ bp 51
+
+270 item 0
+na tea
+IT
+ pl tea
+ wt 25
+ bp 43
+
+271 item 0
+na centaur
+IT
+ pl centaurs
+ wt 300
+ lc 150
+ rc 150
+ fc 0
+ pr 1
+ an 1
+ at 30
+ df 30
+ ca 1
+
+272 item 0
+na minotaur
+IT
+ pl minotaurs
+ wt 500
+ lc -1
+ rc -1
+ fc 0
+ pr 1
+ an 1
+ at 30
+ df 5
+ ca 1
+
+273 item 0
+na undead cookie
+IT
+ pl undead cookies
+
+274 item 0
+na fog cookie
+IT
+ pl fog cookies
+
+275 item 0
+na wind cookie
+IT
+ pl wind cookies
+
+276 item 0
+na rain cookie
+IT
+ pl rain cookies
+
+277 item 0
+na mage menial cookie
+IT
+ pl mage menial cookies
+
+278 item 0
+na giant spider
+IT
+ pl giant spiders
+ wt 100
+ lc -1
+ rc -1
+ fc 0
+ pr 1
+ an 1
+ at 150
+ df 100
+ ca 1
+
+279 item 0
+na rat
+IT
+ pl rats
+ wt 20
+ lc -1
+ rc -1
+ fc 0
+ pr 1
+ an 1
+ at 3
+ df 3
+ ca 1
+
+280 item 0
+na lion
+IT
+ pl lions
+ wt 300
+ lc -1
+ rc -1
+ fc 0
+ pr 1
+ an 1
+ at 100
+ df 100
+ ca 1
+
+281 item 0
+na giant bird
+IT
+ pl giant birds
+ wt 100
+ lc -1
+ rc -1
+ fc -1
+ pr 1
+ an 1
+ at 200
+ df 150
+ ca 1
+
+282 item 0
+na giant lizard
+IT
+ pl giant lizards
+ wt 100
+ lc -1
+ rc -1
+ fc 0
+ pr 1
+ an 1
+ at 30
+ df 30
+ ca 1
+
+283 item 0
+na bandit
+IT
+ pl bandits
+ wt 100
+ lc 100
+ mu 1
+ pr 1
+ at 3
+ df 3
+
+284 item 0
+na chimera
+IT
+ pl chimera
+ wt 100
+ lc -1
+ rc -1
+ fc 0
+ pr 1
+ an 1
+ at 130
+ df 130
+ ca 1
+
+285 item 0
+na harpie
+IT
+ pl harpies
+ wt 100
+ lc -1
+ rc -1
+ fc -1
+ pr 1
+ an 1
+ at 80
+ df 120
+ ca 1
+
+286 item 0
+na dragon
+IT
+ pl dragons
+ wt 100
+ lc -1
+ rc -1
+ fc 0
+ pr 1
+ an 1
+ at 500
+ df 500
+ ca 1
+
+287 item 0
+na orc
+IT
+ pl orcs
+ wt 100
+ lc 100
+ rc -1
+ fc 0
+ mu 1
+ pr 1
+ at 20
+ df 15
+ ca 1
+
+288 item 0
+na gorgon
+IT
+ pl gorgons
+ wt 100
+ lc -1
+ rc -1
+ fc 0
+ pr 1
+ an 1
+ at 10
+ df 20
+ ca 1
+
+289 item 0
+na wolf
+IT
+ pl wolves
+ wt 100
+ lc -1
+ rc -1
+ fc 0
+ pr 1
+ an 1
+ at 5
+ df 5
+ ca 1
+
+290 item 0
+na crystal orb
+IT
+ pl crystal orbs
+ wt 1
+IM
+ uk 9
+ lo 9006
+
+291 item 0
+na cyclops
+IT
+ pl cyclops
+ wt 200
+ lc 200
+ mu 1
+ pr 1
+ at 25
+ df 75
+ ca 1
+
+292 item 0
+na giant
+IT
+ pl giants
+ wt 200
+ lc 200
+ mu 1
+ pr 1
+ at 75
+ df 25
+ ca 1
+
+293 item 0
+na faery
+IT
+ pl faerie
+ wt 10
+ lc 10
+ mu 1
+ pr 1
+ at 1
+ df 1
+ mi 1
+
+294 item 0
+na petty thief cookie
+IT
+ pl petty thief cookies
+
+42739 item 0
+na old book
+IT
+ wt 5
+ un 47078
+IM
+ ms 165 
+
+42741 item 0
+na rare book
+IT
+ wt 5
+ un 70205
+IM
+ ms 163 
+
+42745 item npc_token
+na Crown of the Barbarians
+IT
+ un 51704
+IM
+ tn 1
+ ti 34
+ lo 9005
+PL
+
+42746 item artifact
+na enchanted staff
+IT
+ wt 10
+ un 50859
+IM
+ ba 3
+
+42747 item artifact
+na golden bow
+IT
+ wt 10
+ un 102083
+IM
+ mb 5
+
+42748 item 0
+na old book
+IT
+ wt 5
+ un 69945
+IM
+ ms 164 
+
+42750 item artifact
+na Sword of Pentara
+IT
+ wt 10
+ un 99293
+IM
+ ab 30
+
+42752 item artifact
+na Longsword of Fistrock
+IT
+ wt 10
+ un 73976
+IM
+ ab 20
+
+42759 item 0
+na old book
+IT
+ wt 5
+ un 102342
+IM
+ ms 165 
+
+42760 item 0
+na old book
+IT
+ wt 5
+ un 65106
+IM
+ ms 162 
+
+42763 item artifact
+na magic ring
+IT
+ wt 10
+ un 54042
+IM
+ ba 1
+
+42765 item artifact
+na Sword of Achilles
+IT
+ wt 10
+ un 102038
+IM
+ ab 25
+
+42769 item artifact
+na Dagger of Grindor
+IT
+ wt 10
+ un 42768
+IM
+ ab 45
+
+42771 item artifact
+na elven helm
+IT
+ wt 10
+ un 42770
+IM
+ db 50
+
+42772 item 0
+na old book
+IT
+ wt 5
+ un 42782
+IM
+ ms 165 
+
+42774 item 0
+na rare book
+IT
+ wt 5
+ un 64033
+IM
+ ms 165 
+
+42777 item artifact
+na magic dart
+IT
+ wt 10
+ un 87822
+IM
+ mb 25
+
+42779 item artifact
+na enchanted armor
+IT
+ wt 10
+ un 73470
+IM
+ db 25
+
+42784 item artifact
+na magic armor
+IT
+ wt 10
+ un 90701
+IM
+ db 40
+
+42787 item npc_token
+na Crown of the Barbarians
+IT
+ un 66576
+IM
+ tn 1
+ ti 34
+ lo 9005
+PL
+
+42791 item npc_token
+na Golden idol of the Orcs
+IT
+ un 98660
+IM
+ tn 1
+ ti 287
+ lo 9002
+PL
+
+42793 item artifact
+na enchanted javelin
+IT
+ wt 10
+ un 66574
+IM
+ mb 10
+
+42797 item artifact
+na Shield of Truth
+IT
+ wt 10
+ un 42796
+IM
+ db 45
+
+42799 item 0
+na rare book
+IT
+ wt 5
+ un 101808
+IM
+ ms 161 
+
+42801 item artifact
+na enchanted staff
+IT
+ wt 10
+ un 53538
+IM
+ ba 2
+
+42805 item 0
+na rare book
+IT
+ wt 5
+ un 47079
+IM
+ ms 165 
+
+42810 item artifact
+na crystal dart
+IT
+ wt 10
+ un 82309
+IM
+ mb 25
+
+42811 item npc_token
+na Crown of the Barbarians
+IT
+ un 77563
+IM
+ tn 1
+ ti 34
+ lo 9005
+PL
+
+42812 item npc_token
+na Horn of the Savages
+IT
+ un 52194
+IM
+ tn 1
+ ti 32
+ lo 9004
+PL
+
+42814 item 0
+na rare book
+IT
+ wt 5
+ un 64300
+IM
+ ms 165 
+
+42817 item npc_token
+na Banner of the Skeletons
+IT
+ un 94881
+IM
+ tn 1
+ ti 33
+ lo 9001
+PL
+
+42823 item 0
+na rare book
+IT
+ wt 5
+ un 44066
+IM
+ ms 163 
+
+42830 item artifact
+na Armor of Pantarastar
+IT
+ wt 10
+ un 42829
+IM
+ db 50
+
+42832 item 0
+na rare book
+IT
+ wt 5
+ un 46832
+IM
+ ms 165 
+
+42836 item artifact
+na magic amulet
+IT
+ wt 10
+ un 81701
+IM
+ ba 2
+
+42838 item npc_token
+na Horn of the Savages
+IT
+ un 42837
+IM
+ tn 1
+ ti 32
+ lo 9004
+PL
+
+42840 item npc_token
+na Crown of the Undead lord
+IT
+ un 78550
+IM
+ tn 1
+ ti 31
+ lo 9003
+PL
+
+42842 item 0
+na rare book
+IT
+ wt 5
+ un 43676
+IM
+ ms 162 
+
+42848 item artifact
+na Javelin of Anarth
+IT
+ wt 10
+ un 59262
+IM
+ mb 20
+
+42857 item artifact
+na golden sword
+IT
+ wt 10
+ un 78653
+IM
+ ab 25
+
+42863 item artifact
+na enchanted helm
+IT
+ wt 10
+ un 80417
+IM
+ db 20
+
+42867 item npc_token
+na Crown of the Undead lord
+IT
+ un 59839
+IM
+ tn 1
+ ti 31
+ lo 9003
+PL
+
+42868 item npc_token
+na Crown of the Barbarians
+IT
+ un 62831
+IM
+ tn 1
+ ti 34
+ lo 9005
+PL
+
+42871 item artifact
+na Sword of Grindor
+IT
+ wt 10
+ un 42870
+IM
+ ab 25
+
+42872 item npc_token
+na Banner of the Skeletons
+IT
+ un 73616
+IM
+ tn 1
+ ti 33
+ lo 9001
+PL
+
+42875 item 0
+na old book
+IT
+ wt 5
+ un 53497
+IM
+ ms 165 
+
+42883 item 0
+na rare book
+IT
+ wt 5
+ un 42882
+IM
+ ms 162 
+
+42886 item artifact
+na Armor of Odasgunn
+IT
+ wt 10
+ un 42885
+IM
+ db 25
+
+42898 item 0
+na rare book
+IT
+ wt 5
+ un 75237
+IM
+ ms 163 
+
+42906 item 0
+na old book
+IT
+ wt 5
+ un 56055
+IM
+ ms 162 
+
+42907 item 0
+na rare book
+IT
+ wt 5
+ un 68049
+IM
+ ms 165 
+
+42914 item artifact
+na enchanted sword
+IT
+ wt 10
+ un 78943
+IM
+ ab 25
+
+42924 item npc_token
+na Banner of the Skeletons
+IT
+ un 62522
+IM
+ tn 1
+ ti 33
+ lo 9001
+PL
+
+42928 item 0
+na rare book
+IT
+ wt 5
+ un 64302
+IM
+ ms 165 
+
+42932 item artifact
+na Javelin of Earnberict
+IT
+ wt 10
+ un 80057
+IM
+ mb 5
+
+42938 item 0
+na old book
+IT
+ wt 5
+ un 83415
+IM
+ ms 161 
+
+42943 item artifact
+na enchanted amulet
+IT
+ wt 10
+ un 59169
+IM
+ ba 1
+
+42945 item 0
+na rare book
+IT
+ wt 5
+ un 63787
+IM
+ ms 161 
+
+42948 item 0
+na old book
+IT
+ wt 5
+ un 98872
+IM
+ ms 162 
+
+42952 item 0
+na rare book
+IT
+ wt 5
+ un 96680
+IM
+ ms 164 
+
+42958 item artifact
+na enchanted spear
+IT
+ wt 10
+ un 57376
+IM
+ mb 30
+
+42962 item artifact
+na Ring of Sudabuk
+IT
+ wt 10
+ un 42961
+IM
+ ba 2
+
+42983 item artifact
+na Dart of Resh
+IT
+ wt 10
+ un 99241
+IM
+ mb 35
+
+42985 item artifact
+na Staff of Pantarastar
+IT
+ wt 10
+ un 93686
+IM
+ ba 3
+
+42986 item artifact
+na magic sword
+IT
+ wt 10
+ un 47286
+IM
+ ab 45
+
+42999 item npc_token
+na Golden idol of the Orcs
+IT
+ un 54065
+IM
+ tn 1
+ ti 287
+ lo 9002
+PL
+
+43001 item artifact
+na elven dagger
+IT
+ wt 10
+ un 91465
+IM
+ ab 15
+
+43003 item 0
+na old book
+IT
+ wt 5
+ un 68941
+IM
+ ms 161 
+
+43013 item npc_token
+na Crown of the Barbarians
+IT
+ un 43012
+IM
+ tn 1
+ ti 34
+ lo 9005
+PL
+
+43018 item npc_token
+na Horn of the Savages
+IT
+ un 89580
+IM
+ tn 1
+ ti 32
+ lo 9004
+PL
+
+43020 item npc_token
+na Golden idol of the Orcs
+IT
+ un 52904
+IM
+ tn 1
+ ti 287
+ lo 9002
+PL
+
+43034 item artifact
+na enchanted amulet
+IT
+ wt 10
+ un 43008
+IM
+ ba 1
+
+43042 item npc_token
+na Golden idol of the Orcs
+IT
+ un 42988
+IM
+ tn 1
+ ti 287
+ lo 9002
+PL
+
+43049 item 0
+na rare book
+IT
+ wt 5
+ un 57699
+IM
+ ms 162 
+
+43055 item npc_token
+na Crown of the Barbarians
+IT
+ un 55098
+IM
+ tn 1
+ ti 34
+ lo 9005
+PL
+
+43058 item 0
+na old book
+IT
+ wt 5
+ un 84503
+IM
+ ms 163 
+
+43060 item 0
+na rare book
+IT
+ wt 5
+ un 74174
+IM
+ ms 163 
+
+43075 item artifact
+na Staff of Nantasarn
+IT
+ wt 10
+ un 92365
+IM
+ ba 2
+
+43078 item artifact
+na magic ring
+IT
+ wt 10
+ un 86860
+IM
+ ba 2
+
+43079 item artifact
+na Staff of Echaliatic
+IT
+ wt 10
+ un 59670
+IM
+ ba 3
+
+43084 item artifact
+na elven dart
+IT
+ wt 10
+ un 99341
+IM
+ mb 45
+
+43087 item npc_token
+na Banner of the Skeletons
+IT
+ un 55878
+IM
+ tn 1
+ ti 33
+ lo 9001
+PL
+
+43093 item artifact
+na elven ring
+IT
+ wt 10
+ un 47335
+IM
+ ba 2
+
+43095 item artifact
+na Shield of Dafarik
+IT
+ wt 10
+ un 54905
+IM
+ db 15
+
+43096 item 0
+na rare book
+IT
+ wt 5
+ un 97969
+IM
+ ms 165 
+
+43103 item artifact
+na Javelin of Estbeorn
+IT
+ wt 10
+ un 43102
+IM
+ mb 20
+
+43104 item npc_token
+na Banner of the Skeletons
+IT
+ un 46673
+IM
+ tn 1
+ ti 33
+ lo 9001
+PL
+
+43111 item artifact
+na enchanted dagger
+IT
+ wt 10
+ un 52053
+IM
+ ab 20
+
+43112 item artifact
+na magic dart
+IT
+ wt 10
+ un 85433
+IM
+ mb 25
+
+43114 item artifact
+na Shield of Shavnor
+IT
+ wt 10
+ un 75087
+IM
+ db 5
+
+43120 item artifact
+na enchanted staff
+IT
+ wt 10
+ un 57377
+IM
+ ba 2
+
+43130 item artifact
+na magic dagger
+IT
+ wt 10
+ un 99979
+IM
+ ab 20
+
+43134 item artifact
+na enchanted armor
+IT
+ wt 10
+ un 44116
+IM
+ db 20
+
+43135 item 0
+na old book
+IT
+ wt 5
+ un 71268
+IM
+ ms 165 
+
+43136 item artifact
+na magic ring
+IT
+ wt 10
+ un 47575
+IM
+ ba 1
+
+43138 item 0
+na rare book
+IT
+ wt 5
+ un 73007
+IM
+ ms 163 
+
+43144 item artifact
+na enchanted sword
+IT
+ wt 10
+ un 60081
+IM
+ ab 5
+
+43145 item npc_token
+na Crown of the Undead lord
+IT
+ un 89384
+IM
+ tn 1
+ ti 31
+ lo 9003
+PL
+
+43150 item 0
+na rare book
+IT
+ wt 5
+ un 85758
+IM
+ ms 165 
+
+43156 item 0
+na old book
+IT
+ wt 5
+ un 60931
+IM
+ ms 165 
+
+43172 item artifact
+na Spear of Eadak
+IT
+ wt 10
+ un 54882
+IM
+ mb 30
+
+43189 item 0
+na rare book
+IT
+ wt 5
+ un 70584
+IM
+ ms 161 
+
+43192 item 0
+na rare book
+IT
+ wt 5
+ un 59980
+IM
+ ms 165 
+
+43193 item 0
+na rare book
+IT
+ wt 5
+ un 60304
+IM
+ ms 162 
+
+43194 item 0
+na rare book
+IT
+ wt 5
+ un 49261
+IM
+ ms 164 
+
+43196 item 0
+na rare book
+IT
+ wt 5
+ un 96683
+IM
+ ms 165 
+
+43197 item npc_token
+na Crown of the Undead lord
+IT
+ un 67217
+IM
+ tn 1
+ ti 31
+ lo 9003
+PL
+
+43200 item artifact
+na crystal helm
+IT
+ wt 10
+ un 55263
+IM
+ db 20
+
+43216 item artifact
+na Helm of Rhonius
+IT
+ wt 10
+ un 81910
+IM
+ db 25
+
+43217 item artifact
+na crystal javelin
+IT
+ wt 10
+ un 81538
+IM
+ mb 15
+
+43219 item 0
+na old book
+IT
+ wt 5
+ un 96699
+IM
+ ms 162 
+
+43227 item 0
+na rare book
+IT
+ wt 5
+ un 72274
+IM
+ ms 161 
+
+43232 item artifact
+na enchanted amulet
+IT
+ wt 10
+ un 91028
+IM
+ ba 1
+
+43234 item artifact
+na Ring of Anarth
+IT
+ wt 10
+ un 69445
+IM
+ ba 3
+
+43244 item artifact
+na Javelin of Plagcath
+IT
+ wt 10
+ un 69076
+IM
+ mb 25
+
+43245 item npc_token
+na Golden idol of the Orcs
+IT
+ un 101118
+IM
+ tn 1
+ ti 287
+ lo 9002
+PL
+
+43250 item 0
+na old book
+IT
+ wt 5
+ un 86630
+IM
+ ms 164 
+
+43254 item artifact
+na enchanted amulet
+IT
+ wt 10
+ un 98044
+IM
+ ba 3
+
+43264 item npc_token
+na Golden idol of the Orcs
+IT
+ un 43263
+IM
+ tn 1
+ ti 287
+ lo 9002
+PL
+
+43266 item 0
+na rare book
+IT
+ wt 5
+ un 98795
+IM
+ ms 165 
+
+43269 item artifact
+na crystal sword
+IT
+ wt 10
+ un 98948
+IM
+ ab 30
+
+43270 item 0
+na old book
+IT
+ wt 5
+ un 86494
+IM
+ ms 163 
+
+43271 item artifact
+na crystal staff
+IT
+ wt 10
+ un 56325
+IM
+ ba 3
+
+43274 item npc_token
+na Crown of the Undead lord
+IT
+ un 43273
+IM
+ tn 1
+ ti 31
+ lo 9003
+PL
+
+43276 item artifact
+na Helm of Moldarth
+IT
+ wt 10
+ un 43275
+IM
+ db 30
+
+43281 item artifact
+na golden bow
+IT
+ wt 10
+ un 92447
+IM
+ mb 20
+
+43288 item 0
+na rare book
+IT
+ wt 5
+ un 74582
+IM
+ ms 164 
+
+43304 item artifact
+na Helm of Birdan
+IT
+ wt 10
+ un 60141
+IM
+ db 15
+
+43305 item artifact
+na enchanted shield
+IT
+ wt 10
+ un 85439
+IM
+ db 50
+
+43307 item npc_token
+na Banner of the Skeletons
+IT
+ un 90894
+IM
+ tn 1
+ ti 33
+ lo 9001
+PL
+
+43310 item artifact
+na magic armor
+IT
+ wt 10
+ un 86697
+IM
+ db 5
+
+43312 item artifact
+na magic sword
+IT
+ wt 10
+ un 43026
+IM
+ ab 45
+
+43313 item npc_token
+na Golden idol of the Orcs
+IT
+ un 54455
+IM
+ tn 1
+ ti 287
+ lo 9002
+PL
+
+43345 item npc_token
+na Golden idol of the Orcs
+IT
+ un 88887
+IM
+ tn 1
+ ti 287
+ lo 9002
+PL
+
+43349 item artifact
+na enchanted staff
+IT
+ wt 10
+ un 98244
+IM
+ ba 3
+
+43354 item npc_token
+na Golden idol of the Orcs
+IT
+ un 43353
+IM
+ tn 1
+ ti 287
+ lo 9002
+PL
+
+43363 item artifact
+na magic helm
+IT
+ wt 10
+ un 91567
+IM
+ db 50
+
+43364 item 0
+na rare book
+IT
+ wt 5
+ un 85499
+IM
+ ms 163 
+
+43365 item artifact
+na Dart of Plagcath
+IT
+ wt 10
+ un 59576
+IM
+ mb 30
+
+43372 item npc_token
+na Crown of the Barbarians
+IT
+ un 82059
+IM
+ tn 1
+ ti 34
+ lo 9005
+PL
+
+43380 item npc_token
+na Banner of the Skeletons
+IT
+ un 54536
+IM
+ tn 1
+ ti 33
+ lo 9001
+PL
+
+43382 item 0
+na old book
+IT
+ wt 5
+ un 46435
+IM
+ ms 164 
+
+43384 item npc_token
+na Horn of the Savages
+IT
+ un 82025
+IM
+ tn 1
+ ti 32
+ lo 9004
+PL
+
+43385 item artifact
+na enchanted longsword
+IT
+ wt 10
+ un 65187
+IM
+ ab 30
+
+43386 item artifact
+na crystal javelin
+IT
+ wt 10
+ un 88059
+IM
+ mb 10
+
+43390 item artifact
+na elven amulet
+IT
+ wt 10
+ un 88682
+IM
+ ba 3
+
+43391 item artifact
+na enchanted longsword
+IT
+ wt 10
+ un 91688
+IM
+ ab 15
+
+43399 item 0
+na rare book
+IT
+ wt 5
+ un 50806
+IM
+ ms 164 
+
+43406 item npc_token
+na Horn of the Savages
+IT
+ un 60087
+IM
+ tn 1
+ ti 32
+ lo 9004
+PL
+
+43415 item 0
+na rare book
+IT
+ wt 5
+ un 45304
+IM
+ ms 163 
+
+43420 item artifact
+na Dagger of Dafarik
+IT
+ wt 10
+ un 47258
+IM
+ ab 20
+
+43422 item npc_token
+na Horn of the Savages
+IT
+ un 64729
+IM
+ tn 1
+ ti 32
+ lo 9004
+PL
+
+43424 item 0
+na old book
+IT
+ wt 5
+ un 97150
+IM
+ ms 165 
+
+43426 item npc_token
+na Golden idol of the Orcs
+IT
+ un 43425
+IM
+ tn 1
+ ti 287
+ lo 9002
+PL
+
+43430 item npc_token
+na Golden idol of the Orcs
+IT
+ un 62203
+IM
+ tn 1
+ ti 287
+ lo 9002
+PL
+
+43439 item 0
+na old book
+IT
+ wt 5
+ un 47529
+IM
+ ms 165 
+
+43444 item 0
+na old book
+IT
+ wt 5
+ un 61657
+IM
+ ms 165 
+
+43464 item artifact
+na Sword of Pantarastar
+IT
+ wt 10
+ un 62922
+IM
+ ab 50
+
+43465 item npc_token
+na Banner of the Skeletons
+IT
+ un 85749
+IM
+ tn 1
+ ti 33
+ lo 9001
+PL
+
+43479 item 0
+na rare book
+IT
+ wt 5
+ un 87434
+IM
+ ms 163 
+
+43487 item npc_token
+na Banner of the Skeletons
+IT
+ un 52261
+IM
+ tn 1
+ ti 33
+ lo 9001
+PL
+
+43493 item artifact
+na crystal ring
+IT
+ wt 10
+ un 53012
+IM
+ ba 2
+
+43494 item artifact
+na elven bow
+IT
+ wt 10
+ un 81289
+IM
+ mb 50
+
+43501 item npc_token
+na Crown of the Undead lord
+IT
+ un 87594
+IM
+ tn 1
+ ti 31
+ lo 9003
+PL
+
+43503 item artifact
+na crystal staff
+IT
+ wt 10
+ un 91806
+IM
+ ba 1
+
+43514 item artifact
+na magic ring
+IT
+ wt 10
+ un 53068
+IM
+ ba 1
+
+43517 item artifact
+na Staff of Habyn
+IT
+ wt 10
+ un 70393
+IM
+ ba 1
+
+43520 item npc_token
+na Golden idol of the Orcs
+IT
+ un 49986
+IM
+ tn 1
+ ti 287
+ lo 9002
+PL
+
+43532 item 0
+na old book
+IT
+ wt 5
+ un 83405
+IM
+ ms 163 
+
+43534 item artifact
+na magic dagger
+IT
+ wt 10
+ un 82379
+IM
+ ab 15
+
+43541 item 0
+na rare book
+IT
+ wt 5
+ un 58302
+IM
+ ms 165 
+
+43543 item npc_token
+na Horn of the Savages
+IT
+ un 93990
+IM
+ tn 1
+ ti 32
+ lo 9004
+PL
+
+43555 item 0
+na rare book
+IT
+ wt 5
+ un 84916
+IM
+ ms 164 
+
+43556 item artifact
+na enchanted amulet
+IT
+ wt 10
+ un 86146
+IM
+ ba 1
+
+43562 item artifact
+na crystal longsword
+IT
+ wt 10
+ un 48590
+IM
+ ab 45
+
+43565 item artifact
+na enchanted staff
+IT
+ wt 10
+ un 73230
+IM
+ ba 3
+
+43569 item artifact
+na Dagger of Birdan
+IT
+ wt 10
+ un 43568
+IM
+ ab 20
+
+43573 item 0
+na old book
+IT
+ wt 5
+ un 48598
+IM
+ ms 161 
+
+43576 item artifact
+na Javelin of Coinbalth
+IT
+ wt 10
+ un 90619
+IM
+ mb 30
+
+43577 item artifact
+na elven sword
+IT
+ wt 10
+ un 78332
+IM
+ ab 30
+
+43588 item npc_token
+na Crown of the Barbarians
+IT
+ un 99378
+IM
+ tn 1
+ ti 34
+ lo 9005
+PL
+
+43609 item 0
+na old book
+IT
+ wt 5
+ un 48195
+IM
+ ms 164 
+
+43617 item artifact
+na golden helm
+IT
+ wt 10
+ un 95380
+IM
+ db 50
+
+43624 item artifact
+na magic bow
+IT
+ wt 10
+ un 43623
+IM
+ mb 10
+
+43626 item npc_token
+na Golden idol of the Orcs
+IT
+ un 71562
+IM
+ tn 1
+ ti 287
+ lo 9002
+PL
+
+43630 item artifact
+na golden armor
+IT
+ wt 10
+ un 43690
+IM
+ db 35
+
+43636 item artifact
+na elven javelin
+IT
+ wt 10
+ un 52977
+IM
+ mb 25
+
+43642 item npc_token
+na Crown of the Undead lord
+IT
+ un 67446
+IM
+ tn 1
+ ti 31
+ lo 9003
+PL
+
+43644 item artifact
+na Amulet of Aethelarn
+IT
+ wt 10
+ un 45623
+IM
+ ba 3
+
+43663 item npc_token
+na Crown of the Barbarians
+IT
+ un 63992
+IM
+ tn 1
+ ti 34
+ lo 9005
+PL
+
+43669 item artifact
+na Spear of Shavnor
+IT
+ wt 10
+ un 63746
+IM
+ mb 30
+
+43673 item artifact
+na magic ring
+IT
+ wt 10
+ un 72262
+IM
+ ba 3
+
+43677 item npc_token
+na Crown of the Undead lord
+IT
+ un 62316
+IM
+ tn 1
+ ti 31
+ lo 9003
+PL
+
+43680 item npc_token
+na Crown of the Barbarians
+IT
+ un 80540
+IM
+ tn 1
+ ti 34
+ lo 9005
+PL
+
+43684 item artifact
+na Longsword of Shotluth
+IT
+ wt 10
+ un 97765
+IM
+ ab 45
+
+43685 item 0
+na rare book
+IT
+ wt 5
+ un 45853
+IM
+ ms 163 
+
+43695 item npc_token
+na Horn of the Savages
+IT
+ un 84492
+IM
+ tn 1
+ ti 32
+ lo 9004
+PL
+
+43700 item artifact
+na golden helm
+IT
+ wt 10
+ un 78193
+IM
+ db 50
+
+43707 item artifact
+na Armor of Pyrellica
+IT
+ wt 10
+ un 68477
+IM
+ db 5
+
+43708 item artifact
+na crystal staff
+IT
+ wt 10
+ un 97316
+IM
+ ba 2
+
+43713 item artifact
+na magic armor
+IT
+ wt 10
+ un 51728
+IM
+ db 15
+
+43714 item artifact
+na elven ring
+IT
+ wt 10
+ un 68927
+IM
+ ba 3
+
+43728 item 0
+na old book
+IT
+ wt 5
+ un 101440
+IM
+ ms 163 
+
+43735 item artifact
+na elven helm
+IT
+ wt 10
+ un 88272
+IM
+ db 15
+
+43737 item artifact
+na enchanted longsword
+IT
+ wt 10
+ un 52741
+IM
+ ab 50
+
+43738 item npc_token
+na Horn of the Savages
+IT
+ un 100336
+IM
+ tn 1
+ ti 32
+ lo 9004
+PL
+
+43743 item npc_token
+na Crown of the Undead lord
+IT
+ un 83098
+IM
+ tn 1
+ ti 31
+ lo 9003
+PL
+
+43751 item npc_token
+na Horn of the Savages
+IT
+ un 43750
+IM
+ tn 1
+ ti 32
+ lo 9004
+PL
+
+43752 item 0
+na rare book
+IT
+ wt 5
+ un 43934
+IM
+ ms 162 
+
+43757 item 0
+na rare book
+IT
+ wt 5
+ un 101497
+IM
+ ms 163 
+
+43759 item npc_token
+na Golden idol of the Orcs
+IT
+ un 81973
+IM
+ tn 1
+ ti 287
+ lo 9002
+PL
+
+43762 item artifact
+na Shield of Darkness
+IT
+ wt 10
+ un 90513
+IM
+ db 50
+
+43766 item npc_token
+na Crown of the Barbarians
+IT
+ un 43765
+IM
+ tn 1
+ ti 34
+ lo 9005
+PL
+
+43778 item 0
+na old book
+IT
+ wt 5
+ un 91929
+IM
+ ms 163 
+
+43779 item artifact
+na Armor of Shotluth
+IT
+ wt 10
+ un 63733
+IM
+ db 45
+
+43780 item artifact
+na crystal helm
+IT
+ wt 10
+ un 54354
+IM
+ db 35
+
+43789 item npc_token
+na Horn of the Savages
+IT
+ un 51327
+IM
+ tn 1
+ ti 32
+ lo 9004
+PL
+
+43795 item 0
+na rare book
+IT
+ wt 5
+ un 89897
+IM
+ ms 164 
+
+43797 item 0
+na old book
+IT
+ wt 5
+ un 57033
+IM
+ ms 161 
+
+43798 item artifact
+na elven armor
+IT
+ wt 10
+ un 93917
+IM
+ db 50
+
+43800 item artifact
+na elven shield
+IT
+ wt 10
+ un 71316
+IM
+ db 50
+
+43807 item artifact
+na golden sword
+IT
+ wt 10
+ un 45526
+IM
+ ab 45
+
+43810 item 0
+na rare book
+IT
+ wt 5
+ un 43809
+IM
+ ms 164 
+
+43811 item artifact
+na Armor of Rhonius
+IT
+ wt 10
+ un 83630
+IM
+ db 20
+
+43813 item artifact
+na enchanted shield
+IT
+ wt 10
+ un 69782
+IM
+ db 35
+
+43818 item npc_token
+na Horn of the Savages
+IT
+ un 51630
+IM
+ tn 1
+ ti 32
+ lo 9004
+PL
+
+43825 item 0
+na old book
+IT
+ wt 5
+ un 69643
+IM
+ ms 162 
+
+43830 item npc_token
+na Banner of the Skeletons
+IT
+ un 67250
+IM
+ tn 1
+ ti 33
+ lo 9001
+PL
+
+43834 item artifact
+na magic ring
+IT
+ wt 10
+ un 47123
+IM
+ ba 2
+
+43836 item artifact
+na Ring of Shavnor
+IT
+ wt 10
+ un 70473
+IM
+ ba 1
+
+43837 item artifact
+na enchanted staff
+IT
+ wt 10
+ un 78748
+IM
+ ba 2
+
+43838 item artifact
+na elven spear
+IT
+ wt 10
+ un 43639
+IM
+ mb 25
+
+43840 item artifact
+na elven dagger
+IT
+ wt 10
+ un 98506
+IM
+ ab 10
+
+43850 item artifact
+na enchanted helm
+IT
+ wt 10
+ un 86461
+IM
+ db 20
+
+43860 item 0
+na old book
+IT
+ wt 5
+ un 80714
+IM
+ ms 163 
+
+43865 item 0
+na old book
+IT
+ wt 5
+ un 80264
+IM
+ ms 163 
+
+43867 item artifact
+na Longsword of Albrand
+IT
+ wt 10
+ un 43866
+IM
+ ab 30
+
+43990 item artifact
+na Spear of Faelgrar
+IT
+ wt 10
+ un 82062
+IM
+ mb 15
+
+44010 item artifact
+na Staff of Haim
+IT
+ wt 10
+ un 63472
+IM
+ ba 3
+
+44022 item 0
+na rare book
+IT
+ wt 5
+ un 50542
+IM
+ ms 162 
+
+44069 item artifact
+na golden javelin
+IT
+ wt 10
+ un 98697
+IM
+ mb 40
+
+44107 item artifact
+na elven shield
+IT
+ wt 10
+ un 56591
+IM
+ db 35
+
+44114 item npc_token
+na Crown of the Undead lord
+IT
+ un 67178
+IM
+ tn 1
+ ti 31
+ lo 9003
+PL
+
+44115 item artifact
+na magic dagger
+IT
+ wt 10
+ un 52862
+IM
+ ab 5
+
+44120 item 0
+na rare book
+IT
+ wt 5
+ un 75904
+IM
+ ms 165 
+
+44178 item suffuse_ring
+na Golden ring
+IT
+ wt 1
+ un 48875
+IM
+ uk 12
+ lo 9010
+
+44274 item artifact
+na Ring of Evinob
+IT
+ wt 10
+ un 75223
+IM
+ ba 2
+
+44314 item artifact
+na golden ring
+IT
+ wt 10
+ un 54295
+IM
+ ba 2
+
+44316 item npc_token
+na Crown of the Barbarians
+IT
+ un 43749
+IM
+ tn 1
+ ti 34
+ lo 9005
+PL
+
+44362 item artifact
+na elven armor
+IT
+ wt 10
+ un 50465
+IM
+ db 30
+
+44374 item npc_token
+na Crown of the Undead lord
+IT
+ un 102385
+IM
+ tn 1
+ ti 31
+ lo 9003
+PL
+
+44421 item artifact
+na elven spear
+IT
+ wt 10
+ un 88151
+IM
+ mb 25
+
+44554 item npc_token
+na Crown of the Undead lord
+IT
+ un 58837
+IM
+ tn 1
+ ti 31
+ lo 9003
+PL
+
+44602 item npc_token
+na Crown of the Undead lord
+IT
+ un 44071
+IM
+ tn 1
+ ti 31
+ lo 9003
+PL
+
+44629 item 0
+na old book
+IT
+ wt 5
+ un 64569
+IM
+ ms 164 
+
+44630 item artifact
+na Sword of Dorenth
+IT
+ wt 10
+ un 79212
+IM
+ ab 25
+
+44679 item artifact
+na Armor of Sallen
+IT
+ wt 10
+ un 76320
+IM
+ db 45
+
+44803 item artifact
+na elven javelin
+IT
+ wt 10
+ un 75760
+IM
+ mb 35
+
+44852 item artifact
+na elven dart
+IT
+ wt 10
+ un 68729
+IM
+ mb 5
+
+44885 item npc_token
+na Golden idol of the Orcs
+IT
+ un 42780
+IM
+ tn 1
+ ti 287
+ lo 9002
+PL
+
+44890 item npc_token
+na Horn of the Savages
+IT
+ un 75257
+IM
+ tn 1
+ ti 32
+ lo 9004
+PL
+
+44907 item npc_token
+na Crown of the Undead lord
+IT
+ un 101734
+IM
+ tn 1
+ ti 31
+ lo 9003
+PL
+
+44916 item artifact
+na Shield of Ollayos
+IT
+ wt 10
+ un 63669
+IM
+ db 15
+
+44929 item npc_token
+na Horn of the Savages
+IT
+ un 67727
+IM
+ tn 1
+ ti 32
+ lo 9004
+PL
+
+44943 item npc_token
+na Crown of the Undead lord
+IT
+ un 43259
+IM
+ tn 1
+ ti 31
+ lo 9003
+PL
+
+44958 item npc_token
+na Golden idol of the Orcs
+IT
+ un 59549
+IM
+ tn 1
+ ti 287
+ lo 9002
+PL
+
+45008 item artifact
+na crystal helm
+IT
+ wt 10
+ un 64553
+IM
+ db 20
+
+45025 item artifact
+na Staff of Lorbin
+IT
+ wt 10
+ un 43086
+IM
+ ba 3
+
+45037 item npc_token
+na Golden idol of the Orcs
+IT
+ un 84660
+IM
+ tn 1
+ ti 287
+ lo 9002
+PL
+
+45071 item 0
+na rare book
+IT
+ wt 5
+ un 90242
+IM
+ ms 161 
+
+45073 item artifact
+na elven dart
+IT
+ wt 10
+ un 101670
+IM
+ mb 35
+
+45161 item artifact
+na Armor of Maire
+IT
+ wt 10
+ un 43635
+IM
+ db 5
+
+45188 item artifact
+na Amulet of Davchar
+IT
+ wt 10
+ un 70307
+IM
+ ba 1
+
+45194 item 0
+na rare book
+IT
+ wt 5
+ un 90327
+IM
+ ms 165 
+
+45356 item 0
+na old book
+IT
+ wt 5
+ un 98051
+IM
+ ms 161 
+
+45370 item 0
+na rare book
+IT
+ wt 5
+ un 94088
+IM
+ ms 161 
+
+45393 item artifact
+na enchanted shield
+IT
+ wt 10
+ un 66297
+IM
+ db 5
+
+45417 item artifact
+na magic dagger
+IT
+ wt 10
+ un 43073
+IM
+ ab 45
+
+45432 item npc_token
+na Banner of the Skeletons
+IT
+ un 80844
+IM
+ tn 1
+ ti 33
+ lo 9001
+PL
+
+45450 item npc_token
+na Golden idol of the Orcs
+IT
+ un 43260
+IM
+ tn 1
+ ti 287
+ lo 9002
+PL
+
+45498 item npc_token
+na Crown of the Undead lord
+IT
+ un 76584
+IM
+ tn 1
+ ti 31
+ lo 9003
+PL
+
+45502 item suffuse_ring
+na Golden ring
+IT
+ wt 1
+ un 42724
+IM
+ uk 13
+ lo 9011
+
+45579 item npc_token
+na Crown of the Undead lord
+IT
+ un 70861
+IM
+ tn 1
+ ti 31
+ lo 9003
+PL
+
+45580 item npc_token
+na Horn of the Savages
+IT
+ un 80253
+IM
+ tn 1
+ ti 32
+ lo 9004
+PL
+
+45587 item 0
+na rare book
+IT
+ wt 5
+ un 96051
+IM
+ ms 161 
+
+45591 item artifact
+na magic staff
+IT
+ wt 10
+ un 102218
+IM
+ ba 3
+
+45620 item npc_token
+na Crown of the Undead lord
+IT
+ un 96704
+IM
+ tn 1
+ ti 31
+ lo 9003
+PL
+
+45680 item npc_token
+na Crown of the Undead lord
+IT
+ un 43143
+IM
+ tn 1
+ ti 31
+ lo 9003
+PL
+
+45764 item artifact
+na enchanted staff
+IT
+ wt 10
+ un 44469
+IM
+ ba 3
+
+45817 item artifact
+na elven helm
+IT
+ wt 10
+ un 48016
+IM
+ db 45
+
+45822 item 0
+na rare book
+IT
+ wt 5
+ un 48622
+IM
+ ms 163 
+
+45838 item 0
+na rare book
+IT
+ wt 5
+ un 58002
+IM
+ ms 164 
+
+45867 item npc_token
+na Crown of the Undead lord
+IT
+ un 88433
+IM
+ tn 1
+ ti 31
+ lo 9003
+PL
+
+45872 item artifact
+na golden ring
+IT
+ wt 10
+ un 98383
+IM
+ ba 1
+
+45938 item artifact
+na Bow of Dirbrand
+IT
+ wt 10
+ un 79101
+IM
+ mb 35
+
+45949 item artifact
+na magic dagger
+IT
+ wt 10
+ un 63021
+IM
+ ab 15
+
+45956 item 0
+na rare book
+IT
+ wt 5
+ un 85179
+IM
+ ms 161 
+
+45977 item artifact
+na elven armor
+IT
+ wt 10
+ un 52111
+IM
+ db 20
+
+45989 item 0
+na rare book
+IT
+ wt 5
+ un 93027
+IM
+ ms 164 
+
+46041 item npc_token
+na Crown of the Barbarians
+IT
+ un 77803
+IM
+ tn 1
+ ti 34
+ lo 9005
+PL
+
+46071 item artifact
+na Longsword of Osgea
+IT
+ wt 10
+ un 42926
+IM
+ ab 10
+
+46076 item artifact
+na crystal dart
+IT
+ wt 10
+ un 90813
+IM
+ mb 35
+
+46141 item artifact
+na crystal shield
+IT
+ wt 10
+ un 78413
+IM
+ db 15
+
+46184 item artifact
+na enchanted amulet
+IT
+ wt 10
+ un 94950
+IM
+ ba 1
+
+46240 item 0
+na rare book
+IT
+ wt 5
+ un 77584
+IM
+ ms 161 
+
+46257 item npc_token
+na Banner of the Skeletons
+IT
+ un 79008
+IM
+ tn 1
+ ti 33
+ lo 9001
+PL
+
+46267 item artifact
+na crystal ring
+IT
+ wt 10
+ un 83430
+IM
+ ba 3
+
+46326 item artifact
+na Shield of Coinbalth
+IT
+ wt 10
+ un 73177
+IM
+ db 10
+
+46352 item npc_token
+na Crown of the Barbarians
+IT
+ un 64796
+IM
+ tn 1
+ ti 34
+ lo 9005
+PL
+
+46542 item npc_token
+na Golden idol of the Orcs
+IT
+ un 42972
+IM
+ tn 1
+ ti 287
+ lo 9002
+PL
+
+46600 item artifact
+na enchanted staff
+IT
+ wt 10
+ un 83499
+IM
+ ba 3
+
+46604 item npc_token
+na Horn of the Savages
+IT
+ un 43235
+IM
+ tn 1
+ ti 32
+ lo 9004
+PL
+
+46606 item 0
+na rare book
+IT
+ wt 5
+ un 62433
+IM
+ ms 164 
+
+46632 item artifact
+na crystal sword
+IT
+ wt 10
+ un 100429
+IM
+ ab 30
+
+46633 item artifact
+na Helm of Sarindor
+IT
+ wt 10
+ un 45010
+IM
+ db 35
+
+46675 item artifact
+na Javelin of Claunecar
+IT
+ wt 10
+ un 96163
+IM
+ mb 25
+
+46762 item npc_token
+na Golden idol of the Orcs
+IT
+ un 66051
+IM
+ tn 1
+ ti 287
+ lo 9002
+PL
+
+46781 item artifact
+na enchanted shield
+IT
+ wt 10
+ un 92769
+IM
+ db 15
+
+46817 item artifact
+na Longsword of Shotluth
+IT
+ wt 10
+ un 58148
+IM
+ ab 50
+
+46970 item artifact
+na Helm of Dezarne
+IT
+ wt 10
+ un 92383
+IM
+ db 10
+
+46984 item npc_token
+na Banner of the Skeletons
+IT
+ un 43457
+IM
+ tn 1
+ ti 33
+ lo 9001
+PL
+
+47036 item artifact
+na golden bow
+IT
+ wt 10
+ un 92680
+IM
+ mb 5
+
+47037 item artifact
+na Helm of Sallen
+IT
+ wt 10
+ un 61293
+IM
+ db 45
+
+47049 item 0
+na old book
+IT
+ wt 5
+ un 46081
+IM
+ ms 162 
+
+47055 item npc_token
+na Crown of the Undead lord
+IT
+ un 87542
+IM
+ tn 1
+ ti 31
+ lo 9003
+PL
+
+47081 item artifact
+na enchanted amulet
+IT
+ wt 10
+ un 52994
+IM
+ ba 3
+
+47142 item 0
+na rare book
+IT
+ wt 5
+ un 63150
+IM
+ ms 162 
+
+47188 item artifact
+na enchanted sword
+IT
+ wt 10
+ un 43006
+IM
+ ab 30
+
+47198 item 0
+na rare book
+IT
+ wt 5
+ un 53708
+IM
+ ms 162 
+
+47210 item artifact
+na enchanted javelin
+IT
+ wt 10
+ un 66458
+IM
+ mb 40
+
+47216 item 0
+na old book
+IT
+ wt 5
+ un 47915
+IM
+ ms 163 
+
+47259 item artifact
+na enchanted armor
+IT
+ wt 10
+ un 86365
+IM
+ db 40
+
+47319 item artifact
+na Armor of Areth Lorbin
+IT
+ wt 10
+ un 82365
+IM
+ db 5
+
+47320 item 0
+na rare book
+IT
+ wt 5
+ un 74663
+IM
+ ms 163 
+
+47462 item 0
+na rare book
+IT
+ wt 5
+ un 85623
+IM
+ ms 163 
+
+47467 item artifact
+na crystal bow
+IT
+ wt 10
+ un 56947
+IM
+ mb 40
+
+47521 item artifact
+na golden armor
+IT
+ wt 10
+ un 44822
+IM
+ db 10
+
+47532 item 0
+na rare book
+IT
+ wt 5
+ un 43080
+IM
+ ms 162 
+
+47561 item 0
+na old book
+IT
+ wt 5
+ un 43535
+IM
+ ms 164 
+
+47580 item 0
+na rare book
+IT
+ wt 5
+ un 93572
+IM
+ ms 163 
+
+47584 item artifact
+na crystal javelin
+IT
+ wt 10
+ un 80301
+IM
+ mb 30
+
+47617 item artifact
+na enchanted dart
+IT
+ wt 10
+ un 70442
+IM
+ mb 15
+
+47621 item artifact
+na magic javelin
+IT
+ wt 10
+ un 87796
+IM
+ mb 15
+
+47639 item artifact
+na golden longsword
+IT
+ wt 10
+ un 50916
+IM
+ ab 25
+
+47644 item 0
+na old book
+IT
+ wt 5
+ un 55592
+IM
+ ms 165 
+
+47662 item npc_token
+na Horn of the Savages
+IT
+ un 46569
+IM
+ tn 1
+ ti 32
+ lo 9004
+PL
+
+47689 item npc_token
+na Golden idol of the Orcs
+IT
+ un 97515
+IM
+ tn 1
+ ti 287
+ lo 9002
+PL
+
+47693 item artifact
+na enchanted helm
+IT
+ wt 10
+ un 99721
+IM
+ db 35
+
+47762 item artifact
+na crystal ring
+IT
+ wt 10
+ un 51058
+IM
+ ba 3
+
+47763 item 0
+na rare book
+IT
+ wt 5
+ un 79783
+IM
+ ms 163 
+
+47764 item 0
+na old book
+IT
+ wt 5
+ un 75951
+IM
+ ms 163 
+
+47782 item artifact
+na crystal dart
+IT
+ wt 10
+ un 68763
+IM
+ mb 15
+
+47809 item artifact
+na Armor of Lethrys
+IT
+ wt 10
+ un 91281
+IM
+ db 30
+
+47823 item 0
+na rare book
+IT
+ wt 5
+ un 58981
+IM
+ ms 161 
+
+47830 item artifact
+na enchanted spear
+IT
+ wt 10
+ un 46558
+IM
+ mb 5
+
+47871 item artifact
+na golden armor
+IT
+ wt 10
+ un 93565
+IM
+ db 35
+
+47890 item npc_token
+na Crown of the Undead lord
+IT
+ un 76831
+IM
+ tn 1
+ ti 31
+ lo 9003
+PL
+
+47934 item npc_token
+na Crown of the Undead lord
+IT
+ un 100383
+IM
+ tn 1
+ ti 31
+ lo 9003
+PL
+
+47939 item 0
+na rare book
+IT
+ wt 5
+ un 43081
+IM
+ ms 163 
+
+47981 item artifact
+na golden amulet
+IT
+ wt 10
+ un 48778
+IM
+ ba 3
+
+48015 item 0
+na rare book
+IT
+ wt 5
+ un 58286
+IM
+ ms 161 
+
+48035 item artifact
+na elven ring
+IT
+ wt 10
+ un 59288
+IM
+ ba 2
+
+48048 item artifact
+na crystal ring
+IT
+ wt 10
+ un 80775
+IM
+ ba 2
+
+48061 item 0
+na old book
+IT
+ wt 5
+ un 43855
+IM
+ ms 162 
+
+48070 item 0
+na old book
+IT
+ wt 5
+ un 84465
+IM
+ ms 161 
+
+48077 item 0
+na old book
+IT
+ wt 5
+ un 50008
+IM
+ ms 164 
+
+48096 item artifact
+na elven dagger
+IT
+ wt 10
+ un 68498
+IM
+ ab 35
+
+48109 item artifact
+na Javelin of Albrand
+IT
+ wt 10
+ un 73305
+IM
+ mb 15
+
+48169 item npc_token
+na Horn of the Savages
+IT
+ un 59460
+IM
+ tn 1
+ ti 32
+ lo 9004
+PL
+
+48192 item artifact
+na golden ring
+IT
+ wt 10
+ un 54230
+IM
+ ba 3
+
+48227 item npc_token
+na Crown of the Barbarians
+IT
+ un 70499
+IM
+ tn 1
+ ti 34
+ lo 9005
+PL
+
+48296 item npc_token
+na Golden idol of the Orcs
+IT
+ un 91177
+IM
+ tn 1
+ ti 287
+ lo 9002
+PL
+
+48320 item artifact
+na elven longsword
+IT
+ wt 10
+ un 43773
+IM
+ ab 35
+
+48386 item npc_token
+na Crown of the Undead lord
+IT
+ un 88775
+IM
+ tn 1
+ ti 31
+ lo 9003
+PL
+
+48423 item npc_token
+na Crown of the Barbarians
+IT
+ un 48321
+IM
+ tn 1
+ ti 34
+ lo 9005
+PL
+
+48432 item 0
+na old book
+IT
+ wt 5
+ un 91280
+IM
+ ms 163 
+
+48443 item artifact
+na Bow of Broen
+IT
+ wt 10
+ un 60214
+IM
+ mb 15
+
+48446 item artifact
+na Staff of Justice
+IT
+ wt 10
+ un 68295
+IM
+ ba 3
+
+48489 item 0
+na old book
+IT
+ wt 5
+ un 42866
+IM
+ ms 164 
+
+48579 item 0
+na old book
+IT
+ wt 5
+ un 68714
+IM
+ ms 164 
+
+48596 item artifact
+na enchanted staff
+IT
+ wt 10
+ un 65664
+IM
+ ba 2
+
+48613 item artifact
+na golden shield
+IT
+ wt 10
+ un 71730
+IM
+ db 35
+
+48659 item artifact
+na magic bow
+IT
+ wt 10
+ un 54435
+IM
+ mb 25
+
+48672 item artifact
+na golden armor
+IT
+ wt 10
+ un 48528
+IM
+ db 30
+
+48726 item 0
+na rare book
+IT
+ wt 5
+ un 51458
+IM
+ ms 161 
+
+48811 item artifact
+na golden helm
+IT
+ wt 10
+ un 80089
+IM
+ db 30
+
+48856 item artifact
+na elven amulet
+IT
+ wt 10
+ un 96178
+IM
+ ba 2
+
+48866 item npc_token
+na Banner of the Skeletons
+IT
+ un 49211
+IM
+ tn 1
+ ti 33
+ lo 9001
+PL
+
+48907 item artifact
+na enchanted dart
+IT
+ wt 10
+ un 53571
+IM
+ mb 40
+
+48949 item 0
+na old book
+IT
+ wt 5
+ un 92987
+IM
+ ms 165 
+
+48981 item 0
+na old book
+IT
+ wt 5
+ un 58045
+IM
+ ms 165 
+
+49030 item artifact
+na Shield of Eadak
+IT
+ wt 10
+ un 78097
+IM
+ db 35
+
+49081 item artifact
+na magic javelin
+IT
+ wt 10
+ un 42762
+IM
+ mb 15
+
+49085 item 0
+na rare book
+IT
+ wt 5
+ un 56056
+IM
+ ms 165 
+
+49120 item 0
+na old book
+IT
+ wt 5
+ un 86231
+IM
+ ms 162 
+
+49126 item 0
+na old book
+IT
+ wt 5
+ un 47423
+IM
+ ms 163 
+
+49130 item npc_token
+na Horn of the Savages
+IT
+ un 43589
+IM
+ tn 1
+ ti 32
+ lo 9004
+PL
+
+49154 item 0
+na rare book
+IT
+ wt 5
+ un 62539
+IM
+ ms 162 
+
+49187 item npc_token
+na Banner of the Skeletons
+IT
+ un 43207
+IM
+ tn 1
+ ti 33
+ lo 9001
+PL
+
+49188 item npc_token
+na Golden idol of the Orcs
+IT
+ un 53015
+IM
+ tn 1
+ ti 287
+ lo 9002
+PL
+
+49244 item 0
+na old book
+IT
+ wt 5
+ un 96412
+IM
+ ms 165 
+
+49268 item artifact
+na elven bow
+IT
+ wt 10
+ un 66508
+IM
+ mb 15
+
+49273 item artifact
+na Ring of Raskold
+IT
+ wt 10
+ un 68641
+IM
+ ba 1
+
+49282 item 0
+na old book
+IT
+ wt 5
+ un 88996
+IM
+ ms 165 
+
+49319 item artifact
+na Shield of Sardis
+IT
+ wt 10
+ un 75822
+IM
+ db 35
+
+49377 item artifact
+na Dagger of Obraed
+IT
+ wt 10
+ un 44265
+IM
+ ab 40
+
+49461 item artifact
+na magic sword
+IT
+ wt 10
+ un 56027
+IM
+ ab 50
+
+49492 item artifact
+na Sword of Pyrellica
+IT
+ wt 10
+ un 88535
+IM
+ ab 25
+
+49528 item npc_token
+na Golden idol of the Orcs
+IT
+ un 44655
+IM
+ tn 1
+ ti 287
+ lo 9002
+PL
+
+49539 item npc_token
+na Horn of the Savages
+IT
+ un 45460
+IM
+ tn 1
+ ti 32
+ lo 9004
+PL
+
+49583 item npc_token
+na Crown of the Barbarians
+IT
+ un 68510
+IM
+ tn 1
+ ti 34
+ lo 9005
+PL
+
+49660 item npc_token
+na Crown of the Undead lord
+IT
+ un 73160
+IM
+ tn 1
+ ti 31
+ lo 9003
+PL
+
+49684 item 0
+na old book
+IT
+ wt 5
+ un 64417
+IM
+ ms 162 
+
+49747 item npc_token
+na Crown of the Barbarians
+IT
+ un 89352
+IM
+ tn 1
+ ti 34
+ lo 9005
+PL
+
+49758 item 0
+na old book
+IT
+ wt 5
+ un 75768
+IM
+ ms 164 
+
+49763 item artifact
+na Dart of Echaliatic
+IT
+ wt 10
+ un 63504
+IM
+ mb 5
+
+49767 item artifact
+na Sword of Pyrellica
+IT
+ wt 10
+ un 56577
+IM
+ ab 40
+
+49768 item 0
+na rare book
+IT
+ wt 5
+ un 56345
+IM
+ ms 161 
+
+49770 item artifact
+na enchanted javelin
+IT
+ wt 10
+ un 75002
+IM
+ mb 50
+
+49811 item 0
+na rare book
+IT
+ wt 5
+ un 98577
+IM
+ ms 165 
+
+49887 item artifact
+na enchanted helm
+IT
+ wt 10
+ un 90568
+IM
+ db 5
+
+49915 item artifact
+na Helm of Renfast
+IT
+ wt 10
+ un 87071
+IM
+ db 10
+
+49983 item npc_token
+na Horn of the Savages
+IT
+ un 69542
+IM
+ tn 1
+ ti 32
+ lo 9004
+PL
+
+49994 item npc_token
+na Banner of the Skeletons
+IT
+ un 60388
+IM
+ tn 1
+ ti 33
+ lo 9001
+PL
+
+50035 item npc_token
+na Horn of the Savages
+IT
+ un 71851
+IM
+ tn 1
+ ti 32
+ lo 9004
+PL
+
+50088 item npc_token
+na Golden idol of the Orcs
+IT
+ un 92930
+IM
+ tn 1
+ ti 287
+ lo 9002
+PL
+
+50208 item npc_token
+na Banner of the Skeletons
+IT
+ un 92637
+IM
+ tn 1
+ ti 33
+ lo 9001
+PL
+
+50249 item artifact
+na elven armor
+IT
+ wt 10
+ un 53428
+IM
+ db 45
+
+50346 item artifact
+na magic helm
+IT
+ wt 10
+ un 43179
+IM
+ db 10
+
+50378 item 0
+na rare book
+IT
+ wt 5
+ un 101455
+IM
+ ms 165 
+
+50392 item 0
+na rare book
+IT
+ wt 5
+ un 81889
+IM
+ ms 165 
+
+50393 item artifact
+na elven javelin
+IT
+ wt 10
+ un 98353
+IM
+ mb 25
+
+50415 item artifact
+na Amulet of Sarindor
+IT
+ wt 10
+ un 81840
+IM
+ ba 3
+
+50471 item 0
+na rare book
+IT
+ wt 5
+ un 67477
+IM
+ ms 162 
+
+50472 item artifact
+na Amulet of Fistrock
+IT
+ wt 10
+ un 54063
+IM
+ ba 2
+
+50544 item npc_token
+na Horn of the Savages
+IT
+ un 80184
+IM
+ tn 1
+ ti 32
+ lo 9004
+PL
+
+50612 item artifact
+na Dart of Halhere
+IT
+ wt 10
+ un 98667
+IM
+ mb 25
+
+50765 item artifact
+na elven armor
+IT
+ wt 10
+ un 78360
+IM
+ db 15
+
+50815 item artifact
+na Staff of Bobbiek
+IT
+ wt 10
+ un 86423
+IM
+ ba 2
+
+50830 item npc_token
+na Banner of the Skeletons
+IT
+ un 43512
+IM
+ tn 1
+ ti 33
+ lo 9001
+PL
+
+50911 item artifact
+na Ring of Lethrys
+IT
+ wt 10
+ un 60915
+IM
+ ba 3
+
+50912 item npc_token
+na Banner of the Skeletons
+IT
+ un 70600
+IM
+ tn 1
+ ti 33
+ lo 9001
+PL
+
+50963 item artifact
+na enchanted spear
+IT
+ wt 10
+ un 59186
+IM
+ mb 15
+
+50991 item artifact
+na golden ring
+IT
+ wt 10
+ un 101288
+IM
+ ba 3
+
+51011 item 0
+na old book
+IT
+ wt 5
+ un 76357
+IM
+ ms 162 
+
+51015 item artifact
+na enchanted helm
+IT
+ wt 10
+ un 63916
+IM
+ db 25
+
+51017 item artifact
+na crystal javelin
+IT
+ wt 10
+ un 84605
+IM
+ mb 10
+
+51119 item artifact
+na elven armor
+IT
+ wt 10
+ un 70725
+IM
+ db 20
+
+51146 item artifact
+na golden longsword
+IT
+ wt 10
+ un 52923
+IM
+ ab 20
+
+51163 item artifact
+na Bow of Syssale
+IT
+ wt 10
+ un 83675
+IM
+ mb 20
+
+51182 item npc_token
+na Crown of the Barbarians
+IT
+ un 79655
+IM
+ tn 1
+ ti 34
+ lo 9005
+PL
+
+51188 item artifact
+na elven helm
+IT
+ wt 10
+ un 68715
+IM
+ db 20
+
+51259 item 0
+na rare book
+IT
+ wt 5
+ un 71368
+IM
+ ms 161 
+
+51292 item artifact
+na elven amulet
+IT
+ wt 10
+ un 42843
+IM
+ ba 1
+
+51332 item 0
+na old book
+IT
+ wt 5
+ un 58261
+IM
+ ms 161 
+
+51366 item 0
+na old book
+IT
+ wt 5
+ un 82579
+IM
+ ms 164 
+
+51380 item artifact
+na elven dagger
+IT
+ wt 10
+ un 44477
+IM
+ ab 35
+
+51391 item npc_token
+na Crown of the Barbarians
+IT
+ un 61648
+IM
+ tn 1
+ ti 34
+ lo 9005
+PL
+
+51400 item artifact
+na magic bow
+IT
+ wt 10
+ un 84888
+IM
+ mb 20
+
+51444 item 0
+na rare book
+IT
+ wt 5
+ un 90159
+IM
+ ms 161 
+
+51500 item 0
+na old book
+IT
+ wt 5
+ un 51956
+IM
+ ms 162 
+
+51501 item artifact
+na elven staff
+IT
+ wt 10
+ un 43540
+IM
+ ba 1
+
+51502 item artifact
+na Javelin of Birdan
+IT
+ wt 10
+ un 77029
+IM
+ mb 35
+
+51513 item artifact
+na crystal amulet
+IT
+ wt 10
+ un 70654
+IM
+ ba 3
+
+51556 item artifact
+na Helm of Lorbin
+IT
+ wt 10
+ un 54448
+IM
+ db 10
+
+51557 item npc_token
+na Crown of the Undead lord
+IT
+ un 46599
+IM
+ tn 1
+ ti 31
+ lo 9003
+PL
+
+51590 item npc_token
+na Golden idol of the Orcs
+IT
+ un 83394
+IM
+ tn 1
+ ti 287
+ lo 9002
+PL
+
+51593 item npc_token
+na Golden idol of the Orcs
+IT
+ un 84466
+IM
+ tn 1
+ ti 287
+ lo 9002
+PL
+
+51617 item 0
+na old book
+IT
+ wt 5
+ un 87380
+IM
+ ms 165 
+
+51684 item 0
+na old book
+IT
+ wt 5
+ un 43653
+IM
+ ms 163 
+
+51691 item npc_token
+na Crown of the Barbarians
+IT
+ un 89274
+IM
+ tn 1
+ ti 34
+ lo 9005
+PL
+
+51692 item npc_token
+na Crown of the Barbarians
+IT
+ un 56161
+IM
+ tn 1
+ ti 34
+ lo 9005
+PL
+
+51767 item artifact
+na Helm of Hamish
+IT
+ wt 10
+ un 42910
+IM
+ db 20
+
+51777 item npc_token
+na Banner of the Skeletons
+IT
+ un 99474
+IM
+ tn 1
+ ti 33
+ lo 9001
+PL
+
+51829 item artifact
+na enchanted sword
+IT
+ wt 10
+ un 72185
+IM
+ ab 25
+
+51836 item 0
+na old book
+IT
+ wt 5
+ un 98174
+IM
+ ms 162 
+
+51865 item 0
+na old book
+IT
+ wt 5
+ un 91608
+IM
+ ms 164 
+
+51871 item 0
+na rare book
+IT
+ wt 5
+ un 69513
+IM
+ ms 161 
+
+51878 item npc_token
+na Crown of the Barbarians
+IT
+ un 66435
+IM
+ tn 1
+ ti 34
+ lo 9005
+PL
+
+51890 item npc_token
+na Banner of the Skeletons
+IT
+ un 79693
+IM
+ tn 1
+ ti 33
+ lo 9001
+PL
+
+51893 item 0
+na old book
+IT
+ wt 5
+ un 95567
+IM
+ ms 164 
+
+51910 item npc_token
+na Horn of the Savages
+IT
+ un 98590
+IM
+ tn 1
+ ti 32
+ lo 9004
+PL
+
+51913 item artifact
+na enchanted dagger
+IT
+ wt 10
+ un 96500
+IM
+ ab 15
+
+51979 item artifact
+na Bow of Lassan
+IT
+ wt 10
+ un 97566
+IM
+ mb 20
+
+52006 item artifact
+na magic sword
+IT
+ wt 10
+ un 47300
+IM
+ ab 20
+
+52072 item npc_token
+na Banner of the Skeletons
+IT
+ un 62253
+IM
+ tn 1
+ ti 33
+ lo 9001
+PL
+
+52098 item 0
+na rare book
+IT
+ wt 5
+ un 61727
+IM
+ ms 164 
+
+52099 item artifact
+na golden dagger
+IT
+ wt 10
+ un 83642
+IM
+ ab 45
+
+52106 item artifact
+na Ring of Broen
+IT
+ wt 10
+ un 51583
+IM
+ ba 3
+
+52109 item artifact
+na Longsword of Haemin
+IT
+ wt 10
+ un 50893
+IM
+ ab 15
+
+52129 item npc_token
+na Golden idol of the Orcs
+IT
+ un 44708
+IM
+ tn 1
+ ti 287
+ lo 9002
+PL
+
+52174 item artifact
+na elven helm
+IT
+ wt 10
+ un 43628
+IM
+ db 15
+
+52192 item artifact
+na Armor of Kircarth
+IT
+ wt 10
+ un 85839
+IM
+ db 25
+
+52212 item artifact
+na golden armor
+IT
+ wt 10
+ un 97550
+IM
+ db 20
+
+52238 item artifact
+na enchanted ring
+IT
+ wt 10
+ un 89338
+IM
+ ba 1
+
+52313 item 0
+na old book
+IT
+ wt 5
+ un 74270
+IM
+ ms 164 
+
+52395 item artifact
+na crystal bow
+IT
+ wt 10
+ un 55680
+IM
+ mb 40
+
+52397 item artifact
+na elven bow
+IT
+ wt 10
+ un 75434
+IM
+ mb 35
+
+52418 item artifact
+na Longsword of Woodhead
+IT
+ wt 10
+ un 67424
+IM
+ ab 35
+
+52467 item npc_token
+na Horn of the Savages
+IT
+ un 43082
+IM
+ tn 1
+ ti 32
+ lo 9004
+PL
+
+52540 item 0
+na rare book
+IT
+ wt 5
+ un 43516
+IM
+ ms 162 
+
+52586 item 0
+na rare book
+IT
+ wt 5
+ un 69287
+IM
+ ms 163 
+
+52605 item artifact
+na crystal armor
+IT
+ wt 10
+ un 75604
+IM
+ db 35
+
+52615 item 0
+na rare book
+IT
+ wt 5
+ un 46525
+IM
+ ms 161 
+
+52668 item 0
+na rare book
+IT
+ wt 5
+ un 89662
+IM
+ ms 164 
+
+52745 item npc_token
+na Crown of the Undead lord
+IT
+ un 62332
+IM
+ tn 1
+ ti 31
+ lo 9003
+PL
+
+52750 item artifact
+na magic helm
+IT
+ wt 10
+ un 49821
+IM
+ db 40
+
+52771 item artifact
+na Dagger of Ferenth
+IT
+ wt 10
+ un 43471
+IM
+ ab 45
+
+52776 item artifact
+na crystal spear
+IT
+ wt 10
+ un 43575
+IM
+ mb 30
+
+52788 item artifact
+na Staff of Estbeorn
+IT
+ wt 10
+ un 42855
+IM
+ ba 1
+
+52830 item artifact
+na magic armor
+IT
+ wt 10
+ un 75944
+IM
+ db 45
+
+52831 item artifact
+na Ring of Napich
+IT
+ wt 10
+ un 43508
+IM
+ ba 1
+
+52908 item artifact
+na magic staff
+IT
+ wt 10
+ un 63548
+IM
+ ba 1
+
+52916 item artifact
+na enchanted longsword
+IT
+ wt 10
+ un 54695
+IM
+ ab 45
+
+52972 item artifact
+na enchanted ring
+IT
+ wt 10
+ un 43722
+IM
+ ba 2
+
+53013 item npc_token
+na Crown of the Undead lord
+IT
+ un 53353
+IM
+ tn 1
+ ti 31
+ lo 9003
+PL
+
+53025 item artifact
+na magic longsword
+IT
+ wt 10
+ un 66654
+IM
+ ab 10
+
+53043 item artifact
+na crystal shield
+IT
+ wt 10
+ un 91928
+IM
+ db 25
+
+53082 item artifact
+na elven armor
+IT
+ wt 10
+ un 61174
+IM
+ db 50
+
+53102 item npc_token
+na Horn of the Savages
+IT
+ un 54898
+IM
+ tn 1
+ ti 32
+ lo 9004
+PL
+
+53128 item 0
+na rare book
+IT
+ wt 5
+ un 85154
+IM
+ ms 162 
+
+53167 item artifact
+na golden bow
+IT
+ wt 10
+ un 59472
+IM
+ mb 15
+
+53190 item artifact
+na crystal bow
+IT
+ wt 10
+ un 79028
+IM
+ mb 5
+
+53211 item artifact
+na enchanted shield
+IT
+ wt 10
+ un 82197
+IM
+ db 50
+
+53229 item 0
+na old book
+IT
+ wt 5
+ un 43342
+IM
+ ms 165 
+
+53247 item artifact
+na enchanted staff
+IT
+ wt 10
+ un 75249
+IM
+ ba 1
+
+53256 item npc_token
+na Horn of the Savages
+IT
+ un 92838
+IM
+ tn 1
+ ti 32
+ lo 9004
+PL
+
+53276 item artifact
+na Longsword of Syssale
+IT
+ wt 10
+ un 82728
+IM
+ ab 15
+
+53524 item artifact
+na Longsword of Aethelarn
+IT
+ wt 10
+ un 42936
+IM
+ ab 20
+
+53539 item 0
+na old book
+IT
+ wt 5
+ un 79277
+IM
+ ms 165 
+
+53540 item 0
+na old book
+IT
+ wt 5
+ un 91532
+IM
+ ms 164 
+
+53585 item npc_token
+na Banner of the Skeletons
+IT
+ un 68571
+IM
+ tn 1
+ ti 33
+ lo 9001
+PL
+
+53591 item npc_token
+na Horn of the Savages
+IT
+ un 69819
+IM
+ tn 1
+ ti 32
+ lo 9004
+PL
+
+53769 item artifact
+na Helm of Kuneack
+IT
+ wt 10
+ un 64252
+IM
+ db 40
+
+53781 item 0
+na rare book
+IT
+ wt 5
+ un 43802
+IM
+ ms 161 
+
+53804 item artifact
+na enchanted sword
+IT
+ wt 10
+ un 85622
+IM
+ ab 30
+
+53807 item artifact
+na elven dagger
+IT
+ wt 10
+ un 63153
+IM
+ ab 30
+
+53813 item npc_token
+na Crown of the Undead lord
+IT
+ un 77126
+IM
+ tn 1
+ ti 31
+ lo 9003
+PL
+
+53838 item artifact
+na Armor of Lorbin
+IT
+ wt 10
+ un 42897
+IM
+ db 10
+
+53859 item artifact
+na crystal amulet
+IT
+ wt 10
+ un 82733
+IM
+ ba 3
+
+53881 item artifact
+na golden shield
+IT
+ wt 10
+ un 70590
+IM
+ db 45
+
+53998 item 0
+na old book
+IT
+ wt 5
+ un 59852
+IM
+ ms 164 
+
+54062 item artifact
+na Amulet of Pirn
+IT
+ wt 10
+ un 75973
+IM
+ ba 3
+
+54117 item 0
+na rare book
+IT
+ wt 5
+ un 79931
+IM
+ ms 164 
+
+54179 item npc_token
+na Banner of the Skeletons
+IT
+ un 66520
+IM
+ tn 1
+ ti 33
+ lo 9001
+PL
+
+54228 item artifact
+na magic sword
+IT
+ wt 10
+ un 93881
+IM
+ ab 25
+
+54271 item 0
+na rare book
+IT
+ wt 5
+ un 83687
+IM
+ ms 161 
+
+54334 item artifact
+na Amulet of Halhere
+IT
+ wt 10
+ un 58553
+IM
+ ba 1
+
+54336 item 0
+na old book
+IT
+ wt 5
+ un 72569
+IM
+ ms 161 
+
+54343 item artifact
+na Shield of Osgea
+IT
+ wt 10
+ un 83842
+IM
+ db 35
+
+54363 item artifact
+na elven staff
+IT
+ wt 10
+ un 87241
+IM
+ ba 1
+
+54381 item artifact
+na Shield of Evinob
+IT
+ wt 10
+ un 83234
+IM
+ db 40
+
+54407 item artifact
+na enchanted staff
+IT
+ wt 10
+ un 42776
+IM
+ ba 1
+
+54440 item 0
+na old book
+IT
+ wt 5
+ un 50334
+IM
+ ms 163 
+
+54483 item artifact
+na crystal dart
+IT
+ wt 10
+ un 43511
+IM
+ mb 20
+
+54488 item 0
+na old book
+IT
+ wt 5
+ un 49381
+IM
+ ms 164 
+
+54510 item artifact
+na Ring of Truth
+IT
+ wt 10
+ un 96547
+IM
+ ba 2
+
+54609 item 0
+na rare book
+IT
+ wt 5
+ un 62137
+IM
+ ms 165 
+
+54619 item artifact
+na golden ring
+IT
+ wt 10
+ un 98177
+IM
+ ba 1
+
+54742 item artifact
+na crystal shield
+IT
+ wt 10
+ un 78430
+IM
+ db 50
+
+54766 item 0
+na rare book
+IT
+ wt 5
+ un 66148
+IM
+ ms 164 
+
+54777 item npc_token
+na Golden idol of the Orcs
+IT
+ un 101159
+IM
+ tn 1
+ ti 287
+ lo 9002
+PL
+
+54786 item artifact
+na Spear of Drassa
+IT
+ wt 10
+ un 51051
+IM
+ mb 30
+
+54791 item npc_token
+na Banner of the Skeletons
+IT
+ un 42989
+IM
+ tn 1
+ ti 33
+ lo 9001
+PL
+
+54812 item artifact
+na elven staff
+IT
+ wt 10
+ un 94242
+IM
+ ba 2
+
+54831 item 0
+na rare book
+IT
+ wt 5
+ un 47107
+IM
+ ms 163 
+
+54867 item artifact
+na Longsword of Rhovanth
+IT
+ wt 10
+ un 43162
+IM
+ ab 25
+
+54896 item npc_token
+na Horn of the Savages
+IT
+ un 58548
+IM
+ tn 1
+ ti 32
+ lo 9004
+PL
+
+54971 item artifact
+na golden staff
+IT
+ wt 10
+ un 43176
+IM
+ ba 2
+
+54982 item artifact
+na elven armor
+IT
+ wt 10
+ un 82061
+IM
+ db 45
+
+55018 item 0
+na rare book
+IT
+ wt 5
+ un 79842
+IM
+ ms 161 
+
+55034 item artifact
+na Ring of Baraxes
+IT
+ wt 10
+ un 84342
+IM
+ ba 3
+
+55053 item artifact
+na Sword of Syssale
+IT
+ wt 10
+ un 66070
+IM
+ ab 5
+
+55056 item artifact
+na crystal sword
+IT
+ wt 10
+ un 80911
+IM
+ ab 45
+
+55063 item artifact
+na Armor of Ollayos
+IT
+ wt 10
+ un 55010
+IM
+ db 5
+
+55081 item artifact
+na golden dagger
+IT
+ wt 10
+ un 68115
+IM
+ ab 15
+
+55134 item artifact
+na elven staff
+IT
+ wt 10
+ un 91273
+IM
+ ba 1
+
+55171 item artifact
+na crystal dart
+IT
+ wt 10
+ un 66938
+IM
+ mb 10
+
+55230 item npc_token
+na Crown of the Barbarians
+IT
+ un 80310
+IM
+ tn 1
+ ti 34
+ lo 9005
+PL
+
+55266 item artifact
+na Dagger of Nuncarth
+IT
+ wt 10
+ un 47771
+IM
+ ab 45
+
+55319 item 0
+na old book
+IT
+ wt 5
+ un 92821
+IM
+ ms 161 
+
+55323 item 0
+na rare book
+IT
+ wt 5
+ un 43002
+IM
+ ms 162 
+
+55333 item npc_token
+na Crown of the Undead lord
+IT
+ un 81365
+IM
+ tn 1
+ ti 31
+ lo 9003
+PL
+
+55335 item 0
+na rare book
+IT
+ wt 5
+ un 77902
+IM
+ ms 161 
+
+55357 item artifact
+na crystal helm
+IT
+ wt 10
+ un 93562
+IM
+ db 15
+
+55362 item npc_token
+na Golden idol of the Orcs
+IT
+ un 63703
+IM
+ tn 1
+ ti 287
+ lo 9002
+PL
+
+55374 item artifact
+na crystal longsword
+IT
+ wt 10
+ un 49309
+IM
+ ab 15
+
+55453 item npc_token
+na Golden idol of the Orcs
+IT
+ un 85540
+IM
+ tn 1
+ ti 287
+ lo 9002
+PL
+
+55462 item artifact
+na Armor of Broen
+IT
+ wt 10
+ un 62650
+IM
+ db 45
+
+55548 item artifact
+na Staff of Obraed
+IT
+ wt 10
+ un 56110
+IM
+ ba 1
+
+55584 item 0
+na rare book
+IT
+ wt 5
+ un 51244
+IM
+ ms 161 
+
+55644 item npc_token
+na Golden idol of the Orcs
+IT
+ un 97949
+IM
+ tn 1
+ ti 287
+ lo 9002
+PL
+
+55673 item 0
+na old book
+IT
+ wt 5
+ un 78345
+IM
+ ms 162 
+
+55705 item 0
+na rare book
+IT
+ wt 5
+ un 65245
+IM
+ ms 165 
+
+55709 item artifact
+na Amulet of Miranth
+IT
+ wt 10
+ un 43220
+IM
+ ba 2
+
+55764 item 0
+na old book
+IT
+ wt 5
+ un 53426
+IM
+ ms 161 
+
+55787 item artifact
+na Bow of Ollayos
+IT
+ wt 10
+ un 63023
+IM
+ mb 35
+
+55801 item 0
+na rare book
+IT
+ wt 5
+ un 84564
+IM
+ ms 161 
+
+55842 item artifact
+na crystal armor
+IT
+ wt 10
+ un 102312
+IM
+ db 50
+
+55896 item npc_token
+na Crown of the Undead lord
+IT
+ un 46331
+IM
+ tn 1
+ ti 31
+ lo 9003
+PL
+
+55921 item artifact
+na elven dagger
+IT
+ wt 10
+ un 73278
+IM
+ ab 25
+
+55944 item artifact
+na Dart of Raskold
+IT
+ wt 10
+ un 84025
+IM
+ mb 50
+
+55961 item 0
+na rare book
+IT
+ wt 5
+ un 87252
+IM
+ ms 161 
+
+55966 item artifact
+na elven amulet
+IT
+ wt 10
+ un 68147
+IM
+ ba 1
+
+55968 item artifact
+na Armor of Sardis
+IT
+ wt 10
+ un 84945
+IM
+ db 5
+
+56020 item npc_token
+na Banner of the Skeletons
+IT
+ un 91346
+IM
+ tn 1
+ ti 33
+ lo 9001
+PL
+
+56025 item artifact
+na enchanted sword
+IT
+ wt 10
+ un 84928
+IM
+ ab 20
+
+56048 item artifact
+na enchanted longsword
+IT
+ wt 10
+ un 69149
+IM
+ ab 35
+
+56087 item npc_token
+na Crown of the Barbarians
+IT
+ un 86892
+IM
+ tn 1
+ ti 34
+ lo 9005
+PL
+
+56102 item npc_token
+na Golden idol of the Orcs
+IT
+ un 97553
+IM
+ tn 1
+ ti 287
+ lo 9002
+PL
+
+56125 item npc_token
+na Crown of the Barbarians
+IT
+ un 50913
+IM
+ tn 1
+ ti 34
+ lo 9005
+PL
+
+56127 item 0
+na rare book
+IT
+ wt 5
+ un 98298
+IM
+ ms 163 
+
+56163 item npc_token
+na Golden idol of the Orcs
+IT
+ un 88086
+IM
+ tn 1
+ ti 287
+ lo 9002
+PL
+
+56205 item artifact
+na Amulet of Bayarth
+IT
+ wt 10
+ un 45193
+IM
+ ba 2
+
+56247 item artifact
+na Helm of Nuncarth
+IT
+ wt 10
+ un 63814
+IM
+ db 35
+
+56277 item npc_token
+na Horn of the Savages
+IT
+ un 81638
+IM
+ tn 1
+ ti 32
+ lo 9004
+PL
+
+56291 item 0
+na old book
+IT
+ wt 5
+ un 88129
+IM
+ ms 164 
+
+56310 item artifact
+na Spear of Achilles
+IT
+ wt 10
+ un 42908
+IM
+ mb 25
+
+56323 item artifact
+na Armor of Fistrock
+IT
+ wt 10
+ un 87600
+IM
+ db 10
+
+56434 item suffuse_ring
+na Golden ring
+IT
+ wt 1
+ un 88621
+IM
+ uk 10
+ lo 9008
+
+56475 item artifact
+na magic sword
+IT
+ wt 10
+ un 48456
+IM
+ ab 15
+
+56525 item artifact
+na crystal armor
+IT
+ wt 10
+ un 47688
+IM
+ db 35
+
+56579 item artifact
+na crystal dart
+IT
+ wt 10
+ un 61647
+IM
+ mb 15
+
+56580 item npc_token
+na Golden idol of the Orcs
+IT
+ un 43720
+IM
+ tn 1
+ ti 287
+ lo 9002
+PL
+
+56621 item 0
+na rare book
+IT
+ wt 5
+ un 70943
+IM
+ ms 161 
+
+56673 item artifact
+na elven bow
+IT
+ wt 10
+ un 79965
+IM
+ mb 10
+
+56683 item npc_token
+na Golden idol of the Orcs
+IT
+ un 81344
+IM
+ tn 1
+ ti 287
+ lo 9002
+PL
+
+56715 item artifact
+na Dagger of Haemin
+IT
+ wt 10
+ un 63663
+IM
+ ab 15
+
+56776 item artifact
+na elven amulet
+IT
+ wt 10
+ un 97318
+IM
+ ba 3
+
+56805 item artifact
+na crystal dart
+IT
+ wt 10
+ un 71697
+IM
+ mb 10
+
+56826 item artifact
+na Bow of Kior
+IT
+ wt 10
+ un 53098
+IM
+ mb 15
+
+56853 item artifact
+na enchanted staff
+IT
+ wt 10
+ un 43701
+IM
+ ba 1
+
+56874 item 0
+na old book
+IT
+ wt 5
+ un 59181
+IM
+ ms 163 
+
+56880 item artifact
+na golden dagger
+IT
+ wt 10
+ un 51575
+IM
+ ab 45
+
+56925 item npc_token
+na Crown of the Undead lord
+IT
+ un 42835
+IM
+ tn 1
+ ti 31
+ lo 9003
+PL
+
+56953 item artifact
+na golden spear
+IT
+ wt 10
+ un 58998
+IM
+ mb 45
+
+57032 item 0
+na rare book
+IT
+ wt 5
+ un 56942
+IM
+ ms 162 
+
+57108 item artifact
+na golden armor
+IT
+ wt 10
+ un 98362
+IM
+ db 5
+
+57166 item 0
+na rare book
+IT
+ wt 5
+ un 71783
+IM
+ ms 161 
+
+57257 item artifact
+na golden longsword
+IT
+ wt 10
+ un 43323
+IM
+ ab 35
+
+57276 item artifact
+na magic shield
+IT
+ wt 10
+ un 63549
+IM
+ db 10
+
+57277 item artifact
+na Helm of Petelinus
+IT
+ wt 10
+ un 93710
+IM
+ db 35
+
+57324 item artifact
+na enchanted staff
+IT
+ wt 10
+ un 54545
+IM
+ ba 1
+
+57349 item 0
+na rare book
+IT
+ wt 5
+ un 56372
+IM
+ ms 165 
+
+57371 item artifact
+na elven dart
+IT
+ wt 10
+ un 43411
+IM
+ mb 30
+
+57389 item npc_token
+na Golden idol of the Orcs
+IT
+ un 78453
+IM
+ tn 1
+ ti 287
+ lo 9002
+PL
+
+57393 item artifact
+na enchanted armor
+IT
+ wt 10
+ un 87914
+IM
+ db 10
+
+57424 item artifact
+na enchanted shield
+IT
+ wt 10
+ un 51248
+IM
+ db 5
+
+57426 item artifact
+na Shield of Achilles
+IT
+ wt 10
+ un 69327
+IM
+ db 40
+
+57431 item artifact
+na crystal dart
+IT
+ wt 10
+ un 72271
+IM
+ mb 45
+
+57434 item artifact
+na magic helm
+IT
+ wt 10
+ un 89619
+IM
+ db 30
+
+57461 item artifact
+na Helm of Faelgrar
+IT
+ wt 10
+ un 86621
+IM
+ db 15
+
+57474 item 0
+na old book
+IT
+ wt 5
+ un 43643
+IM
+ ms 165 
+
+57621 item artifact
+na enchanted amulet
+IT
+ wt 10
+ un 90968
+IM
+ ba 1
+
+57646 item npc_token
+na Horn of the Savages
+IT
+ un 49146
+IM
+ tn 1
+ ti 32
+ lo 9004
+PL
+
+57683 item 0
+na old book
+IT
+ wt 5
+ un 59753
+IM
+ ms 165 
+
+57804 item npc_token
+na Crown of the Undead lord
+IT
+ un 88710
+IM
+ tn 1
+ ti 31
+ lo 9003
+PL
+
+57839 item artifact
+na Dart of Norbus
+IT
+ wt 10
+ un 101095
+IM
+ mb 20
+
+57896 item artifact
+na Javelin of Illinod
+IT
+ wt 10
+ un 77754
+IM
+ mb 10
+
+58014 item artifact
+na Javelin of Kichea
+IT
+ wt 10
+ un 85077
+IM
+ mb 25
+
+58074 item 0
+na rare book
+IT
+ wt 5
+ un 58329
+IM
+ ms 164 
+
+58141 item npc_token
+na Banner of the Skeletons
+IT
+ un 71688
+IM
+ tn 1
+ ti 33
+ lo 9001
+PL
+
+58201 item npc_token
+na Golden idol of the Orcs
+IT
+ un 82966
+IM
+ tn 1
+ ti 287
+ lo 9002
+PL
+
+58209 item artifact
+na elven sword
+IT
+ wt 10
+ un 96464
+IM
+ ab 35
+
+58258 item artifact
+na elven shield
+IT
+ wt 10
+ un 82329
+IM
+ db 40
+
+58280 item artifact
+na crystal shield
+IT
+ wt 10
+ un 70642
+IM
+ db 15
+
+58311 item artifact
+na elven shield
+IT
+ wt 10
+ un 102380
+IM
+ db 50
+
+58313 item artifact
+na magic ring
+IT
+ wt 10
+ un 52385
+IM
+ ba 2
+
+58340 item 0
+na old book
+IT
+ wt 5
+ un 78828
+IM
+ ms 165 
+
+58358 item artifact
+na crystal dart
+IT
+ wt 10
+ un 69218
+IM
+ mb 50
+
+58403 item npc_token
+na Crown of the Undead lord
+IT
+ un 69984
+IM
+ tn 1
+ ti 31
+ lo 9003
+PL
+
+58410 item 0
+na rare book
+IT
+ wt 5
+ un 96924
+IM
+ ms 164 
+
+58411 item artifact
+na magic amulet
+IT
+ wt 10
+ un 59226
+IM
+ ba 1
+
+58450 item npc_token
+na Horn of the Savages
+IT
+ un 65534
+IM
+ tn 1
+ ti 32
+ lo 9004
+PL
+
+58477 item npc_token
+na Horn of the Savages
+IT
+ un 98777
+IM
+ tn 1
+ ti 32
+ lo 9004
+PL
+
+58479 item artifact
+na Dagger of Renfast
+IT
+ wt 10
+ un 78213
+IM
+ ab 15
+
+58523 item artifact
+na crystal javelin
+IT
+ wt 10
+ un 96633
+IM
+ mb 35
+
+58534 item 0
+na rare book
+IT
+ wt 5
+ un 48302
+IM
+ ms 161 
+
+58606 item npc_token
+na Horn of the Savages
+IT
+ un 58980
+IM
+ tn 1
+ ti 32
+ lo 9004
+PL
+
+58619 item 0
+na old book
+IT
+ wt 5
+ un 43619
+IM
+ ms 161 
+
+58631 item artifact
+na enchanted armor
+IT
+ wt 10
+ un 82235
+IM
+ db 40
+
+58651 item artifact
+na magic armor
+IT
+ wt 10
+ un 76873
+IM
+ db 20
+
+58757 item 0
+na old book
+IT
+ wt 5
+ un 86387
+IM
+ ms 161 
+
+58761 item artifact
+na Staff of Pactra
+IT
+ wt 10
+ un 83260
+IM
+ ba 2
+
+58762 item artifact
+na enchanted helm
+IT
+ wt 10
+ un 65838
+IM
+ db 20
+
+58929 item 0
+na rare book
+IT
+ wt 5
+ un 48445
+IM
+ ms 164 
+
+58943 item artifact
+na Bow of Rhonius
+IT
+ wt 10
+ un 48537
+IM
+ mb 45
+
+58976 item 0
+na old book
+IT
+ wt 5
+ un 66908
+IM
+ ms 161 
+
+58991 item artifact
+na magic dagger
+IT
+ wt 10
+ un 43265
+IM
+ ab 35
+
+59017 item artifact
+na enchanted shield
+IT
+ wt 10
+ un 53016
+IM
+ db 5
+
+59026 item artifact
+na Helm of Albrand
+IT
+ wt 10
+ un 49711
+IM
+ db 10
+
+59053 item artifact
+na magic bow
+IT
+ wt 10
+ un 43539
+IM
+ mb 30
+
+59101 item artifact
+na enchanted staff
+IT
+ wt 10
+ un 52773
+IM
+ ba 1
+
+59121 item artifact
+na Amulet of Sudabuk
+IT
+ wt 10
+ un 86143
+IM
+ ba 2
+
+59152 item artifact
+na enchanted helm
+IT
+ wt 10
+ un 101531
+IM
+ db 5
+
+59171 item 0
+na old book
+IT
+ wt 5
+ un 80586
+IM
+ ms 162 
+
+59183 item artifact
+na golden longsword
+IT
+ wt 10
+ un 100102
+IM
+ ab 10
+
+59215 item artifact
+na Sword of Justice
+IT
+ wt 10
+ un 45206
+IM
+ ab 5
+
+59219 item artifact
+na golden helm
+IT
+ wt 10
+ un 85066
+IM
+ db 30
+
+59233 item 0
+na old book
+IT
+ wt 5
+ un 43191
+IM
+ ms 164 
+
+59241 item artifact
+na crystal javelin
+IT
+ wt 10
+ un 78226
+IM
+ mb 25
+
+59253 item artifact
+na magic spear
+IT
+ wt 10
+ un 50282
+IM
+ mb 45
+
+59255 item 0
+na rare book
+IT
+ wt 5
+ un 45642
+IM
+ ms 163 
+
+59324 item artifact
+na crystal armor
+IT
+ wt 10
+ un 88830
+IM
+ db 20
+
+59351 item artifact
+na magic bow
+IT
+ wt 10
+ un 68675
+IM
+ mb 15
+
+59442 item 0
+na rare book
+IT
+ wt 5
+ un 43672
+IM
+ ms 164 
+
+59498 item 0
+na old book
+IT
+ wt 5
+ un 53981
+IM
+ ms 165 
+
+59563 item npc_token
+na Banner of the Skeletons
+IT
+ un 43403
+IM
+ tn 1
+ ti 33
+ lo 9001
+PL
+
+59685 item artifact
+na Bow of Raigor
+IT
+ wt 10
+ un 100106
+IM
+ mb 40
+
+59718 item 0
+na old book
+IT
+ wt 5
+ un 89923
+IM
+ ms 161 
+
+59767 item 0
+na rare book
+IT
+ wt 5
+ un 84666
+IM
+ ms 162 
+
+59807 item artifact
+na enchanted javelin
+IT
+ wt 10
+ un 97036
+IM
+ mb 40
+
+59822 item 0
+na rare book
+IT
+ wt 5
+ un 43515
+IM
+ ms 162 
+
+59823 item artifact
+na elven armor
+IT
+ wt 10
+ un 78944
+IM
+ db 40
+
+59840 item artifact
+na Armor of Arkaune
+IT
+ wt 10
+ un 79105
+IM
+ db 10
+
+59891 item npc_token
+na Crown of the Undead lord
+IT
+ un 67071
+IM
+ tn 1
+ ti 31
+ lo 9003
+PL
+
+59946 item artifact
+na magic sword
+IT
+ wt 10
+ un 57103
+IM
+ ab 5
+
+60080 item artifact
+na Dagger of Rhovanth
+IT
+ wt 10
+ un 45823
+IM
+ ab 30
+
+60082 item artifact
+na golden armor
+IT
+ wt 10
+ un 72959
+IM
+ db 30
+
+60091 item artifact
+na Dart of Antresk
+IT
+ wt 10
+ un 96774
+IM
+ mb 45
+
+60099 item 0
+na rare book
+IT
+ wt 5
+ un 46277
+IM
+ ms 162 
+
+60121 item 0
+na rare book
+IT
+ wt 5
+ un 78810
+IM
+ ms 165 
+
+60142 item npc_token
+na Golden idol of the Orcs
+IT
+ un 97091
+IM
+ tn 1
+ ti 287
+ lo 9002
+PL
+
+60190 item artifact
+na enchanted bow
+IT
+ wt 10
+ un 98834
+IM
+ mb 20
+
+60215 item artifact
+na magic amulet
+IT
+ wt 10
+ un 94363
+IM
+ ba 3
+
+60218 item npc_token
+na Golden idol of the Orcs
+IT
+ un 42781
+IM
+ tn 1
+ ti 287
+ lo 9002
+PL
+
+60273 item 0
+na old book
+IT
+ wt 5
+ un 85941
+IM
+ ms 164 
+
+60331 item artifact
+na golden ring
+IT
+ wt 10
+ un 71710
+IM
+ ba 2
+
+60341 item artifact
+na Ring of Balatea
+IT
+ wt 10
+ un 85161
+IM
+ ba 1
+
+60348 item artifact
+na Sword of Grindor
+IT
+ wt 10
+ un 88318
+IM
+ ab 10
+
+60351 item artifact
+na Longsword of Cyllenedos
+IT
+ wt 10
+ un 67128
+IM
+ ab 30
+
+60400 item artifact
+na Helm of Kuneack
+IT
+ wt 10
+ un 90285
+IM
+ db 40
+
+60413 item 0
+na old book
+IT
+ wt 5
+ un 43348
+IM
+ ms 164 
+
+60417 item artifact
+na Dagger of Carim
+IT
+ wt 10
+ un 79945
+IM
+ ab 40
+
+60487 item 0
+na rare book
+IT
+ wt 5
+ un 90255
+IM
+ ms 164 
+
+60515 item artifact
+na golden ring
+IT
+ wt 10
+ un 90282
+IM
+ ba 1
+
+60533 item 0
+na rare book
+IT
+ wt 5
+ un 66265
+IM
+ ms 161 
+
+60564 item npc_token
+na Crown of the Barbarians
+IT
+ un 52396
+IM
+ tn 1
+ ti 34
+ lo 9005
+PL
+
+60596 item npc_token
+na Horn of the Savages
+IT
+ un 77027
+IM
+ tn 1
+ ti 32
+ lo 9004
+PL
+
+60598 item npc_token
+na Crown of the Undead lord
+IT
+ un 78205
+IM
+ tn 1
+ ti 31
+ lo 9003
+PL
+
+60602 item 0
+na old book
+IT
+ wt 5
+ un 70893
+IM
+ ms 161 
+
+60605 item 0
+na rare book
+IT
+ wt 5
+ un 42834
+IM
+ ms 164 
+
+60636 item npc_token
+na Crown of the Barbarians
+IT
+ un 78834
+IM
+ tn 1
+ ti 34
+ lo 9005
+PL
+
+60657 item npc_token
+na Crown of the Barbarians
+IT
+ un 98676
+IM
+ tn 1
+ ti 34
+ lo 9005
+PL
+
+60704 item artifact
+na Ring of Moldarth
+IT
+ wt 10
+ un 78317
+IM
+ ba 1
+
+60707 item 0
+na rare book
+IT
+ wt 5
+ un 93420
+IM
+ ms 164 
+
+60759 item 0
+na rare book
+IT
+ wt 5
+ un 69683
+IM
+ ms 165 
+
+60817 item npc_token
+na Banner of the Skeletons
+IT
+ un 102155
+IM
+ tn 1
+ ti 33
+ lo 9001
+PL
+
+60873 item artifact
+na Spear of Resh
+IT
+ wt 10
+ un 54466
+IM
+ mb 30
+
+60891 item npc_token
+na Crown of the Undead lord
+IT
+ un 48808
+IM
+ tn 1
+ ti 31
+ lo 9003
+PL
+
+60924 item 0
+na old book
+IT
+ wt 5
+ un 60088
+IM
+ ms 164 
+
+61022 item artifact
+na Dart of Arkaune
+IT
+ wt 10
+ un 65237
+IM
+ mb 10
+
+61027 item artifact
+na crystal ring
+IT
+ wt 10
+ un 101589
+IM
+ ba 2
+
+61038 item artifact
+na Dart of Roshun
+IT
+ wt 10
+ un 66134
+IM
+ mb 50
+
+61076 item artifact
+na crystal bow
+IT
+ wt 10
+ un 69622
+IM
+ mb 50
+
+61184 item npc_token
+na Crown of the Undead lord
+IT
+ un 88687
+IM
+ tn 1
+ ti 31
+ lo 9003
+PL
+
+61232 item artifact
+na crystal longsword
+IT
+ wt 10
+ un 48395
+IM
+ ab 35
+
+61270 item artifact
+na enchanted dagger
+IT
+ wt 10
+ un 54549
+IM
+ ab 35
+
+61309 item artifact
+na crystal spear
+IT
+ wt 10
+ un 59377
+IM
+ mb 40
+
+61324 item npc_token
+na Golden idol of the Orcs
+IT
+ un 56034
+IM
+ tn 1
+ ti 287
+ lo 9002
+PL
+
+61347 item artifact
+na elven helm
+IT
+ wt 10
+ un 50829
+IM
+ db 20
+
+61366 item 0
+na old book
+IT
+ wt 5
+ un 102133
+IM
+ ms 161 
+
+61367 item artifact
+na golden amulet
+IT
+ wt 10
+ un 82656
+IM
+ ba 2
+
+61378 item artifact
+na magic armor
+IT
+ wt 10
+ un 65792
+IM
+ db 50
+
+61401 item artifact
+na crystal longsword
+IT
+ wt 10
+ un 43638
+IM
+ ab 15
+
+61402 item 0
+na rare book
+IT
+ wt 5
+ un 84585
+IM
+ ms 165 
+
+61438 item 0
+na old book
+IT
+ wt 5
+ un 51854
+IM
+ ms 165 
+
+61510 item artifact
+na elven dagger
+IT
+ wt 10
+ un 90942
+IM
+ ab 5
+
+61602 item 0
+na old book
+IT
+ wt 5
+ un 83033
+IM
+ ms 162 
+
+61603 item 0
+na old book
+IT
+ wt 5
+ un 77009
+IM
+ ms 161 
+
+61807 item 0
+na old book
+IT
+ wt 5
+ un 68348
+IM
+ ms 165 
+
+61809 item artifact
+na magic staff
+IT
+ wt 10
+ un 61383
+IM
+ ba 3
+
+61844 item npc_token
+na Golden idol of the Orcs
+IT
+ un 53202
+IM
+ tn 1
+ ti 287
+ lo 9002
+PL
+
+61872 item npc_token
+na Crown of the Barbarians
+IT
+ un 91569
+IM
+ tn 1
+ ti 34
+ lo 9005
+PL
+
+61879 item npc_token
+na Banner of the Skeletons
+IT
+ un 76120
+IM
+ tn 1
+ ti 33
+ lo 9001
+PL
+
+61959 item artifact
+na elven staff
+IT
+ wt 10
+ un 74842
+IM
+ ba 3
+
+61976 item artifact
+na magic dagger
+IT
+ wt 10
+ un 43704
+IM
+ ab 15
+
+62009 item npc_token
+na Golden idol of the Orcs
+IT
+ un 88828
+IM
+ tn 1
+ ti 287
+ lo 9002
+PL
+
+62049 item 0
+na old book
+IT
+ wt 5
+ un 67233
+IM
+ ms 161 
+
+62064 item 0
+na rare book
+IT
+ wt 5
+ un 64917
+IM
+ ms 163 
+
+62080 item npc_token
+na Horn of the Savages
+IT
+ un 79774
+IM
+ tn 1
+ ti 32
+ lo 9004
+PL
+
+62100 item artifact
+na magic longsword
+IT
+ wt 10
+ un 43481
+IM
+ ab 30
+
+62130 item npc_token
+na Crown of the Undead lord
+IT
+ un 76243
+IM
+ tn 1
+ ti 31
+ lo 9003
+PL
+
+62165 item npc_token
+na Banner of the Skeletons
+IT
+ un 45113
+IM
+ tn 1
+ ti 33
+ lo 9001
+PL
+
+62233 item artifact
+na elven staff
+IT
+ wt 10
+ un 46920
+IM
+ ba 3
+
+62258 item artifact
+na golden staff
+IT
+ wt 10
+ un 85413
+IM
+ ba 2
+
+62275 item artifact
+na crystal helm
+IT
+ wt 10
+ un 73691
+IM
+ db 10
+
+62282 item artifact
+na golden staff
+IT
+ wt 10
+ un 43115
+IM
+ ba 3
+
+62299 item npc_token
+na Golden idol of the Orcs
+IT
+ un 45348
+IM
+ tn 1
+ ti 287
+ lo 9002
+PL
+
+62306 item artifact
+na Amulet of Kircarth
+IT
+ wt 10
+ un 73902
+IM
+ ba 1
+
+62308 item 0
+na old book
+IT
+ wt 5
+ un 99795
+IM
+ ms 163 
+
+62310 item artifact
+na Helm of Drassa
+IT
+ wt 10
+ un 62763
+IM
+ db 10
+
+62359 item artifact
+na Longsword of Shotluth
+IT
+ wt 10
+ un 70153
+IM
+ ab 25
+
+62395 item npc_token
+na Golden idol of the Orcs
+IT
+ un 71776
+IM
+ tn 1
+ ti 287
+ lo 9002
+PL
+
+62400 item npc_token
+na Horn of the Savages
+IT
+ un 88785
+IM
+ tn 1
+ ti 32
+ lo 9004
+PL
+
+62459 item artifact
+na enchanted longsword
+IT
+ wt 10
+ un 58789
+IM
+ ab 5
+
+62466 item 0
+na old book
+IT
+ wt 5
+ un 54632
+IM
+ ms 164 
+
+62494 item artifact
+na enchanted longsword
+IT
+ wt 10
+ un 76450
+IM
+ ab 40
+
+62495 item artifact
+na magic sword
+IT
+ wt 10
+ un 43377
+IM
+ ab 5
+
+62496 item artifact
+na golden longsword
+IT
+ wt 10
+ un 56721
+IM
+ ab 5
+
+62546 item 0
+na rare book
+IT
+ wt 5
+ un 42815
+IM
+ ms 163 
+
+62558 item artifact
+na magic shield
+IT
+ wt 10
+ un 92470
+IM
+ db 35
+
+62588 item npc_token
+na Golden idol of the Orcs
+IT
+ un 91144
+IM
+ tn 1
+ ti 287
+ lo 9002
+PL
+
+62596 item npc_token
+na Banner of the Skeletons
+IT
+ un 96768
+IM
+ tn 1
+ ti 33
+ lo 9001
+PL
+
+62600 item npc_token
+na Crown of the Undead lord
+IT
+ un 42973
+IM
+ tn 1
+ ti 31
+ lo 9003
+PL
+
+62644 item artifact
+na Shield of Iniera
+IT
+ wt 10
+ un 98928
+IM
+ db 50
+
+62682 item artifact
+na magic amulet
+IT
+ wt 10
+ un 53811
+IM
+ ba 3
+
+62711 item artifact
+na Dart of Pictar
+IT
+ wt 10
+ un 49881
+IM
+ mb 20
+
+62719 item artifact
+na Longsword of Coinbalth
+IT
+ wt 10
+ un 56033
+IM
+ ab 30
+
+62806 item artifact
+na magic spear
+IT
+ wt 10
+ un 43468
+IM
+ mb 40
+
+62898 item npc_token
+na Crown of the Barbarians
+IT
+ un 61310
+IM
+ tn 1
+ ti 34
+ lo 9005
+PL
+
+62933 item artifact
+na golden spear
+IT
+ wt 10
+ un 78823
+IM
+ mb 20
+
+62973 item artifact
+na magic dagger
+IT
+ wt 10
+ un 87851
+IM
+ ab 50
+
+62979 item artifact
+na Bow of Iniera
+IT
+ wt 10
+ un 101405
+IM
+ mb 45
+
+62986 item 0
+na old book
+IT
+ wt 5
+ un 43558
+IM
+ ms 164 
+
+62998 item artifact
+na Javelin of Albrand
+IT
+ wt 10
+ un 94567
+IM
+ mb 25
+
+63024 item npc_token
+na Horn of the Savages
+IT
+ un 66769
+IM
+ tn 1
+ ti 32
+ lo 9004
+PL
+
+63053 item artifact
+na crystal helm
+IT
+ wt 10
+ un 93424
+IM
+ db 20
+
+63067 item npc_token
+na Golden idol of the Orcs
+IT
+ un 87173
+IM
+ tn 1
+ ti 287
+ lo 9002
+PL
+
+63120 item npc_token
+na Golden idol of the Orcs
+IT
+ un 98587
+IM
+ tn 1
+ ti 287
+ lo 9002
+PL
+
+63149 item 0
+na old book
+IT
+ wt 5
+ un 86194
+IM
+ ms 162 
+
+63178 item artifact
+na Dagger of Cospera
+IT
+ wt 10
+ un 62048
+IM
+ ab 20
+
+63180 item 0
+na rare book
+IT
+ wt 5
+ un 43438
+IM
+ ms 161 
+
+63210 item artifact
+na Javelin of Claunecar
+IT
+ wt 10
+ un 58614
+IM
+ mb 5
+
+63217 item 0
+na old book
+IT
+ wt 5
+ un 43747
+IM
+ ms 165 
+
+63263 item npc_token
+na Crown of the Undead lord
+IT
+ un 54373
+IM
+ tn 1
+ ti 31
+ lo 9003
+PL
+
+63382 item artifact
+na magic sword
+IT
+ wt 10
+ un 54691
+IM
+ ab 25
+
+63491 item artifact
+na Javelin of Nantasarn
+IT
+ wt 10
+ un 78366
+IM
+ mb 45
+
+63497 item npc_token
+na Horn of the Savages
+IT
+ un 51908
+IM
+ tn 1
+ ti 32
+ lo 9004
+PL
+
+63506 item artifact
+na crystal amulet
+IT
+ wt 10
+ un 51970
+IM
+ ba 1
+
+63649 item artifact
+na elven amulet
+IT
+ wt 10
+ un 47825
+IM
+ ba 2
+
+63684 item npc_token
+na Golden idol of the Orcs
+IT
+ un 59616
+IM
+ tn 1
+ ti 287
+ lo 9002
+PL
+
+63694 item artifact
+na golden armor
+IT
+ wt 10
+ un 53188
+IM
+ db 30
+
+63698 item artifact
+na Spear of Gravecarn
+IT
+ wt 10
+ un 43389
+IM
+ mb 15
+
+63714 item artifact
+na Ring of Shavnor
+IT
+ wt 10
+ un 58590
+IM
+ ba 1
+
+63758 item artifact
+na golden staff
+IT
+ wt 10
+ un 97396
+IM
+ ba 2
+
+63776 item artifact
+na elven dagger
+IT
+ wt 10
+ un 45783
+IM
+ ab 45
+
+63819 item 0
+na old book
+IT
+ wt 5
+ un 43592
+IM
+ ms 163 
+
+63867 item npc_token
+na Golden idol of the Orcs
+IT
+ un 88638
+IM
+ tn 1
+ ti 287
+ lo 9002
+PL
+
+63873 item artifact
+na Armor of Evinob
+IT
+ wt 10
+ un 80439
+IM
+ db 50
+
+63874 item npc_token
+na Banner of the Skeletons
+IT
+ un 42809
+IM
+ tn 1
+ ti 33
+ lo 9001
+PL
+
+63882 item 0
+na rare book
+IT
+ wt 5
+ un 78878
+IM
+ ms 164 
+
+63912 item 0
+na old book
+IT
+ wt 5
+ un 92548
+IM
+ ms 163 
+
+63913 item npc_token
+na Crown of the Barbarians
+IT
+ un 102395
+IM
+ tn 1
+ ti 34
+ lo 9005
+PL
+
+64024 item 0
+na rare book
+IT
+ wt 5
+ un 68027
+IM
+ ms 161 
+
+64101 item artifact
+na Sword of Coinbalth
+IT
+ wt 10
+ un 43418
+IM
+ ab 35
+
+64134 item 0
+na rare book
+IT
+ wt 5
+ un 63393
+IM
+ ms 163 
+
+64148 item npc_token
+na Golden idol of the Orcs
+IT
+ un 101062
+IM
+ tn 1
+ ti 287
+ lo 9002
+PL
+
+64157 item artifact
+na Helm of Syssale
+IT
+ wt 10
+ un 99990
+IM
+ db 40
+
+64177 item 0
+na rare book
+IT
+ wt 5
+ un 70845
+IM
+ ms 164 
+
+64187 item artifact
+na enchanted dagger
+IT
+ wt 10
+ un 79866
+IM
+ ab 25
+
+64218 item npc_token
+na Crown of the Undead lord
+IT
+ un 81807
+IM
+ tn 1
+ ti 31
+ lo 9003
+PL
+
+64330 item artifact
+na crystal longsword
+IT
+ wt 10
+ un 69726
+IM
+ ab 5
+
+64356 item artifact
+na Dart of Sallen
+IT
+ wt 10
+ un 92866
+IM
+ mb 5
+
+64383 item artifact
+na elven spear
+IT
+ wt 10
+ un 97504
+IM
+ mb 35
+
+64389 item artifact
+na elven armor
+IT
+ wt 10
+ un 66305
+IM
+ db 25
+
+64414 item artifact
+na Staff of Nuncarth
+IT
+ wt 10
+ un 43524
+IM
+ ba 2
+
+64476 item 0
+na rare book
+IT
+ wt 5
+ un 62313
+IM
+ ms 162 
+
+64478 item artifact
+na Ring of Evinob
+IT
+ wt 10
+ un 42937
+IM
+ ba 1
+
+64481 item npc_token
+na Golden idol of the Orcs
+IT
+ un 71798
+IM
+ tn 1
+ ti 287
+ lo 9002
+PL
+
+64556 item artifact
+na Longsword of Odasgunn
+IT
+ wt 10
+ un 65532
+IM
+ ab 35
+
+64564 item suffuse_ring
+na Golden ring
+IT
+ wt 1
+ un 71963
+IM
+ uk 12
+ lo 9010
+
+64607 item 0
+na rare book
+IT
+ wt 5
+ un 42896
+IM
+ ms 165 
+
+64618 item artifact
+na golden bow
+IT
+ wt 10
+ un 43551
+IM
+ mb 15
+
+64632 item artifact
+na golden amulet
+IT
+ wt 10
+ un 98944
+IM
+ ba 3
+
+64666 item artifact
+na golden dagger
+IT
+ wt 10
+ un 54550
+IM
+ ab 25
+
+64687 item 0
+na old book
+IT
+ wt 5
+ un 43057
+IM
+ ms 163 
+
+64732 item artifact
+na golden staff
+IT
+ wt 10
+ un 51434
+IM
+ ba 2
+
+64758 item npc_token
+na Banner of the Skeletons
+IT
+ un 83207
+IM
+ tn 1
+ ti 33
+ lo 9001
+PL
+
+64774 item 0
+na rare book
+IT
+ wt 5
+ un 43230
+IM
+ ms 164 
+
+64781 item 0
+na old book
+IT
+ wt 5
+ un 77868
+IM
+ ms 161 
+
+64827 item artifact
+na crystal longsword
+IT
+ wt 10
+ un 50995
+IM
+ ab 5
+
+64850 item npc_token
+na Crown of the Barbarians
+IT
+ un 96817
+IM
+ tn 1
+ ti 34
+ lo 9005
+PL
+
+64865 item artifact
+na Dagger of Nantasarn
+IT
+ wt 10
+ un 50151
+IM
+ ab 10
+
+64869 item artifact
+na golden dagger
+IT
+ wt 10
+ un 100915
+IM
+ ab 30
+
+64901 item npc_token
+na Banner of the Skeletons
+IT
+ un 93017
+IM
+ tn 1
+ ti 33
+ lo 9001
+PL
+
+64927 item artifact
+na elven dagger
+IT
+ wt 10
+ un 93714
+IM
+ ab 40
+
+64945 item artifact
+na elven helm
+IT
+ wt 10
+ un 51128
+IM
+ db 5
+
+64974 item artifact
+na enchanted amulet
+IT
+ wt 10
+ un 68863
+IM
+ ba 2
+
+64997 item npc_token
+na Banner of the Skeletons
+IT
+ un 65897
+IM
+ tn 1
+ ti 33
+ lo 9001
+PL
+
+65059 item 0
+na old book
+IT
+ wt 5
+ un 53970
+IM
+ ms 162 
+
+65064 item 0
+na old book
+IT
+ wt 5
+ un 57620
+IM
+ ms 165 
+
+65081 item npc_token
+na Crown of the Undead lord
+IT
+ un 86895
+IM
+ tn 1
+ ti 31
+ lo 9003
+PL
+
+65096 item npc_token
+na Banner of the Skeletons
+IT
+ un 71678
+IM
+ tn 1
+ ti 33
+ lo 9001
+PL
+
+65132 item npc_token
+na Banner of the Skeletons
+IT
+ un 42899
+IM
+ tn 1
+ ti 33
+ lo 9001
+PL
+
+65168 item artifact
+na Dart of Dorenth
+IT
+ wt 10
+ un 84075
+IM
+ mb 30
+
+65188 item 0
+na rare book
+IT
+ wt 5
+ un 92958
+IM
+ ms 161 
+
+65248 item artifact
+na Sword of Shotluth
+IT
+ wt 10
+ un 77339
+IM
+ ab 45
+
+65280 item artifact
+na enchanted longsword
+IT
+ wt 10
+ un 43280
+IM
+ ab 35
+
+65331 item artifact
+na Dart of Norbus
+IT
+ wt 10
+ un 54755
+IM
+ mb 35
+
+65359 item npc_token
+na Horn of the Savages
+IT
+ un 45062
+IM
+ tn 1
+ ti 32
+ lo 9004
+PL
+
+65411 item artifact
+na crystal armor
+IT
+ wt 10
+ un 94915
+IM
+ db 20
+
+65445 item 0
+na rare book
+IT
+ wt 5
+ un 45042
+IM
+ ms 163 
+
+65446 item artifact
+na golden bow
+IT
+ wt 10
+ un 74271
+IM
+ mb 5
+
+65468 item npc_token
+na Horn of the Savages
+IT
+ un 47488
+IM
+ tn 1
+ ti 32
+ lo 9004
+PL
+
+65506 item artifact
+na Sword of Pyrellica
+IT
+ wt 10
+ un 61476
+IM
+ ab 15
+
+65550 item artifact
+na elven dart
+IT
+ wt 10
+ un 80589
+IM
+ mb 25
+
+65590 item 0
+na old book
+IT
+ wt 5
+ un 77250
+IM
+ ms 164 
+
+65661 item artifact
+na golden staff
+IT
+ wt 10
+ un 101349
+IM
+ ba 1
+
+65675 item artifact
+na crystal bow
+IT
+ wt 10
+ un 59163
+IM
+ mb 45
+
+65716 item npc_token
+na Horn of the Savages
+IT
+ un 93745
+IM
+ tn 1
+ ti 32
+ lo 9004
+PL
+
+65766 item 0
+na rare book
+IT
+ wt 5
+ un 50079
+IM
+ ms 161 
+
+65800 item npc_token
+na Horn of the Savages
+IT
+ un 99339
+IM
+ tn 1
+ ti 32
+ lo 9004
+PL
+
+65817 item 0
+na old book
+IT
+ wt 5
+ un 89105
+IM
+ ms 161 
+
+65819 item artifact
+na Armor of Beebas
+IT
+ wt 10
+ un 54942
+IM
+ db 10
+
+65851 item 0
+na old book
+IT
+ wt 5
+ un 55182
+IM
+ ms 163 
+
+65863 item 0
+na rare book
+IT
+ wt 5
+ un 80951
+IM
+ ms 163 
+
+65874 item npc_token
+na Horn of the Savages
+IT
+ un 90347
+IM
+ tn 1
+ ti 32
+ lo 9004
+PL
+
+65933 item 0
+na old book
+IT
+ wt 5
+ un 100475
+IM
+ ms 164 
+
+66023 item npc_token
+na Banner of the Skeletons
+IT
+ un 78400
+IM
+ tn 1
+ ti 33
+ lo 9001
+PL
+
+66078 item 0
+na old book
+IT
+ wt 5
+ un 49791
+IM
+ ms 164 
+
+66104 item npc_token
+na Banner of the Skeletons
+IT
+ un 48002
+IM
+ tn 1
+ ti 33
+ lo 9001
+PL
+
+66155 item artifact
+na magic amulet
+IT
+ wt 10
+ un 45167
+IM
+ ba 1
+
+66164 item artifact
+na Helm of Grindor
+IT
+ wt 10
+ un 47734
+IM
+ db 15
+
+66198 item 0
+na rare book
+IT
+ wt 5
+ un 52203
+IM
+ ms 165 
+
+66206 item artifact
+na golden armor
+IT
+ wt 10
+ un 84536
+IM
+ db 20
+
+66214 item artifact
+na enchanted armor
+IT
+ wt 10
+ un 54430
+IM
+ db 5
+
+66270 item artifact
+na golden shield
+IT
+ wt 10
+ un 63477
+IM
+ db 15
+
+66278 item artifact
+na Longsword of Syssale
+IT
+ wt 10
+ un 99198
+IM
+ ab 30
+
+66286 item npc_token
+na Golden idol of the Orcs
+IT
+ un 95796
+IM
+ tn 1
+ ti 287
+ lo 9002
+PL
+
+66303 item artifact
+na elven staff
+IT
+ wt 10
+ un 43282
+IM
+ ba 1
+
+66384 item 0
+na rare book
+IT
+ wt 5
+ un 75686
+IM
+ ms 162 
+
+66406 item npc_token
+na Banner of the Skeletons
+IT
+ un 60312
+IM
+ tn 1
+ ti 33
+ lo 9001
+PL
+
+66418 item artifact
+na elven helm
+IT
+ wt 10
+ un 43454
+IM
+ db 25
+
+66450 item 0
+na rare book
+IT
+ wt 5
+ un 99618
+IM
+ ms 164 
+
+66469 item artifact
+na crystal javelin
+IT
+ wt 10
+ un 70267
+IM
+ mb 30
+
+66490 item 0
+na old book
+IT
+ wt 5
+ un 71227
+IM
+ ms 161 
+
+66588 item npc_token
+na Crown of the Undead lord
+IT
+ un 49267
+IM
+ tn 1
+ ti 31
+ lo 9003
+PL
+
+66597 item npc_token
+na Crown of the Barbarians
+IT
+ un 51514
+IM
+ tn 1
+ ti 34
+ lo 9005
+PL
+
+66610 item artifact
+na magic armor
+IT
+ wt 10
+ un 95832
+IM
+ db 50
+
+66650 item 0
+na rare book
+IT
+ wt 5
+ un 81266
+IM
+ ms 162 
+
+66664 item npc_token
+na Horn of the Savages
+IT
+ un 54621
+IM
+ tn 1
+ ti 32
+ lo 9004
+PL
+
+66666 item artifact
+na elven helm
+IT
+ wt 10
+ un 47250
+IM
+ db 15
+
+66720 item artifact
+na magic ring
+IT
+ wt 10
+ un 97737
+IM
+ ba 3
+
+66721 item npc_token
+na Banner of the Skeletons
+IT
+ un 86798
+IM
+ tn 1
+ ti 33
+ lo 9001
+PL
+
+66772 item artifact
+na elven helm
+IT
+ wt 10
+ un 80096
+IM
+ db 35
+
+66815 item artifact
+na crystal bow
+IT
+ wt 10
+ un 95649
+IM
+ mb 5
+
+66832 item artifact
+na enchanted armor
+IT
+ wt 10
+ un 95634
+IM
+ db 30
+
+66836 item artifact
+na enchanted dagger
+IT
+ wt 10
+ un 78962
+IM
+ ab 35
+
+66840 item npc_token
+na Banner of the Skeletons
+IT
+ un 62191
+IM
+ tn 1
+ ti 33
+ lo 9001
+PL
+
+66980 item npc_token
+na Horn of the Savages
+IT
+ un 79258
+IM
+ tn 1
+ ti 32
+ lo 9004
+PL
+
+66989 item artifact
+na Bow of Lassan
+IT
+ wt 10
+ un 75893
+IM
+ mb 10
+
+66997 item npc_token
+na Golden idol of the Orcs
+IT
+ un 64629
+IM
+ tn 1
+ ti 287
+ lo 9002
+PL
+
+67019 item 0
+na rare book
+IT
+ wt 5
+ un 100115
+IM
+ ms 163 
+
+67085 item npc_token
+na Crown of the Undead lord
+IT
+ un 64805
+IM
+ tn 1
+ ti 31
+ lo 9003
+PL
+
+67161 item artifact
+na crystal spear
+IT
+ wt 10
+ un 101309
+IM
+ mb 20
+
+67185 item 0
+na rare book
+IT
+ wt 5
+ un 83068
+IM
+ ms 161 
+
+67194 item artifact
+na golden dart
+IT
+ wt 10
+ un 81272
+IM
+ mb 20
+
+67215 item 0
+na rare book
+IT
+ wt 5
+ un 90123
+IM
+ ms 161 
+
+67249 item npc_token
+na Horn of the Savages
+IT
+ un 45466
+IM
+ tn 1
+ ti 32
+ lo 9004
+PL
+
+67310 item artifact
+na crystal armor
+IT
+ wt 10
+ un 55965
+IM
+ db 40
+
+67364 item 0
+na rare book
+IT
+ wt 5
+ un 71332
+IM
+ ms 165 
+
+67387 item npc_token
+na Horn of the Savages
+IT
+ un 43848
+IM
+ tn 1
+ ti 32
+ lo 9004
+PL
+
+67401 item artifact
+na elven armor
+IT
+ wt 10
+ un 59314
+IM
+ db 35
+
+67476 item artifact
+na magic bow
+IT
+ wt 10
+ un 101652
+IM
+ mb 20
+
+67528 item npc_token
+na Crown of the Barbarians
+IT
+ un 55796
+IM
+ tn 1
+ ti 34
+ lo 9005
+PL
+
+67536 item artifact
+na golden ring
+IT
+ wt 10
+ un 46021
+IM
+ ba 1
+
+67558 item npc_token
+na Horn of the Savages
+IT
+ un 76343
+IM
+ tn 1
+ ti 32
+ lo 9004
+PL
+
+67582 item artifact
+na crystal amulet
+IT
+ wt 10
+ un 83112
+IM
+ ba 3
+
+67595 item npc_token
+na Banner of the Skeletons
+IT
+ un 78537
+IM
+ tn 1
+ ti 33
+ lo 9001
+PL
+
+67616 item 0
+na rare book
+IT
+ wt 5
+ un 72522
+IM
+ ms 161 
+
+67634 item artifact
+na crystal javelin
+IT
+ wt 10
+ un 73683
+IM
+ mb 15
+
+67637 item 0
+na rare book
+IT
+ wt 5
+ un 43204
+IM
+ ms 165 
+
+67657 item 0
+na old book
+IT
+ wt 5
+ un 66858
+IM
+ ms 165 
+
+67660 item npc_token
+na Horn of the Savages
+IT
+ un 73460
+IM
+ tn 1
+ ti 32
+ lo 9004
+PL
+
+67704 item artifact
+na golden amulet
+IT
+ wt 10
+ un 51237
+IM
+ ba 1
+
+67723 item npc_token
+na Crown of the Undead lord
+IT
+ un 97055
+IM
+ tn 1
+ ti 31
+ lo 9003
+PL
+
+67724 item artifact
+na golden dart
+IT
+ wt 10
+ un 82707
+IM
+ mb 15
+
+67730 item 0
+na rare book
+IT
+ wt 5
+ un 63685
+IM
+ ms 161 
+
+67732 item 0
+na rare book
+IT
+ wt 5
+ un 43814
+IM
+ ms 163 
+
+67747 item artifact
+na golden staff
+IT
+ wt 10
+ un 83744
+IM
+ ba 2
+
+67854 item artifact
+na crystal dart
+IT
+ wt 10
+ un 88102
+IM
+ mb 5
+
+67884 item artifact
+na crystal longsword
+IT
+ wt 10
+ un 47022
+IM
+ ab 30
+
+67896 item artifact
+na Dart of Kichea
+IT
+ wt 10
+ un 65692
+IM
+ mb 5
+
+67949 item 0
+na old book
+IT
+ wt 5
+ un 43754
+IM
+ ms 162 
+
+67973 item npc_token
+na Banner of the Skeletons
+IT
+ un 83057
+IM
+ tn 1
+ ti 33
+ lo 9001
+PL
+
+68021 item artifact
+na crystal sword
+IT
+ wt 10
+ un 70692
+IM
+ ab 40
+
+68023 item 0
+na old book
+IT
+ wt 5
+ un 64257
+IM
+ ms 163 
+
+68032 item npc_token
+na Golden idol of the Orcs
+IT
+ un 43459
+IM
+ tn 1
+ ti 287
+ lo 9002
+PL
+
+68059 item artifact
+na Javelin of Shavnor
+IT
+ wt 10
+ un 44011
+IM
+ mb 5
+
+68060 item 0
+na old book
+IT
+ wt 5
+ un 90025
+IM
+ ms 164 
+
+68068 item 0
+na old book
+IT
+ wt 5
+ un 73972
+IM
+ ms 164 
+
+68083 item npc_token
+na Banner of the Skeletons
+IT
+ un 52196
+IM
+ tn 1
+ ti 33
+ lo 9001
+PL
+
+68184 item artifact
+na Amulet of Birdan
+IT
+ wt 10
+ un 52838
+IM
+ ba 3
+
+68190 item 0
+na old book
+IT
+ wt 5
+ un 87214
+IM
+ ms 163 
+
+68205 item artifact
+na golden amulet
+IT
+ wt 10
+ un 76421
+IM
+ ba 1
+
+68243 item npc_token
+na Banner of the Skeletons
+IT
+ un 84341
+IM
+ tn 1
+ ti 33
+ lo 9001
+PL
+
+68248 item artifact
+na elven ring
+IT
+ wt 10
+ un 43027
+IM
+ ba 1
+
+68284 item artifact
+na Dagger of Lethrys
+IT
+ wt 10
+ un 101615
+IM
+ ab 30
+
+68335 item artifact
+na enchanted sword
+IT
+ wt 10
+ un 82570
+IM
+ ab 40
+
+68405 item artifact
+na Staff of Shotluth
+IT
+ wt 10
+ un 64709
+IM
+ ba 1
+
+68431 item 0
+na old book
+IT
+ wt 5
+ un 76910
+IM
+ ms 161 
+
+68470 item npc_token
+na Crown of the Barbarians
+IT
+ un 43132
+IM
+ tn 1
+ ti 34
+ lo 9005
+PL
+
+68484 item artifact
+na enchanted shield
+IT
+ wt 10
+ un 43844
+IM
+ db 40
+
+68537 item artifact
+na Ring of Eadak
+IT
+ wt 10
+ un 76185
+IM
+ ba 2
+
+68587 item 0
+na rare book
+IT
+ wt 5
+ un 89747
+IM
+ ms 161 
+
+68632 item artifact
+na golden dagger
+IT
+ wt 10
+ un 74532
+IM
+ ab 30
+
+68634 item artifact
+na Sword of Aldain
+IT
+ wt 10
+ un 66074
+IM
+ ab 30
+
+68721 item npc_token
+na Crown of the Undead lord
+IT
+ un 62431
+IM
+ tn 1
+ ti 31
+ lo 9003
+PL
+
+68724 item artifact
+na elven armor
+IT
+ wt 10
+ un 78076
+IM
+ db 5
+
+68755 item npc_token
+na Horn of the Savages
+IT
+ un 73140
+IM
+ tn 1
+ ti 32
+ lo 9004
+PL
+
+68800 item 0
+na rare book
+IT
+ wt 5
+ un 76151
+IM
+ ms 164 
+
+68838 item npc_token
+na Banner of the Skeletons
+IT
+ un 42881
+IM
+ tn 1
+ ti 33
+ lo 9001
+PL
+
+68875 item artifact
+na enchanted spear
+IT
+ wt 10
+ un 96654
+IM
+ mb 25
+
+68910 item artifact
+na enchanted longsword
+IT
+ wt 10
+ un 100512
+IM
+ ab 25
+
+68997 item artifact
+na elven armor
+IT
+ wt 10
+ un 76178
+IM
+ db 25
+
+69002 item npc_token
+na Crown of the Undead lord
+IT
+ un 72368
+IM
+ tn 1
+ ti 31
+ lo 9003
+PL
+
+69025 item npc_token
+na Golden idol of the Orcs
+IT
+ un 79807
+IM
+ tn 1
+ ti 287
+ lo 9002
+PL
+
+69039 item artifact
+na golden dagger
+IT
+ wt 10
+ un 72754
+IM
+ ab 5
+
+69064 item artifact
+na enchanted dagger
+IT
+ wt 10
+ un 83807
+IM
+ ab 30
+
+69112 item 0
+na old book
+IT
+ wt 5
+ un 55530
+IM
+ ms 162 
+
+69153 item 0
+na rare book
+IT
+ wt 5
+ un 45154
+IM
+ ms 163 
+
+69171 item artifact
+na crystal dagger
+IT
+ wt 10
+ un 42847
+IM
+ ab 40
+
+69294 item artifact
+na magic dagger
+IT
+ wt 10
+ un 49066
+IM
+ ab 10
+
+69355 item npc_token
+na Crown of the Barbarians
+IT
+ un 44906
+IM
+ tn 1
+ ti 34
+ lo 9005
+PL
+
+69382 item artifact
+na crystal ring
+IT
+ wt 10
+ un 95908
+IM
+ ba 3
+
+69401 item artifact
+na enchanted javelin
+IT
+ wt 10
+ un 99785
+IM
+ mb 45
+
+69436 item 0
+na old book
+IT
+ wt 5
+ un 84360
+IM
+ ms 162 
+
+69452 item artifact
+na crystal bow
+IT
+ wt 10
+ un 43596
+IM
+ mb 40
+
+69543 item artifact
+na crystal javelin
+IT
+ wt 10
+ un 101643
+IM
+ mb 10
+
+69566 item artifact
+na Helm of Areth Pirn
+IT
+ wt 10
+ un 84628
+IM
+ db 5
+
+69647 item 0
+na rare book
+IT
+ wt 5
+ un 89012
+IM
+ ms 162 
+
+69674 item artifact
+na elven spear
+IT
+ wt 10
+ un 62445
+IM
+ mb 5
+
+69679 item artifact
+na enchanted spear
+IT
+ wt 10
+ un 84069
+IM
+ mb 5
+
+69702 item artifact
+na Amulet of Fornil
+IT
+ wt 10
+ un 83392
+IM
+ ba 1
+
+69728 item artifact
+na Shield of Kior
+IT
+ wt 10
+ un 67623
+IM
+ db 50
+
+69732 item artifact
+na crystal dagger
+IT
+ wt 10
+ un 62912
+IM
+ ab 5
+
+69765 item npc_token
+na Horn of the Savages
+IT
+ un 88097
+IM
+ tn 1
+ ti 32
+ lo 9004
+PL
+
+69799 item artifact
+na Helm of Rhonius
+IT
+ wt 10
+ un 61509
+IM
+ db 30
+
+69877 item npc_token
+na Golden idol of the Orcs
+IT
+ un 49537
+IM
+ tn 1
+ ti 287
+ lo 9002
+PL
+
+69909 item artifact
+na elven spear
+IT
+ wt 10
+ un 50076
+IM
+ mb 20
+
+69921 item npc_token
+na Horn of the Savages
+IT
+ un 65859
+IM
+ tn 1
+ ti 32
+ lo 9004
+PL
+
+69925 item artifact
+na magic dart
+IT
+ wt 10
+ un 97522
+IM
+ mb 25
+
+69937 item 0
+na rare book
+IT
+ wt 5
+ un 50689
+IM
+ ms 162 
+
+69988 item artifact
+na magic amulet
+IT
+ wt 10
+ un 88043
+IM
+ ba 1
+
+70064 item artifact
+na crystal dagger
+IT
+ wt 10
+ un 98902
+IM
+ ab 45
+
+70106 item artifact
+na elven sword
+IT
+ wt 10
+ un 57154
+IM
+ ab 20
+
+70120 item 0
+na rare book
+IT
+ wt 5
+ un 65042
+IM
+ ms 161 
+
+70188 item 0
+na rare book
+IT
+ wt 5
+ un 75348
+IM
+ ms 165 
+
+70201 item 0
+na rare book
+IT
+ wt 5
+ un 91906
+IM
+ ms 165 
+
+70240 item 0
+na old book
+IT
+ wt 5
+ un 59766
+IM
+ ms 162 
+
+70248 item npc_token
+na Crown of the Undead lord
+IT
+ un 61694
+IM
+ tn 1
+ ti 31
+ lo 9003
+PL
+
+70259 item artifact
+na magic longsword
+IT
+ wt 10
+ un 55429
+IM
+ ab 30
+
+70296 item npc_token
+na Golden idol of the Orcs
+IT
+ un 88429
+IM
+ tn 1
+ ti 287
+ lo 9002
+PL
+
+70299 item artifact
+na golden sword
+IT
+ wt 10
+ un 64339
+IM
+ ab 20
+
+70334 item npc_token
+na Crown of the Undead lord
+IT
+ un 80537
+IM
+ tn 1
+ ti 31
+ lo 9003
+PL
+
+70346 item artifact
+na golden spear
+IT
+ wt 10
+ un 87111
+IM
+ mb 20
+
+70454 item 0
+na rare book
+IT
+ wt 5
+ un 78092
+IM
+ ms 161 
+
+70464 item npc_token
+na Crown of the Undead lord
+IT
+ un 43298
+IM
+ tn 1
+ ti 31
+ lo 9003
+PL
+
+70477 item 0
+na old book
+IT
+ wt 5
+ un 77807
+IM
+ ms 163 
+
+70490 item npc_token
+na Horn of the Savages
+IT
+ un 55704
+IM
+ tn 1
+ ti 32
+ lo 9004
+PL
+
+70492 item artifact
+na enchanted spear
+IT
+ wt 10
+ un 42887
+IM
+ mb 40
+
+70522 item artifact
+na golden dagger
+IT
+ wt 10
+ un 95651
+IM
+ ab 20
+
+70580 item artifact
+na elven dart
+IT
+ wt 10
+ un 99890
+IM
+ mb 30
+
+70597 item 0
+na rare book
+IT
+ wt 5
+ un 81959
+IM
+ ms 164 
+
+70694 item npc_token
+na Golden idol of the Orcs
+IT
+ un 86765
+IM
+ tn 1
+ ti 287
+ lo 9002
+PL
+
+70696 item 0
+na old book
+IT
+ wt 5
+ un 43583
+IM
+ ms 164 
+
+70730 item artifact
+na magic dart
+IT
+ wt 10
+ un 78588
+IM
+ mb 5
+
+70779 item 0
+na old book
+IT
+ wt 5
+ un 91824
+IM
+ ms 161 
+
+70808 item npc_token
+na Crown of the Undead lord
+IT
+ un 59280
+IM
+ tn 1
+ ti 31
+ lo 9003
+PL
+
+70840 item artifact
+na elven bow
+IT
+ wt 10
+ un 100296
+IM
+ mb 15
+
+70854 item 0
+na old book
+IT
+ wt 5
+ un 43241
+IM
+ ms 164 
+
+70896 item artifact
+na golden amulet
+IT
+ wt 10
+ un 53252
+IM
+ ba 3
+
+70902 item artifact
+na enchanted bow
+IT
+ wt 10
+ un 95134
+IM
+ mb 10
+
+70911 item 0
+na old book
+IT
+ wt 5
+ un 44851
+IM
+ ms 162 
+
+70920 item artifact
+na elven dart
+IT
+ wt 10
+ un 64376
+IM
+ mb 10
+
+70991 item npc_token
+na Crown of the Undead lord
+IT
+ un 76884
+IM
+ tn 1
+ ti 31
+ lo 9003
+PL
+
+71091 item npc_token
+na Banner of the Skeletons
+IT
+ un 60432
+IM
+ tn 1
+ ti 33
+ lo 9001
+PL
+
+71133 item artifact
+na elven amulet
+IT
+ wt 10
+ un 88376
+IM
+ ba 1
+
+71256 item artifact
+na enchanted ring
+IT
+ wt 10
+ un 68499
+IM
+ ba 1
+
+71335 item npc_token
+na Banner of the Skeletons
+IT
+ un 87752
+IM
+ tn 1
+ ti 33
+ lo 9001
+PL
+
+71337 item artifact
+na elven dagger
+IT
+ wt 10
+ un 68665
+IM
+ ab 20
+
+71370 item artifact
+na crystal javelin
+IT
+ wt 10
+ un 43376
+IM
+ mb 35
+
+71382 item artifact
+na golden amulet
+IT
+ wt 10
+ un 78411
+IM
+ ba 1
+
+71401 item artifact
+na enchanted amulet
+IT
+ wt 10
+ un 51268
+IM
+ ba 1
+
+71418 item suffuse_ring
+na Golden ring
+IT
+ wt 1
+ un 45501
+IM
+ uk 11
+ lo 9009
+
+71439 item artifact
+na crystal helm
+IT
+ wt 10
+ un 43523
+IM
+ db 35
+
+71477 item 0
+na old book
+IT
+ wt 5
+ un 62060
+IM
+ ms 163 
+
+71492 item artifact
+na Ring of Perendor
+IT
+ wt 10
+ un 79707
+IM
+ ba 1
+
+71505 item artifact
+na enchanted dagger
+IT
+ wt 10
+ un 58120
+IM
+ ab 10
+
+71539 item npc_token
+na Horn of the Savages
+IT
+ un 51951
+IM
+ tn 1
+ ti 32
+ lo 9004
+PL
+
+71548 item npc_token
+na Golden idol of the Orcs
+IT
+ un 93767
+IM
+ tn 1
+ ti 287
+ lo 9002
+PL
+
+71576 item npc_token
+na Horn of the Savages
+IT
+ un 43563
+IM
+ tn 1
+ ti 32
+ lo 9004
+PL
+
+71591 item npc_token
+na Crown of the Undead lord
+IT
+ un 50738
+IM
+ tn 1
+ ti 31
+ lo 9003
+PL
+
+71593 item 0
+na rare book
+IT
+ wt 5
+ un 82423
+IM
+ ms 161 
+
+71644 item 0
+na old book
+IT
+ wt 5
+ un 87995
+IM
+ ms 162 
+
+71759 item 0
+na rare book
+IT
+ wt 5
+ un 42792
+IM
+ ms 165 
+
+71812 item 0
+na rare book
+IT
+ wt 5
+ un 99839
+IM
+ ms 161 
+
+71813 item artifact
+na enchanted javelin
+IT
+ wt 10
+ un 43641
+IM
+ mb 5
+
+71821 item artifact
+na Armor of Plagcath
+IT
+ wt 10
+ un 74408
+IM
+ db 10
+
+71843 item artifact
+na Sword of Bayarth
+IT
+ wt 10
+ un 77646
+IM
+ ab 30
+
+71889 item artifact
+na crystal staff
+IT
+ wt 10
+ un 62800
+IM
+ ba 3
+
+71897 item artifact
+na golden spear
+IT
+ wt 10
+ un 72831
+IM
+ mb 20
+
+71898 item npc_token
+na Horn of the Savages
+IT
+ un 52558
+IM
+ tn 1
+ ti 32
+ lo 9004
+PL
+
+71933 item npc_token
+na Crown of the Barbarians
+IT
+ un 77187
+IM
+ tn 1
+ ti 34
+ lo 9005
+PL
+
+71972 item npc_token
+na Crown of the Undead lord
+IT
+ un 72279
+IM
+ tn 1
+ ti 31
+ lo 9003
+PL
+
+72053 item artifact
+na Armor of Lassan
+IT
+ wt 10
+ un 59702
+IM
+ db 10
+
+72068 item artifact
+na Helm of Dafarik
+IT
+ wt 10
+ un 60528
+IM
+ db 30
+
+72128 item artifact
+na Longsword of Pirn
+IT
+ wt 10
+ un 63679
+IM
+ ab 25
+
+72162 item artifact
+na Shield of Salamus
+IT
+ wt 10
+ un 45292
+IM
+ db 20
+
+72252 item 0
+na old book
+IT
+ wt 5
+ un 77169
+IM
+ ms 165 
+
+72280 item artifact
+na crystal spear
+IT
+ wt 10
+ un 87968
+IM
+ mb 10
+
+72326 item 0
+na old book
+IT
+ wt 5
+ un 84791
+IM
+ ms 162 
+
+72345 item npc_token
+na Crown of the Barbarians
+IT
+ un 85905
+IM
+ tn 1
+ ti 34
+ lo 9005
+PL
+
+72379 item 0
+na old book
+IT
+ wt 5
+ un 94272
+IM
+ ms 162 
+
+72395 item artifact
+na Longsword of Moldarth
+IT
+ wt 10
+ un 70930
+IM
+ ab 10
+
+72449 item artifact
+na Ring of Estbeorn
+IT
+ wt 10
+ un 81706
+IM
+ ba 3
+
+72451 item artifact
+na Dagger of Shotluth
+IT
+ wt 10
+ un 42818
+IM
+ ab 10
+
+72527 item 0
+na old book
+IT
+ wt 5
+ un 66723
+IM
+ ms 162 
+
+72556 item artifact
+na golden dart
+IT
+ wt 10
+ un 51261
+IM
+ mb 20
+
+72557 item npc_token
+na Crown of the Undead lord
+IT
+ un 72235
+IM
+ tn 1
+ ti 31
+ lo 9003
+PL
+
+72577 item artifact
+na magic helm
+IT
+ wt 10
+ un 84461
+IM
+ db 30
+
+72661 item artifact
+na magic helm
+IT
+ wt 10
+ un 96376
+IM
+ db 10
+
+72693 item npc_token
+na Golden idol of the Orcs
+IT
+ un 80833
+IM
+ tn 1
+ ti 287
+ lo 9002
+PL
+
+72707 item artifact
+na enchanted helm
+IT
+ wt 10
+ un 52895
+IM
+ db 50
+
+72735 item npc_token
+na Crown of the Undead lord
+IT
+ un 79565
+IM
+ tn 1
+ ti 31
+ lo 9003
+PL
+
+72779 item npc_token
+na Crown of the Undead lord
+IT
+ un 85181
+IM
+ tn 1
+ ti 31
+ lo 9003
+PL
+
+72798 item artifact
+na Spear of Eadak
+IT
+ wt 10
+ un 43208
+IM
+ mb 15
+
+72854 item npc_token
+na Golden idol of the Orcs
+IT
+ un 53084
+IM
+ tn 1
+ ti 287
+ lo 9002
+PL
+
+72880 item 0
+na rare book
+IT
+ wt 5
+ un 52107
+IM
+ ms 165 
+
+72892 item 0
+na rare book
+IT
+ wt 5
+ un 50566
+IM
+ ms 163 
+
+72925 item 0
+na old book
+IT
+ wt 5
+ un 80272
+IM
+ ms 165 
+
+72931 item artifact
+na elven staff
+IT
+ wt 10
+ un 43070
+IM
+ ba 3
+
+72933 item artifact
+na golden spear
+IT
+ wt 10
+ un 61355
+IM
+ mb 25
+
+72974 item 0
+na old book
+IT
+ wt 5
+ un 88311
+IM
+ ms 161 
+
+73010 item npc_token
+na Banner of the Skeletons
+IT
+ un 94996
+IM
+ tn 1
+ ti 33
+ lo 9001
+PL
+
+73020 item artifact
+na elven ring
+IT
+ wt 10
+ un 86434
+IM
+ ba 1
+
+73085 item npc_token
+na Banner of the Skeletons
+IT
+ un 43180
+IM
+ tn 1
+ ti 33
+ lo 9001
+PL
+
+73265 item npc_token
+na Crown of the Undead lord
+IT
+ un 89656
+IM
+ tn 1
+ ti 31
+ lo 9003
+PL
+
+73271 item artifact
+na magic armor
+IT
+ wt 10
+ un 76726
+IM
+ db 35
+
+73290 item artifact
+na crystal dagger
+IT
+ wt 10
+ un 97133
+IM
+ ab 50
+
+73296 item artifact
+na enchanted javelin
+IT
+ wt 10
+ un 48916
+IM
+ mb 25
+
+73298 item artifact
+na enchanted helm
+IT
+ wt 10
+ un 59027
+IM
+ db 20
+
+73389 item artifact
+na crystal spear
+IT
+ wt 10
+ un 93875
+IM
+ mb 30
+
+73414 item artifact
+na Dagger of Plagcath
+IT
+ wt 10
+ un 54628
+IM
+ ab 20
+
+73461 item artifact
+na enchanted longsword
+IT
+ wt 10
+ un 58888
+IM
+ ab 45
+
+73481 item artifact
+na Sword of Ferenth
+IT
+ wt 10
+ un 99740
+IM
+ ab 15
+
+73492 item 0
+na old book
+IT
+ wt 5
+ un 101430
+IM
+ ms 161 
+
+73543 item npc_token
+na Golden idol of the Orcs
+IT
+ un 83028
+IM
+ tn 1
+ ti 287
+ lo 9002
+PL
+
+73601 item artifact
+na enchanted staff
+IT
+ wt 10
+ un 43799
+IM
+ ba 2
+
+73622 item artifact
+na elven staff
+IT
+ wt 10
+ un 95902
+IM
+ ba 3
+
+73626 item npc_token
+na Crown of the Barbarians
+IT
+ un 52577
+IM
+ tn 1
+ ti 34
+ lo 9005
+PL
+
+73669 item artifact
+na Amulet of Justice
+IT
+ wt 10
+ un 91262
+IM
+ ba 1
+
+73745 item 0
+na rare book
+IT
+ wt 5
+ un 87121
+IM
+ ms 162 
+
+73812 item npc_token
+na Crown of the Undead lord
+IT
+ un 75191
+IM
+ tn 1
+ ti 31
+ lo 9003
+PL
+
+73880 item artifact
+na Javelin of Hamish
+IT
+ wt 10
+ un 49430
+IM
+ mb 40
+
+73901 item artifact
+na Ring of Nantasarn
+IT
+ wt 10
+ un 101460
+IM
+ ba 3
+
+73903 item 0
+na rare book
+IT
+ wt 5
+ un 61361
+IM
+ ms 164 
+
+73912 item npc_token
+na Crown of the Undead lord
+IT
+ un 54650
+IM
+ tn 1
+ ti 31
+ lo 9003
+PL
+
+73914 item npc_token
+na Banner of the Skeletons
+IT
+ un 55313
+IM
+ tn 1
+ ti 33
+ lo 9001
+PL
+
+74008 item 0
+na old book
+IT
+ wt 5
+ un 53332
+IM
+ ms 162 
+
+74015 item artifact
+na crystal dagger
+IT
+ wt 10
+ un 57171
+IM
+ ab 35
+
+74041 item artifact
+na Amulet of Pirn
+IT
+ wt 10
+ un 42756
+IM
+ ba 3
+
+74055 item artifact
+na Dagger of Dirbrand
+IT
+ wt 10
+ un 71233
+IM
+ ab 10
+
+74124 item 0
+na rare book
+IT
+ wt 5
+ un 89926
+IM
+ ms 165 
+
+74189 item artifact
+na golden ring
+IT
+ wt 10
+ un 43199
+IM
+ ba 3
+
+74193 item npc_token
+na Banner of the Skeletons
+IT
+ un 89983
+IM
+ tn 1
+ ti 33
+ lo 9001
+PL
+
+74260 item artifact
+na crystal spear
+IT
+ wt 10
+ un 43553
+IM
+ mb 40
+
+74262 item npc_token
+na Golden idol of the Orcs
+IT
+ un 77745
+IM
+ tn 1
+ ti 287
+ lo 9002
+PL
+
+74348 item artifact
+na golden helm
+IT
+ wt 10
+ un 43154
+IM
+ db 20
+
+74352 item 0
+na old book
+IT
+ wt 5
+ un 97791
+IM
+ ms 164 
+
+74413 item artifact
+na magic spear
+IT
+ wt 10
+ un 42858
+IM
+ mb 15
+
+74461 item artifact
+na enchanted ring
+IT
+ wt 10
+ un 98536
+IM
+ ba 2
+
+74467 item 0
+na rare book
+IT
+ wt 5
+ un 71466
+IM
+ ms 162 
+
+74485 item artifact
+na Spear of Lebrus
+IT
+ wt 10
+ un 48654
+IM
+ mb 5
+
+74507 item artifact
+na crystal sword
+IT
+ wt 10
+ un 97965
+IM
+ ab 5
+
+74535 item artifact
+na elven sword
+IT
+ wt 10
+ un 79147
+IM
+ ab 25
+
+74537 item 0
+na rare book
+IT
+ wt 5
+ un 82580
+IM
+ ms 162 
+
+74595 item npc_token
+na Horn of the Savages
+IT
+ un 73015
+IM
+ tn 1
+ ti 32
+ lo 9004
+PL
+
+74649 item 0
+na rare book
+IT
+ wt 5
+ un 90929
+IM
+ ms 161 
+
+74664 item artifact
+na crystal staff
+IT
+ wt 10
+ un 42902
+IM
+ ba 3
+
+74776 item npc_token
+na Crown of the Undead lord
+IT
+ un 92737
+IM
+ tn 1
+ ti 31
+ lo 9003
+PL
+
+74795 item 0
+na old book
+IT
+ wt 5
+ un 69366
+IM
+ ms 164 
+
+74815 item npc_token
+na Golden idol of the Orcs
+IT
+ un 69526
+IM
+ tn 1
+ ti 287
+ lo 9002
+PL
+
+74896 item artifact
+na magic longsword
+IT
+ wt 10
+ un 65925
+IM
+ ab 40
+
+74905 item 0
+na old book
+IT
+ wt 5
+ un 91462
+IM
+ ms 164 
+
+74915 item npc_token
+na Crown of the Barbarians
+IT
+ un 45781
+IM
+ tn 1
+ ti 34
+ lo 9005
+PL
+
+74933 item artifact
+na enchanted amulet
+IT
+ wt 10
+ un 75838
+IM
+ ba 2
+
+74997 item artifact
+na Shield of Nantasarn
+IT
+ wt 10
+ un 56566
+IM
+ db 15
+
+75010 item artifact
+na enchanted shield
+IT
+ wt 10
+ un 43056
+IM
+ db 40
+
+75066 item 0
+na old book
+IT
+ wt 5
+ un 78955
+IM
+ ms 161 
+
+75068 item 0
+na old book
+IT
+ wt 5
+ un 66356
+IM
+ ms 165 
+
+75110 item artifact
+na elven helm
+IT
+ wt 10
+ un 82354
+IM
+ db 20
+
+75118 item npc_token
+na Golden idol of the Orcs
+IT
+ un 57455
+IM
+ tn 1
+ ti 287
+ lo 9002
+PL
+
+75133 item 0
+na rare book
+IT
+ wt 5
+ un 51177
+IM
+ ms 161 
+
+75143 item npc_token
+na Banner of the Skeletons
+IT
+ un 43450
+IM
+ tn 1
+ ti 33
+ lo 9001
+PL
+
+75144 item artifact
+na enchanted shield
+IT
+ wt 10
+ un 91927
+IM
+ db 20
+
+75240 item 0
+na rare book
+IT
+ wt 5
+ un 101029
+IM
+ ms 165 
+
+75256 item artifact
+na Staff of Areth Lorbin
+IT
+ wt 10
+ un 78960
+IM
+ ba 3
+
+75280 item artifact
+na enchanted amulet
+IT
+ wt 10
+ un 78403
+IM
+ ba 3
+
+75283 item npc_token
+na Horn of the Savages
+IT
+ un 97771
+IM
+ tn 1
+ ti 32
+ lo 9004
+PL
+
+75286 item artifact
+na enchanted longsword
+IT
+ wt 10
+ un 61650
+IM
+ ab 50
+
+75326 item artifact
+na golden ring
+IT
+ wt 10
+ un 68564
+IM
+ ba 3
+
+75445 item npc_token
+na Banner of the Skeletons
+IT
+ un 55971
+IM
+ tn 1
+ ti 33
+ lo 9001
+PL
+
+75464 item 0
+na rare book
+IT
+ wt 5
+ un 101797
+IM
+ ms 165 
+
+75467 item npc_token
+na Golden idol of the Orcs
+IT
+ un 60702
+IM
+ tn 1
+ ti 287
+ lo 9002
+PL
+
+75470 item npc_token
+na Banner of the Skeletons
+IT
+ un 59603
+IM
+ tn 1
+ ti 33
+ lo 9001
+PL
+
+75547 item 0
+na rare book
+IT
+ wt 5
+ un 67303
+IM
+ ms 165 
+
+75569 item artifact
+na golden ring
+IT
+ wt 10
+ un 78162
+IM
+ ba 3
+
+75592 item 0
+na old book
+IT
+ wt 5
+ un 58773
+IM
+ ms 165 
+
+75642 item artifact
+na enchanted shield
+IT
+ wt 10
+ un 70558
+IM
+ db 15
+
+75726 item npc_token
+na Crown of the Barbarians
+IT
+ un 75555
+IM
+ tn 1
+ ti 34
+ lo 9005
+PL
+
+75786 item npc_token
+na Banner of the Skeletons
+IT
+ un 79240
+IM
+ tn 1
+ ti 33
+ lo 9001
+PL
+
+75836 item npc_token
+na Crown of the Undead lord
+IT
+ un 69435
+IM
+ tn 1
+ ti 31
+ lo 9003
+PL
+
+75882 item artifact
+na crystal javelin
+IT
+ wt 10
+ un 67692
+IM
+ mb 10
+
+76006 item npc_token
+na Crown of the Undead lord
+IT
+ un 49601
+IM
+ tn 1
+ ti 31
+ lo 9003
+PL
+
+76080 item 0
+na rare book
+IT
+ wt 5
+ un 100009
+IM
+ ms 165 
+
+76127 item artifact
+na Sword of Albrand
+IT
+ wt 10
+ un 43632
+IM
+ ab 40
+
+76202 item artifact
+na Helm of Resh
+IT
+ wt 10
+ un 93459
+IM
+ db 20
+
+76215 item 0
+na rare book
+IT
+ wt 5
+ un 54398
+IM
+ ms 163 
+
+76307 item 0
+na rare book
+IT
+ wt 5
+ un 44014
+IM
+ ms 162 
+
+76438 item artifact
+na Longsword of Sallen
+IT
+ wt 10
+ un 100984
+IM
+ ab 30
+
+76468 item artifact
+na enchanted shield
+IT
+ wt 10
+ un 83343
+IM
+ db 10
+
+76500 item npc_token
+na Crown of the Undead lord
+IT
+ un 94898
+IM
+ tn 1
+ ti 31
+ lo 9003
+PL
+
+76510 item npc_token
+na Horn of the Savages
+IT
+ un 42931
+IM
+ tn 1
+ ti 32
+ lo 9004
+PL
+
+76530 item 0
+na rare book
+IT
+ wt 5
+ un 42864
+IM
+ ms 163 
+
+76682 item artifact
+na enchanted helm
+IT
+ wt 10
+ un 69345
+IM
+ db 10
+
+76683 item npc_token
+na Banner of the Skeletons
+IT
+ un 56364
+IM
+ tn 1
+ ti 33
+ lo 9001
+PL
+
+76706 item 0
+na rare book
+IT
+ wt 5
+ un 100130
+IM
+ ms 161 
+
+76717 item artifact
+na crystal longsword
+IT
+ wt 10
+ un 78945
+IM
+ ab 35
+
+76754 item artifact
+na magic amulet
+IT
+ wt 10
+ un 90312
+IM
+ ba 3
+
+76848 item 0
+na rare book
+IT
+ wt 5
+ un 43478
+IM
+ ms 161 
+
+76913 item artifact
+na elven ring
+IT
+ wt 10
+ un 53930
+IM
+ ba 1
+
+76919 item artifact
+na Sword of Beebas
+IT
+ wt 10
+ un 93874
+IM
+ ab 10
+
+76921 item npc_token
+na Crown of the Undead lord
+IT
+ un 60340
+IM
+ tn 1
+ ti 31
+ lo 9003
+PL
+
+76932 item artifact
+na enchanted amulet
+IT
+ wt 10
+ un 43255
+IM
+ ba 2
+
+76971 item artifact
+na golden ring
+IT
+ wt 10
+ un 87076
+IM
+ ba 3
+
+76979 item 0
+na rare book
+IT
+ wt 5
+ un 54052
+IM
+ ms 161 
+
+77000 item artifact
+na elven ring
+IT
+ wt 10
+ un 101155
+IM
+ ba 2
+
+77082 item npc_token
+na Crown of the Undead lord
+IT
+ un 80939
+IM
+ tn 1
+ ti 31
+ lo 9003
+PL
+
+77106 item 0
+na rare book
+IT
+ wt 5
+ un 94401
+IM
+ ms 162 
+
+77206 item artifact
+na elven helm
+IT
+ wt 10
+ un 46112
+IM
+ db 15
+
+77208 item artifact
+na Armor of Resh
+IT
+ wt 10
+ un 80162
+IM
+ db 30
+
+77236 item npc_token
+na Golden idol of the Orcs
+IT
+ un 43306
+IM
+ tn 1
+ ti 287
+ lo 9002
+PL
+
+77275 item 0
+na old book
+IT
+ wt 5
+ un 55494
+IM
+ ms 164 
+
+77310 item artifact
+na Shield of Birdan
+IT
+ wt 10
+ un 83331
+IM
+ db 35
+
+77329 item 0
+na old book
+IT
+ wt 5
+ un 73099
+IM
+ ms 163 
+
+77341 item artifact
+na golden dagger
+IT
+ wt 10
+ un 94180
+IM
+ ab 35
+
+77356 item artifact
+na elven dart
+IT
+ wt 10
+ un 76560
+IM
+ mb 45
+
+77374 item npc_token
+na Horn of the Savages
+IT
+ un 69639
+IM
+ tn 1
+ ti 32
+ lo 9004
+PL
+
+77375 item npc_token
+na Golden idol of the Orcs
+IT
+ un 89211
+IM
+ tn 1
+ ti 287
+ lo 9002
+PL
+
+77464 item 0
+na old book
+IT
+ wt 5
+ un 98645
+IM
+ ms 163 
+
+77472 item 0
+na rare book
+IT
+ wt 5
+ un 62966
+IM
+ ms 162 
+
+77508 item npc_token
+na Crown of the Undead lord
+IT
+ un 55465
+IM
+ tn 1
+ ti 31
+ lo 9003
+PL
+
+77510 item 0
+na rare book
+IT
+ wt 5
+ un 90214
+IM
+ ms 162 
+
+77521 item 0
+na rare book
+IT
+ wt 5
+ un 44860
+IM
+ ms 161 
+
+77525 item 0
+na rare book
+IT
+ wt 5
+ un 43030
+IM
+ ms 165 
+
+77541 item 0
+na rare book
+IT
+ wt 5
+ un 61940
+IM
+ ms 161 
+
+77544 item 0
+na old book
+IT
+ wt 5
+ un 57631
+IM
+ ms 161 
+
+77558 item artifact
+na enchanted helm
+IT
+ wt 10
+ un 57256
+IM
+ db 5
+
+77579 item artifact
+na magic shield
+IT
+ wt 10
+ un 59804
+IM
+ db 20
+
+77598 item npc_token
+na Crown of the Undead lord
+IT
+ un 95616
+IM
+ tn 1
+ ti 31
+ lo 9003
+PL
+
+77675 item 0
+na rare book
+IT
+ wt 5
+ un 66088
+IM
+ ms 165 
+
+77748 item 0
+na rare book
+IT
+ wt 5
+ un 43283
+IM
+ ms 162 
+
+77758 item artifact
+na Longsword of Syssale
+IT
+ wt 10
+ un 67368
+IM
+ ab 35
+
+77799 item npc_token
+na Crown of the Undead lord
+IT
+ un 99786
+IM
+ tn 1
+ ti 31
+ lo 9003
+PL
+
+77830 item artifact
+na magic javelin
+IT
+ wt 10
+ un 63094
+IM
+ mb 35
+
+77895 item artifact
+na golden dart
+IT
+ wt 10
+ un 92319
+IM
+ mb 20
+
+77899 item artifact
+na Staff of Antresk
+IT
+ wt 10
+ un 85027
+IM
+ ba 2
+
+77910 item artifact
+na enchanted dagger
+IT
+ wt 10
+ un 50333
+IM
+ ab 15
+
+77913 item artifact
+na crystal dart
+IT
+ wt 10
+ un 62421
+IM
+ mb 25
+
+77981 item artifact
+na Ring of Baraxes
+IT
+ wt 10
+ un 56646
+IM
+ ba 3
+
+78094 item 0
+na old book
+IT
+ wt 5
+ un 46031
+IM
+ ms 163 
+
+78131 item npc_token
+na Banner of the Skeletons
+IT
+ un 53200
+IM
+ tn 1
+ ti 33
+ lo 9001
+PL
+
+78243 item artifact
+na elven spear
+IT
+ wt 10
+ un 60195
+IM
+ mb 25
+
+78300 item artifact
+na elven dart
+IT
+ wt 10
+ un 58496
+IM
+ mb 10
+
+78313 item artifact
+na enchanted dart
+IT
+ wt 10
+ un 94196
+IM
+ mb 45
+
+78376 item npc_token
+na Crown of the Barbarians
+IT
+ un 81978
+IM
+ tn 1
+ ti 34
+ lo 9005
+PL
+
+78412 item npc_token
+na Crown of the Undead lord
+IT
+ un 79788
+IM
+ tn 1
+ ti 31
+ lo 9003
+PL
+
+78469 item artifact
+na Dart of Resh
+IT
+ wt 10
+ un 48554
+IM
+ mb 5
+
+78471 item artifact
+na Amulet of Shotluth
+IT
+ wt 10
+ un 96350
+IM
+ ba 2
+
+78484 item npc_token
+na Crown of the Barbarians
+IT
+ un 61750
+IM
+ tn 1
+ ti 34
+ lo 9005
+PL
+
+78494 item npc_token
+na Golden idol of the Orcs
+IT
+ un 87575
+IM
+ tn 1
+ ti 287
+ lo 9002
+PL
+
+78499 item npc_token
+na Crown of the Undead lord
+IT
+ un 87866
+IM
+ tn 1
+ ti 31
+ lo 9003
+PL
+
+78520 item npc_token
+na Horn of the Savages
+IT
+ un 78964
+IM
+ tn 1
+ ti 32
+ lo 9004
+PL
+
+78621 item artifact
+na golden armor
+IT
+ wt 10
+ un 43101
+IM
+ db 35
+
+78648 item artifact
+na golden helm
+IT
+ wt 10
+ un 43286
+IM
+ db 30
+
+78737 item artifact
+na crystal dagger
+IT
+ wt 10
+ un 97065
+IM
+ ab 35
+
+78814 item 0
+na rare book
+IT
+ wt 5
+ un 87724
+IM
+ ms 165 
+
+78825 item artifact
+na crystal javelin
+IT
+ wt 10
+ un 80598
+IM
+ mb 25
+
+78890 item 0
+na rare book
+IT
+ wt 5
+ un 77644
+IM
+ ms 165 
+
+78952 item artifact
+na Javelin of Sudabuk
+IT
+ wt 10
+ un 80981
+IM
+ mb 40
+
+78956 item artifact
+na golden dagger
+IT
+ wt 10
+ un 63378
+IM
+ ab 35
+
+78963 item artifact
+na Ring of Shavnor
+IT
+ wt 10
+ un 55375
+IM
+ ba 2
+
+78983 item npc_token
+na Horn of the Savages
+IT
+ un 95470
+IM
+ tn 1
+ ti 32
+ lo 9004
+PL
+
+79013 item npc_token
+na Crown of the Undead lord
+IT
+ un 81230
+IM
+ tn 1
+ ti 31
+ lo 9003
+PL
+
+79025 item artifact
+na elven staff
+IT
+ wt 10
+ un 57120
+IM
+ ba 1
+
+79044 item artifact
+na enchanted dagger
+IT
+ wt 10
+ un 61037
+IM
+ ab 35
+
+79076 item npc_token
+na Banner of the Skeletons
+IT
+ un 87145
+IM
+ tn 1
+ ti 33
+ lo 9001
+PL
+
+79104 item 0
+na rare book
+IT
+ wt 5
+ un 47476
+IM
+ ms 162 
+
+79139 item npc_token
+na Crown of the Barbarians
+IT
+ un 83991
+IM
+ tn 1
+ ti 34
+ lo 9005
+PL
+
+79143 item 0
+na rare book
+IT
+ wt 5
+ un 77276
+IM
+ ms 163 
+
+79281 item artifact
+na enchanted dart
+IT
+ wt 10
+ un 71296
+IM
+ mb 25
+
+79284 item 0
+na rare book
+IT
+ wt 5
+ un 102041
+IM
+ ms 161 
+
+79310 item artifact
+na magic helm
+IT
+ wt 10
+ un 43740
+IM
+ db 45
+
+79312 item npc_token
+na Crown of the Barbarians
+IT
+ un 66496
+IM
+ tn 1
+ ti 34
+ lo 9005
+PL
+
+79322 item npc_token
+na Crown of the Undead lord
+IT
+ un 43827
+IM
+ tn 1
+ ti 31
+ lo 9003
+PL
+
+79357 item npc_token
+na Crown of the Barbarians
+IT
+ un 65616
+IM
+ tn 1
+ ti 34
+ lo 9005
+PL
+
+79367 item artifact
+na Dagger of Haemfrith
+IT
+ wt 10
+ un 102123
+IM
+ ab 10
+
+79374 item 0
+na old book
+IT
+ wt 5
+ un 43109
+IM
+ ms 161 
+
+79413 item artifact
+na enchanted dart
+IT
+ wt 10
+ un 57362
+IM
+ mb 40
+
+79629 item artifact
+na crystal sword
+IT
+ wt 10
+ un 81096
+IM
+ ab 10
+
+79650 item 0
+na rare book
+IT
+ wt 5
+ un 69391
+IM
+ ms 165 
+
+79660 item 0
+na old book
+IT
+ wt 5
+ un 96739
+IM
+ ms 161 
+
+79687 item 0
+na old book
+IT
+ wt 5
+ un 78230
+IM
+ ms 164 
+
+79716 item artifact
+na Shield of Cyllenedos
+IT
+ wt 10
+ un 93439
+IM
+ db 15
+
+79733 item artifact
+na Amulet of Ollayos
+IT
+ wt 10
+ un 72176
+IM
+ ba 2
+
+79744 item artifact
+na Bow of Haemin
+IT
+ wt 10
+ un 88719
+IM
+ mb 10
+
+79834 item 0
+na rare book
+IT
+ wt 5
+ un 78201
+IM
+ ms 165 
+
+79860 item artifact
+na elven armor
+IT
+ wt 10
+ un 91178
+IM
+ db 50
+
+79864 item npc_token
+na Crown of the Undead lord
+IT
+ un 55887
+IM
+ tn 1
+ ti 31
+ lo 9003
+PL
+
+79883 item artifact
+na Amulet of Vernolt
+IT
+ wt 10
+ un 91711
+IM
+ ba 3
+
+79893 item npc_token
+na Horn of the Savages
+IT
+ un 93111
+IM
+ tn 1
+ ti 32
+ lo 9004
+PL
+
+79914 item artifact
+na golden sword
+IT
+ wt 10
+ un 90973
+IM
+ ab 5
+
+79961 item artifact
+na crystal staff
+IT
+ wt 10
+ un 95715
+IM
+ ba 1
+
+79969 item artifact
+na Sword of Dorenth
+IT
+ wt 10
+ un 101653
+IM
+ ab 10
+
+80069 item 0
+na old book
+IT
+ wt 5
+ un 90220
+IM
+ ms 164 
+
+80080 item 0
+na rare book
+IT
+ wt 5
+ un 43329
+IM
+ ms 161 
+
+80139 item 0
+na old book
+IT
+ wt 5
+ un 72744
+IM
+ ms 164 
+
+80185 item artifact
+na elven staff
+IT
+ wt 10
+ un 42940
+IM
+ ba 3
+
+80212 item 0
+na old book
+IT
+ wt 5
+ un 80292
+IM
+ ms 161 
+
+80313 item npc_token
+na Crown of the Barbarians
+IT
+ un 43155
+IM
+ tn 1
+ ti 34
+ lo 9005
+PL
+
+80349 item artifact
+na elven ring
+IT
+ wt 10
+ un 64847
+IM
+ ba 2
+
+80382 item 0
+na old book
+IT
+ wt 5
+ un 97767
+IM
+ ms 165 
+
+80385 item artifact
+na elven dart
+IT
+ wt 10
+ un 76835
+IM
+ mb 30
+
+80422 item 0
+na rare book
+IT
+ wt 5
+ un 85842
+IM
+ ms 164 
+
+80429 item artifact
+na elven ring
+IT
+ wt 10
+ un 67246
+IM
+ ba 1
+
+80438 item artifact
+na crystal dart
+IT
+ wt 10
+ un 72221
+IM
+ mb 50
+
+80464 item artifact
+na enchanted shield
+IT
+ wt 10
+ un 93328
+IM
+ db 5
+
+80485 item artifact
+na magic armor
+IT
+ wt 10
+ un 54910
+IM
+ db 40
+
+80499 item artifact
+na Bow of Petelinus
+IT
+ wt 10
+ un 92781
+IM
+ mb 20
+
+80549 item artifact
+na crystal amulet
+IT
+ wt 10
+ un 71440
+IM
+ ba 1
+
+80587 item artifact
+na golden bow
+IT
+ wt 10
+ un 94164
+IM
+ mb 20
+
+80609 item artifact
+na enchanted dagger
+IT
+ wt 10
+ un 47103
+IM
+ ab 40
+
+80613 item npc_token
+na Crown of the Undead lord
+IT
+ un 99111
+IM
+ tn 1
+ ti 31
+ lo 9003
+PL
+
+80633 item artifact
+na Dagger of Ociera
+IT
+ wt 10
+ un 81357
+IM
+ ab 20
+
+80650 item 0
+na rare book
+IT
+ wt 5
+ un 101602
+IM
+ ms 162 
+
+80678 item npc_token
+na Crown of the Barbarians
+IT
+ un 101655
+IM
+ tn 1
+ ti 34
+ lo 9005
+PL
+
+80765 item artifact
+na Dagger of Kuneack
+IT
+ wt 10
+ un 43393
+IM
+ ab 15
+
+80769 item 0
+na rare book
+IT
+ wt 5
+ un 45967
+IM
+ ms 164 
+
+80788 item npc_token
+na Crown of the Undead lord
+IT
+ un 98392
+IM
+ tn 1
+ ti 31
+ lo 9003
+PL
+
+80814 item artifact
+na Helm of Birdan
+IT
+ wt 10
+ un 54262
+IM
+ db 5
+
+80834 item npc_token
+na Horn of the Savages
+IT
+ un 54930
+IM
+ tn 1
+ ti 32
+ lo 9004
+PL
+
+80839 item 0
+na old book
+IT
+ wt 5
+ un 70715
+IM
+ ms 165 
+
+80865 item artifact
+na magic amulet
+IT
+ wt 10
+ un 70968
+IM
+ ba 2
+
+80891 item npc_token
+na Horn of the Savages
+IT
+ un 74611
+IM
+ tn 1
+ ti 32
+ lo 9004
+PL
+
+80900 item artifact
+na magic sword
+IT
+ wt 10
+ un 75476
+IM
+ ab 40
+
+80928 item artifact
+na golden armor
+IT
+ wt 10
+ un 81511
+IM
+ db 40
+
+80930 item 0
+na rare book
+IT
+ wt 5
+ un 95626
+IM
+ ms 161 
+
+80990 item 0
+na old book
+IT
+ wt 5
+ un 92932
+IM
+ ms 161 
+
+81026 item artifact
+na magic javelin
+IT
+ wt 10
+ un 45485
+IM
+ mb 5
+
+81063 item 0
+na old book
+IT
+ wt 5
+ un 45554
+IM
+ ms 162 
+
+81091 item artifact
+na golden longsword
+IT
+ wt 10
+ un 81205
+IM
+ ab 30
+
+81169 item 0
+na old book
+IT
+ wt 5
+ un 70196
+IM
+ ms 164 
+
+81170 item artifact
+na Longsword of Aelbarik
+IT
+ wt 10
+ un 80879
+IM
+ ab 45
+
+81234 item npc_token
+na Golden idol of the Orcs
+IT
+ un 42786
+IM
+ tn 1
+ ti 287
+ lo 9002
+PL
+
+81262 item npc_token
+na Crown of the Barbarians
+IT
+ un 87025
+IM
+ tn 1
+ ti 34
+ lo 9005
+PL
+
+81378 item 0
+na old book
+IT
+ wt 5
+ un 51459
+IM
+ ms 162 
+
+81420 item artifact
+na elven javelin
+IT
+ wt 10
+ un 92640
+IM
+ mb 35
+
+81436 item 0
+na old book
+IT
+ wt 5
+ un 59885
+IM
+ ms 164 
+
+81443 item artifact
+na Shield of Kior
+IT
+ wt 10
+ un 86048
+IM
+ db 35
+
+81515 item artifact
+na magic shield
+IT
+ wt 10
+ un 97907
+IM
+ db 25
+
+81600 item 0
+na old book
+IT
+ wt 5
+ un 69206
+IM
+ ms 162 
+
+81667 item artifact
+na golden armor
+IT
+ wt 10
+ un 43667
+IM
+ db 30
+
+81681 item artifact
+na elven bow
+IT
+ wt 10
+ un 80901
+IM
+ mb 20
+
+81765 item npc_token
+na Banner of the Skeletons
+IT
+ un 43085
+IM
+ tn 1
+ ti 33
+ lo 9001
+PL
+
+81783 item artifact
+na elven staff
+IT
+ wt 10
+ un 95009
+IM
+ ba 3
+
+81829 item 0
+na old book
+IT
+ wt 5
+ un 76730
+IM
+ ms 164 
+
+81868 item 0
+na old book
+IT
+ wt 5
+ un 98489
+IM
+ ms 163 
+
+81869 item 0
+na old book
+IT
+ wt 5
+ un 90071
+IM
+ ms 162 
+
+81881 item artifact
+na Dagger of Sarindor
+IT
+ wt 10
+ un 77513
+IM
+ ab 50
+
+81911 item npc_token
+na Golden idol of the Orcs
+IT
+ un 74063
+IM
+ tn 1
+ ti 287
+ lo 9002
+PL
+
+81939 item artifact
+na crystal spear
+IT
+ wt 10
+ un 98700
+IM
+ mb 40
+
+81950 item npc_token
+na Crown of the Barbarians
+IT
+ un 48969
+IM
+ tn 1
+ ti 34
+ lo 9005
+PL
+
+82002 item artifact
+na crystal longsword
+IT
+ wt 10
+ un 57422
+IM
+ ab 35
+
+82024 item artifact
+na crystal armor
+IT
+ wt 10
+ un 88543
+IM
+ db 5
+
+82052 item 0
+na old book
+IT
+ wt 5
+ un 95946
+IM
+ ms 162 
+
+82071 item artifact
+na Sword of Habyn
+IT
+ wt 10
+ un 93372
+IM
+ ab 15
+
+82073 item artifact
+na Spear of Moldarth
+IT
+ wt 10
+ un 67429
+IM
+ mb 25
+
+82096 item artifact
+na Staff of Kichea
+IT
+ wt 10
+ un 62715
+IM
+ ba 2
+
+82103 item artifact
+na elven helm
+IT
+ wt 10
+ un 49315
+IM
+ db 30
+
+82121 item artifact
+na Longsword of Napich
+IT
+ wt 10
+ un 53669
+IM
+ ab 45
+
+82124 item npc_token
+na Crown of the Undead lord
+IT
+ un 78416
+IM
+ tn 1
+ ti 31
+ lo 9003
+PL
+
+82159 item artifact
+na crystal shield
+IT
+ wt 10
+ un 82299
+IM
+ db 30
+
+82175 item 0
+na old book
+IT
+ wt 5
+ un 59420
+IM
+ ms 164 
+
+82183 item 0
+na old book
+IT
+ wt 5
+ un 96949
+IM
+ ms 165 
+
+82185 item artifact
+na magic longsword
+IT
+ wt 10
+ un 46794
+IM
+ ab 20
+
+82201 item 0
+na old book
+IT
+ wt 5
+ un 79897
+IM
+ ms 161 
+
+82218 item artifact
+na enchanted bow
+IT
+ wt 10
+ un 77220
+IM
+ mb 20
+
+82347 item artifact
+na Bow of Fornil
+IT
+ wt 10
+ un 57854
+IM
+ mb 50
+
+82405 item artifact
+na Staff of Ociera
+IT
+ wt 10
+ un 58801
+IM
+ ba 1
+
+82407 item artifact
+na Spear of Napich
+IT
+ wt 10
+ un 43645
+IM
+ mb 25
+
+82431 item artifact
+na Helm of Haim
+IT
+ wt 10
+ un 84960
+IM
+ db 5
+
+82500 item 0
+na old book
+IT
+ wt 5
+ un 67553
+IM
+ ms 161 
+
+82559 item 0
+na old book
+IT
+ wt 5
+ un 77645
+IM
+ ms 163 
+
+82608 item artifact
+na Sword of Sorale
+IT
+ wt 10
+ un 45588
+IM
+ ab 30
+
+82622 item artifact
+na magic helm
+IT
+ wt 10
+ un 101200
+IM
+ db 50
+
+82625 item artifact
+na crystal bow
+IT
+ wt 10
+ un 43105
+IM
+ mb 25
+
+82715 item 0
+na rare book
+IT
+ wt 5
+ un 48861
+IM
+ ms 165 
+
+82738 item npc_token
+na Golden idol of the Orcs
+IT
+ un 87986
+IM
+ tn 1
+ ti 287
+ lo 9002
+PL
+
+82798 item artifact
+na Longsword of Norbus
+IT
+ wt 10
+ un 60882
+IM
+ ab 25
+
+82845 item npc_token
+na Crown of the Barbarians
+IT
+ un 90946
+IM
+ tn 1
+ ti 34
+ lo 9005
+PL
+
+82847 item artifact
+na Armor of Haemfrith
+IT
+ wt 10
+ un 47611
+IM
+ db 10
+
+82864 item artifact
+na golden helm
+IT
+ wt 10
+ un 71392
+IM
+ db 50
+
+82867 item npc_token
+na Crown of the Barbarians
+IT
+ un 90971
+IM
+ tn 1
+ ti 34
+ lo 9005
+PL
+
+82874 item npc_token
+na Crown of the Barbarians
+IT
+ un 42785
+IM
+ tn 1
+ ti 34
+ lo 9005
+PL
+
+83071 item 0
+na old book
+IT
+ wt 5
+ un 99755
+IM
+ ms 162 
+
+83109 item npc_token
+na Crown of the Barbarians
+IT
+ un 42904
+IM
+ tn 1
+ ti 34
+ lo 9005
+PL
+
+83235 item artifact
+na crystal armor
+IT
+ wt 10
+ un 59312
+IM
+ db 50
+
+83237 item npc_token
+na Crown of the Undead lord
+IT
+ un 57286
+IM
+ tn 1
+ ti 31
+ lo 9003
+PL
+
+83318 item 0
+na old book
+IT
+ wt 5
+ un 97884
+IM
+ ms 165 
+
+83335 item artifact
+na crystal staff
+IT
+ wt 10
+ un 78038
+IM
+ ba 1
+
+83348 item artifact
+na golden helm
+IT
+ wt 10
+ un 83388
+IM
+ db 5
+
+83440 item artifact
+na Sword of Kichea
+IT
+ wt 10
+ un 70412
+IM
+ ab 10
+
+83483 item 0
+na rare book
+IT
+ wt 5
+ un 73845
+IM
+ ms 165 
+
+83657 item artifact
+na Helm of Areth Pirn
+IT
+ wt 10
+ un 50663
+IM
+ db 50
+
+83673 item npc_token
+na Banner of the Skeletons
+IT
+ un 92746
+IM
+ tn 1
+ ti 33
+ lo 9001
+PL
+
+83701 item artifact
+na golden helm
+IT
+ wt 10
+ un 46047
+IM
+ db 35
+
+83756 item artifact
+na crystal bow
+IT
+ wt 10
+ un 48162
+IM
+ mb 40
+
+83838 item 0
+na rare book
+IT
+ wt 5
+ un 44519
+IM
+ ms 161 
+
+83855 item artifact
+na Staff of Urvil
+IT
+ wt 10
+ un 69453
+IM
+ ba 3
+
+83863 item artifact
+na magic sword
+IT
+ wt 10
+ un 45232
+IM
+ ab 10
+
+83885 item npc_token
+na Horn of the Savages
+IT
+ un 43152
+IM
+ tn 1
+ ti 32
+ lo 9004
+PL
+
+83917 item artifact
+na Longsword of Areth Pirn
+IT
+ wt 10
+ un 80312
+IM
+ ab 40
+
+83935 item artifact
+na Dart of Tarvik
+IT
+ wt 10
+ un 81125
+IM
+ mb 10
+
+84156 item artifact
+na magic longsword
+IT
+ wt 10
+ un 60705
+IM
+ ab 50
+
+84179 item npc_token
+na Banner of the Skeletons
+IT
+ un 81155
+IM
+ tn 1
+ ti 33
+ lo 9001
+PL
+
+84222 item 0
+na rare book
+IT
+ wt 5
+ un 93033
+IM
+ ms 163 
+
+84240 item 0
+na old book
+IT
+ wt 5
+ un 43554
+IM
+ ms 161 
+
+84247 item artifact
+na magic longsword
+IT
+ wt 10
+ un 98309
+IM
+ ab 10
+
+84258 item artifact
+na elven dart
+IT
+ wt 10
+ un 66665
+IM
+ mb 20
+
+84272 item artifact
+na magic javelin
+IT
+ wt 10
+ un 52353
+IM
+ mb 35
+
+84291 item npc_token
+na Banner of the Skeletons
+IT
+ un 74991
+IM
+ tn 1
+ ti 33
+ lo 9001
+PL
+
+84303 item npc_token
+na Crown of the Barbarians
+IT
+ un 43604
+IM
+ tn 1
+ ti 34
+ lo 9005
+PL
+
+84312 item 0
+na old book
+IT
+ wt 5
+ un 43129
+IM
+ ms 161 
+
+84324 item artifact
+na elven longsword
+IT
+ wt 10
+ un 63250
+IM
+ ab 10
+
+84358 item npc_token
+na Crown of the Undead lord
+IT
+ un 98268
+IM
+ tn 1
+ ti 31
+ lo 9003
+PL
+
+84413 item artifact
+na Longsword of Syssale
+IT
+ wt 10
+ un 72283
+IM
+ ab 25
+
+84421 item artifact
+na crystal bow
+IT
+ wt 10
+ un 93851
+IM
+ mb 35
+
+84432 item npc_token
+na Crown of the Undead lord
+IT
+ un 44350
+IM
+ tn 1
+ ti 31
+ lo 9003
+PL
+
+84438 item artifact
+na Dagger of Vernolt
+IT
+ wt 10
+ un 96235
+IM
+ ab 15
+
+84454 item artifact
+na magic staff
+IT
+ wt 10
+ un 43368
+IM
+ ba 1
+
+84460 item npc_token
+na Golden idol of the Orcs
+IT
+ un 63377
+IM
+ tn 1
+ ti 287
+ lo 9002
+PL
+
+84521 item 0
+na old book
+IT
+ wt 5
+ un 73236
+IM
+ ms 161 
+
+84565 item 0
+na rare book
+IT
+ wt 5
+ un 59066
+IM
+ ms 161 
+
+84627 item 0
+na old book
+IT
+ wt 5
+ un 69742
+IM
+ ms 164 
+
+84765 item npc_token
+na Horn of the Savages
+IT
+ un 85674
+IM
+ tn 1
+ ti 32
+ lo 9004
+PL
+
+84810 item artifact
+na Staff of Haemfrith
+IT
+ wt 10
+ un 80700
+IM
+ ba 2
+
+84831 item artifact
+na magic sword
+IT
+ wt 10
+ un 99509
+IM
+ ab 30
+
+84900 item artifact
+na magic dart
+IT
+ wt 10
+ un 54066
+IM
+ mb 45
+
+84907 item 0
+na old book
+IT
+ wt 5
+ un 62946
+IM
+ ms 163 
+
+84915 item artifact
+na enchanted javelin
+IT
+ wt 10
+ un 63656
+IM
+ mb 25
+
+84926 item artifact
+na golden sword
+IT
+ wt 10
+ un 60083
+IM
+ ab 15
+
+84943 item npc_token
+na Horn of the Savages
+IT
+ un 48291
+IM
+ tn 1
+ ti 32
+ lo 9004
+PL
+
+84982 item npc_token
+na Golden idol of the Orcs
+IT
+ un 94981
+IM
+ tn 1
+ ti 287
+ lo 9002
+PL
+
+84986 item artifact
+na Armor of Moldarth
+IT
+ wt 10
+ un 43591
+IM
+ db 25
+
+84995 item artifact
+na enchanted shield
+IT
+ wt 10
+ un 53791
+IM
+ db 45
+
+85050 item npc_token
+na Crown of the Barbarians
+IT
+ un 61939
+IM
+ tn 1
+ ti 34
+ lo 9005
+PL
+
+85057 item 0
+na rare book
+IT
+ wt 5
+ un 48950
+IM
+ ms 164 
+
+85091 item npc_token
+na Banner of the Skeletons
+IT
+ un 82316
+IM
+ tn 1
+ ti 33
+ lo 9001
+PL
+
+85117 item artifact
+na Longsword of Sudabuk
+IT
+ wt 10
+ un 43394
+IM
+ ab 35
+
+85136 item artifact
+na Longsword of Cyllenedos
+IT
+ wt 10
+ un 51857
+IM
+ ab 30
+
+85140 item artifact
+na Longsword of Echaliatic
+IT
+ wt 10
+ un 43032
+IM
+ ab 45
+
+85155 item 0
+na old book
+IT
+ wt 5
+ un 86550
+IM
+ ms 163 
+
+85195 item 0
+na old book
+IT
+ wt 5
+ un 43090
+IM
+ ms 163 
+
+85231 item 0
+na rare book
+IT
+ wt 5
+ un 91419
+IM
+ ms 165 
+
+85240 item artifact
+na magic dagger
+IT
+ wt 10
+ un 63033
+IM
+ ab 25
+
+85277 item artifact
+na crystal armor
+IT
+ wt 10
+ un 99675
+IM
+ db 40
+
+85285 item npc_token
+na Crown of the Barbarians
+IT
+ un 48499
+IM
+ tn 1
+ ti 34
+ lo 9005
+PL
+
+85307 item 0
+na old book
+IT
+ wt 5
+ un 99615
+IM
+ ms 162 
+
+85323 item npc_token
+na Horn of the Savages
+IT
+ un 43206
+IM
+ tn 1
+ ti 32
+ lo 9004
+PL
+
+85366 item artifact
+na crystal dagger
+IT
+ wt 10
+ un 89088
+IM
+ ab 25
+
+85395 item 0
+na rare book
+IT
+ wt 5
+ un 62952
+IM
+ ms 161 
+
+85422 item artifact
+na magic spear
+IT
+ wt 10
+ un 72429
+IM
+ mb 40
+
+85457 item npc_token
+na Banner of the Skeletons
+IT
+ un 72736
+IM
+ tn 1
+ ti 33
+ lo 9001
+PL
+
+85475 item npc_token
+na Horn of the Savages
+IT
+ un 43067
+IM
+ tn 1
+ ti 32
+ lo 9004
+PL
+
+85489 item 0
+na old book
+IT
+ wt 5
+ un 85640
+IM
+ ms 162 
+
+85549 item 0
+na rare book
+IT
+ wt 5
+ un 99261
+IM
+ ms 164 
+
+85563 item artifact
+na Amulet of Justice
+IT
+ wt 10
+ un 54703
+IM
+ ba 2
+
+85596 item 0
+na rare book
+IT
+ wt 5
+ un 97644
+IM
+ ms 162 
+
+85608 item npc_token
+na Horn of the Savages
+IT
+ un 45217
+IM
+ tn 1
+ ti 32
+ lo 9004
+PL
+
+85636 item npc_token
+na Crown of the Barbarians
+IT
+ un 43292
+IM
+ tn 1
+ ti 34
+ lo 9005
+PL
+
+85637 item artifact
+na enchanted javelin
+IT
+ wt 10
+ un 87265
+IM
+ mb 20
+
+85691 item artifact
+na magic shield
+IT
+ wt 10
+ un 68981
+IM
+ db 45
+
+85692 item npc_token
+na Golden idol of the Orcs
+IT
+ un 42922
+IM
+ tn 1
+ ti 287
+ lo 9002
+PL
+
+85699 item 0
+na old book
+IT
+ wt 5
+ un 42994
+IM
+ ms 161 
+
+85756 item 0
+na rare book
+IT
+ wt 5
+ un 43063
+IM
+ ms 162 
+
+85816 item artifact
+na golden sword
+IT
+ wt 10
+ un 94273
+IM
+ ab 20
+
+85862 item 0
+na rare book
+IT
+ wt 5
+ un 71425
+IM
+ ms 163 
+
+85879 item npc_token
+na Crown of the Barbarians
+IT
+ un 91081
+IM
+ tn 1
+ ti 34
+ lo 9005
+PL
+
+85880 item 0
+na old book
+IT
+ wt 5
+ un 88555
+IM
+ ms 164 
+
+85892 item artifact
+na crystal dart
+IT
+ wt 10
+ un 43327
+IM
+ mb 5
+
+85904 item artifact
+na elven sword
+IT
+ wt 10
+ un 63280
+IM
+ ab 35
+
+85906 item npc_token
+na Horn of the Savages
+IT
+ un 50369
+IM
+ tn 1
+ ti 32
+ lo 9004
+PL
+
+85916 item npc_token
+na Horn of the Savages
+IT
+ un 46792
+IM
+ tn 1
+ ti 32
+ lo 9004
+PL
+
+85989 item artifact
+na elven shield
+IT
+ wt 10
+ un 53901
+IM
+ db 45
+
+86121 item artifact
+na enchanted spear
+IT
+ wt 10
+ un 87660
+IM
+ mb 40
+
+86172 item artifact
+na Dart of Aethelarn
+IT
+ wt 10
+ un 99030
+IM
+ mb 50
+
+86213 item npc_token
+na Crown of the Barbarians
+IT
+ un 64767
+IM
+ tn 1
+ ti 34
+ lo 9005
+PL
+
+86215 item artifact
+na magic helm
+IT
+ wt 10
+ un 95601
+IM
+ db 5
+
+86216 item npc_token
+na Banner of the Skeletons
+IT
+ un 82292
+IM
+ tn 1
+ ti 33
+ lo 9001
+PL
+
+86234 item artifact
+na Spear of Davchar
+IT
+ wt 10
+ un 73574
+IM
+ mb 20
+
+86291 item artifact
+na magic helm
+IT
+ wt 10
+ un 50332
+IM
+ db 5
+
+86362 item npc_token
+na Horn of the Savages
+IT
+ un 86577
+IM
+ tn 1
+ ti 32
+ lo 9004
+PL
+
+86410 item artifact
+na magic armor
+IT
+ wt 10
+ un 45489
+IM
+ db 40
+
+86449 item artifact
+na Longsword of Beebas
+IT
+ wt 10
+ un 43203
+IM
+ ab 20
+
+86469 item artifact
+na elven staff
+IT
+ wt 10
+ un 65702
+IM
+ ba 3
+
+86475 item 0
+na old book
+IT
+ wt 5
+ un 44165
+IM
+ ms 164 
+
+86478 item artifact
+na magic sword
+IT
+ wt 10
+ un 99754
+IM
+ ab 45
+
+86487 item artifact
+na enchanted helm
+IT
+ wt 10
+ un 43777
+IM
+ db 30
+
+86508 item npc_token
+na Golden idol of the Orcs
+IT
+ un 90383
+IM
+ tn 1
+ ti 287
+ lo 9002
+PL
+
+86512 item artifact
+na magic javelin
+IT
+ wt 10
+ un 72018
+IM
+ mb 10
+
+86602 item artifact
+na crystal helm
+IT
+ wt 10
+ un 68652
+IM
+ db 40
+
+86609 item npc_token
+na Banner of the Skeletons
+IT
+ un 83940
+IM
+ tn 1
+ ti 33
+ lo 9001
+PL
+
+86613 item artifact
+na magic dagger
+IT
+ wt 10
+ un 60139
+IM
+ ab 20
+
+86727 item 0
+na rare book
+IT
+ wt 5
+ un 50377
+IM
+ ms 161 
+
+86759 item npc_token
+na Banner of the Skeletons
+IT
+ un 94150
+IM
+ tn 1
+ ti 33
+ lo 9001
+PL
+
+86832 item 0
+na rare book
+IT
+ wt 5
+ un 85396
+IM
+ ms 162 
+
+86859 item artifact
+na elven amulet
+IT
+ wt 10
+ un 43229
+IM
+ ba 2
+
+86917 item npc_token
+na Horn of the Savages
+IT
+ un 96485
+IM
+ tn 1
+ ti 32
+ lo 9004
+PL
+
+86949 item artifact
+na magic amulet
+IT
+ wt 10
+ un 100635
+IM
+ ba 3
+
+86965 item 0
+na rare book
+IT
+ wt 5
+ un 64357
+IM
+ ms 164 
+
+86986 item artifact
+na enchanted dart
+IT
+ wt 10
+ un 65432
+IM
+ mb 15
+
+86990 item artifact
+na Longsword of Bayarth
+IT
+ wt 10
+ un 89000
+IM
+ ab 30
+
+87093 item artifact
+na elven sword
+IT
+ wt 10
+ un 72037
+IM
+ ab 35
+
+87100 item artifact
+na enchanted javelin
+IT
+ wt 10
+ un 43007
+IM
+ mb 35
+
+87133 item 0
+na rare book
+IT
+ wt 5
+ un 90562
+IM
+ ms 162 
+
+87161 item artifact
+na crystal helm
+IT
+ wt 10
+ un 71076
+IM
+ db 15
+
+87172 item npc_token
+na Horn of the Savages
+IT
+ un 77693
+IM
+ tn 1
+ ti 32
+ lo 9004
+PL
+
+87191 item artifact
+na elven armor
+IT
+ wt 10
+ un 94224
+IM
+ db 5
+
+87333 item artifact
+na Ring of Coinbalth
+IT
+ wt 10
+ un 79964
+IM
+ ba 1
+
+87372 item 0
+na rare book
+IT
+ wt 5
+ un 72414
+IM
+ ms 165 
+
+87384 item artifact
+na Sword of Lassan
+IT
+ wt 10
+ un 64069
+IM
+ ab 35
+
+87453 item artifact
+na Shield of Perendor
+IT
+ wt 10
+ un 101974
+IM
+ db 25
+
+87486 item artifact
+na Sword of Urvil
+IT
+ wt 10
+ un 73803
+IM
+ ab 40
+
+87487 item artifact
+na Longsword of Fistrock
+IT
+ wt 10
+ un 88178
+IM
+ ab 20
+
+87497 item npc_token
+na Golden idol of the Orcs
+IT
+ un 74924
+IM
+ tn 1
+ ti 287
+ lo 9002
+PL
+
+87511 item npc_token
+na Crown of the Undead lord
+IT
+ un 47166
+IM
+ tn 1
+ ti 31
+ lo 9003
+PL
+
+87517 item artifact
+na enchanted helm
+IT
+ wt 10
+ un 89865
+IM
+ db 20
+
+87530 item artifact
+na golden javelin
+IT
+ wt 10
+ un 93240
+IM
+ mb 50
+
+87535 item npc_token
+na Horn of the Savages
+IT
+ un 87102
+IM
+ tn 1
+ ti 32
+ lo 9004
+PL
+
+87587 item artifact
+na Sword of Pallia
+IT
+ wt 10
+ un 42845
+IM
+ ab 30
+
+87589 item artifact
+na Bow of Aldain
+IT
+ wt 10
+ un 89860
+IM
+ mb 40
+
+87621 item artifact
+na Longsword of Shavnor
+IT
+ wt 10
+ un 54675
+IM
+ ab 15
+
+87627 item 0
+na old book
+IT
+ wt 5
+ un 69470
+IM
+ ms 165 
+
+87635 item 0
+na old book
+IT
+ wt 5
+ un 95348
+IM
+ ms 161 
+
+87654 item artifact
+na crystal staff
+IT
+ wt 10
+ un 95890
+IM
+ ba 1
+
+87663 item artifact
+na enchanted dart
+IT
+ wt 10
+ un 85767
+IM
+ mb 5
+
+87728 item artifact
+na golden dagger
+IT
+ wt 10
+ un 92368
+IM
+ ab 20
+
+87729 item 0
+na old book
+IT
+ wt 5
+ un 55936
+IM
+ ms 163 
+
+87732 item 0
+na old book
+IT
+ wt 5
+ un 63046
+IM
+ ms 164 
+
+87804 item npc_token
+na Crown of the Barbarians
+IT
+ un 60261
+IM
+ tn 1
+ ti 34
+ lo 9005
+PL
+
+87829 item artifact
+na Javelin of Sudabuk
+IT
+ wt 10
+ un 77216
+IM
+ mb 25
+
+87863 item npc_token
+na Crown of the Barbarians
+IT
+ un 80072
+IM
+ tn 1
+ ti 34
+ lo 9005
+PL
+
+87899 item artifact
+na elven ring
+IT
+ wt 10
+ un 85157
+IM
+ ba 3
+
+87918 item artifact
+na elven bow
+IT
+ wt 10
+ un 48749
+IM
+ mb 5
+
+87972 item artifact
+na enchanted helm
+IT
+ wt 10
+ un 58617
+IM
+ db 30
+
+88008 item artifact
+na Bow of Vernolt
+IT
+ wt 10
+ un 79589
+IM
+ mb 5
+
+88056 item npc_token
+na Crown of the Barbarians
+IT
+ un 91405
+IM
+ tn 1
+ ti 34
+ lo 9005
+PL
+
+88106 item artifact
+na enchanted ring
+IT
+ wt 10
+ un 54518
+IM
+ ba 3
+
+88150 item npc_token
+na Crown of the Undead lord
+IT
+ un 100709
+IM
+ tn 1
+ ti 31
+ lo 9003
+PL
+
+88185 item npc_token
+na Banner of the Skeletons
+IT
+ un 43416
+IM
+ tn 1
+ ti 33
+ lo 9001
+PL
+
+88204 item npc_token
+na Golden idol of the Orcs
+IT
+ un 79853
+IM
+ tn 1
+ ti 287
+ lo 9002
+PL
+
+88206 item artifact
+na enchanted sword
+IT
+ wt 10
+ un 75146
+IM
+ ab 10
+
+88260 item npc_token
+na Crown of the Barbarians
+IT
+ un 46106
+IM
+ tn 1
+ ti 34
+ lo 9005
+PL
+
+88261 item artifact
+na Ring of Elakain
+IT
+ wt 10
+ un 79037
+IM
+ ba 3
+
+88286 item artifact
+na Armor of Bayarth
+IT
+ wt 10
+ un 51535
+IM
+ db 10
+
+88298 item 0
+na rare book
+IT
+ wt 5
+ un 96736
+IM
+ ms 164 
+
+88306 item artifact
+na enchanted javelin
+IT
+ wt 10
+ un 69067
+IM
+ mb 40
+
+88328 item artifact
+na Amulet of Faelgrar
+IT
+ wt 10
+ un 46381
+IM
+ ba 3
+
+88329 item artifact
+na crystal ring
+IT
+ wt 10
+ un 86761
+IM
+ ba 2
+
+88385 item npc_token
+na Crown of the Barbarians
+IT
+ un 54232
+IM
+ tn 1
+ ti 34
+ lo 9005
+PL
+
+88404 item artifact
+na elven helm
+IT
+ wt 10
+ un 82578
+IM
+ db 30
+
+88448 item artifact
+na crystal sword
+IT
+ wt 10
+ un 84687
+IM
+ ab 30
+
+88475 item npc_token
+na Banner of the Skeletons
+IT
+ un 76542
+IM
+ tn 1
+ ti 33
+ lo 9001
+PL
+
+88530 item artifact
+na elven sword
+IT
+ wt 10
+ un 90078
+IM
+ ab 45
+
+88534 item 0
+na old book
+IT
+ wt 5
+ un 74505
+IM
+ ms 164 
+
+88572 item 0
+na rare book
+IT
+ wt 5
+ un 69364
+IM
+ ms 161 
+
+88620 item 0
+na rare book
+IT
+ wt 5
+ un 50059
+IM
+ ms 161 
+
+88625 item artifact
+na elven javelin
+IT
+ wt 10
+ un 98653
+IM
+ mb 45
+
+88639 item 0
+na rare book
+IT
+ wt 5
+ un 75949
+IM
+ ms 164 
+
+88652 item npc_token
+na Banner of the Skeletons
+IT
+ un 56145
+IM
+ tn 1
+ ti 33
+ lo 9001
+PL
+
+88704 item npc_token
+na Horn of the Savages
+IT
+ un 70813
+IM
+ tn 1
+ ti 32
+ lo 9004
+PL
+
+88711 item artifact
+na enchanted staff
+IT
+ wt 10
+ un 51534
+IM
+ ba 2
+
+88731 item 0
+na old book
+IT
+ wt 5
+ un 74939
+IM
+ ms 162 
+
+88733 item 0
+na rare book
+IT
+ wt 5
+ un 96915
+IM
+ ms 164 
+
+88759 item npc_token
+na Banner of the Skeletons
+IT
+ un 56708
+IM
+ tn 1
+ ti 33
+ lo 9001
+PL
+
+88797 item artifact
+na Amulet of Kuneack
+IT
+ wt 10
+ un 69332
+IM
+ ba 2
+
+88867 item artifact
+na enchanted spear
+IT
+ wt 10
+ un 81994
+IM
+ mb 50
+
+88869 item npc_token
+na Golden idol of the Orcs
+IT
+ un 65689
+IM
+ tn 1
+ ti 287
+ lo 9002
+PL
+
+88886 item npc_token
+na Horn of the Savages
+IT
+ un 53971
+IM
+ tn 1
+ ti 32
+ lo 9004
+PL
+
+88889 item npc_token
+na Crown of the Barbarians
+IT
+ un 86733
+IM
+ tn 1
+ ti 34
+ lo 9005
+PL
+
+88899 item 0
+na old book
+IT
+ wt 5
+ un 55577
+IM
+ ms 162 
+
+88909 item artifact
+na Ring of Obraed
+IT
+ wt 10
+ un 93769
+IM
+ ba 3
+
+88925 item artifact
+na golden dagger
+IT
+ wt 10
+ un 63291
+IM
+ ab 10
+
+88936 item 0
+na rare book
+IT
+ wt 5
+ un 43024
+IM
+ ms 165 
+
+88949 item suffuse_ring
+na Golden ring
+IT
+ wt 1
+ un 68929
+IM
+ uk 14
+ lo 9012
+
+89019 item artifact
+na golden ring
+IT
+ wt 10
+ un 42808
+IM
+ ba 3
+
+89111 item npc_token
+na Golden idol of the Orcs
+IT
+ un 90795
+IM
+ tn 1
+ ti 287
+ lo 9002
+PL
+
+89140 item 0
+na old book
+IT
+ wt 5
+ un 50807
+IM
+ ms 163 
+
+89158 item npc_token
+na Crown of the Undead lord
+IT
+ un 93829
+IM
+ tn 1
+ ti 31
+ lo 9003
+PL
+
+89186 item 0
+na rare book
+IT
+ wt 5
+ un 94613
+IM
+ ms 162 
+
+89210 item 0
+na rare book
+IT
+ wt 5
+ un 65228
+IM
+ ms 164 
+
+89218 item npc_token
+na Golden idol of the Orcs
+IT
+ un 65403
+IM
+ tn 1
+ ti 287
+ lo 9002
+PL
+
+89263 item npc_token
+na Horn of the Savages
+IT
+ un 85668
+IM
+ tn 1
+ ti 32
+ lo 9004
+PL
+
+89283 item 0
+na rare book
+IT
+ wt 5
+ un 45054
+IM
+ ms 165 
+
+89372 item 0
+na old book
+IT
+ wt 5
+ un 91917
+IM
+ ms 161 
+
+89438 item 0
+na rare book
+IT
+ wt 5
+ un 82466
+IM
+ ms 162 
+
+89478 item 0
+na old book
+IT
+ wt 5
+ un 44808
+IM
+ ms 165 
+
+89586 item 0
+na rare book
+IT
+ wt 5
+ un 85516
+IM
+ ms 165 
+
+89620 item artifact
+na magic dagger
+IT
+ wt 10
+ un 47543
+IM
+ ab 45
+
+89623 item artifact
+na enchanted shield
+IT
+ wt 10
+ un 43668
+IM
+ db 25
+
+89625 item npc_token
+na Horn of the Savages
+IT
+ un 95766
+IM
+ tn 1
+ ti 32
+ lo 9004
+PL
+
+89704 item artifact
+na Dagger of Areth Pirn
+IT
+ wt 10
+ un 44518
+IM
+ ab 20
+
+89731 item npc_token
+na Golden idol of the Orcs
+IT
+ un 98020
+IM
+ tn 1
+ ti 287
+ lo 9002
+PL
+
+89752 item 0
+na old book
+IT
+ wt 5
+ un 93320
+IM
+ ms 165 
+
+89803 item artifact
+na Dart of Earnberict
+IT
+ wt 10
+ un 55531
+IM
+ mb 15
+
+89806 item artifact
+na Dagger of Claunecar
+IT
+ wt 10
+ un 54912
+IM
+ ab 50
+
+89853 item 0
+na old book
+IT
+ wt 5
+ un 48280
+IM
+ ms 161 
+
+89894 item artifact
+na Ring of Raskold
+IT
+ wt 10
+ un 77191
+IM
+ ba 3
+
+89931 item artifact
+na elven ring
+IT
+ wt 10
+ un 55479
+IM
+ ba 2
+
+89976 item npc_token
+na Golden idol of the Orcs
+IT
+ un 69715
+IM
+ tn 1
+ ti 287
+ lo 9002
+PL
+
+90052 item 0
+na rare book
+IT
+ wt 5
+ un 74016
+IM
+ ms 165 
+
+90107 item npc_token
+na Horn of the Savages
+IT
+ un 97022
+IM
+ tn 1
+ ti 32
+ lo 9004
+PL
+
+90188 item 0
+na old book
+IT
+ wt 5
+ un 72012
+IM
+ ms 165 
+
+90197 item artifact
+na crystal shield
+IT
+ wt 10
+ un 44664
+IM
+ db 35
+
+90208 item npc_token
+na Crown of the Undead lord
+IT
+ un 43045
+IM
+ tn 1
+ ti 31
+ lo 9003
+PL
+
+90234 item 0
+na old book
+IT
+ wt 5
+ un 65274
+IM
+ ms 163 
+
+90251 item 0
+na old book
+IT
+ wt 5
+ un 74020
+IM
+ ms 161 
+
+90315 item npc_token
+na Crown of the Undead lord
+IT
+ un 48797
+IM
+ tn 1
+ ti 31
+ lo 9003
+PL
+
+90336 item artifact
+na enchanted shield
+IT
+ wt 10
+ un 55849
+IM
+ db 30
+
+90370 item artifact
+na elven dart
+IT
+ wt 10
+ un 94860
+IM
+ mb 5
+
+90381 item artifact
+na crystal ring
+IT
+ wt 10
+ un 76852
+IM
+ ba 3
+
+90459 item artifact
+na Sword of Kuneack
+IT
+ wt 10
+ un 55303
+IM
+ ab 15
+
+90486 item 0
+na rare book
+IT
+ wt 5
+ un 96626
+IM
+ ms 163 
+
+90580 item npc_token
+na Crown of the Undead lord
+IT
+ un 74463
+IM
+ tn 1
+ ti 31
+ lo 9003
+PL
+
+90613 item artifact
+na elven dagger
+IT
+ wt 10
+ un 43369
+IM
+ ab 10
+
+90687 item artifact
+na Shield of Ollayos
+IT
+ wt 10
+ un 46178
+IM
+ db 20
+
+90731 item npc_token
+na Horn of the Savages
+IT
+ un 78951
+IM
+ tn 1
+ ti 32
+ lo 9004
+PL
+
+90747 item artifact
+na enchanted staff
+IT
+ wt 10
+ un 43400
+IM
+ ba 3
+
+90766 item 0
+na old book
+IT
+ wt 5
+ un 43770
+IM
+ ms 164 
+
+90772 item npc_token
+na Crown of the Undead lord
+IT
+ un 73013
+IM
+ tn 1
+ ti 31
+ lo 9003
+PL
+
+90818 item 0
+na rare book
+IT
+ wt 5
+ un 51815
+IM
+ ms 162 
+
+90826 item artifact
+na Helm of Obraed
+IT
+ wt 10
+ un 95984
+IM
+ db 40
+
+90893 item artifact
+na Dagger of Perendor
+IT
+ wt 10
+ un 42850
+IM
+ ab 15
+
+90899 item 0
+na old book
+IT
+ wt 5
+ un 43202
+IM
+ ms 161 
+
+90918 item artifact
+na enchanted amulet
+IT
+ wt 10
+ un 48750
+IM
+ ba 3
+
+90930 item 0
+na old book
+IT
+ wt 5
+ un 53754
+IM
+ ms 164 
+
+90949 item 0
+na old book
+IT
+ wt 5
+ un 98147
+IM
+ ms 162 
+
+90951 item artifact
+na Staff of Sarindor
+IT
+ wt 10
+ un 65730
+IM
+ ba 3
+
+90978 item 0
+na rare book
+IT
+ wt 5
+ un 75208
+IM
+ ms 165 
+
+91009 item artifact
+na Dagger of Davchar
+IT
+ wt 10
+ un 43858
+IM
+ ab 50
+
+91017 item 0
+na old book
+IT
+ wt 5
+ un 101863
+IM
+ ms 161 
+
+91101 item artifact
+na Dagger of Kircarth
+IT
+ wt 10
+ un 43887
+IM
+ ab 25
+
+91126 item npc_token
+na Horn of the Savages
+IT
+ un 68242
+IM
+ tn 1
+ ti 32
+ lo 9004
+PL
+
+91140 item 0
+na old book
+IT
+ wt 5
+ un 43396
+IM
+ ms 164 
+
+91223 item npc_token
+na Horn of the Savages
+IT
+ un 97487
+IM
+ tn 1
+ ti 32
+ lo 9004
+PL
+
+91239 item artifact
+na Amulet of Pirn
+IT
+ wt 10
+ un 75406
+IM
+ ba 3
+
+91251 item npc_token
+na Horn of the Savages
+IT
+ un 91147
+IM
+ tn 1
+ ti 32
+ lo 9004
+PL
+
+91268 item artifact
+na elven amulet
+IT
+ wt 10
+ un 89284
+IM
+ ba 1
+
+91284 item artifact
+na enchanted spear
+IT
+ wt 10
+ un 70501
+IM
+ mb 45
+
+91380 item artifact
+na golden staff
+IT
+ wt 10
+ un 56653
+IM
+ ba 2
+
+91423 item artifact
+na magic longsword
+IT
+ wt 10
+ un 51443
+IM
+ ab 10
+
+91438 item artifact
+na Javelin of Shotluth
+IT
+ wt 10
+ un 75468
+IM
+ mb 35
+
+91440 item artifact
+na Ring of Eadak
+IT
+ wt 10
+ un 80114
+IM
+ ba 1
+
+91490 item 0
+na rare book
+IT
+ wt 5
+ un 55974
+IM
+ ms 162 
+
+91497 item artifact
+na Amulet of Tarvik
+IT
+ wt 10
+ un 51228
+IM
+ ba 1
+
+91509 item artifact
+na Longsword of Broen
+IT
+ wt 10
+ un 47062
+IM
+ ab 25
+
+91549 item npc_token
+na Horn of the Savages
+IT
+ un 42865
+IM
+ tn 1
+ ti 32
+ lo 9004
+PL
+
+91550 item artifact
+na golden dart
+IT
+ wt 10
+ un 42919
+IM
+ mb 20
+
+91630 item 0
+na rare book
+IT
+ wt 5
+ un 96224
+IM
+ ms 164 
+
+91651 item npc_token
+na Crown of the Barbarians
+IT
+ un 100053
+IM
+ tn 1
+ ti 34
+ lo 9005
+PL
+
+91704 item npc_token
+na Banner of the Skeletons
+IT
+ un 97008
+IM
+ tn 1
+ ti 33
+ lo 9001
+PL
+
+91771 item artifact
+na Sword of Nuncarth
+IT
+ wt 10
+ un 79079
+IM
+ ab 30
+
+91834 item 0
+na old book
+IT
+ wt 5
+ un 68505
+IM
+ ms 161 
+
+91872 item 0
+na rare book
+IT
+ wt 5
+ un 98780
+IM
+ ms 162 
+
+91885 item artifact
+na Helm of Cospera
+IT
+ wt 10
+ un 42893
+IM
+ db 45
+
+91926 item 0
+na rare book
+IT
+ wt 5
+ un 82063
+IM
+ ms 162 
+
+91950 item artifact
+na Sword of Lethrys
+IT
+ wt 10
+ un 43300
+IM
+ ab 30
+
+92036 item 0
+na old book
+IT
+ wt 5
+ un 77939
+IM
+ ms 164 
+
+92111 item npc_token
+na Crown of the Undead lord
+IT
+ un 76558
+IM
+ tn 1
+ ti 31
+ lo 9003
+PL
+
+92149 item npc_token
+na Crown of the Barbarians
+IT
+ un 78343
+IM
+ tn 1
+ ti 34
+ lo 9005
+PL
+
+92166 item npc_token
+na Crown of the Undead lord
+IT
+ un 64184
+IM
+ tn 1
+ ti 31
+ lo 9003
+PL
+
+92168 item artifact
+na crystal longsword
+IT
+ wt 10
+ un 43547
+IM
+ ab 50
+
+92184 item npc_token
+na Horn of the Savages
+IT
+ un 61680
+IM
+ tn 1
+ ti 32
+ lo 9004
+PL
+
+92189 item artifact
+na golden staff
+IT
+ wt 10
+ un 69109
+IM
+ ba 1
+
+92255 item artifact
+na crystal ring
+IT
+ wt 10
+ un 81457
+IM
+ ba 2
+
+92257 item artifact
+na elven sword
+IT
+ wt 10
+ un 89008
+IM
+ ab 30
+
+92294 item npc_token
+na Horn of the Savages
+IT
+ un 76571
+IM
+ tn 1
+ ti 32
+ lo 9004
+PL
+
+92327 item artifact
+na golden ring
+IT
+ wt 10
+ un 90343
+IM
+ ba 2
+
+92428 item artifact
+na enchanted shield
+IT
+ wt 10
+ un 79587
+IM
+ db 5
+
+92431 item artifact
+na crystal amulet
+IT
+ wt 10
+ un 97132
+IM
+ ba 1
+
+92489 item npc_token
+na Crown of the Barbarians
+IT
+ un 51320
+IM
+ tn 1
+ ti 34
+ lo 9005
+PL
+
+92535 item 0
+na rare book
+IT
+ wt 5
+ un 54756
+IM
+ ms 163 
+
+92546 item artifact
+na golden helm
+IT
+ wt 10
+ un 92437
+IM
+ db 45
+
+92553 item artifact
+na Amulet of Kircarth
+IT
+ wt 10
+ un 52352
+IM
+ ba 3
+
+92564 item artifact
+na elven longsword
+IT
+ wt 10
+ un 102248
+IM
+ ab 25
+
+92628 item npc_token
+na Crown of the Barbarians
+IT
+ un 70478
+IM
+ tn 1
+ ti 34
+ lo 9005
+PL
+
+92687 item artifact
+na magic shield
+IT
+ wt 10
+ un 75307
+IM
+ db 35
+
+92688 item artifact
+na enchanted helm
+IT
+ wt 10
+ un 43253
+IM
+ db 30
+
+92713 item artifact
+na golden dart
+IT
+ wt 10
+ un 80976
+IM
+ mb 20
+
+92716 item 0
+na rare book
+IT
+ wt 5
+ un 75845
+IM
+ ms 165 
+
+92795 item npc_token
+na Golden idol of the Orcs
+IT
+ un 59694
+IM
+ tn 1
+ ti 287
+ lo 9002
+PL
+
+92799 item 0
+na old book
+IT
+ wt 5
+ un 59275
+IM
+ ms 161 
+
+92819 item artifact
+na crystal staff
+IT
+ wt 10
+ un 51560
+IM
+ ba 2
+
+92858 item npc_token
+na Crown of the Undead lord
+IT
+ un 55286
+IM
+ tn 1
+ ti 31
+ lo 9003
+PL
+
+92883 item artifact
+na golden helm
+IT
+ wt 10
+ un 93463
+IM
+ db 25
+
+92900 item 0
+na old book
+IT
+ wt 5
+ un 92887
+IM
+ ms 162 
+
+92923 item artifact
+na Dart of Sorale
+IT
+ wt 10
+ un 46199
+IM
+ mb 5
+
+92935 item artifact
+na Bow of Ollayos
+IT
+ wt 10
+ un 62139
+IM
+ mb 10
+
+92950 item npc_token
+na Horn of the Savages
+IT
+ un 90299
+IM
+ tn 1
+ ti 32
+ lo 9004
+PL
+
+92961 item npc_token
+na Golden idol of the Orcs
+IT
+ un 68509
+IM
+ tn 1
+ ti 287
+ lo 9002
+PL
+
+92966 item artifact
+na magic dagger
+IT
+ wt 10
+ un 53076
+IM
+ ab 10
+
+92967 item artifact
+na Armor of Earnberict
+IT
+ wt 10
+ un 92549
+IM
+ db 35
+
+92969 item artifact
+na enchanted dagger
+IT
+ wt 10
+ un 101423
+IM
+ ab 50
+
+93020 item artifact
+na golden shield
+IT
+ wt 10
+ un 73270
+IM
+ db 50
+
+93047 item artifact
+na Dagger of Justice
+IT
+ wt 10
+ un 43613
+IM
+ ab 35
+
+93084 item artifact
+na magic dart
+IT
+ wt 10
+ un 75174
+IM
+ mb 35
+
+93086 item npc_token
+na Golden idol of the Orcs
+IT
+ un 88857
+IM
+ tn 1
+ ti 287
+ lo 9002
+PL
+
+93098 item npc_token
+na Horn of the Savages
+IT
+ un 59811
+IM
+ tn 1
+ ti 32
+ lo 9004
+PL
+
+93138 item 0
+na rare book
+IT
+ wt 5
+ un 89718
+IM
+ ms 164 
+
+93140 item artifact
+na Helm of Carim
+IT
+ wt 10
+ un 45865
+IM
+ db 5
+
+93146 item artifact
+na magic shield
+IT
+ wt 10
+ un 43822
+IM
+ db 30
+
+93162 item artifact
+na Spear of Earnberict
+IT
+ wt 10
+ un 91751
+IM
+ mb 5
+
+93191 item artifact
+na Shield of Earnberict
+IT
+ wt 10
+ un 100066
+IM
+ db 25
+
+93214 item artifact
+na elven ring
+IT
+ wt 10
+ un 46544
+IM
+ ba 1
+
+93230 item artifact
+na Longsword of Sardis
+IT
+ wt 10
+ un 42738
+IM
+ ab 20
+
+93276 item npc_token
+na Banner of the Skeletons
+IT
+ un 78375
+IM
+ tn 1
+ ti 33
+ lo 9001
+PL
+
+93308 item artifact
+na Dagger of Birdan
+IT
+ wt 10
+ un 80476
+IM
+ ab 15
+
+93322 item 0
+na old book
+IT
+ wt 5
+ un 58722
+IM
+ ms 161 
+
+93379 item 0
+na old book
+IT
+ wt 5
+ un 50552
+IM
+ ms 163 
+
+93393 item 0
+na rare book
+IT
+ wt 5
+ un 49789
+IM
+ ms 164 
+
+93405 item artifact
+na elven staff
+IT
+ wt 10
+ un 52401
+IM
+ ba 1
+
+93408 item artifact
+na elven spear
+IT
+ wt 10
+ un 42975
+IM
+ mb 50
+
+93418 item npc_token
+na Golden idol of the Orcs
+IT
+ un 58887
+IM
+ tn 1
+ ti 287
+ lo 9002
+PL
+
+93453 item artifact
+na magic ring
+IT
+ wt 10
+ un 100856
+IM
+ ba 1
+
+93477 item 0
+na rare book
+IT
+ wt 5
+ un 65176
+IM
+ ms 162 
+
+93486 item artifact
+na Spear of Resh
+IT
+ wt 10
+ un 76287
+IM
+ mb 40
+
+93504 item artifact
+na Staff of Vernolt
+IT
+ wt 10
+ un 81525
+IM
+ ba 1
+
+93527 item npc_token
+na Horn of the Savages
+IT
+ un 93560
+IM
+ tn 1
+ ti 32
+ lo 9004
+PL
+
+93558 item suffuse_ring
+na Golden ring
+IT
+ wt 1
+ un 100624
+IM
+ uk 11
+ lo 9009
+
+93602 item artifact
+na elven bow
+IT
+ wt 10
+ un 58177
+IM
+ mb 5
+
+93633 item 0
+na rare book
+IT
+ wt 5
+ un 66447
+IM
+ ms 162 
+
+93667 item 0
+na old book
+IT
+ wt 5
+ un 49224
+IM
+ ms 162 
+
+93817 item artifact
+na Amulet of Elakain
+IT
+ wt 10
+ un 43119
+IM
+ ba 3
+
+93826 item artifact
+na Longsword of Eadak
+IT
+ wt 10
+ un 94606
+IM
+ ab 20
+
+93852 item npc_token
+na Golden idol of the Orcs
+IT
+ un 43812
+IM
+ tn 1
+ ti 287
+ lo 9002
+PL
+
+93854 item artifact
+na magic armor
+IT
+ wt 10
+ un 94461
+IM
+ db 50
+
+93867 item 0
+na old book
+IT
+ wt 5
+ un 53018
+IM
+ ms 163 
+
+93869 item 0
+na rare book
+IT
+ wt 5
+ un 49973
+IM
+ ms 164 
+
+93950 item npc_token
+na Crown of the Undead lord
+IT
+ un 99438
+IM
+ tn 1
+ ti 31
+ lo 9003
+PL
+
+93976 item artifact
+na golden armor
+IT
+ wt 10
+ un 87334
+IM
+ db 5
+
+93980 item npc_token
+na Crown of the Undead lord
+IT
+ un 83849
+IM
+ tn 1
+ ti 31
+ lo 9003
+PL
+
+94011 item npc_token
+na Banner of the Skeletons
+IT
+ un 68123
+IM
+ tn 1
+ ti 33
+ lo 9001
+PL
+
+94030 item artifact
+na elven armor
+IT
+ wt 10
+ un 67999
+IM
+ db 5
+
+94147 item artifact
+na Longsword of Ragnar
+IT
+ wt 10
+ un 89943
+IM
+ ab 20
+
+94148 item artifact
+na crystal bow
+IT
+ wt 10
+ un 101224
+IM
+ mb 35
+
+94170 item npc_token
+na Crown of the Undead lord
+IT
+ un 57058
+IM
+ tn 1
+ ti 31
+ lo 9003
+PL
+
+94171 item artifact
+na enchanted longsword
+IT
+ wt 10
+ un 56928
+IM
+ ab 40
+
+94223 item artifact
+na magic spear
+IT
+ wt 10
+ un 88392
+IM
+ mb 15
+
+94255 item artifact
+na magic staff
+IT
+ wt 10
+ un 42800
+IM
+ ba 2
+
+94278 item artifact
+na elven longsword
+IT
+ wt 10
+ un 43993
+IM
+ ab 45
+
+94285 item artifact
+na golden dagger
+IT
+ wt 10
+ un 59575
+IM
+ ab 15
+
+94321 item 0
+na old book
+IT
+ wt 5
+ un 60904
+IM
+ ms 163 
+
+94355 item npc_token
+na Crown of the Barbarians
+IT
+ un 64086
+IM
+ tn 1
+ ti 34
+ lo 9005
+PL
+
+94370 item npc_token
+na Crown of the Barbarians
+IT
+ un 43299
+IM
+ tn 1
+ ti 34
+ lo 9005
+PL
+
+94381 item artifact
+na crystal bow
+IT
+ wt 10
+ un 51129
+IM
+ mb 30
+
+94399 item 0
+na old book
+IT
+ wt 5
+ un 43868
+IM
+ ms 161 
+
+94483 item artifact
+na crystal spear
+IT
+ wt 10
+ un 78474
+IM
+ mb 5
+
+94494 item artifact
+na crystal spear
+IT
+ wt 10
+ un 42955
+IM
+ mb 5
+
+94514 item 0
+na rare book
+IT
+ wt 5
+ un 85990
+IM
+ ms 164 
+
+94536 item 0
+na old book
+IT
+ wt 5
+ un 43637
+IM
+ ms 163 
+
+94575 item 0
+na old book
+IT
+ wt 5
+ un 100528
+IM
+ ms 164 
+
+94686 item 0
+na rare book
+IT
+ wt 5
+ un 75490
+IM
+ ms 165 
+
+94728 item artifact
+na magic helm
+IT
+ wt 10
+ un 93163
+IM
+ db 40
+
+94754 item npc_token
+na Horn of the Savages
+IT
+ un 60399
+IM
+ tn 1
+ ti 32
+ lo 9004
+PL
+
+94763 item artifact
+na golden longsword
+IT
+ wt 10
+ un 73754
+IM
+ ab 25
+
+94766 item npc_token
+na Crown of the Undead lord
+IT
+ un 73588
+IM
+ tn 1
+ ti 31
+ lo 9003
+PL
+
+94804 item 0
+na old book
+IT
+ wt 5
+ un 69601
+IM
+ ms 165 
+
+94910 item 0
+na rare book
+IT
+ wt 5
+ un 71286
+IM
+ ms 162 
+
+94920 item artifact
+na crystal sword
+IT
+ wt 10
+ un 82173
+IM
+ ab 40
+
+94942 item 0
+na rare book
+IT
+ wt 5
+ un 84509
+IM
+ ms 164 
+
+95020 item 0
+na old book
+IT
+ wt 5
+ un 65765
+IM
+ ms 165 
+
+95026 item 0
+na old book
+IT
+ wt 5
+ un 57708
+IM
+ ms 163 
+
+95096 item artifact
+na Dart of Kircarth
+IT
+ wt 10
+ un 43402
+IM
+ mb 10
+
+95129 item artifact
+na elven spear
+IT
+ wt 10
+ un 81051
+IM
+ mb 30
+
+95146 item npc_token
+na Crown of the Barbarians
+IT
+ un 60344
+IM
+ tn 1
+ ti 34
+ lo 9005
+PL
+
+95158 item 0
+na rare book
+IT
+ wt 5
+ un 78864
+IM
+ ms 161 
+
+95165 item npc_token
+na Horn of the Savages
+IT
+ un 45326
+IM
+ tn 1
+ ti 32
+ lo 9004
+PL
+
+95217 item artifact
+na crystal longsword
+IT
+ wt 10
+ un 97866
+IM
+ ab 40
+
+95224 item npc_token
+na Golden idol of the Orcs
+IT
+ un 48515
+IM
+ tn 1
+ ti 287
+ lo 9002
+PL
+
+95265 item artifact
+na crystal ring
+IT
+ wt 10
+ un 102361
+IM
+ ba 1
+
+95267 item artifact
+na crystal dart
+IT
+ wt 10
+ un 42939
+IM
+ mb 45
+
+95283 item artifact
+na Helm of Sorale
+IT
+ wt 10
+ un 42889
+IM
+ db 30
+
+95340 item 0
+na rare book
+IT
+ wt 5
+ un 63654
+IM
+ ms 165 
+
+95347 item npc_token
+na Horn of the Savages
+IT
+ un 58777
+IM
+ tn 1
+ ti 32
+ lo 9004
+PL
+
+95372 item artifact
+na crystal sword
+IT
+ wt 10
+ un 46341
+IM
+ ab 40
+
+95403 item artifact
+na golden staff
+IT
+ wt 10
+ un 81367
+IM
+ ba 2
+
+95419 item 0
+na old book
+IT
+ wt 5
+ un 57910
+IM
+ ms 161 
+
+95537 item 0
+na rare book
+IT
+ wt 5
+ un 101494
+IM
+ ms 161 
+
+95558 item artifact
+na crystal spear
+IT
+ wt 10
+ un 64889
+IM
+ mb 10
+
+95663 item npc_token
+na Horn of the Savages
+IT
+ un 62399
+IM
+ tn 1
+ ti 32
+ lo 9004
+PL
+
+95679 item 0
+na old book
+IT
+ wt 5
+ un 53725
+IM
+ ms 165 
+
+95681 item 0
+na rare book
+IT
+ wt 5
+ un 48190
+IM
+ ms 163 
+
+95756 item artifact
+na Dagger of Kuneack
+IT
+ wt 10
+ un 43100
+IM
+ ab 30
+
+95812 item npc_token
+na Horn of the Savages
+IT
+ un 42991
+IM
+ tn 1
+ ti 32
+ lo 9004
+PL
+
+95854 item npc_token
+na Golden idol of the Orcs
+IT
+ un 94857
+IM
+ tn 1
+ ti 287
+ lo 9002
+PL
+
+95875 item artifact
+na crystal amulet
+IT
+ wt 10
+ un 55522
+IM
+ ba 3
+
+95955 item artifact
+na elven javelin
+IT
+ wt 10
+ un 93296
+IM
+ mb 45
+
+95983 item artifact
+na golden shield
+IT
+ wt 10
+ un 81466
+IM
+ db 35
+
+96003 item artifact
+na crystal javelin
+IT
+ wt 10
+ un 43559
+IM
+ mb 35
+
+96004 item 0
+na rare book
+IT
+ wt 5
+ un 97757
+IM
+ ms 164 
+
+96033 item artifact
+na elven longsword
+IT
+ wt 10
+ un 51229
+IM
+ ab 25
+
+96037 item 0
+na rare book
+IT
+ wt 5
+ un 54511
+IM
+ ms 161 
+
+96058 item artifact
+na crystal longsword
+IT
+ wt 10
+ un 56684
+IM
+ ab 5
+
+96127 item artifact
+na Javelin of Maire
+IT
+ wt 10
+ un 93381
+IM
+ mb 20
+
+96131 item npc_token
+na Banner of the Skeletons
+IT
+ un 60581
+IM
+ tn 1
+ ti 33
+ lo 9001
+PL
+
+96154 item 0
+na rare book
+IT
+ wt 5
+ un 96032
+IM
+ ms 164 
+
+96165 item npc_token
+na Banner of the Skeletons
+IT
+ un 90466
+IM
+ tn 1
+ ti 33
+ lo 9001
+PL
+
+96173 item 0
+na rare book
+IT
+ wt 5
+ un 54273
+IM
+ ms 163 
+
+96177 item 0
+na rare book
+IT
+ wt 5
+ un 78502
+IM
+ ms 161 
+
+96254 item artifact
+na Dagger of Lorbin
+IT
+ wt 10
+ un 91922
+IM
+ ab 50
+
+96275 item artifact
+na enchanted bow
+IT
+ wt 10
+ un 43092
+IM
+ mb 35
+
+96364 item artifact
+na Javelin of Truth
+IT
+ wt 10
+ un 46382
+IM
+ mb 5
+
+96406 item artifact
+na enchanted armor
+IT
+ wt 10
+ un 59316
+IM
+ db 50
+
+96487 item npc_token
+na Golden idol of the Orcs
+IT
+ un 53752
+IM
+ tn 1
+ ti 287
+ lo 9002
+PL
+
+96495 item artifact
+na crystal longsword
+IT
+ wt 10
+ un 48997
+IM
+ ab 5
+
+96497 item 0
+na rare book
+IT
+ wt 5
+ un 100925
+IM
+ ms 163 
+
+96521 item artifact
+na crystal staff
+IT
+ wt 10
+ un 86597
+IM
+ ba 2
+
+96538 item artifact
+na elven staff
+IT
+ wt 10
+ un 43023
+IM
+ ba 3
+
+96548 item npc_token
+na Banner of the Skeletons
+IT
+ un 69407
+IM
+ tn 1
+ ti 33
+ lo 9001
+PL
+
+96556 item artifact
+na crystal longsword
+IT
+ wt 10
+ un 85169
+IM
+ ab 30
+
+96611 item 0
+na rare book
+IT
+ wt 5
+ un 58970
+IM
+ ms 164 
+
+96624 item artifact
+na Ring of Raskold
+IT
+ wt 10
+ un 82668
+IM
+ ba 2
+
+96628 item 0
+na rare book
+IT
+ wt 5
+ un 73776
+IM
+ ms 163 
+
+96631 item npc_token
+na Crown of the Barbarians
+IT
+ un 77668
+IM
+ tn 1
+ ti 34
+ lo 9005
+PL
+
+96670 item artifact
+na golden armor
+IT
+ wt 10
+ un 91020
+IM
+ db 50
+
+96690 item 0
+na rare book
+IT
+ wt 5
+ un 87676
+IM
+ ms 161 
+
+96691 item npc_token
+na Horn of the Savages
+IT
+ un 48193
+IM
+ tn 1
+ ti 32
+ lo 9004
+PL
+
+96731 item 0
+na rare book
+IT
+ wt 5
+ un 90789
+IM
+ ms 165 
+
+96752 item artifact
+na enchanted helm
+IT
+ wt 10
+ un 88532
+IM
+ db 15
+
+96869 item artifact
+na Amulet of Lethrys
+IT
+ wt 10
+ un 54482
+IM
+ ba 1
+
+96870 item artifact
+na Shield of Haim
+IT
+ wt 10
+ un 89863
+IM
+ db 10
+
+96916 item npc_token
+na Crown of the Undead lord
+IT
+ un 51275
+IM
+ tn 1
+ ti 31
+ lo 9003
+PL
+
+96935 item 0
+na old book
+IT
+ wt 5
+ un 63586
+IM
+ ms 162 
+
+96951 item 0
+na rare book
+IT
+ wt 5
+ un 60111
+IM
+ ms 161 
+
+96971 item artifact
+na crystal armor
+IT
+ wt 10
+ un 72034
+IM
+ db 45
+
+96998 item 0
+na old book
+IT
+ wt 5
+ un 74870
+IM
+ ms 164 
+
+97001 item artifact
+na crystal ring
+IT
+ wt 10
+ un 55713
+IM
+ ba 3
+
+97059 item 0
+na old book
+IT
+ wt 5
+ un 47314
+IM
+ ms 164 
+
+97104 item npc_token
+na Banner of the Skeletons
+IT
+ un 99105
+IM
+ tn 1
+ ti 33
+ lo 9001
+PL
+
+97172 item npc_token
+na Banner of the Skeletons
+IT
+ un 92720
+IM
+ tn 1
+ ti 33
+ lo 9001
+PL
+
+97236 item artifact
+na golden sword
+IT
+ wt 10
+ un 70119
+IM
+ ab 10
+
+97265 item 0
+na old book
+IT
+ wt 5
+ un 81665
+IM
+ ms 161 
+
+97273 item artifact
+na crystal armor
+IT
+ wt 10
+ un 86028
+IM
+ db 40
+
+97314 item 0
+na old book
+IT
+ wt 5
+ un 55277
+IM
+ ms 162 
+
+97328 item artifact
+na Staff of Haemin
+IT
+ wt 10
+ un 92449
+IM
+ ba 1
+
+97331 item 0
+na rare book
+IT
+ wt 5
+ un 43025
+IM
+ ms 164 
+
+97399 item artifact
+na crystal javelin
+IT
+ wt 10
+ un 42758
+IM
+ mb 50
+
+97421 item npc_token
+na Banner of the Skeletons
+IT
+ un 75613
+IM
+ tn 1
+ ti 33
+ lo 9001
+PL
+
+97489 item artifact
+na elven spear
+IT
+ wt 10
+ un 68084
+IM
+ mb 40
+
+97508 item artifact
+na crystal staff
+IT
+ wt 10
+ un 64982
+IM
+ ba 2
+
+97517 item npc_token
+na Horn of the Savages
+IT
+ un 62904
+IM
+ tn 1
+ ti 32
+ lo 9004
+PL
+
+97531 item 0
+na old book
+IT
+ wt 5
+ un 83096
+IM
+ ms 162 
+
+97543 item npc_token
+na Crown of the Barbarians
+IT
+ un 96292
+IM
+ tn 1
+ ti 34
+ lo 9005
+PL
+
+97567 item 0
+na old book
+IT
+ wt 5
+ un 91456
+IM
+ ms 161 
+
+97572 item npc_token
+na Golden idol of the Orcs
+IT
+ un 88577
+IM
+ tn 1
+ ti 287
+ lo 9002
+PL
+
+97588 item npc_token
+na Horn of the Savages
+IT
+ un 83206
+IM
+ tn 1
+ ti 32
+ lo 9004
+PL
+
+97611 item 0
+na rare book
+IT
+ wt 5
+ un 42916
+IM
+ ms 164 
+
+97618 item artifact
+na crystal staff
+IT
+ wt 10
+ un 61552
+IM
+ ba 2
+
+97635 item artifact
+na Helm of Achilles
+IT
+ wt 10
+ un 71078
+IM
+ db 40
+
+97652 item 0
+na old book
+IT
+ wt 5
+ un 74536
+IM
+ ms 162 
+
+97703 item npc_token
+na Crown of the Undead lord
+IT
+ un 57736
+IM
+ tn 1
+ ti 31
+ lo 9003
+PL
+
+97766 item artifact
+na magic sword
+IT
+ wt 10
+ un 71255
+IM
+ ab 40
+
+97782 item artifact
+na elven amulet
+IT
+ wt 10
+ un 48615
+IM
+ ba 3
+
+97801 item artifact
+na magic spear
+IT
+ wt 10
+ un 50900
+IM
+ mb 5
+
+97858 item 0
+na old book
+IT
+ wt 5
+ un 64360
+IM
+ ms 163 
+
+97865 item 0
+na old book
+IT
+ wt 5
+ un 78381
+IM
+ ms 162 
+
+97872 item npc_token
+na Banner of the Skeletons
+IT
+ un 57516
+IM
+ tn 1
+ ti 33
+ lo 9001
+PL
+
+97875 item artifact
+na golden amulet
+IT
+ wt 10
+ un 71344
+IM
+ ba 2
+
+97876 item artifact
+na magic dagger
+IT
+ wt 10
+ un 75335
+IM
+ ab 40
+
+97958 item 0
+na old book
+IT
+ wt 5
+ un 76920
+IM
+ ms 165 
+
+97982 item artifact
+na crystal shield
+IT
+ wt 10
+ un 85276
+IM
+ db 35
+
+97990 item artifact
+na golden spear
+IT
+ wt 10
+ un 92559
+IM
+ mb 15
+
+98065 item npc_token
+na Golden idol of the Orcs
+IT
+ un 96806
+IM
+ tn 1
+ ti 287
+ lo 9002
+PL
+
+98079 item npc_token
+na Horn of the Savages
+IT
+ un 56865
+IM
+ tn 1
+ ti 32
+ lo 9004
+PL
+
+98144 item npc_token
+na Horn of the Savages
+IT
+ un 79820
+IM
+ tn 1
+ ti 32
+ lo 9004
+PL
+
+98187 item artifact
+na enchanted spear
+IT
+ wt 10
+ un 43545
+IM
+ mb 30
+
+98225 item artifact
+na Dagger of Sardis
+IT
+ wt 10
+ un 49475
+IM
+ ab 25
+
+98227 item artifact
+na golden shield
+IT
+ wt 10
+ un 59956
+IM
+ db 35
+
+98251 item 0
+na rare book
+IT
+ wt 5
+ un 70157
+IM
+ ms 164 
+
+98254 item npc_token
+na Golden idol of the Orcs
+IT
+ un 67736
+IM
+ tn 1
+ ti 287
+ lo 9002
+PL
+
+98258 item 0
+na rare book
+IT
+ wt 5
+ un 98210
+IM
+ ms 161 
+
+98321 item npc_token
+na Crown of the Barbarians
+IT
+ un 59900
+IM
+ tn 1
+ ti 34
+ lo 9005
+PL
+
+98326 item 0
+na old book
+IT
+ wt 5
+ un 49732
+IM
+ ms 161 
+
+98342 item npc_token
+na Horn of the Savages
+IT
+ un 46299
+IM
+ tn 1
+ ti 32
+ lo 9004
+PL
+
+98376 item artifact
+na crystal spear
+IT
+ wt 10
+ un 69091
+IM
+ mb 25
+
+98406 item npc_token
+na Horn of the Savages
+IT
+ un 95185
+IM
+ tn 1
+ ti 32
+ lo 9004
+PL
+
+98426 item artifact
+na golden spear
+IT
+ wt 10
+ un 42957
+IM
+ mb 40
+
+98547 item artifact
+na crystal javelin
+IT
+ wt 10
+ un 74073
+IM
+ mb 25
+
+98594 item 0
+na old book
+IT
+ wt 5
+ un 43195
+IM
+ ms 162 
+
+98611 item artifact
+na enchanted staff
+IT
+ wt 10
+ un 96482
+IM
+ ba 3
+
+98635 item npc_token
+na Crown of the Undead lord
+IT
+ un 70010
+IM
+ tn 1
+ ti 31
+ lo 9003
+PL
+
+98662 item npc_token
+na Horn of the Savages
+IT
+ un 63386
+IM
+ tn 1
+ ti 32
+ lo 9004
+PL
+
+98730 item artifact
+na enchanted ring
+IT
+ wt 10
+ un 91360
+IM
+ ba 1
+
+98762 item artifact
+na golden armor
+IT
+ wt 10
+ un 43771
+IM
+ db 25
+
+98799 item artifact
+na golden dart
+IT
+ wt 10
+ un 43125
+IM
+ mb 20
+
+98819 item 0
+na rare book
+IT
+ wt 5
+ un 99367
+IM
+ ms 161 
+
+98849 item artifact
+na Dart of Anarth
+IT
+ wt 10
+ un 48188
+IM
+ mb 20
+
+98868 item artifact
+na Dagger of Baraxes
+IT
+ wt 10
+ un 50166
+IM
+ ab 5
+
+98885 item artifact
+na Dagger of Fistrock
+IT
+ wt 10
+ un 100858
+IM
+ ab 25
+
+98924 item 0
+na rare book
+IT
+ wt 5
+ un 94468
+IM
+ ms 161 
+
+98954 item artifact
+na magic staff
+IT
+ wt 10
+ un 80211
+IM
+ ba 3
+
+98982 item 0
+na old book
+IT
+ wt 5
+ un 78485
+IM
+ ms 162 
+
+98995 item 0
+na old book
+IT
+ wt 5
+ un 97576
+IM
+ ms 165 
+
+99054 item artifact
+na enchanted dart
+IT
+ wt 10
+ un 48732
+IM
+ mb 5
+
+99055 item npc_token
+na Crown of the Undead lord
+IT
+ un 74910
+IM
+ tn 1
+ ti 31
+ lo 9003
+PL
+
+99065 item artifact
+na Javelin of Anarth
+IT
+ wt 10
+ un 84119
+IM
+ mb 15
+
+99071 item 0
+na rare book
+IT
+ wt 5
+ un 62611
+IM
+ ms 161 
+
+99085 item artifact
+na golden sword
+IT
+ wt 10
+ un 80950
+IM
+ ab 50
+
+99205 item 0
+na old book
+IT
+ wt 5
+ un 58524
+IM
+ ms 161 
+
+99238 item npc_token
+na Golden idol of the Orcs
+IT
+ un 55334
+IM
+ tn 1
+ ti 287
+ lo 9002
+PL
+
+99240 item npc_token
+na Horn of the Savages
+IT
+ un 49171
+IM
+ tn 1
+ ti 32
+ lo 9004
+PL
+
+99267 item artifact
+na Staff of Woodhead
+IT
+ wt 10
+ un 95768
+IM
+ ba 2
+
+99282 item artifact
+na crystal bow
+IT
+ wt 10
+ un 89827
+IM
+ mb 35
+
+99294 item 0
+na rare book
+IT
+ wt 5
+ un 55739
+IM
+ ms 163 
+
+99325 item artifact
+na elven longsword
+IT
+ wt 10
+ un 51183
+IM
+ ab 35
+
+99326 item artifact
+na Dart of Haemin
+IT
+ wt 10
+ un 79353
+IM
+ mb 5
+
+99331 item npc_token
+na Crown of the Undead lord
+IT
+ un 49729
+IM
+ tn 1
+ ti 31
+ lo 9003
+PL
+
+99346 item 0
+na rare book
+IT
+ wt 5
+ un 78676
+IM
+ ms 162 
+
+99349 item artifact
+na Armor of Aethelarn
+IT
+ wt 10
+ un 65965
+IM
+ db 10
+
+99366 item artifact
+na enchanted ring
+IT
+ wt 10
+ un 75412
+IM
+ ba 3
+
+99375 item artifact
+na Javelin of Miranth
+IT
+ wt 10
+ un 78337
+IM
+ mb 10
+
+99393 item 0
+na old book
+IT
+ wt 5
+ un 74597
+IM
+ ms 164 
+
+99412 item artifact
+na enchanted sword
+IT
+ wt 10
+ un 93396
+IM
+ ab 50
+
+99433 item 0
+na old book
+IT
+ wt 5
+ un 71842
+IM
+ ms 162 
+
+99463 item artifact
+na Amulet of Salamus
+IT
+ wt 10
+ un 87867
+IM
+ ba 1
+
+99522 item 0
+na old book
+IT
+ wt 5
+ un 43835
+IM
+ ms 162 
+
+99552 item 0
+na old book
+IT
+ wt 5
+ un 82286
+IM
+ ms 161 
+
+99642 item npc_token
+na Crown of the Undead lord
+IT
+ un 58574
+IM
+ tn 1
+ ti 31
+ lo 9003
+PL
+
+99653 item artifact
+na Dagger of Baraxes
+IT
+ wt 10
+ un 101456
+IM
+ ab 45
+
+99659 item npc_token
+na Banner of the Skeletons
+IT
+ un 71458
+IM
+ tn 1
+ ti 33
+ lo 9001
+PL
+
+99662 item artifact
+na magic sword
+IT
+ wt 10
+ un 54386
+IM
+ ab 40
+
+99676 item npc_token
+na Crown of the Barbarians
+IT
+ un 54921
+IM
+ tn 1
+ ti 34
+ lo 9005
+PL
+
+99687 item npc_token
+na Crown of the Undead lord
+IT
+ un 77633
+IM
+ tn 1
+ ti 31
+ lo 9003
+PL
+
+99735 item npc_token
+na Crown of the Undead lord
+IT
+ un 56975
+IM
+ tn 1
+ ti 31
+ lo 9003
+PL
+
+99765 item artifact
+na elven shield
+IT
+ wt 10
+ un 96453
+IM
+ db 35
+
+99808 item npc_token
+na Crown of the Barbarians
+IT
+ un 49695
+IM
+ tn 1
+ ti 34
+ lo 9005
+PL
+
+99809 item 0
+na rare book
+IT
+ wt 5
+ un 45686
+IM
+ ms 164 
+
+99825 item artifact
+na crystal shield
+IT
+ wt 10
+ un 90296
+IM
+ db 40
+
+99847 item artifact
+na magic dagger
+IT
+ wt 10
+ un 68906
+IM
+ ab 40
+
+99850 item npc_token
+na Crown of the Undead lord
+IT
+ un 58632
+IM
+ tn 1
+ ti 31
+ lo 9003
+PL
+
+99891 item npc_token
+na Crown of the Undead lord
+IT
+ un 100502
+IM
+ tn 1
+ ti 31
+ lo 9003
+PL
+
+99893 item artifact
+na enchanted armor
+IT
+ wt 10
+ un 66514
+IM
+ db 35
+
+99900 item artifact
+na elven ring
+IT
+ wt 10
+ un 73462
+IM
+ ba 3
+
+99904 item npc_token
+na Crown of the Barbarians
+IT
+ un 86867
+IM
+ tn 1
+ ti 34
+ lo 9005
+PL
+
+99967 item 0
+na old book
+IT
+ wt 5
+ un 43651
+IM
+ ms 161 
+
+99998 item artifact
+na magic dagger
+IT
+ wt 10
+ un 101966
+IM
+ ab 5
+
+99999 item artifact
+na golden ring
+IT
+ wt 10
+ un 79685
+IM
+ ba 2
+
+100013 item 0
+na rare book
+IT
+ wt 5
+ un 42980
+IM
+ ms 164 
+
+100016 item artifact
+na elven javelin
+IT
+ wt 10
+ un 85722
+IM
+ mb 45
+
+100051 item npc_token
+na Golden idol of the Orcs
+IT
+ un 67375
+IM
+ tn 1
+ ti 287
+ lo 9002
+PL
+
+100097 item artifact
+na crystal bow
+IT
+ wt 10
+ un 43099
+IM
+ mb 35
+
+100125 item artifact
+na Bow of Resh
+IT
+ wt 10
+ un 47489
+IM
+ mb 50
+
+100129 item npc_token
+na Banner of the Skeletons
+IT
+ un 84297
+IM
+ tn 1
+ ti 33
+ lo 9001
+PL
+
+100132 item 0
+na old book
+IT
+ wt 5
+ un 90672
+IM
+ ms 161 
+
+100209 item artifact
+na magic helm
+IT
+ wt 10
+ un 43634
+IM
+ db 20
+
+100235 item 0
+na old book
+IT
+ wt 5
+ un 42949
+IM
+ ms 165 
+
+100240 item npc_token
+na Crown of the Barbarians
+IT
+ un 80789
+IM
+ tn 1
+ ti 34
+ lo 9005
+PL
+
+100345 item npc_token
+na Horn of the Savages
+IT
+ un 68222
+IM
+ tn 1
+ ti 32
+ lo 9004
+PL
+
+100353 item npc_token
+na Crown of the Undead lord
+IT
+ un 49251
+IM
+ tn 1
+ ti 31
+ lo 9003
+PL
+
+100419 item artifact
+na magic ring
+IT
+ wt 10
+ un 43498
+IM
+ ba 2
+
+100426 item artifact
+na Helm of Aelbarik
+IT
+ wt 10
+ un 98019
+IM
+ db 35
+
+100427 item 0
+na rare book
+IT
+ wt 5
+ un 46919
+IM
+ ms 163 
+
+100585 item 0
+na rare book
+IT
+ wt 5
+ un 87028
+IM
+ ms 165 
+
+100688 item npc_token
+na Banner of the Skeletons
+IT
+ un 91237
+IM
+ tn 1
+ ti 33
+ lo 9001
+PL
+
+100733 item artifact
+na crystal longsword
+IT
+ wt 10
+ un 76917
+IM
+ ab 5
+
+100737 item 0
+na old book
+IT
+ wt 5
+ un 49200
+IM
+ ms 164 
+
+100746 item artifact
+na magic shield
+IT
+ wt 10
+ un 53187
+IM
+ db 50
+
+100844 item npc_token
+na Golden idol of the Orcs
+IT
+ un 48694
+IM
+ tn 1
+ ti 287
+ lo 9002
+PL
+
+100870 item npc_token
+na Crown of the Barbarians
+IT
+ un 88786
+IM
+ tn 1
+ ti 34
+ lo 9005
+PL
+
+100916 item artifact
+na Bow of Salamus
+IT
+ wt 10
+ un 86773
+IM
+ mb 45
+
+100966 item artifact
+na golden spear
+IT
+ wt 10
+ un 100649
+IM
+ mb 40
+
+101044 item artifact
+na elven staff
+IT
+ wt 10
+ un 67604
+IM
+ ba 1
+
+101046 item artifact
+na golden armor
+IT
+ wt 10
+ un 85200
+IM
+ db 10
+
+101085 item artifact
+na enchanted armor
+IT
+ wt 10
+ un 64442
+IM
+ db 45
+
+101185 item npc_token
+na Crown of the Undead lord
+IT
+ un 61074
+IM
+ tn 1
+ ti 31
+ lo 9003
+PL
+
+101222 item artifact
+na elven staff
+IT
+ wt 10
+ un 93735
+IM
+ ba 3
+
+101256 item artifact
+na enchanted bow
+IT
+ wt 10
+ un 89324
+IM
+ mb 25
+
+101341 item 0
+na old book
+IT
+ wt 5
+ un 47904
+IM
+ ms 164 
+
+101409 item artifact
+na magic longsword
+IT
+ wt 10
+ un 98732
+IM
+ ab 15
+
+101417 item artifact
+na Armor of Vernolt
+IT
+ wt 10
+ un 72254
+IM
+ db 15
+
+101566 item 0
+na rare book
+IT
+ wt 5
+ un 77272
+IM
+ ms 165 
+
+101594 item 0
+na rare book
+IT
+ wt 5
+ un 100170
+IM
+ ms 165 
+
+101599 item artifact
+na magic armor
+IT
+ wt 10
+ un 88526
+IM
+ db 45
+
+101600 item 0
+na old book
+IT
+ wt 5
+ un 94850
+IM
+ ms 165 
+
+101618 item npc_token
+na Golden idol of the Orcs
+IT
+ un 43356
+IM
+ tn 1
+ ti 287
+ lo 9002
+PL
+
+101669 item artifact
+na enchanted staff
+IT
+ wt 10
+ un 99834
+IM
+ ba 3
+
+101697 item 0
+na old book
+IT
+ wt 5
+ un 61773
+IM
+ ms 161 
+
+101768 item 0
+na old book
+IT
+ wt 5
+ un 46142
+IM
+ ms 165 
+
+101812 item npc_token
+na Banner of the Skeletons
+IT
+ un 71512
+IM
+ tn 1
+ ti 33
+ lo 9001
+PL
+
+101815 item npc_token
+na Banner of the Skeletons
+IT
+ un 68983
+IM
+ tn 1
+ ti 33
+ lo 9001
+PL
+
+101844 item 0
+na old book
+IT
+ wt 5
+ un 75713
+IM
+ ms 165 
+
+101855 item npc_token
+na Horn of the Savages
+IT
+ un 94935
+IM
+ tn 1
+ ti 32
+ lo 9004
+PL
+
+101879 item artifact
+na golden staff
+IT
+ wt 10
+ un 55454
+IM
+ ba 3
+
+101978 item artifact
+na enchanted ring
+IT
+ wt 10
+ un 77489
+IM
+ ba 3
+
+102157 item 0
+na rare book
+IT
+ wt 5
+ un 91960
+IM
+ ms 162 
+
+102176 item artifact
+na Armor of Pyrellica
+IT
+ wt 10
+ un 96215
+IM
+ db 50
+
+102181 item npc_token
+na Horn of the Savages
+IT
+ un 74093
+IM
+ tn 1
+ ti 32
+ lo 9004
+PL
+
+102183 item npc_token
+na Crown of the Barbarians
+IT
+ un 78476
+IM
+ tn 1
+ ti 34
+ lo 9005
+PL
+
+102187 item 0
+na rare book
+IT
+ wt 5
+ un 78316
+IM
+ ms 164 
+
+102200 item 0
+na rare book
+IT
+ wt 5
+ un 70770
+IM
+ ms 162 
+
+102246 item artifact
+na crystal amulet
+IT
+ wt 10
+ un 68921
+IM
+ ba 2
+
+102254 item npc_token
+na Banner of the Skeletons
+IT
+ un 100246
+IM
+ tn 1
+ ti 33
+ lo 9001
+PL
+
+102268 item npc_token
+na Banner of the Skeletons
+IT
+ un 85592
+IM
+ tn 1
+ ti 33
+ lo 9001
+PL
+
+102301 item npc_token
+na Crown of the Undead lord
+IT
+ un 91381
+IM
+ tn 1
+ ti 31
+ lo 9003
+PL
+
+102367 item artifact
+na Sword of Pictar
+IT
+ wt 10
+ un 44072
+IM
+ ab 20
+
+102394 item artifact
+na crystal staff
+IT
+ wt 10
+ un 43758
+IM
+ ba 2
+

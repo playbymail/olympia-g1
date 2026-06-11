@@ -1,0 +1,100 @@
+####################################################################################################
+mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm
+                                                                     ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+     ppppp     fff             mmmmmmmmm                          ...pppppp,,,,,,,,,,,,,,,,,,,,,,,,,
+     pfffp    fffff         mmmmfffffffmmm                     ppp..ppmmppp,,,,,,,,,,,,,,,,,,,,,,,,,
+     pppp     mmmmm        mfffffffpffpffm                     pppppmmmpp,,,,,,,,,,,,,,,,,,,,,,,,,,,
+               mm         mfffff,,,,ppppm      pppp    ffff     pppmmmp,,,,,,ffpppfffpfffpff,,,,,,,,
+  ppp         mmmmm       mfff,,,,,,ppppm     pppppp   fppmf     ppmmp,,,,,ffffpppfffffpffffps,,,,,,
+  ppppp      ffffff      mfsf,,,,,,,,ppm     ppddddpp   fmmf     pppp,,,,,,fffffffffffffffpsss,,,,,,
+  ppfffp     ffffff      mfff                ppddddpp   ffff    ppppp,,,,,,,,ffpfffpfffpffss,,,,,,,,
+  pfffpp      ffff                            ppdddpp           pppp,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+   pppp                              mfffm     ppppp                ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+.. ppp.......................dddd....fffff........................pppppp.....ffp......ppff....fff...
+............mmmmm............ddddd...mpppm.............ppp.......ppmmppp....fpfff....fppf....fffff..
+..........ppppppppp...........dddd...........mmm,,,,,,ppppp......ppmmpp.....fffpff...fffff...ppmff..
+.........pppppppppppppppppp................ffffff,,,mmmmffff......ppp.........fffff...ffff..ppmmf...
+.........mmmmmppppppppppppppp.............ffffffffffmmmmffffff.................fpfff...fff..ppmmf...
+........mpppffffffffffffffffffppppppppp,,ffffppppffffmmmmfffffffffmmm...........ffss...fff...pmmff..
+.......mpppfffffffffffffffffffppppppmmm,,ffffppppffffmmmmmmfffffffffffff.........fss...fff...pfmff..
+......mppffffffmmmmmmmmmmfffffffppppmmm,,fffpppppppppmmmmmmfffffffffffffmm........ss...sss....ffff..
+.....mpppffffmmmmmmmmmmmmmmffffffpppmmm,,ffffppppppppppmmmmmmmmmmmffffffmmm...................fff...
+....mpppfffffmmmpppppppmmmmmfffffpppmmm,,,,ffffffffffffffffmmmmmmmffffffmmmm........................
+....mpppffffmmmmpppppfpmmmmmfffffmmmmm,,,,,,,,fffffffffffffpppmmmmmfffffmmmm..........mmmm..........
+....mpppffffmmmmppfppppmmmmmfffffmmmm,,,ffff,,,,,,,,,pppppppppppmmmmmfffffmmm........fffffff........
+....mpppfffffmmmpppppppmmmmmffffmmmmm,,ffpfffffffff,,,pppppppppppmmmmfffffmmm........pppppppp.......
+.....mpppffffmmmmmmmmmmmmmmfffffmmmm,,fffffffffpffff,,,,,,,pppppppmmmmmfffff..........pppppppp......
+......mpppfffffmmmmmmmmmmmfffffmmmm,,ffpfsfffsffffffsffff,,,,pppppmmmmfffff.............fffffff.....
+.......mpppffffpppppppppppffffmmm,,,ffffffffffffsffffffpfff,,ppppppmmmmdddd................mmmm.....
+........mpppppmpppppppppppppppppp,,ffffpffpfffffffffpffffff,,ssssssmmmmdddd.........................
+.........mmmmmmppppppppppppppppp,,fffffsfffsffpffffffsfffff,,,,ssssmmmmddd..........ppmmmppp........
+.................ppppppppppppp%,,,ffffffffffffffffffffffff,,,,,,,;;%mmmd.........pppppmmmppppp......
+.....ppp......................:........%fffffffsf%.......:::::::::.:::..........ppfpppmmfffffff.....
+....ppmpp.....................::...:::::.........:::::::.:...........:::::::...pppppppmmffpfffff....
+...ppmmpp............fffmmm....:...:...................::%ppppppfffff......:::%ppfppppmmffffffff....
+'''ppmpp''''''''',,,fffdddmm,,,;;;%~        mmmm       pppppppppffffff''''''''"pppppspmmmfffffff''''
+'''pmmp'''''''',,,,,fffdddmm,,,,fffffff     mffmm     dddddddppppfffff''''''''"'fffffffmmmfffff'''''
+'''ppp''''''MMM,,,,,,fffmmm,,,,,fffmfffff    mffm     ddddddd         '''""""""''''ffffmmmfffp''''''
+'''''''''''MMMMMM,,,,,,,,,,,,,,fffffffffff    mffm      dddd          '''"'''''''''''ffmmms'''''''''
+''''''''''MMfMMMpMM,,,,,,,,,,,fffffffffffff    mmm                    '''"''''''''''''''''''''''''''
+''''''''''MMMMMMMMppppppppppppppffffpfffff%~~                       ffppp%"""""""'''''''''pppp''''''
+'''''''''''MpMMfMppppppppppppppppfffffffff~ ~~~~~~~~~%pp         fsfffpppppf''''"'''''''ppppppp'''''
+'''''pppp'''MMMMMppppppppppppppppssssss   ~        ppppppffffffffffffppppppfff''"""'''ffffffmmm'''''
+'''''ppppp'''''mmmmmmmmmmmmmmmmmm         ~       pfppppppfffsfffffffppppppffff'''"'''ffffffmmm'''''
+''''''pppp'''''''vvvvvv{vvvvvv            ~       ppppfppppfffffffsffppppppffff,''"'''''fff'''''''''
+'''''''''''''''''^^^^^^}^^^^^^            ~~~~~    sssppppppfffffffffmmmmmffff,,''"''''''''''mmmm'''
+'''''''''''ffffffmmmmmmmmmmmmmffffff          ~       mmmmmmmmmmm,,,,mmmmffff,,,''"''''''ffffmmmm'''
+'''''''ffffffffffppffppppfffffffpffffmmm      ~        mmmmmmmmmmm,,,,,,,,,,,,,,,'"''''''fffffmm''''
+'''''ffsfffffffpppfffpppfffffpffffpffmmmmm    ~         fffffffffff,,,,,,,,,,,,,,'"'''''''ffssss''''
+''''fffffffpppppppffppppfffpffffffffffmmmmm   ~        ffffffffffffff,,,,,,,,,,fff%""""""''ssss'''''
+'''ppfffffppppfpppffppOffffffffpfffffpppffff  ~       fffffffmmmpffffpp,,,,,,,ffffff''''"'''''''''''
+'''ppfffffpppppppmmmpp*fffmmmffffpppppppfffff ~      fffffmmmmmppffffppp,,,,,,fffffpppp'""""""""''''
+'''fffsffffpppppmmm   ~~~~ mmmppppppppppfffff ~      fffmmmmppppffffpppppp,,,,,fffpppppppp'''''"''''
+'''''ffffffppppmmm  fmff ~  mmmpppppppppffff  ~      mmmmmmppffffffpppppfpp,,,,,ffpppppppppp'''"''''
+'''''fffsfffffmm   fffff ~~  mmmppppdddddddd  ~      ,fffffffffffffppfppppp,,,,,,mmmmmmmmmmmm''"''''
+''''fffffffffmm   fffffff ~~  mmppppdddddddd  ~      ,,,fffffffffffppppppfp,,,,,,mmmmmmmmmmmmm'"''''
+'''fsfffffssss   fffmmmfff ~~  pppppdddddmmm  ~      ,,,,,,,,,,ffffpppppppppp,,,,mmmmmmmmmmmmm'"''''
+'''ffffffssss   ffffmmmffff ~   ppppddddmmm   ~      ,,,,,,,,,,,,,mmmmmmmmmmmmsssfffffffffffpf'"''''
+''''sssssssss   ffffmmmffff ~~~~%;;,dddmmm    ~     mmmmmmmmmm,,,,,,mmmmmmmmmmssssffffpffpffff'"''''
+''''''sssss,,,,,,,fffffff,,,,,,,;,;,,,,,,,,~~~~   mmmmmmmmmmmmmmmm,,,,ddddddddsssssffffffffff''"''''
+'''''''[[[,,,,,,,,,,,,,,,,,,;;;;;,;,,,,,,,,~    mmmmmmmmmmffffffppp,,,,,,dddddssssssfffss,,,,,,"''''
+''''''']]],,,,,,,,,mmmmmmm,,;,,,,,;;;;;;,,,~   ffffpppppppffffffpppp,,,,,,,,,,,,,,,,,,,,,,,,,,,"''''
+''''''sssss,,,,,,mmmmpppffff%,,,,,,,,,,;,,,~ fffffffpppppppfffffppppp%;;;;;;;;;;;;;;;;;;;;;;;;%"''''
+'''''sssssss,,,,,ddddpppffff;;;,,,sss,,;;;;%fffffffpppmmpppfffffppppp,,,,,,,,,,,,,,,,,,,,,mmmmm'''''
+''''ssssssssss,,,,dddpppffff,,;,,sffs,,,,,,;fffffffppmmmmpppffffppppp,,,,,,,,,,,,,,mmmmmppppmmmm''''
+'''fffffffdddd,,,,dddddfffff,,;,sffs,,,,,,,;fffffffppmmmmpppffffppp,,,,,,,,,,ddddddmmmmmpppmmmmff'''
+'''fffffffddddd,,,,,ddddff,,,,;,sss,,,,,;;;;ffffffppppmmpppfffff,,,,,,,,,,dddddmmmmmmppppppmmmfff'''
+''''fffffdddddd,,,,,,,,,,,,,,,;,,,,,,,,,;,,,,,ffffpppppppfffff,,,,,,,,dddddddmmmmmpppppppmmmmmfff'''
+'''''ffffddddd,,,,,,,,,,,,,,,,;,,;;;;;;;;,,,,,,fffpppppfffff,,,,,,fffffffffmmmmpppppppmmmmmfffff''''
+'''''''ffddd,,,,,,pppps,,,,,,,;,,;,,,,,,,,,,,,,,fffppppffff,,,,,,fffffffffmmmppppppmmmmmfffffff'''''
+''''''''''''''''pppfppppp,,,,,;;;%ppppfp          ssssssss,,,,,,fffffffffmmmpppppmmmmmmfffffff''''''
+'''''''''''''''pppppppppppppssspppfppppppp           ssss,,,,,fffffffffffpppppppppmmmssssffff'''''''
+''''fff''''''ffsffmmmmpppppsssppppppmmmffff           ,,,,,,,ppppmmmmmmmmmmpppppppmmmssss'''''''''''
+,,,ffmff,,,,,fpfsfmmmmmpppppsssfsppmmmfffff            ,,pppppppmmmmmmm......mmmmmm..........ffff...
+,,,ffmmff,,,,,ffffmmmmffffffssspppmmmfffff     ddd      pppppppmmmffff......................ffffp...
+,,,fffmmff,,,,,fffffffpfffffsssdddddddddd     ddddd     sssssssmmffff..............ppsp....ffffpp...
+,,,,fffmmm,,,,,,ffsffffffpff    ddddd%        ddmmdd      %ssssmmfff...........fppppfpp...ffffpp....
+,,,,,,ffff,,,,,,,,ffpfffff           ~~~~~~   ddmmdd      ~         ...........ppfppspp...ffffp.....
+,,,,,,fffff,,,,,,,,,,,,                   ~    dddd       ~          ...........pppfpp....ffff......
+,,,,,,,pppp,,,,,,,,,,,,,         ddddd    ~          ~~~~~~            pfpppp.......................
+,,,,,,,,ppp,,,,pppp,,,,pppp     mmmmmmm   ~          ~      mmmf       pppfspppfspp ................
+,,mmm,,,pppp,,,ppppp,,,ppppp    fffffff   ~ pffpffpff%     mmmfff      sfppppfpppsp                 
+,,mmm,,,mmmm,,,pppppp,,,pppp    ffffff    %fffmmmmmmffpff   mmmm         pfpppspp        pppmm      
+,,ffff,,,mmmm,,,ppppp,,,,sss     ssss     ffpmmppppmmfffpff                           pppppmmmmm    
+,,fffff,,,ssss,,,ssss,,,,sss              pffmmppppmmfpffff    mmfffpfff       ppppppppppppmmmfff   
+,,,ffff,,,,sss,,,,sss,,,,,,,,      mmm     fffmmmmmmmsssss   mmmmffffffmm      pppppppppppmmmffff   
+,,,ssss,,,,,,,,,,,,,,,,,,,,,,     mmppmmm    fffffpssss     mmmffffpfffmmm      ppppppppmmmmmfff    
+,,,,sss,,,,,,,,,,,,,,,,,sssss     mmmpppmm     pffsss    fffmmfffpffffffff      ,,,,,mmmmmmmfff     
+,,,,,,,,,,,,,ssssss,,,,ffffppp      mmmmmmm              fmmmfpffffffffpff    ppppp,,,,,,mmmfff     
+,,,,,,,,,,,ssssssss,,,,ffffppp       ffffffffff      ffffmmmppppppppfppp     pppppppmmm,,,,fff      
+           ppsss        fffpp        fffsssppfff    fmmmmmmppfppfpppmmmmm    pppppppmmmmff,,,       
+ dddd    ffpppp                   ffffffsspppfff    fmmmpppppppppmmmmsfsf     ppppmmmmmfffff        
+ ddmmd   ffppp    pppppp         pffffffssppfff     fmmfpppppfppmmssfssfs       mmmmmmmfffff        
+  dmmd   ffppp   ppffffppp        ffffffssppfff      fmdddfddddmmfsfss            mmmmfffff         
+  dddd   ffffff  ppffmmffpp         ffffsppfff           ddfddmmsssf               fffffff          
+   ddd    ffffff  pppmmffpp          ffffffff              dddmmsff                 ffffff          
+            ffff    pppppp                                                           ffff           
+                                                                                                    
+                                                                                                    
+mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm
+####################################################################################################

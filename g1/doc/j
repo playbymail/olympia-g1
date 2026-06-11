@@ -1,0 +1,4 @@
+for i in Join Map Rules
+do
+mailx -s "$i" $1 < $i
+done

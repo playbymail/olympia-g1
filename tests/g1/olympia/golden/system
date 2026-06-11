@@ -1,0 +1,23 @@
+sysclock: 1 30 30
+indep_player=100
+gm_player=200
+skill_player=202
+from_host=olympia@g1.pbm.com (Olympia PBEM)
+reply_host=orders@g1.pbm.com
+seed0=-28312
+seed1=-27921
+seed2=-19926
+post=1
+init=1
+ds=1
+nc=1
+mi=1
+fr=55367
+fp=204
+hr=53371
+hp=42730
+hl=205
+np=206
+ms=1
+cr=81560
+cp=210

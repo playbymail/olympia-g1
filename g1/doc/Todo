@@ -1,0 +1,109 @@
+
+List all known skills & what they do in the rules
+
+Document subloc monster
+	hostile -- will attack if you enter
+	some monsters require special weapon to be killed
+
+Document artifacts
+
+	+attack
+	+aura
+	etc
+
+No mention of WOOD or YEW in commands or summary
+
+Add flying to carrying capacity report
+
+Eliminate most WAIT options
+  add a severe caution for FLAG
+
+Document list of rare plants, items, and where they can be found
+HARVEST command, or perhaps COLLECT
+
+Document how production works.
+
+Put more meat in the rules Re: magic usefulness.
+
+Terrain type list in rules?
+
+Document how wait typically works, better.
+
+Document how one sees every location touched during a turn
+
+Hidden locations: people won't see you move into them
+
+
+Production
+----------
+
+how things are made
+
+
+Goals
+-----
+
+What to do?  How things work.
+
+
+Partial list of items
+---------------------
+	item, weight, capacity, ride, where found/how made?
+
+num  item       wt       obtained    use
+---  ----      ----      --------    ---
+ 77  wood        30      use 9568    Building ships, mines, making weapons
+ 78  stone      250       QUARRY     Building castles, towers
+
+
+The turn report
+---------------
+
+location reports
+  spotting
+
+	rounds out to end of turn
+
+From d8hanma%dtek.chalmers.se@Princeton.EDU Fri Jan 14 12:08:21 1994
+Received: by candid.shadow.com; (ishmail 0.7) Fri, 14 Jan 94 12:08:21 EST
+Received: by blekko.rt.com; (ishmail 0.7) Fri, 14 Jan 94 10:35:43 EST
+Received: from hacke12.dtek.chalmers.se by Princeton.EDU (5.65b/2.103/princeton)
+	id AA25451; Fri, 14 Jan 94 11:31:41 -0500
+Received: from localhost (d8hanma@localhost) by hacke12.dtek.chalmers.se (8.6.4/8.6.4) id RAA12674 for skrenta@candid.rt.com; Fri, 14 Jan 1994 17:31:26 +0100
+From: Martin Hansson <d8hanma%dtek.chalmers.se@Princeton.EDU>
+Message-Id: <199401141631.RAA12674@hacke12.dtek.chalmers.se>
+Subject: Question about Olympia report format.
+To: skrenta@candid.rt.com (Rich Skrenta)
+Date: Fri, 14 Jan 1994 17:31:24 +0100 (MET)
+X-Mailer: ELM [version 2.4 PL22]
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Content-Length: 879       
+Status: RO
+
+I have a question about the report in Olympia. What does the number in
+front of the units listed in a location?
+
+The numbers I am wonder about are 8 for the three first units and 9
+for the last one in the following example.
+
+Forest [ct27], forest, in Lesser Atnos, civ-1
+------------------------------------------------------------------------
+ 8: Benhaha [5219], with 14 peasants, ten workers, left for Forest [ct26].
+ 8: Gorge [3742], with six peasants, left for City [ew50].
+ 8: Taraza [2742] arrived.
+ 9: Taraza [2742] left for Forest [ct26].
+
+
+If it is the stacking order does this then mean that there are 7 more
+stacks that I can't see?
+
+   /Martin
+
+-- 
+  Chalmers  |USENET:d8hanma@dtek.chalmers.se | 
+ University |SNAIL:  Martin Hansson          | Where am I
+     of     |        Fyrverkareg 7A 2tr      | Who am I
+ Technology |SWEDEN  413 21 G|teborg         | Why am I
+

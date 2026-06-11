@@ -1,0 +1,144 @@
+
+Appendix A:  Notes on Realism
+-----------------------------
+
+Game design often requires tradeoffs of realism against playability.
+Here the author attempt to justify, or at least apologize for, some
+of Olympia's.
+
+    o	The training skills (such as Train peasant to worker) specify
+	the time needed to train one man; time to train <n> men is
+	linearly proportional.  There are none of the economies of
+	scale one would expect to find when teaching groups of men
+	with a single instructor, and individual men can be trained
+	in unreasonably short periods of time.
+
+	Although this is not very realistic, I felt that there was
+	little to be gained from additional modeling in this area,
+	and that the potential benefits did not outweight the extra
+	complexity necessary in the programming and player rules.
+
+
+    o	From time to time a player will suggest that Olympia should use
+	a hex grid instead of a nodal map.  While many games do make use
+	of grid maps, the PBM format makes it difficult to work with that
+	fine a level of granularity.
+
+	Olympia's geography is based on subjectively large provinces
+	whose contents are all considered to be in more or less the
+	same place.  The rule is:
+
+		Units in the same region can interact with each other;
+		Units in different regions cannot.
+
+	It is hoped that Olympia's abstract nodal map models the
+	important aspects of game geography, while omitting less
+	significant details, to enhance playability in the PBM format.
+
+
+    o   Units in Olympia move by first waiting the duration of the journey
+	in the starting location, then instantly jumping to the destination.
+	This offends realism in several ways:  One can see units long after
+	they have departed; an interrupted movement order instantly brings
+	units back to their starting location; and interaction (such as
+	combat) is possible with units after they have left.
+
+	Note that some interaction with units, such as giving items and
+	stacking, is explicitly prevented after they have begun movement.
+	Combat is allowed up until the point a unit has actually moved out
+	of a location, however.
+
+	Why not do it another way?
+
+		1)  Make the route a pseudo-location, and allow units to
+		    stop part-way across, meet each other on routes, etc.
+
+		2)  Have units go into "hyperspace" for the duration of
+		    their journey.
+
+		3)  Have units spend half the time in the original location,
+		    and half in the destination.
+
+	Option (1), depending on how it is implemented, either introduces a
+	second level of a locality, or a second kind of location.
+
+	If a second level of locality is chosen, then the definition of "in
+	the same location" must be expanded to include how far along a
+	particular route one is.
+
+	If each sub-route along a journey is a full-fledged location, then
+	we have constructed the route from little hexes, but the map has
+	a very strange shape.  If we are to choose hexes, then we should
+	throw out the nodal route system altogether, and not try to combine
+	the two.
+
+	In either case, the rules become too complex and unwieldy.
+
+	Option (2) extends the locality model by saying that a unit may
+	be "nowhere"/in transit.  This tends to foul up code that may want
+	to know where a unit is.
+
+		If a unit dies in nowhere, where does its dropped items go?
+		What is the weather like in nowhere?
+		Are two units in nowhere in the same place?
+		What does a cast of "Locate character" show for a unit in
+			transit?
+
+	Although there may be answers for these questions, they all require
+	special case handling in the code.  Often asking unforseen questions
+	about a unit in hyperspace results in a program crash.
+
+	Furthermore, hyperspace allows units to easily hide from would-be
+	attackers.  To avoid combat, a unit need only stay on the move
+	constantly, and no attacker will be able to pin it down.
+
+	The objection to option (3) is that an interrupted movement
+	would leave the unit at the destination without having traveled
+	the required amount of time.  I also felt that it was slightly
+	cleaner to have the special no-interaction rules only for
+	one case (departure) instead of for both departure and arrival.
+
+	In a game with hex grids, one doesn't think twice about jump
+	movement after a time=4 delay.  Olympia's province routes simply
+	take longer to traverse.
+
+	The Olympian movement model is ultimately a tradeoff of simplicity
+	vs. realism.  Given the requirements:
+
+		o  One can't cheat by interrupting movement
+		o  One can't hide from combat by moving
+
+	additional modeling or complexity in the movement model would add
+	little enjoyability to the game.  Thus, it seems best to choose a
+	simple movement model.
+
+
+    o	Players receive province reports from the time they enter until
+	the end of the turn, even if they only spent a day there.
+
+	The realistic alternative is for each unit to report what it
+	sees:  when a unit enters a location, it generates a report,
+	and each unit gets an end-of-month report for the province.
+
+	This quickly leads to a number of redundant reports, or worse,
+	a number of subtley different reports for each province.
+	
+
+
+
+	(Consider an example where one enters a location, leaves, and
+	then returns some time later.)
+
+	However, it is tedious work for a player to sort out subtle
+	differences between several similar-looking reports for each
+	province visited during the turn.  Power players would manually
+	process the reports, or develop software tools to assist them.
+	Other players, not willing to go to so much work, would be at
+	a disadvantage.
+
+	Realism suggests that one only see a location when one is there.
+	However, in practice this means a province report would have to
+	be generated each time a unit entered a location.  Otherwise,
+	some information which units should be aware of would not be
+	reported.
+

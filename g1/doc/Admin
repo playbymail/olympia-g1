@@ -1,0 +1,366 @@
+
+			  Olympia II 
+			  ==========
+
+		     Administrative Details
+
+
+       Olympia, its rules, documentation and game text are
+      Copyright 1993 by Rich Skrenta.  All rights reserved.
+
+
+Route your email to the correct address:
+
+    Orders:                      orders@olympia.rt.com
+
+    Newspaper submissions:       times@olympia.rt.com
+
+    Joining, questions,
+    comments, bug reports,
+    anything else:               olympia@rt.com
+
+    Diplomatic email
+    forwarding service:          <entity>@olympia.rt.com
+
+
+Turn schedule
+-------------
+
+Turns are run weekly.  Orders are due Tuesday night at 6:00pm
+Eastern U.S. time.  The turn is run Tuesday or Wednesday night.
+Players should receive their turn reports by Thursday morning.
+
+Late orders will queue for the next turn.  Beware!  Even if mailed
+before the deadline, your message may take some time to get to the
+order scanner.  Send your orders in early to avoid grief.
+
+Sending orders ahead of time will also give you a chance to fix
+mistakes reported by the order scanner.
+
+
+Submitting Orders
+-----------------
+
+Orders should be sent to orders@olympia.rt.com.  This is an automatic
+daemon which will scan the orders for syntax errors and queue them for
+your units.
+
+Orders must be of the following form:
+
+	BEGIN player-number password
+          .
+          .  EMAIL or LORE commands
+          .
+
+        UNIT player-number
+	  .
+	  .  commands for player entity:  NAME, FORMAT or QUIT
+	  .
+
+	UNIT unit-number
+	  .
+	  .  commands for unit
+	  .
+
+	UNIT unit-number
+	  .
+	  .  commands for unit
+	  .
+
+	END
+
+The Subject: line on your message is ignored.
+
+BEGIN tells the order scanner what your player number is.  If you have
+not set a password, you do not need to supply one.
+
+UNIT replaces a set of orders for a unit.  Any pending orders for the unit
+will be cleared, and the new orders sent in will queue up.  Orders that
+are still executing for the unit will not be interrupted unless the
+first order queued is the STOP order (see below).
+
+Do not match an END for every UNIT command!  There should only be one END,
+at the end of all of the UNIT sections.  The Olympia order parser will not
+read beyond the END.
+
+For example, here is a set of orders for player Fate [812], who has
+two characters, Osswid [5499] and Candide [1269]:
+
+	BEGIN 812
+
+	UNIT 5499
+	  explore
+	  move east
+	  explore
+	  study 120
+
+	UNIT 1269
+	  move north
+	  stack 5499
+
+	END
+
+The parser tries to be as flexible as possible.  It is case insensitive
+and is not strict about spaces on a line, so you may use indentation to
+make your orders more readable.
+
+Orders may be commented with the # character.  Everything from a #
+to the end of the line will be ignored by the parser:
+
+	  move north	# Head to Drassa to meet up with Osswid
+	  stack 5499	# stack with him
+
+No one will read the comments but you.  Neither the GM nor the Olympia
+engine will try to interpret them for any reason.
+
+Note that arguments must be enclosed in quotes if they are more
+than one word:
+
+	name "Osswid the Constructor"
+
+Orders should be sent to orders@olympia.rt.com.  This is an automatic daemon
+which will scan your orders and email and acknowledgement when it has received
+them.
+
+The acknowledgement will show any errors that occurred while the orders were
+being parsed, and list the current pending commands for all of your units.
+
+
+Interrupting orders
+-------------------
+
+Suppose the turn report shows the following orders queued:
+
+	unit 5499
+	   # > study 160 (executing for three more days)
+	   recruit 10
+	   explore
+
+Sending in new orders for this unit will not disturb the still-running
+study command unless the first order is STOP.  For example:
+
+If this were sent in:
+
+	unit 5499
+	move south
+
+This would be the result:
+
+	unit 5499
+	   # > study 160 (executing for three more days)
+	   move south
+
+To interrupt the study and get on with the move right away,
+instead send in:
+
+	unit 5499
+	stop
+	move south
+
+This will show:
+
+	unit 5499
+	   # > study 160 (executing for three more days)
+	   stop
+	   move south
+
+Note that the stop queues like any other order; it does not actually
+interrupt the executing command until the turn runs.  This means that
+the stop itself can be replaced by sending in another set of orders
+later.
+
+
+Use the order template
+----------------------
+
+An order template listing all of the units for a player and showing
+any pending orders for those units, appears at the bottom of the turn
+sheet:
+
+	Order template
+	--------------
+
+	begin 812  # Master Bogomil's Family
+
+	unit 2508  # Tudor
+	   # > make 74 (still executing)
+
+	unit 2947  # Milo
+
+	unit 4375  # Beorn
+	   # > move s (executing for one more day)
+	   pillage
+	   recruit
+
+	unit 4763  # Sylvia
+
+	unit 5977  # Drango
+	   # > collect 87 0 0 (still executing)
+	   sail e
+	   sail s
+	   fish
+	   explore
+
+	unit 5418  # Comte de le Sang
+
+	end
+
+Note that the layout of the order template matches the syntax the order
+scanner expects.  Many players find it convenient to edit this template
+to add or change commands for their units.  Mail everything from the
+"begin" to "end" (inclusive) to the order scanner.  It is wise to save
+a copy of the orders you submit in case there are errors and they need
+to be resent.
+
+
+Be careful
+----------
+
+Beware of sending in different sets of orders too quickly.  Sometimes
+messages sent within a short time of each other will arrive out of order.
+This can wreak havoc on your turn if the orders you didn't want end up
+being the last in.  Compose your orders offline and review them before
+mailing.  A simple typographical error in your orders could ruin your
+whole turn!
+
+
+Other server commands
+---------------------
+
+EMAIL address	Change the address to which turn results should be
+		sent to the given address.
+
+LORE n		Print out a lore sheet which has appeared in the player's
+		turn report before.  Must appear after the BEGIN order.
+
+
+Olympia Times
+-------------
+
+Players may submit articles or notices to the Olympia Times.  These may
+be creative stories about your characters, advertisements for goods to
+be sold within the game, proclamations, etc.  Generally anything in good
+taste with some relevance to the game will be accepted.
+
+
+Compensation for Errors
+-----------------------
+
+What if there's a bug which ruins your whole turn?  What if an error
+in the combat system lets all of your men be killed in one day?
+
+	o  I will not re-run turns.
+
+		Turns can't be rerun for one player, the entire simulation
+		has to be run for everyone.  This takes some time and
+		produces a large amount of data which is mailed out.
+		Only for the most serious of game disasters would I
+		consider rerunning a turn.
+
+	o  If you are stung by a bug, I may grant items for compensation,
+	   but I won't alter the universe.
+
+		I might give you 1,000 gold if you are the victim of some
+		heinous bug, or perhaps even an NP, but I won't move a unit
+		that should have been in Pactra to Drassa.
+
+
+Cheating
+--------
+
+Players should not have more than one faction in the game.
+
+Players should not send in orders for another player's faction,
+to ruin that person's turn or otherwise benefit.
+
+Players should not keep nasty game bugs to themselves so they
+can exploit them.
+
+
+Quitting
+--------
+
+To drop out of the game, issue the QUIT order for your player entity.
+For instance, player 501 would quit by sending in the following orders:
+
+	begin 501 password
+	unit 501		# don't forget UNIT for the player unit!
+	quit
+	end
+
+No turn report will be sent for the turn in which a player quits.
+
+
+Auto-drop
+---------
+
+Players are automatically dropped after four turns of inactivity.
+
+Inactivity means a player's units execute no new commands. To keep
+from being dropped while on vacation, send in enough orders to keep
+your units busy while you are away.
+
+
+More examples
+-------------
+
+You can replace orders for some units, but leaves pending orders
+for other units alone, by only including UNIT sections for the
+ones you want to change.
+
+If you want to see what orders are queued, but not change anything
+send in
+
+	begin 999		# whatever your player number is...
+	end
+
+To change your email address, send in
+
+	begin 999
+	email new@address.com	# give your new address
+	end
+
+As a security measure, the confirmation will be sent to both the
+new and old addresses.
+
+To change the name of your faction, issue the NAME order for the
+faction's player entity:
+
+	begin 999
+	unit 999
+	name "Seekers of Fame and Power"
+	...
+
+Important:  Don't forget the UNIT command for the player entity.
+
+
+Diplomatic email forwarding service
+-----------------------------------
+
+Players can send mail to the player controlling an entity by
+mailing to <entity>@olympia.rt.com.
+
+For example, suppose you saw the following characters:
+
+	Seen here:
+	   Circe [2225], with three peasants, accompanied by:
+	      Hephaestus [3446], with 11 peasants
+
+Circe's lord isn't identified, so you don't know what player is
+controlling her.  However, it is still possible to send Circe's
+owner a message.  Mail to:
+
+	2225@olympia.rt.com
+
+and the message will be forwarded to whatever player is controlling
+Circe [2225].
+
+Forwarding works for character and player entities.  Mail sent to other
+entity numbers, or to unaffiliated characters, will be silently discarded.
+
+Forwarded mail is not anonymous.  The original headers on your message will
+be preserved.
+
+--
+Olympia admin notes v2.0
+Wed Nov 10 21:38:12 EST 1993

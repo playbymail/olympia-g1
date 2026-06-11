@@ -1,0 +1,236 @@
+
+Province control and ownership
+==============================
+
+The section for empire-builders:  How to own land and gain status.
+
+
+Quick overview
+--------------
+
+Each province generates a tax base of 300 gold monthly.  This gold may
+be PILLAGed, taxed by a castle, or taxed by a garrison.  It does not
+accumulate if left uncollected at the end of a turn.
+
+A castle automatically collects all of the gold in its province.
+
+The GARRISON <castle> order installs a group of at least ten soldiers in
+a province to claim it and guard against pillaging.  Garrisons must be
+bound to a castle.
+
+A garrison pays maintenance for its members from the province tax base,
+then forwards 1/5 of the remaining gold to its castle.
+
+The castle owner gains status from the number of provinces under control:
+
+	provinces	rank
+	---------	----
+	   1-3          lord
+           4-8          baron
+           9-13         count
+          14-19         earl
+           20+          duke
+
+A noble may PLEDGE to another noble, granting status and control of owned
+provinces.
+
+The status of a noble who pledges is:
+
+	min(original status, one below rank of pledge target)
+
+Control of a province allows one to change its name or the name of any of
+its sublocations; take items from the garrison; and issue DECREEs to watch
+for certain units, or to attack specified units on sight.
+
+The castle continues to receive the income from garrisoned provinces,
+even if the castle's owner is pledged to another noble.
+
+Every noble in the pledge chain shares control of the garrisoned provinces.
+In other words, a castle owner may pledge to a noble, who in turn may pledge
+to a third noble, etc.  Thus a province may have any number of rulers.
+
+Visitors to a province are informed of the castle to which the garrison
+is bound, and the top-most ruler in the pledge chain (which may simply be
+the owner of the castle):
+
+   Province controlled by Amber Keep [cy09], castle, in Forest [cj12]
+   Ruled by Erekosse [5210], baron
+   ...
+
+   Seen here:
+      Garrison [780], garrison, on guard, with ten soldiers
+
+
+Tax base
+--------
+
+Each province generates an amount of gold each month.  This "tax base"
+may be used to support garrisons, collected by castles, or seized through
+pillaging.
+
+Pillaging and opium consumption reduce the future tax base of a province
+(see below).
+
+Gold left in the province at the end of the turn does not accumulate.
+
+
+Castles
+-------
+
+Castles are the foundation of land ownership.  A castle collects taxes
+from the province it is located in, as well as from garrisons in other
+provinces which are bound to the castle.
+
+The owner of a castle automatically receives the remaining tax base from
+the castle's province at the end of each month.  If a garrison is stationed
+in the same province as a castle, the garrison will first pay maintenance
+from the province's tax base, then the castle will collect whatever is left.
+
+Each province may contain only one castle.  The castle must be built in
+the outer province or in a city, if the province has one.  (Tax revenue
+for the castle is the same no matter where it is built.)  Castles may
+not be built inside other sublocations.
+
+
+Garrisons
+---------
+
+A garrison is a force of men stationed in a province to secure and
+protect it.  Garrisons guard against pillaging and collect taxes
+at the end of each month.
+
+Each garrison must be bound to a castle.  The castle must be located
+in the same region.  (Regions are collections of provinces).
+
+A garrison is established with the GARRISON <castle> order.  Ten soldiers
+are required to create a garrison.  Additional men may be given to the
+garrison once it is created.
+
+The garrison pays the maintenance cost of its men directly from the tax
+base of the province.  One-fifth of the remaining tax base is forwarded
+to the castle the garrison is bound to.
+
+For example, a garrison of ten soldiers would require 20 gold per month
+to support.  This would leave 280 gold remaining in a typical province.
+20% of this, or 56 gold, would be forwarded to the owner of the garrison's
+castle.
+
+Example:
+
+    > garrison cy09
+    Installed Garrison [780], garrison, on guard, with ten soldiers
+
+Visitors to this province would see:
+
+    Province controlled by Amber Keep [cy09], castle, in Forest [cj12]
+    Ruled by Erekosse [5210], baron
+
+Note that Erekosse may be located inside the castle, or the castle's
+owner may have pledged service to him, in which case Erekosse could be
+anywhere.
+
+
+Garrison reports
+----------------
+
+Garrisons do not provide full location reports to their owners.  They do
+notice any resource depletion activity, such as timber cutting or mining,
+as well as any large or unusual parties which enter their province.  This
+includes any stack of five units or more, any part of 20 or more men, and
+most monsters or wild beasts.
+
+The DECREE WATCH <who> order may be given by a ruler to instruct all
+garrisons to watch for a particular unit.  This is useful for locating
+individuals who would otherwise go unnoticed by the garrisons.
+
+
+Status
+------
+
+The number of provinces a noble controls determines his status or rank:
+
+	provinces	rank
+	---------	----
+	   1-3          lord
+           4-8          baron
+           9-13         count
+          14-19         earl
+           20+          duke
+
+In addition, if a character has control over every province in a region,
+and the region contains at least 15 provinces, then the character is given
+the rank of king.
+
+Provinces may be directly owned, if the noble is the owner of a castle,
+or indirectly, through other pledged nobles.
+
+
+Pledging land
+-------------
+
+A noble may PLEDGE his lands to another noble.  This grants the pledge
+target status by increasing the number provinces he may rule over.
+
+For example, suppose there are two castle owners, Osswid and Feasel.
+Osswid has garrisoned six provinces, and Feasel has three.  Osswid is
+therefore a baron, and Feasel is a lord.
+
+If Feasel and Osswid both pledge to Candide, Candide would attain the rank
+of Count.  Osswid and Feasel would remain at the same rank in this example.
+
+Candide would receive garrison reports for all provinces which Osswid and
+Feasel control.  He would have the same privileges in the controlled
+provinces:  he could take items from the garrisons, alter the names of the
+provinces or their sublocations, and issue watch and hostile decrees.
+
+However, the income generated by the provinces would continue to be
+forwarded to the castles.  No extra income goes to the pledge target.
+
+
+Status after pledging
+---------------------
+
+The status of a noble A who is pledged to another noble B will be either
+A's original status, as determined by how many provinces he controls, or
+one rank below B, whichever is lower.
+
+For example, a noble with 5 provinces who pledges to a king will
+remain a baron.  However, if pledged to another baron, the noble's
+rank would fall to lord.
+
+
+Pillaging
+---------
+
+Gangs of ten or more men may use the PILLAGE command to seize loot
+from a province or a city.  Pillaging yields 1/3 of the tax base for
+a location, and destroys another third.  For example, a location with
+a tax base of 300 gold would yield 100 gold to a pillager, and be left
+with 100 gold (100 was destroyed by the act of pillaging).
+
+Pillaging has a harmful effect on the future tax revenue of the location.
+The more a location has been pillaged, the lower its tax base.  Provinces
+and cities take as many months to recover as they have been pillaged.
+For example, a city which was pillaged for five months in a row would
+take five months to return to its normal tax base.
+
+Pillagers must first defeat any units GUARDing the province, including
+any province garrisons.
+
+
+Opium
+-----
+
+Opium is produced in swamp regions, and consumed by markets in desert,
+plain, forest, and mountain provinces.  All markets (except those in
+swamp regions) have some level of opium demand.  However, this demand
+will not be visible in the market report at low levels.
+
+Satisfying opium demand in a market will cause the next month's demand
+to be higher.  As peasants become addicted to opium, the increased demand
+will be shown in the location's market report.  If no opium is sold to
+a market, the demand will fall.
+
+Opium adversely affects the city's tax base.  The more opium the market
+buys, the more tax revenues will be reduced.
+

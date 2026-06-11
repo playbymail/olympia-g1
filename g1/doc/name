@@ -1,0 +1,102 @@
+
+Referencing entities
+--------------------
+
+The Olympian world is made up of many entities, including locations, ships,
+nobles, items, skills, spells, magical gates, etc.  All entities have names,
+although the names do not have to be unique.  There may be three nobles
+named Thorin, and 100 locations called "Dark forest", for example.
+
+Internally, Olympia keeps track of entities by uniquely numbering them.  The
+first Thorin might be entity #4582, the second #17019, and the third #23461.
+
+However, remembering (and typing) five digit numbers is annoying for humans.
+How, then, do we refer to entities?  Even if entity names were unique, long
+names would still pose a problem:
+
+	Bastrestric ther Archymonaged #28953
+
+Having to use either the exact spelling of Bastrestric's full name, or
+his computer reference number, seems equally bothersome and error-prone
+for players.
+
+Therefore, Olympia associates a short, unique mnemonic tag with every entity.
+This tag is given whenever the entity appears in the turn report.  The tag
+is used to refer to the entity:
+
+	Bastrestric ther Archymonaged (bta)
+
+In this case, "bta" is Bastrestric's tag.  One would reference Bastrestric
+by using his tag in orders.  For example:
+
+	> attack bta
+	> pay bta 100
+	> stack bta
+
+Entities which share the same are given different tags:
+
+	Seen here:
+	   Thorin
+	   Thorin (tho)
+	   Thorin (tho2)
+
+Note that if a unit's tag exactly matches its name, the tag is not
+displayed.  Thus, one would refer to the first Thorin in the list as
+"thorin", the second as "tho", and the third as "tho2".
+
+Players can try to change their tags with the TAG command.  Suppose
+Thorin (tho2) was not happy with his tag.  He could issue the order:
+
+	TAG tho thor th
+
+The TAG command tries each choice in turn, selecting the first unique
+choice to be the new tag.  Since "tho" is already in use, the TAG command
+above would change the Thorin's tag to "thor":
+
+	Thorin (tho2)    -->     Thorin (thor)
+
+This change would be announce to all players in the turn report, so
+they would know to use the new tag to refer to this Thorin.  The old
+tag continues to work for the rest of the turn.
+
+A list of suggested tags may also be given to the FORM and BUILD commands.
+For example:
+
+	> form 27556 "Thoring the Brave" thorin th thor tho
+	> build castle "Castle Bloodstone" cb cblood
+
+If none of the tags suggested by the player may be used, Olympia will
+provide a unique tag.
+
+
+Tag considerations
+------------------
+
+NOTE:  A tag should not be used in the turn in which it is assigned!
+
+For example, suppose one intends to form a unit during the turn:
+
+	> form 27556 "Thoring the Brave" thorin
+
+The player chose the entity reference number 27556 from a list of possible
+new units numbers at the top of the turn report.  The correct way to refer
+to Thorin during the turn in which he is created is with this number.
+
+Since the tag "thorin" may be already taken, there is no guarantee that
+Thorin the Brave will get it.  Also, orders sent in referencing "thorin"
+before his tag is assigned will not work.  Don't use an entity's tag until
+after it has been assigned.
+
+
+Tags must be between two and eight characters long.  They must begin with
+a letter, and have only letters and numbers in them.
+
+Examples of bad tags:
+
+    illegal tag         reason
+    -----------         ------
+    9lives		Must begin with a letter
+    bastrestric		Too long
+    "lady luck"		May only contain letters and numbers
+    f-9			May only contain letters and numbers
+

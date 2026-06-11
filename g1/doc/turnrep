@@ -1,0 +1,615 @@
+
+The Turn Report
+---------------
+
+The turn report consists of the following sections:
+
+   Banner and summary reports
+       The turn number, month, year, and season
+       Game statistics and the player's rank in various categories
+       How many NP's the player has, and when the next one will be received
+       Entity numbers for new nobles to be formed
+       Unit summary chart
+       Stack location report
+       Stack weight chart
+
+   Report for the player entity
+       Log of player entity commands executed
+       List of any unclaimed items, such as the starting gold or stone
+
+   Report for each character
+       Log of what the character did during the month
+       Character statistics and ratings
+
+   Report for each location seen during the turn
+       Log of what happened in the location
+       End-of-turn view of everything in the location
+
+   Any new lore sheets the player has learned
+
+   Order template
+
+Here is a sample set of orders a new player sent in, and the resulting
+turn report.
+
+begin 613 snausages
+
+unit 2857 # Dr. F
+   move in
+   form 4611 "Joel Robinson"
+   form 3386 "TV's Frank"
+   study 125 # Construction
+   move out
+   recruit 10
+   make 95 10
+
+unit 3386 # Frank
+   stack 2857
+   claim 1 300
+   study 129 # Mining
+   make 95 10
+
+unit 4611 # Joel
+   claim 1 500
+   form 3095 "Gypsy"
+   study 126 # Alchemy
+   make 95 10
+
+unit 3095 # Gypsy
+   stack 4611
+   claim 1 100
+   study 120 # Shipcraft
+   make 95 10
+
+end
+
+>        - Olympia order scanner -
+>   
+>   Hello, Deep 13 [613]
+>   
+>   19 queued, 0 errors.
+>   
+>   Current order queues
+>   --------------------
+>   
+>   begin 613  # Deep 13
+>   
+>   unit 2857  # Dr. Clayton Forrester
+>      move in
+>      form 4611 "Joel Robinson"
+>      form 3386 "TV's Frank"
+>      study 125 
+>      move out
+>      recruit 10
+>      make 95 10
+>   
+>   #
+>   # Orders for units you do not control as of now
+>   #
+>   unit 3386
+>      stack 2857
+>      claim 1 300
+>      study 129 
+>      make 95 10
+>   
+>   unit 4611
+>      claim 1 500
+>      form 3095 "Gypsy"
+>      study 126 
+>      make 95 10
+>   
+>   unit 3095
+>      stack 4611
+>      claim 1 100
+>      study 120 
+>      make 95 10
+>   
+>   end
+
+
+
+The turn number, month, year, and season:
+
+>   Olympia turn 62 report for Deep 13 [613].
+>   Season "Harvest", month 6, in the year 8.
+
+Game statistics and the player's rank in various categories:
+
+>      Game totals:
+>         Players:                 22
+>         Controlled units:       223
+>         Other units:             63
+>      
+>      Faction [613]                          rank   
+>      -------------                          ----   
+>      Characters:                         4  19th   
+>      Men:                                6  19th   
+>      Gold:                           1,500  15th   
+>      Skills known:                    3/63  19th   
+>      Spells known:                    0/73  17th   
+>      Provinces visited:            1/7,356  20th   
+>      Sublocs found:                0/2,751  21st   
+
+How many NP's the player has, and when the next one will be received:
+
+>   Noble points:  9     (0 gained, 3 spent)
+>   The next NP will be received at the end of turn 68.
+
+Entity numbers for new nobles to be formed:
+
+>   The next five nobles formed will be:  3148 5575 4431 3797 3722
+
+Unit summary chart:
+
+>   unit  loc undr loyal heal B CA gold peas work sail figh name
+>   ---- ---- ---- ----- ---- - -- ---- ---- ---- ---- ---- ----
+>   2857 cu26      o2    100  0     900    6                Dr. Clayton
+>   3095 cu26 4611 c500  100  0                             Gypsy
+>   3386 cu26 2857 c500  100  0     200                     TV's Frank
+>   4611 cu26 2857 c500  100  0     400                     Joel Robinson
+>                                  ==== ==== ==== ==== ====
+>                                  1500    6               
+
+This is a summary of the player's units.
+
+	column    meaning
+	------    -------
+	unit      The character
+	loc       Where the character is
+	undr      What unit the character is stacked beneath
+	loyal     The kind and level of loyalty.  Examples:
+
+			c500	contract-500
+			o1	oath-1
+			f10	fear-10
+
+	heal      The character's health.  100=perfect health, 0=dead.
+	B         Combat behind status. 0=front line in battle, 9=rear.
+	CA        Current Aura (for magicians).
+	gold      Gold owned by the character.
+        peas      Number of peasants owned.
+        work      Number of workers owned.
+        sail      Number of sailors owned.
+        figh      Total number of fighters, including soldiers, pikemen,
+                  archers, swordsmen, etc.
+
+Stack location report:
+
+>   Location                        Stack
+>   --------                        -----
+>   Lesser Atnos
+>     Forest [cu26]                 Dr. Clayton Forrester [2857]
+>                                      Joel Robinson [4611]
+>                                      Gypsy [3095]
+>                                      TV's Frank [3386]
+
+Stack weight chart:
+
+>   stack    total wt         walk            ride            fly    
+>   -----    --------     -----------     -----------     -----------
+>    2857       1,130        870  13%                                
+>    3095         140         60  40%                                
+>    3386         140         60  40%                                
+>    4611         280        120  40%                                
+
+Report for the player entity:
+
+>   Deep 13 [613]
+>   ------------------------------------------------------------------------
+>   
+>   Unclaimed items:
+>         qty  name                         weight
+>         ---  ----                         ------
+>       2,100  gold [1]                          0  
+>         100  stone [78]                   10,000  
+
+The players has claimed 900 of his starting 3,000 gold, but hasn't
+claimed any of his stone.
+
+Report for each character:
+
+>   Dr. Clayton Forrester [2857]
+>   ------------------------------------------------------------------------
+>    1: > move in
+>    1: (assuming 'move hq72')
+>    1: Casandra [4859] refused to let us enter.
+>    1: > form 4611 "Joel Robinson"
+>    7: Joel Robinson [4611] stacks beneath us.
+>    8: > form 3386 "TV's Frank"
+>   14: TV's Frank [3386] stacks beneath us.
+>   15: TV's Frank [3386] unstacks from us.
+>   15: TV's Frank [3386] stacks beneath us.
+>   15: > study 125 
+>   15: Paid 100 gold to begin study.
+>   15: Study Construction for seven days.
+>   21: Learned Construction [125].
+>   22: > move out
+>   22: Travel to Forest [cu26] will take one day.
+>   22: Arrival at Forest [cu26].
+>   23: > recruit 10
+>   28: Recruited six peasants.
+>   29: > make 95 10
+>      
+>      Location:       Forest [cu26], in Lesser Atnos
+>      Loyalty:        Oath-2
+>      Stacked over:   Joel Robinson [4611]
+>                      TV's Frank [3386]
+>      Health:         100%
+>      Combat:         attack 80, defense 80, missile 0
+>                      behind 0  (front line in combat)
+>      
+>      Skills known:
+>          125  Construction
+>      
+>      Inventory:
+>            qty  name                         weight
+>            ---  ----                         ------
+>            900  gold [1]                          0  
+>              6  peasants [10]                   600  cap 600 (1,1,0)
+>              2  clay pots [95]                   10  
+>                                              ======
+>                                                 610
+>      
+>      Capacity:  10/700 land (1%)
+>      
+>   Gypsy [3095]
+>   ------------------------------------------------------------------------
+>   14: Gypsy [3095] stacks beneath Joel Robinson [4611].
+>   15: > stack 4611
+>   15: Gypsy [3095] unstacks from Joel Robinson [4611].
+>   15: Gypsy [3095] stacks beneath Joel Robinson [4611].
+>   15: > claim 1 100
+>   15: Claimed 100 gold.
+>   15: > study 120 
+>   15: Paid 100 gold to begin study.
+>   15: Study Shipcraft for seven days.
+>   21: Learned Shipcraft [120].
+>   22: Travel to Forest [cu26] will take one day.
+>   22: Arrival at Forest [cu26].
+>   23: > make 95 10
+>      
+>      Location:       Forest [cu26], in Lesser Atnos
+>      Loyalty:        Contract-500
+>      Stacked under:  Joel Robinson [4611]
+>      Health:         100%
+>      Combat:         attack 80, defense 80, missile 0
+>                      behind 0  (front line in combat)
+>      
+>      Skills known:
+>          120  Shipcraft
+>      
+>      Inventory:
+>            qty  name                         weight
+>            ---  ----                         ------
+>              8  clay pots [95]                   40  
+>                                              ======
+>                                                  40
+>      
+>      Capacity:  40/100 land (40%)
+>      
+>   TV's Frank [3386]
+>   ------------------------------------------------------------------------
+>   14: TV's Frank [3386] stacks beneath Dr. Clayton Forrester [2857].
+>   15: > stack 2857
+>   15: TV's Frank [3386] unstacks from Dr. Clayton Forrester [2857].
+>   15: TV's Frank [3386] stacks beneath Dr. Clayton Forrester [2857].
+>   15: > claim 1 300
+>   15: Claimed 300 gold.
+>   15: > study 129 
+>   15: Paid 100 gold to begin study.
+>   15: Study Mining for seven days.
+>   21: Learned Mining [129].
+>   22: Travel to Forest [cu26] will take one day.
+>   22: Arrival at Forest [cu26].
+>   23: > make 95 10
+>      
+>      Location:       Forest [cu26], in Lesser Atnos
+>      Loyalty:        Contract-500
+>      Stacked under:  Dr. Clayton Forrester [2857]
+>      Health:         100%
+>      Combat:         attack 80, defense 80, missile 0
+>                      behind 0  (front line in combat)
+>      
+>      Skills known:
+>          129  Mining
+>      
+>      Inventory:
+>            qty  name                         weight
+>            ---  ----                         ------
+>            200  gold [1]                          0  
+>              8  clay pots [95]                   40  
+>                                              ======
+>                                                  40
+>      
+>      Capacity:  40/100 land (40%)
+>      
+>   Joel Robinson [4611]
+>   ------------------------------------------------------------------------
+>    7: Joel Robinson [4611] stacks beneath Dr. Clayton Forrester [2857].
+>    8: > claim 1 500
+>    8: Claimed 500 gold.
+>    8: > form 3095 "Gypsy"
+>   14: Gypsy [3095] stacks beneath us.
+>   15: Gypsy [3095] unstacks from us.
+>   15: Gypsy [3095] stacks beneath us.
+>   15: > study 126 
+>   15: Paid 100 gold to begin study.
+>   15: Study Alchemy for seven days.
+>   22: Travel to Forest [cu26] will take one day.
+>   22: Arrival at Forest [cu26].
+>   23: > make 95 10
+>      
+>      Location:       Forest [cu26], in Lesser Atnos
+>      Loyalty:        Contract-500
+>      Stacked under:  Dr. Clayton Forrester [2857]
+>      Stacked over:   Gypsy [3095]
+>      Health:         100%
+>      Combat:         attack 80, defense 80, missile 0
+>                      behind 0  (front line in combat)
+>      
+>      Skills known:
+>         none
+>      
+>      Partially known skills:
+>          126  Alchemy, 7/14
+>      
+>      Inventory:
+>            qty  name                         weight
+>            ---  ----                         ------
+>            400  gold [1]                          0  
+>              8  clay pots [95]                   40  
+>                                              ======
+>                                                  40
+>      
+>      Capacity:  40/100 land (40%)
+>      
+>   Forest [cu26], forest, in Lesser Atnos, civ-2
+>   ------------------------------------------------------------------------
+>    1: Anteac [5785], lord 753, arrived from City [ew66].
+>    1: Black Billy [2044], lord 454, arrived from City [ew66].
+>    2: Anteac [5785], lord 753, left for Forest [cu25].
+>    6: Black Billy [2044], lord 454, with four peasants, left for City [ew66].
+>    8: Xander Crouch [2701], lord 568, arrived from City [ew66].
+>    9: Xander Crouch [2701], lord 568, left for Forest [ct26].
+>   10: Mystra [4991], lord 708, with ten peasants, arrived from Forest [ct26],
+>   10: accompanied by:
+>   10:    Merlinus [5191], lord 708
+>   11: Mystra [4991], lord 708, with ten peasants, left for City [ew66],
+>   11: accompanied by:
+>   11:    Merlinus [5191], lord 708
+>   12: Mystra [4991], lord 708, with ten peasants, arrived from City [ew66],
+>   12: accompanied by:
+>   12:    Merlinus [5191], lord 708
+>   13: Mystra [4991], lord 708, with ten peasants, left for Forest [cu25],
+>   13: accompanied by:
+>   13:    Merlinus [5191], lord 708
+>   13: Benhaha [5219], lord 544, with five peasants, arrived from
+>   13: Forest [cu25].
+>   14: Benhaha [5219], lord 544, with five peasants, left for City [ew66].
+>   14: Odrade [4317], lord 753, with ten workers, five peasants, arrived from
+>   14: Forest [cu25], accompanied by:
+>   14:    Taraza [2742], lord 753
+>   15: Odrade [4317], lord 753, with ten workers, five peasants, left for
+>   15: City [ew66], accompanied by:
+>   15:    Taraza [2742], lord 753
+>   19: New noble [3460], lord 544, with ten peasants, arrived from
+>   19: Forest [ct26].
+>   20: New noble [3460], lord 544, with ten peasants, left for City [ew66].
+>   22: Dr. Clayton Forrester [2857], lord 613, arrived from City [ew66],
+>   22: accompanied by:
+>   22:    Joel Robinson [4611], lord 613
+>   22:    Gypsy [3095], lord 613
+>   22:    TV's Frank [3386], lord 613
+>   
+>   Routes leaving Forest: 
+>      North, to Forest [ct26], 8 days, civ-1
+>      East, to Ocean [cu27], Atnos Sea, impassable
+>      South, to Ocean [cv26], Atnos Sea, impassable
+>      West, to Forest [cu25], 8 days, civ-1
+>   
+>   Inner locations:
+>      City [ew66], port city, safe haven, 1 day
+>   
+>   Seen here:
+>    * Dr. Clayton Forrester [2857], lord 613, with six peasants,
+>      accompanied by:
+>    *    Joel Robinson [4611], lord 613
+>    *    Gypsy [3095], lord 613
+>    *    TV's Frank [3386], lord 613
+>   
+>   City [ew66], port city, in province Forest [cu26], safe haven
+>   ------------------------------------------------------------------------
+>    1: City [ew66] bought two clay pots [95] from Penelope [4845] for 14 gold.
+>    1: Black Billy [2044], lord 454, left for Forest [cu26].
+>    1: Anteac [5785], lord 753, left for Forest [cu26].
+>    1: Penelope [4845] loots the city.
+>    1: Gone Fishin [hq72], galley, 52% loaded, defense 10, 43% damaged,
+>    1: departed for Ocean [cu27]
+>    6: Black Billy [2044], lord 454, with four peasants, arrived from
+>    6: Forest [cu26].
+>    8: Xander Crouch [2701], lord 568, left for Forest [cu26].
+>   10: City [ew66] bought three clay pots [95] from Black Billy [2044] for
+>   10: 21 gold.
+>   11: Knife of Humakt [jb82], galley, 32% loaded, defense 10, 20% damaged,
+>   11: arrived from Ocean [cv26], owner:
+>   11:    Galthor Two-Blade [4151], lord 419, with 14 sailors
+>   11:       New noble [4997], lord 419
+>   11: Mystra [4991], lord 708, with ten peasants, arrived from Forest [cu26],
+>   11: accompanied by:
+>   11:    Merlinus [5191], lord 708
+>   12: Mystra [4991] bought ten walnuts [264] from City [ew66] for 90 gold.
+>   12: Mystra [4991], lord 708, with ten peasants, left for Forest [cu26],
+>   12: accompanied by:
+>   12:    Merlinus [5191], lord 708
+>   12: New noble [4997], lord 419, arrived from Knife of Humakt [jb82].
+>   14: Benhaha [5219], lord 544, with five peasants, arrived from
+>   14: Forest [cu26].
+>   15: Odrade [4317], lord 753, with ten workers, five peasants, arrived from
+>   15: Forest [cu26], accompanied by:
+>   15:    Taraza [2742], lord 753
+>   19: New noble [4997], lord 419, left for Knife of Humakt [jb82].
+>   19: Knife of Humakt [jb82], galley, 32% loaded, defense 10, 20% damaged,
+>   19: departed for Ocean [cv26]
+>   20: New noble [3460], lord 544, with ten peasants, arrived from
+>   20: Forest [cu26].
+>   22: Dr. Clayton Forrester [2857], lord 613, left for Forest [cu26],
+>   22: accompanied by:
+>   22:    Joel Robinson [4611], lord 613
+>   22:    Gypsy [3095], lord 613
+>   22:    TV's Frank [3386], lord 613
+>   24: Black Billy [2044] bought two lead [102] from City [ew66] for 2 gold.
+>   25: Distant Shores [id51], galley, 45% loaded, defense 10, 6% damaged,
+>   25: arrived from Ocean [cv26], owner:
+>   25:    Owen [5237], lord 679, with 12 sailors
+>   26: Carl [2028], lord 679, left for Distant Shores [id51].
+>   26: Distant Shores [id51], galley, 50% loaded, defense 10, 6% damaged,
+>   26: departed for Ocean [cv26]
+>   
+>   Recovery from recent pillaging will take one month.
+>   
+>   Routes leaving City: 
+>      East, to Ocean [cu27], Atnos Sea, 1 day
+>      South, to Ocean [cv26], Atnos Sea, 1 day
+>      Out, to Forest [cu26], 1 day, civ-2
+>   
+>   Cities rumored to be nearby:
+>      City [ev77], in Mountain [cp24]
+>      City [ew50], in Forest [ct27]
+>   
+>   Skills taught here:
+>      Shipcraft [120], Combat [121], Stealth [122], Beastmastery [123],
+>      Persuasion [124], Construction [125], Alchemy [126], Forestry [128],
+>      Mining [129], Magic [160], Gatecraft [163]
+>   
+>   Market report:
+>      
+>      trade    who    price    qty   item
+>      -----    ---    -----    ---   ----
+>        buy   ew66        2    100   fish [87]
+>        buy   ew66        7      9   clay pots [95]
+>        buy   ew66       54      8   salt [260]
+>       sell   2633        3     17   woven baskets [94]
+>       sell   5369       15     20   fish oil [97]
+>       sell   ew66        5     25   fish oil [97]
+>       sell   ew66       50     10   pitch [261]
+>       sell   ew66        1     50   lead [102]
+>       sell   ew66        9     28   walnuts [264]
+>   
+>   Seen here:
+>      Penelope [4845], on guard, lord 660, with ten soldiers
+>      Gabi [5663], lord 660, "looking for some smelly peasants to hire"
+>      Larry Bogomil [4419], "with a song in his heart and a stick in his hand"
+>      Sajac the Black [5006]
+>      Alexandrus [3719], mage, lord 753, accompanied by:
+>         Schwangyu [4627], lord 753, with ten workers
+>      Firemaker [5369], mage, lord 418, accompanied by:
+>         Gold [2633], lord 418, with ten peasants
+>         Roq [5297], lord 418, with three peasants, three riding horses
+>      Vellos Knoss [4603], lord 568
+>      Badger [2362], lord 889, accompanied by:
+>         Ham [4254], lord 889
+>         Flint [4278], lord 889
+>      New noble [2280], lord 544
+>      Black Billy [2044], lord 454, "Arrrgh Matey..", with four peasants
+>      Benhaha [5219], lord 544, with five peasants
+>      Odrade [4317], lord 753, with five workers, accompanied by:
+>         Taraza [2742], lord 753
+>      New noble [3460], lord 544, with ten peasants
+>   
+>   Ships docked at port:
+>      Grey Mist [ge29], roundship, 11% loaded, owner:
+>         Mac the Grey [3882], lord 708, with 12 workers
+>   
+>   Lore for Shipcraft [120]
+>   ------------------------
+>   All skills concerning ocean travel fall under this category.
+>   Shipcraft encompasses the building and repair of ships,
+>   training of sailors, and navigation at sea.
+>   
+>   The following skills may be studied directly once Shipcraft is known:
+>   
+>      num   skill                              time to learn
+>      ---   -----                              -------------
+>      9502  Sailing                            one week     
+>      9503  Shipbuilding                       one week     
+>      9554  Add ram to galley                  two weeks    
+>      9582  Fishing                            one week     
+>   
+>   
+>   Lore for Construction [125]
+>   ---------------------------
+>   The domain of engineers, builders and architects, Construction
+>   concerns the erection of inns, castles, city walls, and other
+>   fortifactions, as well as the training of workers.
+>   
+>   The following skills may be studied directly once Construction is known:
+>   
+>      num   skill                              time to learn
+>      ---   -----                              -------------
+>      9542  Construct siege tower              one week     
+>      9566  Stone quarrying                    one week     
+>   
+>   
+>   Lore for Alchemy [126]
+>   ----------------------
+>   Called petty magician, druggist, and sometimes fool, the
+>   alchemist seeks to brew useful potions from elements and
+>   rare extracts.  A method to transmute matter into gold is
+>   eagerly sought, but remains unknown.
+>   
+>   The following skills may be studied directly once Alchemy is known:
+>   
+>      num   skill                              time to learn
+>      ---   -----                              -------------
+>      9551  Brew healing potion                two weeks    
+>      9552  Brew potion of death               two weeks    
+>      9584  Collect rare elements              one week     
+>   
+>   Further skills may be found through research.
+>   
+>   Lore for Mining [129]
+>   ---------------------
+>   Mining is the skill of sinking deep shafts into mountainous
+>   provinces for the purpose of extracting valuable elements.
+>   Mining skills require a mine shaft to be constructed first
+>   with the BUILD MINE order.
+>   
+>   The likelihood of death because of cave-ins or poisonous gases
+>   seeping into the shafts tends to make mining dangerous work.
+>   
+>   The following skills may be studied directly once Mining is known:
+>   
+>      num   skill                              time to learn
+>      ---   -----                              -------------
+>      9563  Mine iron                          one week     
+>      9564  Mine gold                          one week     
+>   
+>   Further skills may be found through research.
+>   
+>   New players
+>   ------------------------------------------------------------------------
+>    454   Blue Wizards
+>          Dan Stephen Phillip Corrin <dan@engrg.uwo.ca>
+>   
+>    613   Deep 13
+>          Mike "Ford" Ditto <ford@omnicron.com>
+>   
+>   
+>   Order template
+>   ------------------------------------------------------------------------
+>   
+>   begin 613 "snausages"  # Deep 13
+>   
+>   unit 2857  # Dr. Clayton Forrester
+>      # > make 95 10 (still executing)
+>   
+>   unit 3095  # Gypsy
+>      # > make 95 10 (still executing)
+>   
+>   unit 3386  # TV's Frank
+>      # > make 95 10 (still executing)
+>   
+>   unit 4611  # Joel Robinson
+>      # > make 95 10 (still executing)
+>   
+>   end

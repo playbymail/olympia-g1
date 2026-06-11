@@ -1,0 +1,6996 @@
+100 player pl_npc
+na Independent player
+PL
+ pw crusty7
+ un 61799 90163 75127 94993 87864 42790 84578 42970 94638 \
+	54146 89364 42964 76774 51946 42895 68943 66177 42874 50943 93392 \
+	77990 84393 50892 81137 55630 53419 66497 76768 45879 82470 92890 \
+	100785 70521 70101 42798 93161 87404 54317 56889 49274 83027 89958 \
+	70621 86712 69433 76232 46484 101835 95713 72727 90801 96782 42979 \
+	50522 77932 46921 42894 46917 95914 42828 58648 74304 91201 74861 \
+	94280 90500 94240 42794 78139 42946 77439 56524 90773 59897 85176 \
+	43414 96409 49428 44186 82137 75837 81413 101245 43448 90019 48457 \
+	43452 99123 62832 42990 49068 102375 80261 74574 55860 78063 81088 \
+	89392 67076 80623 68313 42995 59925 83230 70579 48803 101743 96441 \
+	44473 50237 102033 66111 47852 61032 45461 61653 43237 43238 89227 \
+	95600 47748 46813 91354 87503 51042 55834 60279 44024 69274 70531 \
+	76914 54225 97894 83265 69092 65876 54801 91218 81494 44379 90538 \
+	63560 43175 92421 94970 72994 55187 52743 90854 55276 78862 73794 \
+	80654 63230 84835 94791 77740 58566 67983 81360 79453 52300 55041 \
+	81167 95487 88739 70073 43016 94309 66241 92016 67388 49511 96369 \
+	43443 53156 78700 93515 79735 43469 43476 70877 95967 78177 43009 \
+	49609 53852 85085 83979 47752 66043 61001 66526 66281 96417 43533 \
+	56933 68508 81391 43544 62604 48214 70705 80949 71867 66143 43741 \
+	44671 56536 95327 43549 92789 62074 84875 43557 48901 92811 89179 \
+	86214 70135 43017 64418 96106 49493 71773 75917 81928 58734 67094 \
+	52951 56729 100350 58018 93425 68182 80832 76416 46152 48101 46657 \
+	71146 43631 73671 98710 78857 54167 43683 51620 73939 46995 42740 \
+	89249 42918 58119 96974 70632 69254 62462 62175 56392 74241 51896 \
+	43615 88666 50094 54395 60089 62536 60427 95160 42775 96681 52632 \
+	90903 70932 74930 80070 85562 76262 51325 42890 49558 43853 62631 \
+	86652 62319 61811 43719 79111 50703 65849 85840 82480 93303 90244 \
+	97573 67503 80851 80358 85638 77377 84567 58992 76782 98978 45641 \
+	42821 47604 92456 90705 72760 89786 93479 82210 63170 58603 75239 \
+	95076 54941 42789 93792 86271 90409 42820 89647 42915 51774 42755 \
+	49369 57533 46755 42960 66895 91833 89482 60508 57597 54645 92780 \
+	61615 57641 43732 47669 52933 101298 76878 48920 76298 68026 86032 \
+	58409 49509 66106 94794 70910 76911 50709 94631 88411 63415 62123 \
+	76412 92579 56675 43764 95662 85653 79769 62497 72268 98718 95921 \
+	84443 82394 78557 59018 80684 77104 43832 92095 78685 43727 54091 \
+	44299 43742 51326 96780 44191 72004 92613 98139 85300 46883 43392 \
+	43410 101167 42778 91838 59172 99029 86293 87659 52627 57550 57496 \
+	48881 48763 92902 42954 48592 94199 70764 58907 53051 59084 64715 \
+	64266 90573 47276 43118 98888 44545 63810 84598 74733 63214 97649 \
+	50518 77433 46132 101529 77312 43167 94908 50164 85723 99827 43257 \
+	43268 71060 54937 50414 71486 79960 78034 45695 94852 66081 43334 \
+	53503 43344 58353 87858 59723 76424 86306 43658 47946 74681 65425 \
+	88041 96411 63658 43698 53373 92620 51566 52573 61630 49401 71322 \
+	43730 51073 63707 81207 94010 100632 48069 79870 60654 43716 43072 \
+	76283 57326 72011 99403 92697 77968 89552 82158 51499 48241 75941 \
+	92814 52252 52282 
+ uf 31002 29992 33346 30668 32222 
+
+61799 char 0
+na Old man
+LI
+ wh 63834
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+90163 char 0
+na Old man
+LI
+ wh 63333
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+75127 char 0
+na Nobleman
+LI
+ wh 56283
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+94993 char 0
+na Distressed Lady
+LI
+ wh 87271
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+87864 char 0
+na Princess
+LI
+ wh 42956
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+42790 char 0
+na Old man
+LI
+ wh 80460
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+84578 char 0
+na Distressed Lady
+LI
+ wh 97063
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+42970 char 0
+na Old man
+LI
+ wh 42968
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+94638 char 0
+na Old man
+LI
+ wh 71665
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+54146 char 0
+na Distressed Lady
+LI
+ wh 99973
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+89364 char 0
+na Nobleman
+LI
+ wh 101295
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+42964 char 0
+na Nobleman
+LI
+ wh 42963
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+76774 char 0
+na King's daughter
+LI
+ wh 94264
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+51946 char 0
+na Distressed Lady
+LI
+ wh 69456
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+42895 char 0
+na Princess
+LI
+ wh 65481
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+68943 char 0
+na Old man
+LI
+ wh 95920
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+66177 char 0
+na Princess
+LI
+ wh 76085
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+42874 char 0
+na Nobleman
+LI
+ wh 42873
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+50943 char 0
+na Distressed Lady
+LI
+ wh 71364
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+93392 char 0
+na King's daughter
+LI
+ wh 49069
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+77990 char 0
+na King's daughter
+LI
+ wh 63413
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+84393 char 0
+na Distressed Lady
+LI
+ wh 91760
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+50892 char 0
+na Knight
+LI
+ wh 76604
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+81137 char 0
+na Old man
+LI
+ wh 72239
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+55630 char 0
+na Princess
+LI
+ wh 83258
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+53419 char 0
+na Old man
+LI
+ wh 91186
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+66497 char 0
+na Distressed Lady
+LI
+ wh 77397
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+76768 char 0
+na Princess
+LI
+ wh 94886
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+45879 char 0
+na Princess
+LI
+ wh 84202
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+82470 char 0
+na King's daughter
+LI
+ wh 42942
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+92890 char 0
+na Princess
+LI
+ wh 51152
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+100785 char 0
+na Princess
+LI
+ wh 61687
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+70521 char 0
+na Princess
+LI
+ wh 99142
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+70101 char 0
+na Nobleman
+LI
+ wh 47085
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+42798 char 0
+na King's daughter
+LI
+ wh 46368
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+93161 char 0
+na Old man
+LI
+ wh 88821
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+87404 char 0
+na Princess
+LI
+ wh 102170
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+54317 char 0
+na Distressed Lady
+LI
+ wh 75593
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+56889 char 0
+na Old man
+LI
+ wh 85429
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+49274 char 0
+na Nobleman
+LI
+ wh 65826
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+83027 char 0
+na King's daughter
+LI
+ wh 42905
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+89958 char 0
+na Merchant
+LI
+ wh 89984
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+70621 char 0
+na Princess
+LI
+ wh 86823
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+86712 char 0
+na Nobleman
+LI
+ wh 50603
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+69433 char 0
+na Merchant
+LI
+ wh 97571
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+76232 char 0
+na Knight
+LI
+ wh 81713
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+46484 char 0
+na King's daughter
+LI
+ wh 76813
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+101835 char 0
+na King's daughter
+LI
+ wh 61049
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+95713 char 0
+na Old man
+LI
+ wh 54090
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+72727 char 0
+na Distressed Lady
+LI
+ wh 85146
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+90801 char 0
+na Old man
+LI
+ wh 66626
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+96782 char 0
+na Princess
+LI
+ wh 57458
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+42979 char 0
+na Old man
+LI
+ wh 99102
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+50522 char 0
+na Knight
+LI
+ wh 42950
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+77932 char 0
+na Merchant
+LI
+ wh 60652
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+46921 char 0
+na Old man
+LI
+ wh 102072
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+42894 char 0
+na King's daughter
+LI
+ wh 43647
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+46917 char 0
+na Old man
+LI
+ wh 90631
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+95914 char 0
+na King's daughter
+LI
+ wh 79869
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+42828 char 0
+na Merchant
+LI
+ wh 62948
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+58648 char 0
+na Merchant
+LI
+ wh 99558
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+74304 char 0
+na Merchant
+LI
+ wh 52888
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+91201 char 0
+na Knight
+LI
+ wh 72717
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+74861 char 0
+na Merchant
+LI
+ wh 42822
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+94280 char 0
+na Nobleman
+LI
+ wh 65067
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+90500 char 0
+na Merchant
+LI
+ wh 53210
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+94240 char 0
+na King's daughter
+LI
+ wh 51401
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+42794 char 0
+na Merchant
+LI
+ wh 55850
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+78139 char 0
+na Merchant
+LI
+ wh 79924
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+42946 char 0
+na Nobleman
+LI
+ wh 50209
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+77439 char 0
+na Old man
+LI
+ wh 70641
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+56524 char 0
+na Knight
+LI
+ wh 42742
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+90773 char 0
+na Old man
+LI
+ wh 53337
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+59897 char 0
+na Old man
+LI
+ wh 43398
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+85176 char 0
+na Knight
+LI
+ wh 58429
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+43414 char 0
+na Distressed Lady
+LI
+ wh 69744
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+96409 char 0
+na Knight
+LI
+ wh 62724
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+49428 char 0
+na Nobleman
+LI
+ wh 88649
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+44186 char 0
+na Merchant
+LI
+ wh 82349
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+82137 char 0
+na Distressed Lady
+LI
+ wh 83779
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+75837 char 0
+na Princess
+LI
+ wh 53205
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+81413 char 0
+na Princess
+LI
+ wh 96981
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+101245 char 0
+na Princess
+LI
+ wh 83399
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+43448 char 0
+na Old man
+LI
+ wh 67551
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+90019 char 0
+na Nobleman
+LI
+ wh 54208
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+48457 char 0
+na Old man
+LI
+ wh 93130
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+43452 char 0
+na Nobleman
+LI
+ wh 64918
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+99123 char 0
+na Princess
+LI
+ wh 94835
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+62832 char 0
+na Merchant
+LI
+ wh 71890
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+42990 char 0
+na Old man
+LI
+ wh 90584
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+49068 char 0
+na Nobleman
+LI
+ wh 81123
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+102375 char 0
+na Old man
+LI
+ wh 97324
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+80261 char 0
+na Knight
+LI
+ wh 100918
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+74574 char 0
+na Merchant
+LI
+ wh 87084
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+55860 char 0
+na Knight
+LI
+ wh 69544
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+78063 char 0
+na Merchant
+LI
+ wh 44348
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+81088 char 0
+na Distressed Lady
+LI
+ wh 64227
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+89392 char 0
+na Merchant
+LI
+ wh 76047
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+67076 char 0
+na Nobleman
+LI
+ wh 62071
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+80623 char 0
+na Old man
+LI
+ wh 76663
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+68313 char 0
+na Distressed Lady
+LI
+ wh 43140
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+42995 char 0
+na Distressed Lady
+LI
+ wh 57157
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+59925 char 0
+na Knight
+LI
+ wh 90205
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+83230 char 0
+na Old man
+LI
+ wh 65088
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+70579 char 0
+na Merchant
+LI
+ wh 81942
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+48803 char 0
+na Old man
+LI
+ wh 47979
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+101743 char 0
+na Merchant
+LI
+ wh 67283
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+96441 char 0
+na Nobleman
+LI
+ wh 95385
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+44473 char 0
+na Old man
+LI
+ wh 43174
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+50237 char 0
+na King's daughter
+LI
+ wh 47473
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+102033 char 0
+na Princess
+LI
+ wh 92566
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+66111 char 0
+na Princess
+LI
+ wh 52274
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+47852 char 0
+na Princess
+LI
+ wh 44023
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+61032 char 0
+na Distressed Lady
+LI
+ wh 42998
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+45461 char 0
+na Princess
+LI
+ wh 70812
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+61653 char 0
+na Princess
+LI
+ wh 56232
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+43237 char 0
+na Nobleman
+LI
+ wh 93180
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+43238 char 0
+na Old man
+LI
+ wh 76764
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+89227 char 0
+na King's daughter
+LI
+ wh 94805
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+95600 char 0
+na Old man
+LI
+ wh 51024
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+47748 char 0
+na Princess
+LI
+ wh 88878
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+46813 char 0
+na Merchant
+LI
+ wh 54981
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+91354 char 0
+na Distressed Lady
+LI
+ wh 100251
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+87503 char 0
+na Old man
+LI
+ wh 85265
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+51042 char 0
+na Princess
+LI
+ wh 82102
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+55834 char 0
+na Merchant
+LI
+ wh 45459
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+60279 char 0
+na Nobleman
+LI
+ wh 77929
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+44024 char 0
+na Old man
+LI
+ wh 57596
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+69274 char 0
+na King's daughter
+LI
+ wh 50132
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+70531 char 0
+na Old man
+LI
+ wh 43248
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+76914 char 0
+na Distressed Lady
+LI
+ wh 89969
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+54225 char 0
+na Princess
+LI
+ wh 95033
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+97894 char 0
+na Old man
+LI
+ wh 74628
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+83265 char 0
+na Merchant
+LI
+ wh 76281
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+69092 char 0
+na King's daughter
+LI
+ wh 101500
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+65876 char 0
+na Nobleman
+LI
+ wh 90702
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+54801 char 0
+na Nobleman
+LI
+ wh 81473
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+91218 char 0
+na Knight
+LI
+ wh 81826
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+81494 char 0
+na Nobleman
+LI
+ wh 64078
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+44379 char 0
+na King's daughter
+LI
+ wh 43158
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+90538 char 0
+na Old man
+LI
+ wh 54850
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+63560 char 0
+na Nobleman
+LI
+ wh 75794
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+43175 char 0
+na Distressed Lady
+LI
+ wh 87047
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+92421 char 0
+na Knight
+LI
+ wh 76417
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+94970 char 0
+na Merchant
+LI
+ wh 95742
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+72994 char 0
+na Old man
+LI
+ wh 84693
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+55187 char 0
+na Nobleman
+LI
+ wh 72351
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+52743 char 0
+na Nobleman
+LI
+ wh 58802
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+90854 char 0
+na Old man
+LI
+ wh 95135
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+55276 char 0
+na Nobleman
+LI
+ wh 80458
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+78862 char 0
+na King's daughter
+LI
+ wh 72964
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+73794 char 0
+na Merchant
+LI
+ wh 43226
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+80654 char 0
+na Distressed Lady
+LI
+ wh 51548
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+63230 char 0
+na Old man
+LI
+ wh 89874
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+84835 char 0
+na Old man
+LI
+ wh 80661
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+94791 char 0
+na Nobleman
+LI
+ wh 69437
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+77740 char 0
+na Distressed Lady
+LI
+ wh 84527
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+58566 char 0
+na Nobleman
+LI
+ wh 72096
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+67983 char 0
+na Merchant
+LI
+ wh 86261
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+81360 char 0
+na Distressed Lady
+LI
+ wh 86133
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+79453 char 0
+na Old man
+LI
+ wh 76628
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+52300 char 0
+na Nobleman
+LI
+ wh 76575
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+55041 char 0
+na Old man
+LI
+ wh 83101
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+81167 char 0
+na King's daughter
+LI
+ wh 49029
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+95487 char 0
+na Old man
+LI
+ wh 72951
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+88739 char 0
+na Old man
+LI
+ wh 66760
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+70073 char 0
+na Old man
+LI
+ wh 62450
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+43016 char 0
+na Princess
+LI
+ wh 78742
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+94309 char 0
+na Knight
+LI
+ wh 59486
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+66241 char 0
+na Distressed Lady
+LI
+ wh 49834
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+92016 char 0
+na Old man
+LI
+ wh 95214
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+67388 char 0
+na Nobleman
+LI
+ wh 92006
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+49511 char 0
+na Knight
+LI
+ wh 97064
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+96369 char 0
+na Old man
+LI
+ wh 86865
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+43443 char 0
+na Old man
+LI
+ wh 58869
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+53156 char 0
+na Knight
+LI
+ wh 98778
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+78700 char 0
+na Princess
+LI
+ wh 62220
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+93515 char 0
+na Old man
+LI
+ wh 55636
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+79735 char 0
+na Old man
+LI
+ wh 57558
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+43469 char 0
+na Old man
+LI
+ wh 58760
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+43476 char 0
+na Nobleman
+LI
+ wh 90280
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+70877 char 0
+na Knight
+LI
+ wh 55428
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+95967 char 0
+na Princess
+LI
+ wh 58591
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+78177 char 0
+na King's daughter
+LI
+ wh 99431
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+43009 char 0
+na Merchant
+LI
+ wh 69090
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+49609 char 0
+na Old man
+LI
+ wh 43500
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+53852 char 0
+na Knight
+LI
+ wh 102211
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+85085 char 0
+na Nobleman
+LI
+ wh 73392
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+83979 char 0
+na Old man
+LI
+ wh 95523
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+47752 char 0
+na Nobleman
+LI
+ wh 94414
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+66043 char 0
+na King's daughter
+LI
+ wh 97184
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+61001 char 0
+na Nobleman
+LI
+ wh 74439
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+66526 char 0
+na Nobleman
+LI
+ wh 65220
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+66281 char 0
+na Nobleman
+LI
+ wh 48719
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+96417 char 0
+na Princess
+LI
+ wh 97490
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+43533 char 0
+na Old man
+LI
+ wh 64742
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+56933 char 0
+na Distressed Lady
+LI
+ wh 69623
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+68508 char 0
+na Merchant
+LI
+ wh 90249
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+81391 char 0
+na Old man
+LI
+ wh 56274
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+43544 char 0
+na Nobleman
+LI
+ wh 81273
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+62604 char 0
+na Nobleman
+LI
+ wh 66927
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+48214 char 0
+na Merchant
+LI
+ wh 98327
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+70705 char 0
+na Nobleman
+LI
+ wh 99254
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+80949 char 0
+na Knight
+LI
+ wh 69950
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+71867 char 0
+na Old man
+LI
+ wh 71326
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+66143 char 0
+na King's daughter
+LI
+ wh 65298
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+43741 char 0
+na Nobleman
+LI
+ wh 90212
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+44671 char 0
+na Princess
+LI
+ wh 68450
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+56536 char 0
+na Knight
+LI
+ wh 52541
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+95327 char 0
+na Nobleman
+LI
+ wh 43548
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+43549 char 0
+na Old man
+LI
+ wh 80316
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+92789 char 0
+na Old man
+LI
+ wh 98161
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+62074 char 0
+na Old man
+LI
+ wh 81039
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+84875 char 0
+na Distressed Lady
+LI
+ wh 95341
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+43557 char 0
+na Old man
+LI
+ wh 78801
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+48901 char 0
+na Nobleman
+LI
+ wh 92419
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+92811 char 0
+na King's daughter
+LI
+ wh 43566
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+89179 char 0
+na Old man
+LI
+ wh 96465
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+86214 char 0
+na Nobleman
+LI
+ wh 63847
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+70135 char 0
+na Old man
+LI
+ wh 101505
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+43017 char 0
+na Nobleman
+LI
+ wh 92326
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+64418 char 0
+na Distressed Lady
+LI
+ wh 98014
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+96106 char 0
+na Merchant
+LI
+ wh 43587
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+49493 char 0
+na Distressed Lady
+LI
+ wh 101452
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+71773 char 0
+na Merchant
+LI
+ wh 98717
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+75917 char 0
+na Distressed Lady
+LI
+ wh 55327
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+81928 char 0
+na Distressed Lady
+LI
+ wh 62676
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+58734 char 0
+na Old man
+LI
+ wh 92169
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+67094 char 0
+na Old man
+LI
+ wh 100312
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+52951 char 0
+na Merchant
+LI
+ wh 43627
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+56729 char 0
+na King's daughter
+LI
+ wh 47952
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+100350 char 0
+na Knight
+LI
+ wh 99960
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+58018 char 0
+na Princess
+LI
+ wh 71499
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+93425 char 0
+na Knight
+LI
+ wh 43595
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+68182 char 0
+na Old man
+LI
+ wh 68853
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+80832 char 0
+na Merchant
+LI
+ wh 50528
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+76416 char 0
+na Princess
+LI
+ wh 43611
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+46152 char 0
+na Knight
+LI
+ wh 48303
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+48101 char 0
+na Distressed Lady
+LI
+ wh 43614
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+46657 char 0
+na Old man
+LI
+ wh 54598
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+71146 char 0
+na Old man
+LI
+ wh 79982
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+43631 char 0
+na Knight
+LI
+ wh 47147
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+73671 char 0
+na Knight
+LI
+ wh 65764
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+98710 char 0
+na Old man
+LI
+ wh 84223
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+78857 char 0
+na Merchant
+LI
+ wh 45796
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+54167 char 0
+na Merchant
+LI
+ wh 84876
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+43683 char 0
+na Knight
+LI
+ wh 71559
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+51620 char 0
+na Princess
+LI
+ wh 84918
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+73939 char 0
+na Princess
+LI
+ wh 43689
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+46995 char 0
+na Princess
+LI
+ wh 98947
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+42740 char 0
+na Old man
+LI
+ wh 93382
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+89249 char 0
+na Nobleman
+LI
+ wh 77186
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+42918 char 0
+na Nobleman
+LI
+ wh 66930
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+58119 char 0
+na Distressed Lady
+LI
+ wh 46099
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+96974 char 0
+na King's daughter
+LI
+ wh 76382
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+70632 char 0
+na Knight
+LI
+ wh 91681
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+69254 char 0
+na Distressed Lady
+LI
+ wh 101752
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+62462 char 0
+na Nobleman
+LI
+ wh 76418
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+62175 char 0
+na Knight
+LI
+ wh 77416
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+56392 char 0
+na Distressed Lady
+LI
+ wh 82131
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+74241 char 0
+na Old man
+LI
+ wh 90202
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+51896 char 0
+na Princess
+LI
+ wh 81186
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+43615 char 0
+na Princess
+LI
+ wh 45403
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+88666 char 0
+na Old man
+LI
+ wh 48880
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+50094 char 0
+na Merchant
+LI
+ wh 44135
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+54395 char 0
+na King's daughter
+LI
+ wh 49658
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+60089 char 0
+na Knight
+LI
+ wh 95213
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+62536 char 0
+na Merchant
+LI
+ wh 92481
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+60427 char 0
+na Nobleman
+LI
+ wh 44689
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+95160 char 0
+na Knight
+LI
+ wh 65542
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+42775 char 0
+na Knight
+LI
+ wh 62576
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+96681 char 0
+na King's daughter
+LI
+ wh 60266
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+52632 char 0
+na Old man
+LI
+ wh 56213
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+90903 char 0
+na Princess
+LI
+ wh 67664
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+70932 char 0
+na Merchant
+LI
+ wh 94592
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+74930 char 0
+na Nobleman
+LI
+ wh 50754
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+80070 char 0
+na Merchant
+LI
+ wh 86833
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+85562 char 0
+na Nobleman
+LI
+ wh 49628
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+76262 char 0
+na King's daughter
+LI
+ wh 97120
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+51325 char 0
+na Knight
+LI
+ wh 61903
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+42890 char 0
+na Old man
+LI
+ wh 92336
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+49558 char 0
+na Distressed Lady
+LI
+ wh 65743
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+43853 char 0
+na King's daughter
+LI
+ wh 64205
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+62631 char 0
+na Knight
+LI
+ wh 73918
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+86652 char 0
+na King's daughter
+LI
+ wh 64352
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+62319 char 0
+na Nobleman
+LI
+ wh 53557
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+61811 char 0
+na Knight
+LI
+ wh 87454
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+43719 char 0
+na Distressed Lady
+LI
+ wh 43341
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+79111 char 0
+na Merchant
+LI
+ wh 54851
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+50703 char 0
+na Knight
+LI
+ wh 52363
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+65849 char 0
+na Knight
+LI
+ wh 71443
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+85840 char 0
+na Old man
+LI
+ wh 100601
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+82480 char 0
+na Merchant
+LI
+ wh 75801
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+93303 char 0
+na Nobleman
+LI
+ wh 56236
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+90244 char 0
+na Distressed Lady
+LI
+ wh 72566
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+97573 char 0
+na King's daughter
+LI
+ wh 83295
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+67503 char 0
+na Merchant
+LI
+ wh 63424
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+80851 char 0
+na Merchant
+LI
+ wh 82311
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+80358 char 0
+na Merchant
+LI
+ wh 85072
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+85638 char 0
+na King's daughter
+LI
+ wh 77703
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+77377 char 0
+na Merchant
+LI
+ wh 47044
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+84567 char 0
+na King's daughter
+LI
+ wh 43682
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+58992 char 0
+na Nobleman
+LI
+ wh 73420
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+76782 char 0
+na Distressed Lady
+LI
+ wh 56633
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+98978 char 0
+na Nobleman
+LI
+ wh 43772
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+45641 char 0
+na Old man
+LI
+ wh 78766
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+42821 char 0
+na King's daughter
+LI
+ wh 56595
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+47604 char 0
+na Princess
+LI
+ wh 56509
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+92456 char 0
+na Distressed Lady
+LI
+ wh 100343
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+90705 char 0
+na Distressed Lady
+LI
+ wh 49265
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+72760 char 0
+na King's daughter
+LI
+ wh 94113
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+89786 char 0
+na Knight
+LI
+ wh 78953
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+93479 char 0
+na Knight
+LI
+ wh 94291
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+82210 char 0
+na Old man
+LI
+ wh 69915
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+63170 char 0
+na Old man
+LI
+ wh 76788
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+58603 char 0
+na Distressed Lady
+LI
+ wh 96940
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+75239 char 0
+na Princess
+LI
+ wh 42891
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+95076 char 0
+na King's daughter
+LI
+ wh 45529
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+54941 char 0
+na Old man
+LI
+ wh 87126
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+42789 char 0
+na Distressed Lady
+LI
+ wh 100643
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+93792 char 0
+na Old man
+LI
+ wh 57927
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+86271 char 0
+na Nobleman
+LI
+ wh 64443
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+90409 char 0
+na King's daughter
+LI
+ wh 85440
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+42820 char 0
+na Nobleman
+LI
+ wh 71998
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+89647 char 0
+na Old man
+LI
+ wh 93132
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+42915 char 0
+na Princess
+LI
+ wh 61685
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+51774 char 0
+na Old man
+LI
+ wh 50233
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+42755 char 0
+na Old man
+LI
+ wh 42754
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+49369 char 0
+na Distressed Lady
+LI
+ wh 73629
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+57533 char 0
+na Princess
+LI
+ wh 71794
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+46755 char 0
+na Merchant
+LI
+ wh 70593
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+42960 char 0
+na Old man
+LI
+ wh 65592
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+66895 char 0
+na Old man
+LI
+ wh 74909
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+91833 char 0
+na Knight
+LI
+ wh 44829
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+89482 char 0
+na Princess
+LI
+ wh 42761
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+60508 char 0
+na King's daughter
+LI
+ wh 85111
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+57597 char 0
+na Merchant
+LI
+ wh 42953
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+54645 char 0
+na Merchant
+LI
+ wh 89429
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+92780 char 0
+na Nobleman
+LI
+ wh 65053
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+61615 char 0
+na King's daughter
+LI
+ wh 70006
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+57641 char 0
+na Princess
+LI
+ wh 53070
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+43732 char 0
+na Old man
+LI
+ wh 43731
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+47669 char 0
+na Distressed Lady
+LI
+ wh 100557
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+52933 char 0
+na Knight
+LI
+ wh 90945
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+101298 char 0
+na Old man
+LI
+ wh 44857
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+76878 char 0
+na Distressed Lady
+LI
+ wh 95869
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+48920 char 0
+na King's daughter
+LI
+ wh 85887
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+76298 char 0
+na Merchant
+LI
+ wh 93366
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+68026 char 0
+na Old man
+LI
+ wh 53208
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+86032 char 0
+na Distressed Lady
+LI
+ wh 61613
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+58409 char 0
+na Princess
+LI
+ wh 47102
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+49509 char 0
+na Distressed Lady
+LI
+ wh 48802
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+66106 char 0
+na Princess
+LI
+ wh 75552
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+94794 char 0
+na Knight
+LI
+ wh 67171
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+70910 char 0
+na Knight
+LI
+ wh 59594
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+76911 char 0
+na Distressed Lady
+LI
+ wh 46526
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+50709 char 0
+na Merchant
+LI
+ wh 44061
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+94631 char 0
+na Old man
+LI
+ wh 43856
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+88411 char 0
+na Merchant
+LI
+ wh 43857
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+63415 char 0
+na King's daughter
+LI
+ wh 76347
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+62123 char 0
+na Merchant
+LI
+ wh 43324
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+76412 char 0
+na Merchant
+LI
+ wh 65366
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+92579 char 0
+na Nobleman
+LI
+ wh 94696
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+56675 char 0
+na Merchant
+LI
+ wh 64256
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+43764 char 0
+na Distressed Lady
+LI
+ wh 57968
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+95662 char 0
+na Knight
+LI
+ wh 56435
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+85653 char 0
+na Distressed Lady
+LI
+ wh 49586
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+79769 char 0
+na Old man
+LI
+ wh 43051
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+62497 char 0
+na Knight
+LI
+ wh 57039
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+72268 char 0
+na Distressed Lady
+LI
+ wh 83064
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+98718 char 0
+na Merchant
+LI
+ wh 63688
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+95921 char 0
+na Merchant
+LI
+ wh 78431
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+84443 char 0
+na Nobleman
+LI
+ wh 50832
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+82394 char 0
+na Nobleman
+LI
+ wh 69035
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+78557 char 0
+na Princess
+LI
+ wh 43806
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+59018 char 0
+na Nobleman
+LI
+ wh 66467
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+80684 char 0
+na Merchant
+LI
+ wh 91975
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+77104 char 0
+na Old man
+LI
+ wh 48022
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+43832 char 0
+na Knight
+LI
+ wh 76540
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+92095 char 0
+na King's daughter
+LI
+ wh 61597
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+78685 char 0
+na Knight
+LI
+ wh 89341
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+43727 char 0
+na Old man
+LI
+ wh 67669
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+54091 char 0
+na Merchant
+LI
+ wh 97271
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+44299 char 0
+na King's daughter
+LI
+ wh 76746
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+43742 char 0
+na Old man
+LI
+ wh 101279
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+51326 char 0
+na Knight
+LI
+ wh 45830
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+96780 char 0
+na Knight
+LI
+ wh 57041
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+44191 char 0
+na Knight
+LI
+ wh 78350
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+72004 char 0
+na Princess
+LI
+ wh 79477
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+92613 char 0
+na Merchant
+LI
+ wh 69780
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+98139 char 0
+na Merchant
+LI
+ wh 80824
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+85300 char 0
+na Princess
+LI
+ wh 75788
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+46883 char 0
+na Nobleman
+LI
+ wh 77277
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+43392 char 0
+na Old man
+LI
+ wh 74009
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+43410 char 0
+na Nobleman
+LI
+ wh 51909
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+101167 char 0
+na Princess
+LI
+ wh 48381
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+42778 char 0
+na Distressed Lady
+LI
+ wh 101847
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+91838 char 0
+na Old man
+LI
+ wh 54265
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+59172 char 0
+na Princess
+LI
+ wh 77025
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+99029 char 0
+na Old man
+LI
+ wh 42947
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+86293 char 0
+na Princess
+LI
+ wh 85199
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+87659 char 0
+na Distressed Lady
+LI
+ wh 60497
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+52627 char 0
+na Old man
+LI
+ wh 96511
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+57550 char 0
+na King's daughter
+LI
+ wh 79440
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+57496 char 0
+na Knight
+LI
+ wh 88658
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+48881 char 0
+na Distressed Lady
+LI
+ wh 88630
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+48763 char 0
+na Merchant
+LI
+ wh 93173
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+92902 char 0
+na Knight
+LI
+ wh 88664
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+42954 char 0
+na Old man
+LI
+ wh 57012
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+48592 char 0
+na Distressed Lady
+LI
+ wh 45440
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+94199 char 0
+na Princess
+LI
+ wh 98069
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+70764 char 0
+na Princess
+LI
+ wh 70684
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+58907 char 0
+na Distressed Lady
+LI
+ wh 89127
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+53051 char 0
+na Old man
+LI
+ wh 84482
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+59084 char 0
+na Nobleman
+LI
+ wh 92324
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+64715 char 0
+na King's daughter
+LI
+ wh 43106
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+64266 char 0
+na Merchant
+LI
+ wh 72329
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+90573 char 0
+na King's daughter
+LI
+ wh 43108
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+47276 char 0
+na Princess
+LI
+ wh 83774
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+43118 char 0
+na Knight
+LI
+ wh 61900
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+98888 char 0
+na Merchant
+LI
+ wh 57230
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+44545 char 0
+na Princess
+LI
+ wh 90183
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+63810 char 0
+na Merchant
+LI
+ wh 94899
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+84598 char 0
+na Princess
+LI
+ wh 75071
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+74733 char 0
+na Princess
+LI
+ wh 69522
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+63214 char 0
+na Old man
+LI
+ wh 69207
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+97649 char 0
+na King's daughter
+LI
+ wh 100103
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+50518 char 0
+na Old man
+LI
+ wh 86568
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+77433 char 0
+na Knight
+LI
+ wh 77681
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+46132 char 0
+na King's daughter
+LI
+ wh 90207
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+101529 char 0
+na Princess
+LI
+ wh 56164
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+77312 char 0
+na Merchant
+LI
+ wh 91463
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+43167 char 0
+na Merchant
+LI
+ wh 81187
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+94908 char 0
+na Nobleman
+LI
+ wh 95621
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+50164 char 0
+na Knight
+LI
+ wh 46055
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+85723 char 0
+na Nobleman
+LI
+ wh 60823
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+99827 char 0
+na Distressed Lady
+LI
+ wh 61786
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+43257 char 0
+na Old man
+LI
+ wh 43256
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+43268 char 0
+na Nobleman
+LI
+ wh 67357
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+71060 char 0
+na King's daughter
+LI
+ wh 70828
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+54937 char 0
+na Old man
+LI
+ wh 94076
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+50414 char 0
+na King's daughter
+LI
+ wh 83691
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+71486 char 0
+na Nobleman
+LI
+ wh 43069
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+79960 char 0
+na Distressed Lady
+LI
+ wh 55607
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+78034 char 0
+na Merchant
+LI
+ wh 43325
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+45695 char 0
+na Old man
+LI
+ wh 77577
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+94852 char 0
+na Princess
+LI
+ wh 90757
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+66081 char 0
+na Merchant
+LI
+ wh 54980
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+43334 char 0
+na Nobleman
+LI
+ wh 43333
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+53503 char 0
+na Old man
+LI
+ wh 68474
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+43344 char 0
+na Merchant
+LI
+ wh 99562
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+58353 char 0
+na Distressed Lady
+LI
+ wh 99265
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+87858 char 0
+na Distressed Lady
+LI
+ wh 84208
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+59723 char 0
+na King's daughter
+LI
+ wh 59438
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+76424 char 0
+na Merchant
+LI
+ wh 101518
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+86306 char 0
+na Distressed Lady
+LI
+ wh 76781
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+43658 char 0
+na Princess
+LI
+ wh 57694
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+47946 char 0
+na King's daughter
+LI
+ wh 102039
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+74681 char 0
+na Old man
+LI
+ wh 76496
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+65425 char 0
+na Princess
+LI
+ wh 66343
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+88041 char 0
+na King's daughter
+LI
+ wh 43691
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+96411 char 0
+na Distressed Lady
+LI
+ wh 98826
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+63658 char 0
+na Old man
+LI
+ wh 78856
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+43698 char 0
+na Distressed Lady
+LI
+ wh 93831
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+53373 char 0
+na Old man
+LI
+ wh 89456
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+92620 char 0
+na Old man
+LI
+ wh 70926
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+51566 char 0
+na Merchant
+LI
+ wh 89968
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+52573 char 0
+na Merchant
+LI
+ wh 78314
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+61630 char 0
+na Distressed Lady
+LI
+ wh 97237
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+49401 char 0
+na Princess
+LI
+ wh 90177
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+71322 char 0
+na Old man
+LI
+ wh 76803
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+43730 char 0
+na Old man
+LI
+ wh 79395
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+51073 char 0
+na Nobleman
+LI
+ wh 97796
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+63707 char 0
+na Distressed Lady
+LI
+ wh 73511
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+81207 char 0
+na Knight
+LI
+ wh 91736
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+94010 char 0
+na King's daughter
+LI
+ wh 89533
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+100632 char 0
+na Nobleman
+LI
+ wh 64430
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+48069 char 0
+na Knight
+LI
+ wh 71871
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+79870 char 0
+na Old man
+LI
+ wh 91996
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+60654 char 0
+na King's daughter
+LI
+ wh 76117
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+43716 char 0
+na Distressed Lady
+LI
+ wh 92952
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+43072 char 0
+na Old man
+LI
+ wh 78694
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+76283 char 0
+na Nobleman
+LI
+ wh 84388
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+57326 char 0
+na Distressed Lady
+LI
+ wh 72031
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+72011 char 0
+na King's daughter
+LI
+ wh 57661
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+99403 char 0
+na Merchant
+LI
+ wh 66582
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+92697 char 0
+na Distressed Lady
+LI
+ wh 88653
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+77968 char 0
+na Old man
+LI
+ wh 70979
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+89552 char 0
+na Princess
+LI
+ wh 72704
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+82158 char 0
+na King's daughter
+LI
+ wh 69820
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+51499 char 0
+na Nobleman
+LI
+ wh 66755
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+48241 char 0
+na Princess
+LI
+ wh 57092
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+75941 char 0
+na Nobleman
+LI
+ wh 43839
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+92814 char 0
+na Distressed Lady
+LI
+ wh 68917
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+52252 char 0
+na Old man
+LI
+ wh 95159
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
+52282 char 0
+na Knight
+LI
+ wh 43431
+CH
+ lo 100
+ he 100
+ pr 1
+ bp 50
+ at 60
+ df 60
+CM
+ sr 1
+
