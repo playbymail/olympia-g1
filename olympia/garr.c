@@ -184,7 +184,7 @@ players_who_rule_here(int where)
 
 #if 0
 void
-touch_garrison_locs()
+touch_garrison_locs(void)
 {
 	int garr;
 	int where;
