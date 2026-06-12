@@ -261,3 +261,26 @@ affected message is turn output not captured in the 30-file snapshot.
   width/format correctness in *before* the remaining 32→64-bit conversion, where
   `%d`←`long`/`size_t` and `int*`-vs-`char*` `scanf` diverge between ILP32 and
   LP64.
+
+### Deterministic newsletter date (issue #5) ✅ done
+
+`times_masthead()` in `olympia/c2.c` stamped the **wall-clock date** into the
+committed golden file `times_0`, making the golden gate date-dependent (it would
+fail on any day other than the capture day). On macOS this was masked by the
+harness reliability bug (issue #4: openrsync ignores `-c`, and the date line is
+fixed-width so the file size never changes); on Linux with GNU rsync it already
+failed on any non-capture day.
+
+Fix mirrors `../olympia-g3`'s `test-use-const-report-date` flag:
+- `main.c`: `int test_use_const_report_date = FALSE;` plus a pre-`getopt()`
+  argv scan that pulls the long-form token `test-use-const-report-date` out of
+  argv (getopt only handles single-char options), sets the global, and compacts
+  argv so remaining options still parse.
+- `c2.c` `times_masthead()`: when the flag is set, `strcpy(date, "January 1,
+  2000")` instead of the `localtime()`-derived string.
+- `oly.h`: `extern int test_use_const_report_date;`
+- `run/olympia-g1.sh`: passes `test-use-const-report-date` on the turn run.
+- Re-baselined golden `times_0` (the only dated golden file) with the flag on.
+
+Affects ONLY the newsletter masthead date; all other output is byte-identical.
+Normal play (no flag) still prints the real wall-clock date.

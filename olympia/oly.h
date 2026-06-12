@@ -1197,6 +1197,7 @@ extern char *month_names[];
 extern char *entab(int);
 extern int exit_opposite[];
 extern int immediate;
+extern int test_use_const_report_date;
 extern int indent;
 extern int show_day;
 extern struct cmd_tbl_ent cmd_tbl[];
