@@ -85,13 +85,20 @@ A 5-phase ladder is documented as `phase_N_build_flags()` functions in
 | 2 | `incompatible-pointer-types` | ✅ enforced |
 | 3 | `int-conversion` | ✅ enforced |
 | 3.5 | **Remove dead/unused source files** | ✅ done |
-| 4 | `strict-prototypes`, `missing-prototypes`, `implicit-function-declaration` | ⬜ not started (next) |
-| 5 | `missing-declarations` + sanitizers in CI | ⬜ wired (asan preset), not enforced |
+| 4 | `strict-prototypes`, `missing-prototypes`, `implicit-function-declaration` | ✅ enforced (`-Werror`) |
+| 5 | `missing-declarations` + sanitizers in CI | ⬜ wired (asan preset), not enforced (next) |
 
-Phases 1–3 are complete and locked in — the dangerous 32→64-bit pointer/int
-hazards build clean as errors. Genuine K&R *function definitions* are already
-gone (`-Wold-style-definition` is 0). The remaining work is declarations,
-headers, and dead files.
+Phases 1–4 are complete and locked in — the dangerous 32→64-bit pointer/int
+hazards (bad casts, int/pointer conversions, and implicitly-declared functions
+whose `int` return truncates a pointer) build clean as errors, and every
+function now has a real prototype. The remaining work is Phase 5
+(`missing-declarations` + sanitizers in CI).
+
+> **Correction:** earlier notes claimed K&R *definitions* were "already gone"
+> because `-Wold-style-definition` reported 0. That was the wrong probe — clang
+> reports K&R definitions under `-Wdeprecated-non-prototype`, and the tree
+> actually had **95** of them (54 in the map generator). They are now all
+> converted to ANSI. See `doc/modernization-prototypes-playbook.md`.
 
 ### Phase 3.5 — Remove dead/unused source files ✅ done
 
@@ -115,24 +122,43 @@ clean under the enforced phase 1–3 flags.
 Verified byte-identical golden output after a clean build (`golden_check.sh`
 → `YES`).
 
-### Phase 4 — Prototypes & declarations (after 3.5)
+### Phase 4 — Prototypes & declarations ✅ done
 
-Turn the phase-4 warnings into errors (`phase_4_build_flags()` /
-`-Werror=strict-prototypes,missing-prototypes,implicit-function-declaration`).
-Approximate current warning volume across the tree:
+`strict-prototypes`, `missing-prototypes`, and `implicit-function-declaration`
+are now `-Werror` on both targets (inlined at the `target_compile_options`
+blocks ~lines 224 and 267), and the dead `-Wno-implicit-function-declaration`
+/ `-Wno-deprecated-non-prototype` suppressions have been removed from
+`LEGACY_C_FLAGS`. All three classes measure **0** across the tree.
 
-- ~1,300 `-Wstrict-prototypes` — empty-paren declarations like
-  `extern char *readlin();` (mostly in headers; ~770 in `.h` files)
-- ~590 `-Wimplicit-function-declaration` — calls with no visible declaration
-- ~560 `-Wmissing-prototypes` — non-static functions defined without a header
-  prototype
+What it took (full method + every trap in
+`doc/modernization-prototypes-playbook.md`):
 
-Suggested order: prototype the headers first (knocks out the bulk of strict +
-implicit warnings at once), then make file-local functions `static` or add
-their prototypes, then flip the flags to `-Werror` and remove the matching
-`-Wno-*` suppressions from `LEGACY_C_FLAGS`. Keep golden output identical.
+- Converted **95** K&R definitions to ANSI and ~240 empty-paren `name()`
+  definitions to `name(void)` (probe with `-Wdeprecated-non-prototype`, *not*
+  `-Wold-style-definition`).
+- Generated a prototype header per target — **`olympia/proto.h`** (included at
+  the end of `oly.h`, after the type defs and a `#include <stdio.h>` for
+  `FILE`) and **`mapgen/proto.h`** (included from the map generator's own
+  header). This one move cleared almost all of `missing-prototypes` and the
+  internal `implicit-function-declaration` calls at once. `z.c` doesn't include
+  `oly.h`, so its functions are declared in `z.h` instead.
+- Deleted redundant empty-paren forward declarations (the `use.c`/`glob.c`
+  command-handler blocks, scattered `extern T foo();` locals, header decls) and
+  gave the surviving header decls real prototypes.
+- Added the real libc headers (`string.h`, `stdlib.h`, `unistd.h`, `time.h`,
+  `fcntl.h`, `sys/stat.h`) at the **top of `z.h` / `mapgen/z.h`**, before the
+  engine's `bzero`/`bcopy`/`abs` shadow macros (and ahead of `oly.h`'s `wait`
+  macro, which collides with `sys/wait.h` on macOS). `z.h` is the single
+  chokepoint every engine TU includes first, so this supplies real prototypes
+  for the remaining implicit libc calls without breaking the legacy macros.
+- Latent bugs the new prototypes exposed, fixed as real bugs:
+  `make_appropriate_subloc` arg-count mismatch; `queue()` made genuinely
+  variadic; a wrong-return-type `clear_wait_parse` decl; an orphan
+  `fetch_inside_name` (and `wrap_done`) decl; and the `qsort` comparators
+  (incl. the last straggler `rank_comp`) canonicalized to
+  `(const void *, const void *)`.
 
-### Phase 5 — Lock down (later)
+### Phase 5 — Lock down (next)
 
 Enable `-Werror=missing-declarations` and wire the `asan-ubsan` preset into CI
 so sanitizers run against the golden flow.
