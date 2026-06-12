@@ -14,8 +14,11 @@ function(legacy_build_flags tgt)
         -Wno-dangling-else
         -Wno-deprecated-declarations
         -Wno-extra-tokens
-        -Wno-format
+        # format/vararg checking is enforced (issue #7); the non-literal
+        # subtypes stay off pending a dedicated hardening pass.
+        -Wformat -Werror=format
         -Wno-format-security
+        -Wno-format-nonliteral
         -Wno-incompatible-library-redeclaration
         -Wno-incompatible-pointer-types
         -Wno-int-conversion
@@ -136,8 +139,11 @@ set(LEGACY_C_FLAGS
         -Wno-dangling-else
         -Wno-deprecated-declarations
         -Wno-extra-tokens
-        -Wno-format
+        # format/vararg checking is enforced (issue #7); the non-literal
+        # subtypes stay off pending a dedicated hardening pass.
+        -Wformat -Werror=format
         -Wno-format-security
+        -Wno-format-nonliteral
         -Wno-incompatible-library-redeclaration
         -Wno-incompatible-pointer-types
         -Wno-int-conversion

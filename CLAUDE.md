@@ -225,3 +225,39 @@ OLYMPIA_PRESET=asan-ubsan ./tests/olympia/golden_check.sh   # YES
 
 There is no CI workflow yet — automation is deferred until the repo is ready
 to run PRs.
+
+### Format/vararg lockdown (issue #7) ✅ done
+
+`legacy_build_flags()`/`LEGACY_C_FLAGS` set `-Wno-format`, which silenced
+*every* printf-family check engine-wide even though `out`/`wout`/`wiout`/`log`/
+`sout` carry `__attribute__((format(printf,…)))`. With checking off, missing,
+extra, and mistyped varargs all slipped past `-Werror`. The sibling **olympia-tag**
+found 46 such defects (playbymail/olympia-tag#12); g1 shares the ancestry.
+
+Method: gave the one un-annotated wrapper (`queue`, `vsprintf`-based) its
+`format(printf,2,3)` attribute, then re-enabled `-Wformat` in a scratch build to
+inventory the tree. **11 real defects** found and fixed (the 5 remaining
+`-Wformat-security` non-literal `out(who, buf)`/`out(who, t->none_*)` cases are
+intentional and stay deferred behind `-Wno-format-security`/`-Wno-format-nonliteral`
+until a dedicated hardening pass). Golden output is byte-identical — every
+affected message is turn output not captured in the 30-file snapshot.
+
+- **Memory-unsafe (`-Wformat-insufficient-args`, bare `%s` → garbage-pointer
+  deref):** `scry.c` `scry_show_where` dropped the subject name from both
+  `"%s is in %s."` calls (canonical form at `scry.c:429` confirms intent);
+  `c2.c` `board_message` had a stray third `%s` in `"%s%s%s boarded %s%s"` (its
+  twin `unboard_message` shows the correct two-leading-`%s` shape).
+- **Type mismatch (`-Wformat`, 64-bit-sensitive):** `main.c` `%d`←`sizeof`
+  (→`%zu`); two `u.c` `stage()` timers `%d`←`long` (→`%ld`); and `c2.c`'s
+  `"…break at %d%%%."` — the trailing `%.` was an incomplete specifier that
+  swallowed the period (→`%%.`).
+- **Extra-args:** three vestigial leftover args removed (`garr.c` `add_s(n)` —
+  `n` was also read uninitialized, so its decl went too; two `just_name(…)` in
+  `stack.c`). `storm.c` `"Killed %s men of %s."` was a *dropped-output* case:
+  the `aura_used == 1 ? "man" : "men"` arg was computed but the format hardcoded
+  `men`; the format now uses it (`"Killed %s %s of %s."`).
+- **Capstone:** `-Wno-format` is replaced by `-Wformat -Werror=format` on both
+  targets, so the whole class is now a compile error going forward — locking
+  width/format correctness in *before* the remaining 32→64-bit conversion, where
+  `%d`←`long`/`size_t` and `int*`-vs-`char*` `scanf` diverge between ILP32 and
+  LP64.

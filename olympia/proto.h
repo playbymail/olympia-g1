@@ -453,7 +453,8 @@ extern void queue_npc_orders(void);
 extern void wilderness_attack_check(int who, int where);
 
 /* olympia/order.c */
-extern int queue(int who, char *s, ...);
+extern int queue(int who, char *s, ...)
+    __attribute__((format(printf, 2, 3)));
 extern void flush_unit_orders(int pl, int who);
 extern void list_order_templates(void);
 extern void load_orders(void);
