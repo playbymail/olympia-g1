@@ -47,6 +47,12 @@ is the gate.
 ./tests/olympia/golden_check.sh --update   # refresh snapshot (only when output is intentionally changed)
 ```
 
+The golden is a **sha256 hash manifest** (`tests/olympia/golden/manifest.sha256`):
+one `<sha256>  <relpath>` line per goldened run file, sorted. The gate hashes
+every byte of every file and diffs the manifest, so it is portable across
+macOS/Linux and cannot be fooled by equal-size content edits. See
+[Golden harness — sha256 manifest (issue #4)](#golden-harness--sha256-manifest-issue-4).
+
 Scripts auto-detect the repo root and look for binaries at
 `build/<preset>/<target>` (override with `OLYMPIA_PRESET=release ...`).
 
@@ -261,6 +267,33 @@ affected message is turn output not captured in the 30-file snapshot.
   width/format correctness in *before* the remaining 32→64-bit conversion, where
   `%d`←`long`/`size_t` and `int*`-vs-`char*` `scanf` diverge between ILP32 and
   LP64.
+
+### Golden harness — sha256 manifest (issue #4) ✅ done
+
+The golden gate used a dry-run checksum rsync:
+```
+rsync -a -n -c --delete "${EXCLUDES[@]}" "${RUN_LIB}/" "${GOLDEN}/"
+```
+On macOS `/usr/bin/rsync` is **openrsync** (protocol 29), which in dry-run (`-n`)
+does **not** honor `-c` (checksum) — it falls back to a size+mtime quick-check.
+Any content change that preserved file size passed UNDETECTED and the gate
+printed a false `YES` (it was masking the issue #5 fixed-width masthead date,
+and could mask others). The byte-for-byte "golden is the contract" guarantee
+was simply not enforced on macOS for equal-size edits.
+
+Fix mirrors `../olympia-g3`/`../olympia-g2`: the golden tree is replaced by a
+single **sha256 hash manifest** `tests/olympia/golden/manifest.sha256` — one
+`<sha256>  <relpath>` line per goldened run file, sorted, diffed. This hashes
+every byte of every file and is portable across macOS/Linux. The previous
+rsync `EXCLUDES` are preserved verbatim as the manifest's `find … -prune` set
+(`master`, `email`, `totimes`, `forward`, `factions`, `lore/`, `skill`, plus
+`.DS_Store`), so the manifest covers exactly the same 30 files that were
+goldened before. The literal golden tree was removed.
+
+Verified: the issue #4 same-size repro (flip one byte of `system`, size
+unchanged) now makes the gate go **NO**; a clean full run (mapgen + turn) still
+prints **YES**. G1 has no flaky-file holdout (output is deterministic given the
+issue #5 const-date flag), so the g3 `FLAKY_FILES` machinery is omitted.
 
 ### Deterministic newsletter date (issue #5) ✅ done
 
