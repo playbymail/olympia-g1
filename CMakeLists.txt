@@ -13,11 +13,9 @@ function(legacy_build_flags tgt)
         -Wno-compare-distinct-pointer-types
         -Wno-dangling-else
         -Wno-deprecated-declarations
-        -Wno-deprecated-non-prototype
         -Wno-extra-tokens
         -Wno-format
         -Wno-format-security
-        -Wno-implicit-function-declaration
         -Wno-incompatible-library-redeclaration
         -Wno-incompatible-pointer-types
         -Wno-int-conversion
@@ -138,11 +136,9 @@ set(LEGACY_C_FLAGS
         -Wno-compare-distinct-pointer-types
         -Wno-dangling-else
         -Wno-deprecated-declarations
-        -Wno-deprecated-non-prototype
         -Wno-extra-tokens
         -Wno-format
         -Wno-format-security
-        -Wno-implicit-function-declaration
         -Wno-incompatible-library-redeclaration
         -Wno-incompatible-pointer-types
         -Wno-int-conversion
@@ -225,6 +221,9 @@ target_compile_options(mapgen-g1 PRIVATE
     -Wint-to-pointer-cast -Werror=int-to-pointer-cast
     -Wpointer-to-int-cast -Werror=pointer-to-int-cast
     -Wincompatible-pointer-types -Werror=incompatible-pointer-types
+    -Wstrict-prototypes -Werror=strict-prototypes
+    -Wmissing-prototypes -Werror=missing-prototypes
+    -Wimplicit-function-declaration -Werror=implicit-function-declaration
 )
 
 # ------------------------------------------------------------------------------
@@ -265,4 +264,7 @@ target_compile_options(olympia-g1 PRIVATE
     -Wint-to-pointer-cast -Werror=int-to-pointer-cast
     -Wpointer-to-int-cast -Werror=pointer-to-int-cast
     -Wincompatible-pointer-types -Werror=incompatible-pointer-types
+    -Wstrict-prototypes -Werror=strict-prototypes
+    -Wmissing-prototypes -Werror=missing-prototypes
+    -Wimplicit-function-declaration -Werror=implicit-function-declaration
 )
