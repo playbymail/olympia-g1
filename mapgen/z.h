@@ -1,5 +1,7 @@
 #include <stdlib.h>
 #include <string.h>
+#include <unistd.h>	/* BUGFIX (modernization): getpid, isatty */
+#include <time.h>	/* BUGFIX (modernization): time */
 
 #define USE_OUR_RND
 

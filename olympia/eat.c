@@ -157,7 +157,6 @@ static char *
 crack_address_sup(char *s)
 {
 	char *t;
-	extern char *strchr();
 
 	if (t = strchr(s, '<'))
 	{
@@ -192,7 +191,6 @@ local_kludge(char *s)
 {
 	int l = strlen(s);
 	char *t;
-	extern char *strchr();
 
 	if (l < 17)
 		return s;

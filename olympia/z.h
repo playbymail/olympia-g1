@@ -1,4 +1,19 @@
 
+/*
+ * BUGFIX (modernization): pull in the libc headers BEFORE the bzero/bcopy/abs
+ * macros below shadow those names.  z.h is included (ahead of oly.h) by every
+ * engine translation unit, so this is the single chokepoint that supplies real
+ * prototypes for the string/stdlib/io functions the engine calls.  The macros
+ * must come after these includes or they mangle the system declarations.
+ */
+#include	<stdlib.h>	/* malloc, realloc, free, exit, abort, atoi, system */
+#include	<string.h>	/* strlen, strcpy, strcat, strchr, strcmp, memset */
+#include	<unistd.h>	/* sleep, unlink, getpid, isatty, close, read */
+#include	<fcntl.h>	/* open */
+#include	<time.h>	/* time */
+#include	<sys/types.h>
+#include	<sys/stat.h>	/* mkdir, chmod */
+
 #define	SYSV
 
 #define	TRUE	1

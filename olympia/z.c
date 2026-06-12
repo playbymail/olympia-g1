@@ -49,7 +49,7 @@
 
 static unsigned x[3] = { X0, X1, X2 }, a[3] = { A0, A1, A2 }, c = C;
 static unsigned short lastx[3];
-static void next();
+static void next(void);
 
 #if HAVEFP
 double
@@ -210,7 +210,6 @@ void *
 my_malloc(unsigned size)
 {
 	char *p;
-	extern char *malloc();
 
 	size += sizeof(int);
 	malloc_size += size;
@@ -238,8 +237,6 @@ void *
 my_realloc(void *ptr, unsigned size)
 {
 	char *p = ptr;
-	extern char *realloc();
-	extern char *malloc();
 
 	if (p == NULL)
 		return my_malloc(size);
@@ -723,8 +720,6 @@ init_random(void)
 int
 rnd(int low, int high)
 {
-	extern double erand48();
-
 	return (int) (erand48(seed) * (high - low + 1) + low);
 }
 

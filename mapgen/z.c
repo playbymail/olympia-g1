@@ -236,8 +236,6 @@ init_random(void)
 int
 rnd(int low, int high)
 {
-	extern double erand48();
-
 	return (int) (erand48(seed) * (high - low + 1) + low);
 }
 

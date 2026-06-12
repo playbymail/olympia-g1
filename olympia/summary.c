@@ -11,9 +11,11 @@
  *  Comparison is reversed so maximum will be first in list
  */
 
-static
-int rank_comp(int *a, int *b)
+static int
+rank_comp(const void *av, const void *bv)
 {
+	int *a = (int *) av;
+	int *b = (int *) bv;
 
 	return bx[*b]->temp - bx[*a]->temp;
 }
