@@ -12,6 +12,48 @@ the same hazards** — read this before repeating the exercise. The goal each
 time: clean `-Werror` for those three flags with **byte-identical golden
 output** (no behaviour change).
 
+### Look at the finished G1 first
+
+G1 is **done** through Phase 4 — all three classes are `-Werror` and measure 0.
+Before starting g2/g3/tag, read the completed work as a worked example. As of
+this writing the changes are **not pushed**, so read them from the local
+checkout:
+
+```
+/Users/wraith/Software/playbymail/olympia-g1
+```
+
+Specifically worth a look:
+- `git log --oneline` there — the Phase 4 work is the run of `Phase 4:` commits
+  (`git show <sha>` for each); they are small and single-purpose by area.
+- `olympia/proto.h` and `mapgen/proto.h` — the generated prototype headers, and
+  how they're wired in (`oly.h` tail; the map generator's own header).
+- `olympia/z.h` / `mapgen/z.h` — the libc-include chokepoint (see "Legacy
+  shadow macros vs. real system headers" below).
+- `CMakeLists.txt` — the flipped `-Werror` flags inlined per target and the
+  `LEGACY_C_FLAGS` suppressions that were deleted.
+- `CLAUDE.md` "Modernization status" — the phase ladder and what each phase did.
+- `doc/phase4-tools/` — the reusable scripts.
+
+### Do a Phase 3.5 (dead-code removal) first, too
+
+G1 ran a **Phase 3.5 — remove dead/unused source files** *before* Phase 4, and
+it paid off: prototyping is much easier when you aren't generating prototypes
+for, or chasing warnings in, files that nothing compiles or links. g2/g3/tag
+each carry their own dead `lib/*.c` modules and `#if 0` blocks — add the same
+step. The method (from G1's CLAUDE.md "Phase 3.5"):
+
+- Find `.c` files that are in no `target_sources` / build target — they never
+  compile, so their warnings are noise and their list types are often unused.
+  Delete them and prune the now-dangling declarations (G1: `accept_ents.c`,
+  `effects.c`, `entity_builds.c`, `checked_alloc.c`, `ring_buffer.c`).
+- Keep anything the upcoming 64-bit work will need even if currently unwired
+  (G1 kept `plist.c` — a `void *` list — for later).
+- Verify byte-identical golden output after a clean build before moving on.
+
+Doing this first shrinks the Phase 4 surface and avoids "fixing" code destined
+for deletion.
+
 ---
 
 ## The one thing to internalize
@@ -63,7 +105,9 @@ invisible until you probe for them:
    command-handler blocks (`int v_foo(), d_foo();`) in the dispatch-table
    files, scattered `extern T foo();` lines, and empty-paren decls in headers.
 5. **Add libc `#include`s** for the standard functions still called
-   implicitly (string.h, stdlib.h, unistd.h, time.h, …).
+   implicitly (string.h, stdlib.h, unistd.h, time.h, …). On a strict SDK this
+   is the hard part, not a rubber stamp — the engine's own `bzero`/`abs`/`wait`
+   macros collide with the real headers. See "Adding libc headers" below.
 6. **Flip the three flags to `-Werror`**, delete the now-dead
    `-Wno-implicit-function-declaration` and `-Wno-deprecated-non-prototype`.
 7. **Update CLAUDE.md.**
@@ -227,6 +271,85 @@ definition without a prototype").
 
 ---
 
+## Adding libc headers: legacy shadow macros vs. real system headers
+
+Once the engine's own functions are prototyped, the only implicit calls left
+are **libc** (G1: ~23 names — `strchr strcmp strcpy strncmp strncpy strcat
+strlen memset malloc realloc free atoi abort exit system mkdir chmod open close
+read unlink sleep time getpid isatty`). These are the headline 64-bit hazard:
+an implicit `strchr`/`malloc` is assumed to return `int`, **truncating the
+returned pointer to 32 bits.** You must give them real prototypes by including
+the real headers (`string.h`, `stdlib.h`, `unistd.h`, `time.h`, `fcntl.h`,
+`sys/stat.h`, …) — but on a strict SDK (macOS was where this bit) the legacy
+code fights back. Budget real time for this; it was the single hardest part of
+G1's Phase 4.
+
+**The trap: the engine #defines libc names as function-like macros.** Olympia
+defines `bzero`/`bcopy`/`abs` (in `z.h`) and `wait` (in `oly.h`) as macros.
+When you include the matching system header *after* the macro is active, the
+macro rewrites the system's *declaration* and you get a cascade of
+`conflicting types` / `expected ')'` / `expected parameter declarator` errors
+deep inside `/usr/include`:
+
+```
+/usr/include/_strings.h:75:7: error: conflicting types for 'memset'
+  note: expanded from macro 'bzero'   (#define bzero(a,n) memset(a,'\0',n))
+/usr/include/_stdlib.h:148: error: expected ')'   from macro 'abs'
+/usr/include/sys/wait.h:246: error: expected ')'  from macro 'wait'
+```
+
+Note the transitive pulls: `<string.h>` drags in `<strings.h>` (→ `bzero`,
+`bcopy`); `<stdlib.h>` drags in `<sys/wait.h>` (→ `wait`) and declares `abs`.
+
+**The fix — ordering, not deletion.** A function-like macro that is defined
+*after* the real declaration simply shadows the name for subsequent code; that
+is legal and harmless, and it preserves the legacy macro's exact semantics
+(important: `bcopy`→`memcpy` is *not* overlap-safe like real `bcopy`, so you
+must keep the macro, not switch to libc). So: **include the system headers
+before the shadow macros are defined.**
+
+Find every colliding macro up front:
+
+```bash
+grep -rnE '^[ \t]*#[ \t]*define[ \t]+(abs|labs|div|wait|exit|system|atoi|malloc|calloc|realloc|free|rand|srand|qsort|getenv|bzero|bcopy|mem(set|cpy|move)|str[a-z]+|index|rindex|time|clock|read|write|open|close|stat|link|unlink|sleep|getpid|kill|signal)\b' \
+  <engine>/*.h lib/*.h
+```
+
+**Use the lowest-level header as a single chokepoint.** In G1 every engine TU
+includes `z.h` *before* `oly.h` (verify this ordering across all `.c` first —
+it's what makes the trick safe). `z.h` is also where `bzero`/`bcopy`/`abs` live.
+So put the libc `#include`s at the **very top of `z.h`, above those macros**:
+
+- every TU now sees real libc prototypes (one edit, ~50 files);
+- the shadow macros are defined after the system declarations → no collision;
+- `z.h` pulls `<sys/wait.h>` (via `stdlib.h`) before `oly.h`'s later `wait`
+  macro, so that one is covered too, for free, by the include ordering.
+
+`mapgen` is a separate target with its own `mapgen/z.h` — it already had its
+includes above its macros (which is why it didn't break); match that.
+
+The **one file that doesn't go through the chokepoint** is `z.h`/`z.c`'s own
+RNG layer if it doesn't include the master header. G1's `z.c` includes `z.h`
+directly, so the chokepoint covers it; just confirm. Watch the vendored
+`drand48` family: `z.c` *defines* `erand48` (via the `NEST` macro), so a local
+`extern double erand48()` is a redundant self-redeclaration — delete it and let
+the in-file definition serve. In `mapgen`, `erand48` is **libc** (no local
+def), so `<stdlib.h>` declares it; verify `seed` is `unsigned short[3]` so the
+prototype typechecks, then delete the local decl.
+
+**qsort is the sleeper.** Comparators look fine until `<stdlib.h>` gives `qsort`
+a real prototype — *then* every K&R comparator mismatches
+`int(*)(const void*,const void*)`. If a prior pass "canonicalized comparators"
+but qsort was never prototyped, stragglers survive invisibly (G1: `rank_comp`
+surfaced only when `stdlib.h` landed). Re-grep all `qsort(` sites after the
+headers go in. (Fix per "Latent bugs" below.)
+
+`-Wno-incompatible-library-redeclaration` is worth keeping in the legacy flag
+list through this step — it absorbs the harmless signature drift between a few
+legacy decls and the real libc ones without masking anything you care about.
+
+---
+
 ## Latent bugs this exposes (feature, not chore)
 
 Giving everything real prototypes makes the compiler check calls it never
@@ -249,9 +372,13 @@ g2/g3/tag, and **fix them as real bugs, don't paper over them**:
   Giving them real prototypes exposes `-Wincompatible-function-pointer-types`
   at every `qsort` call. Fix: convert each comparator to the canonical
   `(const void *, const void *)` signature, casting back to the real type via
-  local variables so the body stays byte-identical.
+  local variables so the body stays byte-identical. **Caveat:** this only fires
+  once `qsort` itself has a prototype, i.e. after `<stdlib.h>` is included. If
+  comparators were canonicalized in an earlier pass while `qsort` was still
+  implicit, stragglers hide until the header lands (G1: `rank_comp` surfaced
+  only then). Re-grep every `qsort(` site after adding the libc headers.
 - **Orphan declarations.** Forward decls for functions that don't exist
-  anywhere (G1: `fetch_inside_name`). Just delete them.
+  anywhere (G1: `fetch_inside_name`, `wrap_done`). Just delete them.
 - **`int`/pointer return truncation** — the headline 64-bit hazard. Watch for
   functions implicitly assumed to return `int` whose value is used as a
   pointer.
