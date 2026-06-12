@@ -1,5 +1,6 @@
 
 #include	<stdio.h>
+#include	<stddef.h>	/* max_align_t (allocator header alignment) */
 #include "../lib/lists.h" /* BUGFIX (modernization): update lists */
 #include	"z.h"
 
@@ -198,20 +199,50 @@ int realloc_size = 0;
 /*
  *  malloc safety checks:
  *
- *	Space for two extra ints is is allocated beyond what the client
- *	asks for.  The size of the malloc'd region is stored at the
- *	beginning, and a magic number is placed at the end.  realloc's
- *	and free's check the integrity of these markers.  This protects
- *	against overruns, makes sure that non-malloc'd memory isn't freed,
- *	and that memory isn't freed twice.
+ *	A header is allocated ahead of the client region and a magic number
+ *	is placed at the end.  The header stores the offset of the trailing
+ *	magic from the block start; realloc's and free's check the integrity
+ *	of these markers.  This protects against overruns, makes sure that
+ *	non-malloc'd memory isn't freed, and that memory isn't freed twice.
+ *
+ *	BUGFIX (modernization): the header is padded to max_align_t so the
+ *	pointer handed back to the client is suitably aligned for any object,
+ *	including 8-byte pointers and doubles on 64-bit.  The legacy header
+ *	was a single int (4 bytes), which left every block only 4-byte
+ *	aligned -- fine on 32-bit, but undefined behavior (a real misaligned
+ *	load/store, flagged by UBSan) once a block holds pointers on 64-bit.
+ *	The size accounting reported at exit grows by the extra padding, but
+ *	that figure is debug-only stdout and not part of the golden output.
  */
+
+#define	MALLOC_HDR	((unsigned) _Alignof(max_align_t))	/* aligned front pad */
+
+/*
+ *  The trailing magic marker sits at an arbitrary (generally unaligned)
+ *  offset from the block start, so it is read/written through memcpy to
+ *  avoid a misaligned access.  The size header at offset 0 stays naturally
+ *  aligned and is accessed directly.
+ */
+static int
+get_guard(const char *p)
+{
+	int v;
+	memcpy(&v, p, sizeof(int));
+	return v;
+}
+
+static void
+put_guard(char *p, int v)
+{
+	memcpy(p, &v, sizeof(int));
+}
 
 void *
 my_malloc(unsigned size)
 {
 	char *p;
 
-	size += sizeof(int);
+	size += MALLOC_HDR;
 	malloc_size += size;
 
 	p = malloc(size + sizeof(int));
@@ -227,9 +258,9 @@ my_malloc(unsigned size)
 	bzero(p, size);
 
 	*((int *) p) = size;
-	*((int *) (p + size)) = 0xABCF;
+	put_guard(p + size, 0xABCF);
 
-	return p + sizeof(int);
+	return p + MALLOC_HDR;
 }
 
 
@@ -241,16 +272,16 @@ my_realloc(void *ptr, unsigned size)
 	if (p == NULL)
 		return my_malloc(size);
 
-	size += sizeof(int);
+	size += MALLOC_HDR;
 	realloc_size += size;
-	p -= sizeof(int);
+	p -= MALLOC_HDR;
 
-	assert(*((int *) (p + *(int *) p)) == 0xABCF);
+	assert(get_guard(p + *(int *) p) == 0xABCF);
 
 	p = realloc(p, size + sizeof(int));
 
 	*((int *)p) = size;
-	*((int *) (p + size)) = 0xABCF;
+	put_guard(p + size, 0xABCF);
 
 	if (p == NULL)
 	{
@@ -260,7 +291,7 @@ my_realloc(void *ptr, unsigned size)
 		exit(1);
 	}
 
-	return p + sizeof(int);
+	return p + MALLOC_HDR;
 }
 
 
@@ -269,10 +300,10 @@ my_free(void *ptr)
 {
 	char *p = ptr;
 
-	p -= sizeof(int);
+	p -= MALLOC_HDR;
 
-	assert(*((int *) (p + *(int *) p)) == 0xABCF);
-	*((int *) (p + *(int *) p)) = 0;
+	assert(get_guard(p + *(int *) p) == 0xABCF);
+	put_guard(p + *(int *) p, 0);
 	*((int *) p) = 0;
 
 	free(p);

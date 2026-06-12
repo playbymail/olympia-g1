@@ -86,9 +86,8 @@ function(phase_5_build_flags tgt)
 endfunction()
 
 option(OLYMPIA_SANITIZE "Enable sanitizer instrumentation" OFF)
-set(OLYMPIA_SANITIZERS "" CACHE STRING "Comma-separated sanitizers, e.g. address,undefined"
-    address,undefined
-)
+set(OLYMPIA_SANITIZERS "address,undefined" CACHE STRING
+    "Comma-separated sanitizers, e.g. address,undefined")
 
 function(olympia_enable_sanitizers tgt)
     if(NOT OLYMPIA_SANITIZE)
@@ -224,7 +223,9 @@ target_compile_options(mapgen-g1 PRIVATE
     -Wstrict-prototypes -Werror=strict-prototypes
     -Wmissing-prototypes -Werror=missing-prototypes
     -Wimplicit-function-declaration -Werror=implicit-function-declaration
+    -Wmissing-declarations -Werror=missing-declarations
 )
+olympia_enable_sanitizers(mapgen-g1)
 
 # ------------------------------------------------------------------------------
 # G1 olympia (main game engine)
@@ -267,4 +268,6 @@ target_compile_options(olympia-g1 PRIVATE
     -Wstrict-prototypes -Werror=strict-prototypes
     -Wmissing-prototypes -Werror=missing-prototypes
     -Wimplicit-function-declaration -Werror=implicit-function-declaration
+    -Wmissing-declarations -Werror=missing-declarations
 )
+olympia_enable_sanitizers(olympia-g1)

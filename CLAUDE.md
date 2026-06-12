@@ -86,13 +86,15 @@ A 5-phase ladder is documented as `phase_N_build_flags()` functions in
 | 3 | `int-conversion` | ✅ enforced |
 | 3.5 | **Remove dead/unused source files** | ✅ done |
 | 4 | `strict-prototypes`, `missing-prototypes`, `implicit-function-declaration` | ✅ enforced (`-Werror`) |
-| 5 | `missing-declarations` + sanitizers in CI | ⬜ wired (asan preset), not enforced (next) |
+| 5 | `missing-declarations` + sanitizers | ✅ enforced (`-Werror`) + asan/ubsan green |
 
-Phases 1–4 are complete and locked in — the dangerous 32→64-bit pointer/int
+Phases 1–5 are complete and locked in — the dangerous 32→64-bit pointer/int
 hazards (bad casts, int/pointer conversions, and implicitly-declared functions
-whose `int` return truncates a pointer) build clean as errors, and every
-function now has a real prototype. The remaining work is Phase 5
-(`missing-declarations` + sanitizers in CI).
+whose `int` return truncates a pointer) build clean as errors, every function
+now has a real prototype, and the golden flow runs clean under
+AddressSanitizer + UndefinedBehaviorSanitizer. The modernization ladder is
+done; the remaining work is the actual 32→64-bit refactoring it cleared the
+way for.
 
 > **Correction:** earlier notes claimed K&R *definitions* were "already gone"
 > because `-Wold-style-definition` reported 0. That was the wrong probe — clang
@@ -158,7 +160,46 @@ What it took (full method + every trap in
   (incl. the last straggler `rank_comp`) canonicalized to
   `(const void *, const void *)`.
 
-### Phase 5 — Lock down (next)
+### Phase 5 — Lock down ✅ done
 
-Enable `-Werror=missing-declarations` and wire the `asan-ubsan` preset into CI
-so sanitizers run against the golden flow.
+`-Werror=missing-declarations` is now enforced on both targets, and the
+`asan-ubsan` preset is wired into the build so the address + undefined
+sanitizers run against the golden flow.
+
+- **`missing-declarations`** measured **0** across the tree before being
+  promoted to `-Werror` — Phase 4's per-target `proto.h` had already given
+  every function a prior declaration, so this class was free to lock down.
+- **Sanitizers were wired, not just staged.** `olympia_enable_sanitizers()`
+  was *defined but never called*, so the `asan-ubsan` preset compiled without
+  any instrumentation. It is now invoked on both targets. A latent bug in the
+  `OLYMPIA_SANITIZERS` cache `set()` (default value misplaced after the
+  docstring, so `${OLYMPIA_SANITIZERS}` expanded to the leftover `CACHE STRING
+  …` tokens and the compile failed) was fixed at the same time.
+- **Two real UB bugs the sanitizers exposed, fixed as real bugs** (golden
+  output stays byte-identical — the affected output is debug-only stdout /
+  excluded `master`+`lore` files, and the values are unchanged):
+  - `olympia/z.c` — the legacy guard-allocator returned `base + sizeof(int)`,
+    leaving every block only **4-byte aligned**. Fine on 32-bit, but once a
+    block holds 8-byte pointers on 64-bit it's a misaligned load/store (UB,
+    and the root cause of pervasive `struct box *` misalignment via the `bx`
+    table). The header is now padded to `_Alignof(max_align_t)`, and the
+    arbitrary-offset trailing magic marker is read/written via `memcpy`.
+  - `olympia/gm.c` — `gm_show_gold()` computed `part * 100 / sum` for 13 gold
+    sources; with no gold recorded `sum == 0`, a division by zero (UB; it
+    silently yielded 0 on arm64 rather than trapping, and would SIGFPE on
+    x86). Guarded with a `gold_pct()` helper that returns 0 when `sum == 0`.
+- The full golden flow (`mapgen` + a turn) now runs clean under
+  `-fsanitize=address,undefined -fno-sanitize-recover=all` (exit 0, zero
+  diagnostics), and `golden_check.sh` → `YES` on the canonical debug build.
+
+Run the sanitizer gate locally with:
+
+```bash
+cmake --preset asan-ubsan && cmake --build --preset asan-ubsan
+OLYMPIA_PRESET=asan-ubsan ./run/mapgen/mapgen.sh
+OLYMPIA_PRESET=asan-ubsan ./run/olympia-g1.sh   # aborts on any UB/ASan error
+OLYMPIA_PRESET=asan-ubsan ./tests/olympia/golden_check.sh   # YES
+```
+
+There is no CI workflow yet — automation is deferred until the repo is ready
+to run PRs.

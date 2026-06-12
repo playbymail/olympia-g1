@@ -308,6 +308,20 @@ gm_list_animate_items(int pl)
 }
 
 
+/*
+ *  BUGFIX (modernization): guard the percentage divisor.  When no gold has
+ *  been recorded `sum` is 0, and the legacy `part * 100 / sum` is a division
+ *  by zero -- undefined behavior, flagged by UBSan (it happened to yield 0 on
+ *  this hardware rather than trap).  Every component is a non-negative gold
+ *  tally, so sum == 0 implies every part is 0 too; reporting 0% then is
+ *  identical to the value the division produced before.
+ */
+static int
+gold_pct(int part, int sum)
+{
+	return sum ? part * 100 / sum : 0;
+}
+
 static void
 gm_show_gold(int pl)
 {
@@ -326,19 +340,19 @@ gm_show_gold(int pl)
 	out(pl, "-----------");
 	out(pl, "");
 
-	out(pl, "Common magic:         %10s %3d%%", comma_num(gold_common_magic), gold_common_magic * 100 / sum);
-	out(pl, "Lead to gold:         %10s %3d%%", comma_num(gold_lead_to_gold), gold_lead_to_gold * 100 / sum);
-	out(pl, "Pots and baskets:     %10s %3d%%", comma_num(gold_pot_basket), gold_pot_basket * 100 / sum);
-	out(pl, "Opium:                %10s %3d%%", comma_num(gold_opium), gold_opium * 100 / sum);
-	out(pl, "Trade to cities:      %10s %3d%%", comma_num(gold_trade), gold_trade * 100 / sum);
-	out(pl, "Inn income:           %10s %3d%%", comma_num(gold_inn), gold_inn * 100 / sum);
-	out(pl, "Taxes:                %10s %3d%%", comma_num(gold_taxes), gold_taxes * 100 / sum);
-	out(pl, "Times press:          %10s %3d%%", comma_num(gold_times), gold_times * 100 / sum);
-	out(pl, "Combat with indeps:   %10s %3d%%", comma_num(gold_combat_indep), gold_combat_indep * 100 / sum);
-	out(pl, "Petty thievery:       %10s %3d%%", comma_num(gold_petty_thief), gold_petty_thief * 100 / sum);
-	out(pl, "Temple income:        %10s %3d%%", comma_num(gold_temple), gold_temple * 100 / sum);
-	out(pl, "Pillaging:            %10s %3d%%", comma_num(gold_pillage), gold_pillage * 100 / sum);
-	out(pl, "Ferry boarding:       %10s %3d%%", comma_num(gold_ferry), gold_ferry * 100 / sum);
+	out(pl, "Common magic:         %10s %3d%%", comma_num(gold_common_magic), gold_pct(gold_common_magic, sum));
+	out(pl, "Lead to gold:         %10s %3d%%", comma_num(gold_lead_to_gold), gold_pct(gold_lead_to_gold, sum));
+	out(pl, "Pots and baskets:     %10s %3d%%", comma_num(gold_pot_basket), gold_pct(gold_pot_basket, sum));
+	out(pl, "Opium:                %10s %3d%%", comma_num(gold_opium), gold_pct(gold_opium, sum));
+	out(pl, "Trade to cities:      %10s %3d%%", comma_num(gold_trade), gold_pct(gold_trade, sum));
+	out(pl, "Inn income:           %10s %3d%%", comma_num(gold_inn), gold_pct(gold_inn, sum));
+	out(pl, "Taxes:                %10s %3d%%", comma_num(gold_taxes), gold_pct(gold_taxes, sum));
+	out(pl, "Times press:          %10s %3d%%", comma_num(gold_times), gold_pct(gold_times, sum));
+	out(pl, "Combat with indeps:   %10s %3d%%", comma_num(gold_combat_indep), gold_pct(gold_combat_indep, sum));
+	out(pl, "Petty thievery:       %10s %3d%%", comma_num(gold_petty_thief), gold_pct(gold_petty_thief, sum));
+	out(pl, "Temple income:        %10s %3d%%", comma_num(gold_temple), gold_pct(gold_temple, sum));
+	out(pl, "Pillaging:            %10s %3d%%", comma_num(gold_pillage), gold_pct(gold_pillage, sum));
+	out(pl, "Ferry boarding:       %10s %3d%%", comma_num(gold_ferry), gold_pct(gold_ferry, sum));
 	out(pl, "                      %10s %4s", "", "----");
 	out(pl, "Total:                %10s", comma_num(sum));
 
