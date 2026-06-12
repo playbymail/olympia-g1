@@ -114,15 +114,37 @@ engines, not g1; recover from git history if ever needed:
 - `checked_alloc.c` (+`.h`), `ring_buffer.c` (+`.h`) — self-contained utilities,
   included only by their own headers; deleted with them.
 
-**Retained: `lib/plist.c`** (pointer list) and its `lib/lists.h` declarations.
-Unlike `ilist` (which stores `int`), `plist` stores `void *`, so it's needed by
-the upcoming 64-bit refactoring wherever pointers are kept in a list. It's not
-wired into any build target yet (nothing uses it); add it to the appropriate
-`target_sources` in `CMakeLists.txt` when the first caller appears. It compiles
-clean under the enforced phase 1–3 flags.
+**Retired: `lib/plist.c`** and its `lib/lists.h` declarations (removed — see
+below). It was kept as scaffolding for the 64-bit pointer-list work, but that
+work was already done by other means: every pointer collection in the engine
+uses an **element-typed** list (`item_ents_list`, `trades_list`, `skill_ents_list`,
+`admits_list`, `orders_list`, `req_ents_list`, `exit_views_list`, `fights_list`,
+`flag_ents_list`, `wait_args_list`, `cstrings_list`), declared in `lib/lists.h`
+and used throughout `oly.h`/`loop.h`/the `.c` files. `ilist` (`int *`) stays for
+genuine int lists (entity/skill numbers). The generic `plist` (`void **`) had
+zero call sites and was never wired into a build target, so it was deleted
+outright — see the *Generic `plist` retired* note below. This mirrors the
+sibling `../olympia-g3` engine's `issues/2` migration (final commit `ce5bb33`).
 
 Verified byte-identical golden output after a clean build (`golden_check.sh`
 → `YES`).
+
+### Generic `plist` retired ✅ done
+
+Deleted `lib/plist.c` and the `typedef void **plist;` + its 15 `extern plist_*`
+declarations from `lib/lists.h`. `grep -rn '\bplist' olympia/ mapgen/ lib/
+CMakeLists.txt` is now empty.
+
+This was already safe: g1's pointer collections had all been moved to
+element-typed lists (the `*_list` family above), so the generic untyped `plist`
+had no callers and was not in any build target. Removing it means a future
+type mismatch (a list of one element type passed where another is expected)
+is now a **compile error** with no `(plist)` cast left to silence it — the same
+guarantee `../olympia-g3` locked in with its `ce5bb33`. `ilist` (the legitimate
+`int *` list) is untouched.
+
+Both presets build clean, the golden gate stays `YES` (byte-identical), and the
+asan/ubsan gate stays clean (exit 0, zero diagnostics).
 
 ### Phase 4 — Prototypes & declarations ✅ done
 
