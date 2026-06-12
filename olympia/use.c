@@ -1207,7 +1207,6 @@ list_skills_end:
 static char *
 fractional_skill_qualifier(struct skill_ent *p)
 {
-	extern char *np_req_s();
 	int frac;
 
 	assert(p->know != SKILL_know);

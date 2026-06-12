@@ -239,7 +239,6 @@ void
 set_att(int who, int targ, int disp)
 {
 	struct att_ent *p;
-	extern int int_comp();
 
 	p = p_disp(who);
 
@@ -424,7 +423,6 @@ print_att_sup(int who, ilist l, char *header, int *first)
 	int i;
 	int count = 0;
 	char buf[LEN];
-	extern int int_comp();
 
 	if (ilist_len(l) == 0)
 		return;
