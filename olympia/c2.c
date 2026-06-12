@@ -787,7 +787,7 @@ v_fight_to_death(struct command *c)
 		flag = 100;
 
 	p_char(c->who)->break_point = flag;
-	wout(c->who, "Troops led by %s will break at %d%%%.",
+	wout(c->who, "Troops led by %s will break at %d%%.",
 				box_name(c->who), flag);
 
 	return TRUE;
@@ -831,7 +831,7 @@ board_message(int who, int ship)
 	if (!*with)
 		with = ".";
 
-	wout(where, "%s%s%s boarded %s%s", desc, comma,
+	wout(where, "%s%s boarded %s%s", desc, comma,
 					box_name(ship), with);
 	show_chars_below(where, who);
 }
