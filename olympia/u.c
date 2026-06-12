@@ -2275,7 +2275,7 @@ stage(char *s)
 
 	if (old)
 	{
-		fprintf(stderr, "\t%d sec\n", t-old);
+		fprintf(stderr, "\t%ld sec\n", t-old);
 	}
 	else
 		first = t;
@@ -2286,7 +2286,7 @@ stage(char *s)
 		fprintf(stderr, "%s", s);
 	}
 	else
-		fprintf(stderr, "%d seconds\n", t - first);
+		fprintf(stderr, "%ld seconds\n", t - first);
 }
 
 
