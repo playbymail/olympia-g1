@@ -3,16 +3,11 @@
 #include <unistd.h>	/* BUGFIX (modernization): getpid, isatty */
 #include <time.h>	/* BUGFIX (modernization): time */
 
-#define USE_OUR_RND
-
-
 #define	TRUE	1
 #define	FALSE	0
 
-#ifdef SYSV
 #define bzero(a,n)		memset(a, '\0', n)
 #define bcopy(a,b,n)		memcpy(b, a, n)
-#endif
 
 #define	abs(n)		((n) < 0 ? ((n) * -1) : (n))
 

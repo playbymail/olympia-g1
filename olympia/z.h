@@ -14,17 +14,13 @@
 #include	<sys/types.h>
 #include	<sys/stat.h>	/* mkdir, chmod */
 
-#define	SYSV
-
 #define	TRUE	1
 #define	FALSE	0
 
 #define		LEN		2048	/* generic string max length */
 
-#ifdef SYSV
 #define bzero(a,n)		memset(a, '\0', n)
 #define bcopy(a,b,n)		memcpy(b, a, n)
-#endif
 
 #define	abs(n)		((n) < 0 ? ((n) * -1) : (n))
 

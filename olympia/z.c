@@ -729,8 +729,6 @@ fuzzy_strcmp(char *one, char *two)
 }
 
 
-#ifdef SYSV
-
 unsigned short seed[3];
 
 void
@@ -760,24 +758,6 @@ rnd(int low, int high)
 {
 	return (int) (erand48(seed) * (high - low + 1) + low);
 }
-
-#else	/* ifdef SYSV */
-
-init_random() {
-	long l;
-
-	srandom(l);
-}
-
-
-rnd(low, high)
-int low;
-int high;
-{
-
-	return random() % (high - low + 1) + low;
-}
-#endif	/* ifdef SYSV */
 
 
 void
