@@ -47,7 +47,7 @@ str_save(char *s)
 {
 	char *p;
 
-	p = my_malloc(strlen(s) + 1);
+	p = my_malloc((unsigned) (strlen(s) + 1));	/* string len fits 32 bits */
 	strcpy(p, s);
 
 	return p;
