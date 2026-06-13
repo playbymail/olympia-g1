@@ -223,10 +223,17 @@ init_random(void)
 
 	if (seed[0] == 0 && seed[1] == 0 && seed[2] == 0)
 	{
-		l = time(NULL);
-		seed[0] = l & 0xFFFF;
-		seed[1] = getpid();
-		seed[2] = l >> 16;
+		/*
+		 *  Mask each source to a well-defined 16-bit value so the
+		 *  stored seed does not depend on the width of time_t/pid_t
+		 *  (32-bit on ILP32, 64-bit/wider on LP64).  Use unsigned
+		 *  long so the >> 16 is a logical shift on a non-negative
+		 *  value, not an implementation-defined signed shift.
+		 */
+		unsigned long t = (unsigned long) time(NULL);
+		seed[0] = (unsigned short) (t & 0xFFFF);
+		seed[1] = (unsigned short) ((unsigned) getpid() & 0xFFFF);
+		seed[2] = (unsigned short) ((t >> 16) & 0xFFFF);
 	}
 }
 
