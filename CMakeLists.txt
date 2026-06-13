@@ -220,6 +220,9 @@ target_sources(mapgen-g1 PRIVATE
         lib/lists.h
 )
 target_include_directories(mapgen-g1 PRIVATE mapgen/ lib/)
+# Require C11 at the target level (project-level CMAKE_C_STANDARD remains the
+# default for future targets). See issue #6.
+target_compile_features(mapgen-g1 PRIVATE c_std_11)
 target_compile_options(mapgen-g1 PRIVATE
     ${LEGACY_C_FLAGS} -Og -g
     -Wint-conversion -Werror=int-conversion
@@ -265,6 +268,9 @@ target_sources(olympia-g1 PRIVATE
         lib/lists.h
 )
 target_include_directories(olympia-g1 PRIVATE olympia/ lib/)
+# Require C11 at the target level (project-level CMAKE_C_STANDARD remains the
+# default for future targets). See issue #6.
+target_compile_features(olympia-g1 PRIVATE c_std_11)
 target_compile_options(olympia-g1 PRIVATE
     ${LEGACY_C_FLAGS} -O1 -g
     -Wint-conversion -Werror=int-conversion
