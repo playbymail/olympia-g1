@@ -10,7 +10,7 @@ extern void promote_stack(int lower, int higher);
 extern void take_prisoner(int who, int target);
 extern int has_prisoner(int who, int pris);
 extern int give_prisoner(int who, int target, int pris);
-extern int move_prisoner(int who, int target, int pris);
+extern void move_prisoner(int who, int target, int pris);
 extern void promote(int who, int new_pos);
 extern int check_prisoner_escape(int who, int chance);
 extern void prisoner_escapes(int who);

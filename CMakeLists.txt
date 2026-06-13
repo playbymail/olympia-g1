@@ -154,8 +154,6 @@ set(LEGACY_C_FLAGS
         -Wno-non-literal-null-conversion
         -Wno-parentheses
         -Wno-pointer-to-int-cast
-        -Wno-return-mismatch
-        -Wno-return-type
         # sizeof-pointer-memaccess is now enforced per-target (issue #10,
         # Phase 6) — audited clean (0 hits), promoted to -Werror below.
         -Wno-tautological-constant-out-of-range-compare

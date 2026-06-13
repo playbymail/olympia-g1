@@ -781,6 +781,7 @@ repair_points(int k)
 	}
 
 	assert(FALSE);
+	return 0;
 }
 
 
@@ -946,6 +947,8 @@ i_repair(struct command *c)
 		wout(VECT, "%s repaired %s defense for %s.",
 					box_name(c->who),
 					nice_num(c->f), box_name(where));
+
+	return TRUE;
 }
 
 

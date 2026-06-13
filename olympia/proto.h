@@ -207,7 +207,7 @@ extern void text_list_free(cstrings_list l);
 extern void times_masthead(void);
 
 /* olympia/check.c */
-extern int check_db(void);
+extern void check_db(void);
 
 /* olympia/cloud.c */
 extern void create_cloudlands(void);
@@ -380,17 +380,17 @@ extern void scan_char_skill_lore(void);
 extern void show_lore_sheets(void);
 
 /* olympia/main.c */
-extern int call_init_routines(void);
-extern int mail_reports(void);
+extern void call_init_routines(void);
+extern void mail_reports(void);
 extern int send_rep(int pl, int turn);
 extern int v_remail(struct command *c);
-extern int write_email(void);
-extern int write_faction_sup(int who_for, int target, FILE *fp);
-extern int write_factions(void);
-extern int write_forward_sup(int who_for, int target, FILE *fp);
-extern int write_forwards(void);
-extern int write_player_list(void);
-extern int write_totimes(void);
+extern void write_email(void);
+extern void write_faction_sup(int who_for, int target, FILE *fp);
+extern void write_factions(void);
+extern void write_forward_sup(int who_for, int target, FILE *fp);
+extern void write_forwards(void);
+extern void write_player_list(void);
+extern void write_totimes(void);
 
 /* olympia/make.c */
 extern int d_generic_make(struct command *c, struct make *t);
@@ -453,7 +453,7 @@ extern void queue_npc_orders(void);
 extern void wilderness_attack_check(int who, int where);
 
 /* olympia/order.c */
-extern int queue(int who, char *s, ...)
+extern void queue(int who, char *s, ...)
     __attribute__((format(printf, 2, 3)));
 extern void flush_unit_orders(int pl, int who);
 extern void list_order_templates(void);
@@ -602,7 +602,7 @@ extern void seed_weather_cookies(void);
 
 /* olympia/sout.c */
 extern ilist save_output_vector(void);
-extern int init_spaces(void);
+extern void init_spaces(void);
 extern void close_logfile(void);
 extern void initialize_buffer(void);
 extern void open_logfile(void);

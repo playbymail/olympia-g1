@@ -44,6 +44,7 @@ hinder_med_chance(int who)
 	default:
 		assert(FALSE);
 	}
+	return 0;
 }
 
 
@@ -904,6 +905,7 @@ mage_menial_how(void)
 	default:
 		assert(FALSE);
 	}
+	return "";
 }
 
 

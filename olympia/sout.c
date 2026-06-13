@@ -22,7 +22,7 @@ char *spaces;
 int spaces_len;
 
 
-int init_spaces(void)
+void init_spaces(void)
 {
 	int i;
 	//extern char *malloc();

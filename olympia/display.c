@@ -513,6 +513,7 @@ liner_desc(int n)
 	default:
 		assert(FALSE);
 	}
+	return "";
 }
 
 

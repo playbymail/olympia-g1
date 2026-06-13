@@ -204,6 +204,7 @@ loc_depth(int n)
 		fprintf(stderr, "subkind is %d\n", subkind(n));
 		assert(FALSE);
 	}
+	return 0;
 }
 
 

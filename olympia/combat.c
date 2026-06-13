@@ -202,6 +202,7 @@ fort_covers(int n)
 		fprintf(stderr, "subkind is %s\n", subkind_s[subkind(n)]);
 		assert(FALSE);
 	}
+	return 0;
 }
 
 
@@ -249,6 +250,7 @@ lead_char_pos(fights_list l)
 		return 1;
 
 	assert(FALSE);
+	return 0;
 }
 
 
@@ -1114,6 +1116,7 @@ find_attacker(fights_list l, int man, fights_list enemy)
 	}
 
 	assert(FALSE);
+	return NULL;
 }
 
 
@@ -1130,6 +1133,7 @@ find_defender(fights_list l, int man, fights_list enemy)
 	}
 
 	assert(FALSE);
+	return NULL;
 }
 
 

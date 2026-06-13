@@ -502,6 +502,7 @@ rank_s(int who)
 	default:
 		assert(FALSE);
 	}
+	return "";
 }
 
 
@@ -900,6 +901,7 @@ v_decree(struct command *c)
 	default:
 		assert(FALSE);
 	}
+	return FALSE;
 }
 
 

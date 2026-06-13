@@ -224,6 +224,7 @@ static int
 destroy_auraculum(struct command *c, int item)
 {
 	assert(FALSE);
+	return FALSE;
 }
 
 
