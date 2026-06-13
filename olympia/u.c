@@ -115,7 +115,7 @@ new_char(int sk, int ni, int where, int health, int pl,
 	if (name && *name)
 		set_name(new, name);
 	p = p_char(new);
-	p->health = health;
+	p->health = (schar)(health);
 	p->unit_item = ni;
 	p->break_point = 50;
 

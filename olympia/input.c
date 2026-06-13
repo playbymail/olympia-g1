@@ -485,7 +485,7 @@ set_state(struct command *c, int state, int new_pri)
 		break;
 	}
 
-	c->state = state;
+	c->state = (schar)(state);
 
 	switch (c->state)
 	{
@@ -534,9 +534,9 @@ load_command(struct command *c)
 
 		set_state(c, LOAD, pri);
 
-		c->pri = pri;
+		c->pri = (schar)(pri);
 		c->wait = cmd_tbl[c->cmd].time;
-		c->poll = cmd_tbl[c->cmd].poll;
+		c->poll = (schar)(cmd_tbl[c->cmd].poll);
 		c->days_executing = 0;
 	}
 	else
@@ -596,7 +596,7 @@ finish_command(struct command *c)
 
 	if (c->wait > 0 && c->debug == sysclock.day)
 		out(c->who, "finish_command called twice, wait=%d", c->wait);
-	c->debug = sysclock.day;
+	c->debug = (schar)(sysclock.day);
 
 /*
  *  Call the finish routine once, when the command is done waiting,
@@ -606,7 +606,7 @@ finish_command(struct command *c)
 	if (c->wait <= 0 || c->poll)
 	{
 		if (cmd_tbl[c->cmd].finish != NULL && !c->inhibit_finish)
-			c->status = (*cmd_tbl[c->cmd].finish)(c);
+			c->status = (schar)((*cmd_tbl[c->cmd].finish)(c));
 	}
 
 	if (c->state == RUN && (c->status == FALSE || c->wait == 0))
@@ -657,7 +657,7 @@ do_command(struct command *c)
 
 		c->debug = 0;
 		c->inhibit_finish = FALSE;
-		c->status = (*cmd_tbl[c->cmd].start)(c);
+		c->status = (schar)((*cmd_tbl[c->cmd].start)(c));
 	}
 
 	if (!c->status)
@@ -666,7 +666,7 @@ do_command(struct command *c)
 	}
 	else if (c->wait == 0 && c->state == RUN)
 	{
-		c->status = finish_command(c);
+		c->status = (schar)(finish_command(c));
 	}
 
 	if (ilist_len(trades_to_check) > 0)
@@ -979,7 +979,7 @@ interrupt_order(int who)
 	if (c->state == RUN)
 	{
 		if (cmd_tbl[c->cmd].interrupt != NULL)
-			c->status = (*cmd_tbl[c->cmd].interrupt)(c);
+			c->status = (schar)((*cmd_tbl[c->cmd].interrupt)(c));
 
 		command_done(c);
 		assert(c->state != RUN);

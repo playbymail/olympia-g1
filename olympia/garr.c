@@ -604,7 +604,7 @@ determine_noble_ranks(void)
 		if (bx[who]->temp == 0)
 			continue;
 
-		p_char(who)->rank = det_noble_rank_sup(who);
+		p_char(who)->rank = (schar)(det_noble_rank_sup(who));
 	}
 	next_char;
 

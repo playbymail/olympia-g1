@@ -679,7 +679,7 @@ do_format(struct command *c)
 	    return TRUE;
 	}
 
-	p_player(pl)->format = c->a;
+	p_player(pl)->format = (schar)(c->a);
 	err(EAT_WARN, sout("Report formatting set to %d", c->a));
 
 	return TRUE;
@@ -741,7 +741,7 @@ do_notab(struct command *c)
 	    return TRUE;
 	}
 
-	p_player(pl)->notab = c->a;
+	p_player(pl)->notab = (schar)(c->a);
 
 	out_alt_who = EAT_OKAY;
 	if (c->a)

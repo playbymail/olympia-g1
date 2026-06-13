@@ -608,7 +608,7 @@ change_box_kind(int n, int kind)
 {
 
 	remove_next_chain(n);
-	bx[n]->kind = kind;
+	bx[n]->kind = (schar)(kind);
 	add_next_chain(n);
 }
 
@@ -621,7 +621,7 @@ change_box_subkind(int n, int sk)
 		return;
 
 	remove_sub_chain(n);
-	bx[n]->skind = sk;
+	bx[n]->skind = (schar)(sk);
 	add_sub_chain(n);
 }
 
@@ -639,8 +639,8 @@ alloc_box(int n, int kind, int sk)
 	}
 
 	bx[n] = (struct box *) my_malloc(sizeof(struct box));
-	bx[n]->kind = kind;
-	bx[n]->skind = sk;
+	bx[n]->kind = (schar)(kind);
+	bx[n]->skind = (schar)(sk);
 	add_next_chain(n);
 	add_sub_chain(n);
 }

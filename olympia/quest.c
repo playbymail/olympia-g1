@@ -137,22 +137,22 @@ new_artifact(int who)
 	{
 	case 1:
 		s = art_att_s[rnd(0,2)];
-		p_item_magic(new)->attack_bonus = rnd(1,10) * 5;
+		p_item_magic(new)->attack_bonus = (schar)(rnd(1,10) * 5);
 		break;
 
 	case 2:
 		s = art_def_s[rnd(0,2)];
-		p_item_magic(new)->defense_bonus = rnd(1,10) * 5;
+		p_item_magic(new)->defense_bonus = (schar)(rnd(1,10) * 5);
 		break;
 
 	case 3:
 		s = art_mis_s[rnd(0,3)];
-		p_item_magic(new)->missile_bonus = rnd(1,10) * 5;
+		p_item_magic(new)->missile_bonus = (schar)(rnd(1,10) * 5);
 		break;
 
 	case 4:
 		s = art_mag_s[rnd(0,2)];
-		p_item_magic(new)->aura_bonus = rnd(1,3);
+		p_item_magic(new)->aura_bonus = (short)(rnd(1,3));
 		break;
 
 	default:
