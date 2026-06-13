@@ -55,7 +55,7 @@ gm_show_skill_use_counts(int pl)
 	}
 	next_skill;
 
-	qsort(l, ilist_len(l), sizeof(int), skill_use_comp);
+	qsort(l, (size_t) ilist_len(l), sizeof(int), skill_use_comp);
 
 	out_path = MASTER;
 	out_alt_who = OUT_LORE;
@@ -128,7 +128,7 @@ gm_show_skills_known(int pl)
 	}
 	next_skill;
 
-	qsort(l, ilist_len(l), sizeof(int), skills_known_comp);
+	qsort(l, (size_t) ilist_len(l), sizeof(int), skills_known_comp);
 
 	out_path = MASTER;
 	out_alt_who = OUT_LORE;
@@ -696,7 +696,7 @@ gm_land_stats(int pl)
 	}
 	next_loc;
 
-	qsort(l, ilist_len(l), sizeof(int), region_occupy_comp);
+	qsort(l, (size_t) ilist_len(l), sizeof(int), region_occupy_comp);
 
 	out_path = MASTER;
 	out_alt_who = OUT_LORE;
@@ -750,7 +750,7 @@ gm_faction_wealth(int pl)
 	}
 	next_player;
 
-	qsort(l, ilist_len(l), sizeof(int), wealth_list_comp);
+	qsort(l, (size_t) ilist_len(l), sizeof(int), wealth_list_comp);
 
 	out_path = MASTER;
 	out_alt_who = OUT_LORE;
@@ -803,7 +803,7 @@ gm_nobles_list(int pl)
 	}
 	next_player;
 
-	qsort(l, ilist_len(l), sizeof(int), nobles_list_comp);
+	qsort(l, (size_t) ilist_len(l), sizeof(int), nobles_list_comp);
 
 	out_path = MASTER;
 	out_alt_who = OUT_LORE;

@@ -2456,7 +2456,7 @@ load_system(void)
 	FILE *fp;
 	char *s;
 	char *fname;
-	extern short seed[3];
+	extern unsigned short seed[3];
 
 	fname = sout("%s/system", libdir);
 
@@ -2580,7 +2580,7 @@ save_system(void)
 {
 	FILE *fp;
 	char *fname;
-	extern short seed[3];
+	extern unsigned short seed[3];
 
 	fname = sout("%s/system", libdir);
 

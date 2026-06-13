@@ -257,7 +257,7 @@ my_malloc(unsigned size)
 
 	bzero(p, size);
 
-	*((int *) p) = size;
+	*((int *) p) = (int) size;
 	put_guard(p + size, 0xABCF);
 
 	return p + MALLOC_HDR;
@@ -280,7 +280,7 @@ my_realloc(void *ptr, unsigned size)
 
 	p = realloc(p, size + sizeof(int));
 
-	*((int *)p) = size;
+	*((int *)p) = (int) size;
 	put_guard(p + size, 0xABCF);
 
 	if (p == NULL)

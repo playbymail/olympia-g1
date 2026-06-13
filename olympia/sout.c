@@ -28,7 +28,7 @@ int init_spaces(void)
 	//extern char *malloc();
 
 	spaces_len = 150;
-	spaces = my_malloc(spaces_len+1);
+	spaces = my_malloc((unsigned) (spaces_len + 1));
 
 	for (i = 0; i <	spaces_len; i++)
 		spaces[i] = ' ';
