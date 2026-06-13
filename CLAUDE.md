@@ -79,6 +79,13 @@ Scripts auto-detect the repo root and look for binaries at
   scaffolding (defined, not yet called). `LEGACY_C_FLAGS_STRICT` is likewise
   staged but unused.
 
+## Git workflow
+
+- **Do not create git branches until explicitly asked.** Do the work as commits
+  on the current branch (usually `main`). Branches and PRs are created only when
+  the user says they are ready to deal with PRs — wait for that request.
+- Likewise, do not push or open PRs unless explicitly asked.
+
 ## Modernization status
 
 A 5-phase ladder is documented as `phase_N_build_flags()` functions in
