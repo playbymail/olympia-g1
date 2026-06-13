@@ -219,11 +219,18 @@ target_compile_options(mapgen-g1 PRIVATE
     # Phase 7 (issue #11): signed<->unsigned conversions that diverge on LP64.
     # 30 sites fixed representation-preservingly; now locked as -Werror.
     -Wsign-conversion -Werror=sign-conversion
+    # Phase 8 (issue #13): a function that falls off the end (or has a bare
+    # `return;`) leaves the caller reading a garbage register — on LP64 an
+    # 8-byte garbage long/pointer. All sites fixed; now locked as -Werror.
+    -Wreturn-type -Werror=return-type
 )
 # -Wshorten-64-to-32 (the LP64 width-truncation class, issue #10) is Clang-only.
 if (CMAKE_C_COMPILER_ID MATCHES "Clang")
     target_compile_options(mapgen-g1 PRIVATE
         -Wshorten-64-to-32 -Werror=shorten-64-to-32
+        # -Wreturn-mismatch (bare `return;` in a non-void fn, Phase 8 #13) is
+        # a Clang-only split; GCC folds it into -Wreturn-type (locked above).
+        -Wreturn-mismatch -Werror=return-mismatch
     )
 endif()
 olympia_enable_sanitizers(mapgen-g1)
@@ -279,11 +286,18 @@ target_compile_options(olympia-g1 PRIVATE
     # Phase 7 (issue #11): signed<->unsigned conversions that diverge on LP64.
     # 30 sites fixed representation-preservingly; now locked as -Werror.
     -Wsign-conversion -Werror=sign-conversion
+    # Phase 8 (issue #13): a function that falls off the end (or has a bare
+    # `return;`) leaves the caller reading a garbage register — on LP64 an
+    # 8-byte garbage long/pointer. All sites fixed; now locked as -Werror.
+    -Wreturn-type -Werror=return-type
 )
 # -Wshorten-64-to-32 (the LP64 width-truncation class, issue #10) is Clang-only.
 if (CMAKE_C_COMPILER_ID MATCHES "Clang")
     target_compile_options(olympia-g1 PRIVATE
         -Wshorten-64-to-32 -Werror=shorten-64-to-32
+        # -Wreturn-mismatch (bare `return;` in a non-void fn, Phase 8 #13) is
+        # a Clang-only split; GCC folds it into -Wreturn-type (locked above).
+        -Wreturn-mismatch -Werror=return-mismatch
     )
 endif()
 olympia_enable_sanitizers(olympia-g1)

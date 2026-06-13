@@ -94,6 +94,7 @@ A 5-phase ladder is documented as `phase_N_build_flags()` functions in
 | 5 | `missing-declarations` + sanitizers | ✅ enforced (`-Werror`) + asan/ubsan green |
 | 6 | `shorten-64-to-32` (Clang-guarded) + `sizeof-pointer-memaccess` | ✅ enforced (`-Werror`) |
 | 7 | `sign-conversion` + the `seed[3]` signedness fix | ✅ enforced (`-Werror`) |
+| 8 | `return-type` (+ `return-mismatch`, Clang-guarded) | ✅ enforced (`-Werror`) |
 
 Phases 1–5 are complete and locked in — the dangerous 32→64-bit pointer/int
 hazards (bad casts, int/pointer conversions, and implicitly-declared functions
@@ -314,6 +315,65 @@ Probe (`-Wsign-conversion`) now reports 0; both targets build clean with the
 new `-Werror=sign-conversion`; debug and asan-ubsan golden gates both `YES`
 (the `system` seed re-baseline applied to both) and asan/ubsan clean (exit 0).
 The 29 cast fixes are byte-identical; only the seed save changed, deliberately.
+
+### Phase 8 — `return-type` + `return-mismatch` (issue #13) ✅ done
+
+The last suppressed class with 64-bit relevance. A non-void function that
+falls off the end (or hits a bare `return;`) leaves the caller reading a
+**garbage register** — on LP64 an 8-byte garbage `long`/pointer (vs 4 bytes
+on ILP32), so the failure mode is genuinely worse on 64-bit. `-Wno-return-type`
+and `-Wno-return-mismatch` were the last two such suppressions in
+`LEGACY_C_FLAGS`; both are now removed and the classes locked as `-Werror`.
+
+- **`-Werror=return-type`** is inlined unconditionally in both
+  `target_compile_options` blocks (portable: GCC's `-Wreturn-type` covers
+  *both* the fall-off and the bare-`return;` cases).
+- **`-Werror=return-mismatch`** (clang's split-out diagnostic for a bare
+  `return;` in a non-void fn) is added inside the existing **Clang-guarded**
+  block next to `-Wshorten-64-to-32` — real GCC does not know the flag and
+  folds that case into `-Wreturn-type` already.
+
+**Inventory trap (documented so it doesn't bite the next class):** clang's
+default `-ferror-limit=19` *truncated the first warn-only pass*.
+`return-mismatch` is **error-by-default** in this clang, so `mapgen.c` hit
+the error limit at its early `return-mismatch` sites and clang stopped before
+compiling its second half — the initial inventory looked like ~30 sites when
+the real count was **12 `return-mismatch` + ~74 `return-type`**. Build with
+`-- -k 0` *and* re-inventory after each fix round until the list is empty; do
+not trust a single truncated pass.
+
+Two representation-preserving fix shapes (golden byte-identical — every
+fall-off path is unreachable in the golden run, and the void conversions
+don't change behavior since the discarded returns were already garbage):
+
+- **Corrected the return type to `void`** (~40 functions) for the legacy
+  default-`int` helpers that never produce a value and whose callers ignore
+  the return — definition **and** every declaration (`proto.h`, `stack.h`,
+  `use.h`, `mapgen/proto.h`) changed in lockstep. The bulk is the mapgen
+  pipeline (`set_regions`, `random_province`, `make_*`, `gate_*`, `count_*`,
+  `print_*`, `bridge_*`, `dump_*`, `open_fps`, `read_map`, …) plus olympia
+  void-semantic helpers (`check_db`, `call_init_routines`, `queue`,
+  `init_spaces`, `move_prisoner`, `learn_skill`, `gm_count_stuff`,
+  `mail_reports`, the `write_*` report writers). The clean `-Werror` build is
+  itself the proof no caller consumed a return — a `void` used as a value is a
+  compile error.
+- **Added the missing return value** where the function genuinely returns one:
+  a defensive `return <default>;` after an unreachable `assert(FALSE)` for the
+  switch/lookup helpers (`hinder_med_chance`, `repair_points`, `liner_desc`,
+  `rank_s`, `exp_s`, `fog_excuse`, `fort_covers`, `lead_char_pos`,
+  `find_attacker`/`find_defender`, `name_guild`, `destroy_auraculum`,
+  `here_precedes`, `promote_after`, `v_decree`, `hidden_count_to_index`,
+  `loc_depth`, `mage_menial_how`, `reduce_qty`), and a real value on the
+  genuinely-reachable fall-off paths (`v_unseal_gate`/`i_use`/`i_repair` →
+  `TRUE`, `d_rally` → `TRUE`, `new_storm` → `new`). **`i_repair` stayed
+  `int`** — it is the `repair` interrupt handler stored in `cmd_tbl` as
+  `int (*)(struct command *)`; void-converting it broke the function-pointer
+  table (the one revert during the sweep).
+
+Probes now report 0; both targets build clean with the new `-Werror`; debug
+and asan-ubsan golden gates both `YES` (byte-identical) and asan/ubsan clean
+(exit 0). This completes the planned 32→64-bit warning ladder
+(`doc/64bit-refactoring-plan.md`, chain A→B→C→D→E).
 
 ### Format/vararg lockdown (issue #7) ✅ done
 
