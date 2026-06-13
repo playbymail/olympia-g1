@@ -406,10 +406,11 @@ cmake --build --preset debug          # clean, no errors
 ./run/mapgen/mapgen.sh && ./run/olympia-g1.sh && ./tests/olympia/golden_check.sh   # YES
 ```
 
-Note: `tests/mapgen/golden` is a **stale 32-bit baseline** and diverges from
-64-bit output even on a clean tree — it is *not* the gate. The olympia
-`golden_check.sh` (`YES`) is the contract; it exercises the map generator
-end-to-end as input, so mapgen behaviour changes show up there.
+Note: the olympia `golden_check.sh` (`YES`) is the sole contract; it exercises
+the map generator end-to-end as input, so mapgen behaviour changes show up
+there. (A standalone `tests/mapgen/golden` baseline once existed but was a
+stale 32-bit capture that diverged from 64-bit output; it was removed along
+with the dropped `BUILD_32BIT` path — see issue #9.)
 
 ---
 

@@ -27,14 +27,6 @@ cmake --build --preset debug
 Presets (`CMakePresets.json`): `debug` (default), `release`, `asan-ubsan`.
 The `asan-ubsan` preset sets `OLYMPIA_SANITIZE=ON` with address+undefined.
 
-### 32-bit build (Linux only — for regenerating golden files)
-
-```bash
-mkdir build32 && cd build32
-cmake -DBUILD_32BIT=ON ..   # requires gcc-multilib
-cmake --build .
-```
-
 ## Test — golden snapshots (must stay green)
 
 Any change must keep the golden tests passing. The olympia check printing `YES`
