@@ -92,6 +92,7 @@ A 5-phase ladder is documented as `phase_N_build_flags()` functions in
 | 3.5 | **Remove dead/unused source files** | ✅ done |
 | 4 | `strict-prototypes`, `missing-prototypes`, `implicit-function-declaration` | ✅ enforced (`-Werror`) |
 | 5 | `missing-declarations` + sanitizers | ✅ enforced (`-Werror`) + asan/ubsan green |
+| 6 | `shorten-64-to-32` (Clang-guarded) + `sizeof-pointer-memaccess` | ✅ enforced (`-Werror`) |
 
 Phases 1–5 are complete and locked in — the dangerous 32→64-bit pointer/int
 hazards (bad casts, int/pointer conversions, and implicitly-declared functions
@@ -230,6 +231,38 @@ OLYMPIA_PRESET=asan-ubsan ./tests/olympia/golden_check.sh   # YES
 
 There is no CI workflow yet — automation is deferred until the repo is ready
 to run PRs.
+
+### Phase 6 — `shorten-64-to-32` + `sizeof-pointer-memaccess` (issue #10) ✅ done
+
+The **core 64-bit phase**: `-Wshorten-64-to-32` isolates exactly the
+`long`/`size_t`/`ssize_t`/`time_t`-into-`int` width truncations that diverge
+between ILP32 and LP64. Both flags are now `-Werror` on both targets — the
+shorten flag Clang-guarded (`if (CMAKE_C_COMPILER_ID MATCHES "Clang")`, it's a
+Clang-only diagnostic), `sizeof-pointer-memaccess` portable. They're inlined in
+both `target_compile_options` blocks alongside the Phase 1–5 flags; the dead
+`-Wno-sizeof-pointer-memaccess` suppression was removed from `LEGACY_C_FLAGS`.
+
+**10 `-Wshorten-64-to-32` sites** (9 olympia in 5 files + 1 mapgen), all fixed
+representation-preservingly (the implicit conversion already truncated exactly
+this way, so golden stays byte-identical):
+
+- `z.c` `readlin` path: `nread` retyped `int`→`ssize_t` (its source is
+  `read()`), clearing both `nread = read(...)` assignment sites; downstream
+  indexing/compares are unaffected.
+- `z.c`/`mapgen/z.c` `str_save`: `(unsigned)` cast on `strlen(s) + 1` feeding
+  `my_malloc(unsigned size)`.
+- `strlen()`→`int` name/line/word lengths, provably `<2^31`: documented `(int)`
+  casts in `z.c` `fuzzy_strcmp`, `c2.c` `line_length_check`, `check.c`
+  `check_loc_name_lengths`, `eat.c`, `report.c` `strip_leading_stupid_word`.
+
+**`sizeof-pointer-memaccess` audit:** warn-only probe (suppression removed)
+reported **0 hits** across both targets — no `sizeof(ptr)`-should-be-`sizeof(*ptr)`
+defects (those grow 4→8 bytes on LP64, a real corruption risk), so it was
+promoted straight to `-Werror`.
+
+Probe (`-Wshorten-64-to-32`) now reports 0; both targets build clean with the
+new `-Werror` flags; debug and asan-ubsan golden gates both `YES`
+(byte-identical) and asan/ubsan clean.
 
 ### Format/vararg lockdown (issue #7) ✅ done
 

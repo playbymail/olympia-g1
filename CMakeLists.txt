@@ -156,7 +156,8 @@ set(LEGACY_C_FLAGS
         -Wno-pointer-to-int-cast
         -Wno-return-mismatch
         -Wno-return-type
-        -Wno-sizeof-pointer-memaccess
+        # sizeof-pointer-memaccess is now enforced per-target (issue #10,
+        # Phase 6) — audited clean (0 hits), promoted to -Werror below.
         -Wno-tautological-constant-out-of-range-compare
 )
 
@@ -214,7 +215,16 @@ target_compile_options(mapgen-g1 PRIVATE
     -Wmissing-prototypes -Werror=missing-prototypes
     -Wimplicit-function-declaration -Werror=implicit-function-declaration
     -Wmissing-declarations -Werror=missing-declarations
+    # Phase 6 (issue #10): a sizeof(ptr) where sizeof(*ptr) is meant grows
+    # 4->8 bytes on LP64 — a real corruption risk. Audited clean.
+    -Wsizeof-pointer-memaccess -Werror=sizeof-pointer-memaccess
 )
+# -Wshorten-64-to-32 (the LP64 width-truncation class, issue #10) is Clang-only.
+if (CMAKE_C_COMPILER_ID MATCHES "Clang")
+    target_compile_options(mapgen-g1 PRIVATE
+        -Wshorten-64-to-32 -Werror=shorten-64-to-32
+    )
+endif()
 olympia_enable_sanitizers(mapgen-g1)
 
 # ------------------------------------------------------------------------------
@@ -262,5 +272,14 @@ target_compile_options(olympia-g1 PRIVATE
     -Wmissing-prototypes -Werror=missing-prototypes
     -Wimplicit-function-declaration -Werror=implicit-function-declaration
     -Wmissing-declarations -Werror=missing-declarations
+    # Phase 6 (issue #10): a sizeof(ptr) where sizeof(*ptr) is meant grows
+    # 4->8 bytes on LP64 — a real corruption risk. Audited clean.
+    -Wsizeof-pointer-memaccess -Werror=sizeof-pointer-memaccess
 )
+# -Wshorten-64-to-32 (the LP64 width-truncation class, issue #10) is Clang-only.
+if (CMAKE_C_COMPILER_ID MATCHES "Clang")
+    target_compile_options(olympia-g1 PRIVATE
+        -Wshorten-64-to-32 -Werror=shorten-64-to-32
+    )
+endif()
 olympia_enable_sanitizers(olympia-g1)
