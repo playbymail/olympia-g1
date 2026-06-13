@@ -231,6 +231,11 @@ if (CMAKE_C_COMPILER_ID MATCHES "Clang")
         # -Wreturn-mismatch (bare `return;` in a non-void fn, Phase 8 #13) is
         # a Clang-only split; GCC folds it into -Wreturn-type (locked above).
         -Wreturn-mismatch -Werror=return-mismatch
+        # Issue #14 (code-quality, NOT a 64-bit hazard): int->short/char
+        # narrowing into entity struct fields. Arch-independent (identical on
+        # ILP32/LP64); 153 sites fixed representation-preservingly, now locked.
+        # Clang-only spelling; GCC folds this into the broader -Wconversion.
+        -Wimplicit-int-conversion -Werror=implicit-int-conversion
     )
 endif()
 olympia_enable_sanitizers(mapgen-g1)
@@ -298,6 +303,11 @@ if (CMAKE_C_COMPILER_ID MATCHES "Clang")
         # -Wreturn-mismatch (bare `return;` in a non-void fn, Phase 8 #13) is
         # a Clang-only split; GCC folds it into -Wreturn-type (locked above).
         -Wreturn-mismatch -Werror=return-mismatch
+        # Issue #14 (code-quality, NOT a 64-bit hazard): int->short/char
+        # narrowing into entity struct fields. Arch-independent (identical on
+        # ILP32/LP64); 153 sites fixed representation-preservingly, now locked.
+        # Clang-only spelling; GCC folds this into the broader -Wconversion.
+        -Wimplicit-int-conversion -Werror=implicit-int-conversion
     )
 endif()
 olympia_enable_sanitizers(olympia-g1)

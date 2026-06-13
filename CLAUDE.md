@@ -375,6 +375,39 @@ and asan-ubsan golden gates both `YES` (byte-identical) and asan/ubsan clean
 (exit 0). This completes the planned 32→64-bit warning ladder
 (`doc/64bit-refactoring-plan.md`, chain A→B→C→D→E).
 
+### `implicit-int-conversion` hardening (issue #14) ✅ done
+
+A **separate code-quality track, explicitly NOT a 64-bit hazard.** The full
+`-Wconversion` umbrella was 194 hits; Phases 6–7 carved out `-Wshorten-64-to-32`
+(9, the LP64 width truncations) and `-Wsign-conversion` (30). The residual was
+**153 `-Wimplicit-int-conversion`** hits: `int`→`short`/`schar`/`char`/`uchar`
+narrowing into entity struct fields (entity fields are narrow). These behave
+**identically on ILP32 and LP64**, so they are *not* porting hazards — issue #14
+tracked them as standalone code-quality. Option (b) (per-file hardening to
+`-Werror`) was taken.
+
+`-Wimplicit-int-conversion -Werror=implicit-int-conversion` is now enforced on
+both targets, inside the **Clang-guarded** block next to `-Wshorten-64-to-32`
+(it is a Clang-only spelling; GCC folds this class into the broader
+`-Wconversion`, so an unconditional `-Werror=implicit-int-conversion` would
+break a GCC build).
+
+All 153 sites fixed representation-preservingly — the implicit truncation
+already happened, so each fix only makes it explicit:
+
+- **The long tail (62 sites across 23 files)** and **`io.c` (91 sites)** landed
+  as two separate commits, `io.c` last (it is the bulk: the entity-restore
+  `switch` tables, where each `p->field = atoi(t);` narrows into a short/char
+  field). Each RHS is wrapped in an explicit cast to the destination type;
+  compound RHS expressions are wrapped whole (`f = (schar)(aura * 5)`), never
+  per-operand.
+- **`olympia/z.c`:** the three `NEST()` expansions all share one defect in the
+  `REST` macro (`xsubi[i] = x[i]`, `unsigned`→`unsigned short`), fixed once at
+  the macro; `lower_array[]` gets `(char)` casts.
+
+Probe now reports 0; both targets build clean with the new `-Werror`; debug and
+asan-ubsan golden gates both `YES` (byte-identical) and asan/ubsan clean.
+
 ### Format/vararg lockdown (issue #7) ✅ done
 
 `legacy_build_flags()`/`LEGACY_C_FLAGS` set `-Wno-format`, which silenced

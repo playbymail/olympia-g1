@@ -139,13 +139,17 @@ garbage long/pointer. `-Wno-return-mismatch`/`-Wno-return-type` are still
 suppressed in `LEGACY_C_FLAGS`. Warn-only inventory → fix → lock, or document a
 deferral with rationale + issue number if the hit list is large. Update table.
 
-### Issue F — (separate track, not 64-bit) `-Wconversion` hardening
-The ~154 `implicit-int-conversion` hits are int→short/char narrowing into entity
-struct fields — **arch-independent, not a porting hazard**. Keep off the 64-bit
-critical path. Either: (a) document the deferral with a `-Wno-`-style comment +
-tracking issue (the established `format-security` pattern), or (b) schedule a
-standalone per-file hardening pass (`io.c` first, 92 hits) to eventually reach
-`-Werror=conversion` as code-quality. Not required for the port to be "done".
+### Issue F — (separate track, not 64-bit) `-Wconversion` hardening ✅ done (option b)
+The 153 `implicit-int-conversion` hits are int→short/char narrowing into entity
+struct fields — **arch-independent, not a porting hazard**. Option (b) was taken:
+a standalone per-file hardening pass driving the class to zero and locking
+`-Werror=implicit-int-conversion` (Clang-guarded — GCC folds this into the
+broader `-Wconversion`) on both targets. All 153 sites fixed
+representation-preservingly (golden byte-identical); the long tail (62 sites)
+and `io.c` (91 sites) landed as two separate commits, `io.c` last. See the
+`implicit-int-conversion hardening (issue #14)` note in `CLAUDE.md`. This was
+never on the 64-bit critical path and was not required for the port to be
+"done".
 
 ## Critical files
 - `CMakeLists.txt` — two inline `target_compile_options` blocks (~224, ~268);
