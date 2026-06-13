@@ -101,18 +101,29 @@ The core 64-bit phase. 9 hits in 5 files (`z.c` 318/467/489/713/714 etc.), mostl
 - Commit 3 — lock `-Werror=shorten-64-to-32` (Clang-guarded) on both targets;
   promote `sizeof-pointer-memaccess` if clean. Update CLAUDE.md table. Gate.
 
-### Issue C — Phase 7: `-Wsign-conversion` (+ seed signedness fix)
-30 hits in 12 files.
-- Commit 1 — add `-Wsign-conversion` warn-only (inventory). Gate.
+### Issue C — Phase 7: `-Wsign-conversion` (+ seed signedness fix) ✅ done
+30 hits — actual inventory was **10 files**, all in the olympia target (mapgen 0).
+- Commit 1 — add `-Wsign-conversion` warn-only (inventory). Gate. ✅
 - Commit 2 — fix the **`seed[3]` signedness mismatch**: `z.c:734` defines
   `unsigned short seed[3]` (the `erand48` contract) but `io.c:2459` and
   `io.c:2583` declare `extern short seed[3]`. Canonicalize both externs to
-  `unsigned short`. Golden-safe: the fixed golden seeds are small positive ints
-  parsed via `atoi` (`io.c:2503-2511`) and saved via `%d` (`io.c:2602-2604`) —
-  identical bytes. Gate.
-- Commit 3 — fix remaining sign-conversion hits, sliced by file. Gate each.
+  `unsigned short`. ✅
+  - **CORRECTION — this was *not* golden-safe as a bare type change.** The
+    premise above ("small positive ints … identical bytes") was wrong: the
+    fixture seeds span the full 16-bit range (`seed0=-3645`) and the post-turn
+    saved RNG state is routinely ≥ `0x8000`. The old *signed* extern wrote those
+    negative (`-28312`); the correct *unsigned* extern writes them positive
+    (`37224`) — same bits, but the signed text was wrong for an unsigned
+    quantity. `seed[3]` is now `unsigned short` everywhere and the save writes
+    the correct value; the golden `system` file was **deliberately re-baselined**
+    in the same commit (one manifest line, the only file that changed). The
+    round-trip still recovers the bits via `atoi` + truncation, so old saved
+    games load unchanged. Golden → **YES**.
+- Commit 3 — fix remaining 29 sign-conversion hits, sliced by file (all
+  `int → size_t`/`unsigned`, representation-preserving casts; `qsort` `nmemb`
+  bulk, incl. the shared `loop_known` macro). Gate each. ✅
 - Commit 4 — lock `-Werror=sign-conversion` on both targets. Update CLAUDE.md
-  table. Gate.
+  table. Gate. ✅
 
 ### Issue D — Latent `init_random()` truncation (standalone correctness)
 `z.c:741-746` seeds from `time(NULL)` and `getpid()` with `l >> 16` and 16-bit

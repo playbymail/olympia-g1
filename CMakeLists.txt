@@ -218,6 +218,9 @@ target_compile_options(mapgen-g1 PRIVATE
     # Phase 6 (issue #10): a sizeof(ptr) where sizeof(*ptr) is meant grows
     # 4->8 bytes on LP64 — a real corruption risk. Audited clean.
     -Wsizeof-pointer-memaccess -Werror=sizeof-pointer-memaccess
+    # Phase 7 (issue #11): signed<->unsigned conversions that diverge on LP64.
+    # 30 sites fixed representation-preservingly; now locked as -Werror.
+    -Wsign-conversion -Werror=sign-conversion
 )
 # -Wshorten-64-to-32 (the LP64 width-truncation class, issue #10) is Clang-only.
 if (CMAKE_C_COMPILER_ID MATCHES "Clang")
@@ -275,6 +278,9 @@ target_compile_options(olympia-g1 PRIVATE
     # Phase 6 (issue #10): a sizeof(ptr) where sizeof(*ptr) is meant grows
     # 4->8 bytes on LP64 — a real corruption risk. Audited clean.
     -Wsizeof-pointer-memaccess -Werror=sizeof-pointer-memaccess
+    # Phase 7 (issue #11): signed<->unsigned conversions that diverge on LP64.
+    # 30 sites fixed representation-preservingly; now locked as -Werror.
+    -Wsign-conversion -Werror=sign-conversion
 )
 # -Wshorten-64-to-32 (the LP64 width-truncation class, issue #10) is Clang-only.
 if (CMAKE_C_COMPILER_ID MATCHES "Clang")

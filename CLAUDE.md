@@ -93,6 +93,7 @@ A 5-phase ladder is documented as `phase_N_build_flags()` functions in
 | 4 | `strict-prototypes`, `missing-prototypes`, `implicit-function-declaration` | ✅ enforced (`-Werror`) |
 | 5 | `missing-declarations` + sanitizers | ✅ enforced (`-Werror`) + asan/ubsan green |
 | 6 | `shorten-64-to-32` (Clang-guarded) + `sizeof-pointer-memaccess` | ✅ enforced (`-Werror`) |
+| 7 | `sign-conversion` + the `seed[3]` signedness fix | ✅ enforced (`-Werror`) |
 
 Phases 1–5 are complete and locked in — the dangerous 32→64-bit pointer/int
 hazards (bad casts, int/pointer conversions, and implicitly-declared functions
@@ -263,6 +264,56 @@ promoted straight to `-Werror`.
 Probe (`-Wshorten-64-to-32`) now reports 0; both targets build clean with the
 new `-Werror` flags; debug and asan-ubsan golden gates both `YES`
 (byte-identical) and asan/ubsan clean.
+
+### Phase 7 — `sign-conversion` + `seed[3]` signedness fix (issue #11) ✅ done
+
+`-Wsign-conversion` catches signed↔unsigned conversions that can diverge on
+LP64. It is now `-Werror` on both targets (inlined alongside the Phase 1–6
+flags). Warn-only inventory reported **30 hits in 10 files**, all in the
+olympia target (mapgen had 0); all fixed representation-preservingly.
+
+- **The `seed[3]` signedness mismatch (the headline defect).** `z.c:734`
+  defines `unsigned short seed[3]` — the `erand48`/`drand48` state contract —
+  but `io.c:2459` and `io.c:2583` declared `extern short seed[3]` (signed), a
+  type-mismatch that is UB. Both externs are now canonicalized to
+  `unsigned short`, so `seed[3]` is unsigned everywhere and the save routine
+  (`io.c:2602-2604`, `fprintf("%d", seed[i])`) writes the *correct* value: an
+  `unsigned short` promotes to a non-negative `int` (0..65535).
+  - **This is the one deliberate golden change in Phase 7** — and the plan's
+    "golden-safe / identical bytes" premise was simply wrong, which is why the
+    `do-not---update`-without-investigating rule earned its keep. The claim
+    assumed the fixed golden seeds were "small positive ints"; in fact the
+    input fixture seeds span the full 16-bit range (e.g. `seed0=-3645`), and
+    after a turn the saved RNG state routinely has values ≥ `0x8000`. The old
+    *signed* extern wrote those negative (`-28312`); the correct *unsigned*
+    extern writes them positive (`37224`) — same 16 bits, but the signed text
+    was wrong for an unsigned quantity. The golden `system` file was
+    re-baselined in the same commit to hold the correct unsigned seed values
+    (the only file that changed; one manifest line). The round-trip is
+    unaffected — `load` does `atoi()` then truncates back into the 16-bit slot,
+    recovering the exact bits from either spelling — so old saved games still
+    load correctly.
+- **The other 29 hits were all `int → size_t`/`unsigned`**, fixed with explicit
+  representation-preserving casts (every value is provably ≥ 0):
+  - **`qsort` `nmemb` (the bulk).** The element-typed list accessors
+    (`ilist_len`, `admits_len`, `item_ents_len`, `skill_ents_len`) return
+    `int`, feeding `qsort`'s `size_t nmemb`. Cast `(size_t)` at each call site
+    in `check.c`, `gm.c`, `input.c`, `perm.c`, `report.c`, `seed.c`, `swear.c`,
+    `use.c` — and **once in the shared `loop_known` macro** (`loop.h:89`),
+    which cleared 6 sites across `gm.c`/`io.c`/`report.c`/`summary.c` at a
+    stroke.
+  - **`my_malloc` size** (`sout.c:31`): `(unsigned)` cast on `spaces_len + 1`.
+  - **array index** (`perm.c:451`): `(size_t) spaces_len - strlen(header)` —
+    making explicit the int→size_t promotion the `size_t` operand already
+    forced.
+  - **guard-allocator size store** (`z.c:260`, `:283`): `*((int *) p) =
+    (int) size;` — `size` is `unsigned`, the header slot is `int`; the
+    truncation was already implicit.
+
+Probe (`-Wsign-conversion`) now reports 0; both targets build clean with the
+new `-Werror=sign-conversion`; debug and asan-ubsan golden gates both `YES`
+(the `system` seed re-baseline applied to both) and asan/ubsan clean (exit 0).
+The 29 cast fixes are byte-identical; only the seed save changed, deliberately.
 
 ### Format/vararg lockdown (issue #7) ✅ done
 
