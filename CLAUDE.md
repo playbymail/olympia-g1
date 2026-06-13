@@ -65,11 +65,15 @@ Scripts auto-detect the repo root and look for binaries at
   must be deliberate and the snapshot updated in the same change with a note on
   why. Modernization changes (prototypes, casts, dead-code removal) must produce
   byte-identical golden output.
-- Build config lives in `CMakeLists.txt`. The per-target compile flags are
-  inlined into each `add_executable` block (see lines ~222 and ~262), *not*
-  applied via the `phase_N_build_flags()` functions — those are roadmap
-  scaffolding (defined, not yet called). `LEGACY_C_FLAGS_STRICT` is likewise
-  staged but unused.
+- Build config lives in `CMakeLists.txt`. There is **one flag set for the whole
+  project**: `olympia_compile_flags(tgt)` holds every warning flag (suppressions
+  + the locked-in `-Werror` classes) and is applied identically to both targets;
+  `olympia_enable_sanitizers(tgt)` adds the optional asan/ubsan instrumentation.
+  Enforced classes are written as a deliberate `-Wfoo -Werror=foo` pair, one per
+  line, as a record of completed modernization work — a comment block at the top
+  of the file explains the convention; don't collapse the pairs. Optimization
+  level is driven by `CMAKE_BUILD_TYPE` (via the presets), not hardcoded per
+  target.
 
 ## Git workflow
 
@@ -80,9 +84,11 @@ Scripts auto-detect the repo root and look for binaries at
 
 ## Modernization status
 
-A 5-phase ladder is documented as `phase_N_build_flags()` functions in
-`CMakeLists.txt`. What is actually *enforced* is inlined into both targets as
-`-Werror`. Current state:
+The modernization ran as a phased ladder, now complete. Every class is
+*enforced* as `-Werror` via `olympia_compile_flags()` in `CMakeLists.txt`
+(applied to both targets). The per-phase `phase_N_build_flags()` scaffolding the
+ladder was built with has been removed now that the work is locked in — the
+history below and git are the record. Current state:
 
 | Phase | Scope | State |
 |-------|-------|-------|
@@ -493,3 +499,31 @@ Fix mirrors `../olympia-g3`'s `test-use-const-report-date` flag:
 
 Affects ONLY the newsletter masthead date; all other output is byte-identical.
 Normal play (no flag) still prints the real wall-clock date.
+
+### Build cleanup — consolidate flags after modernization ✅ done
+
+With the warning ladder complete, `CMakeLists.txt` was simplified from the
+phase-by-phase scaffolding it was built with down to a single flag set:
+
+- **Deleted dead scaffolding:** the never-called `legacy_build_flags()` (a
+  duplicate of the `LEGACY_C_FLAGS` variable), the five `phase_N_build_flags()`
+  functions (every flag already inlined into the targets), and the unused
+  `LEGACY_C_FLAGS_STRICT` variable (its `REMOVE_ITEM` even named flags no longer
+  present). The ladder's history lives here and in git, not in dead functions.
+- **One flag set for the whole project:** the two near-identical per-target
+  `target_compile_options` blocks (which had to be hand-synced) were folded into
+  a single `olympia_compile_flags(tgt)` function applied to both targets. The
+  live `olympia_enable_sanitizers(tgt)` is unchanged.
+- **Dropped 4 no-op suppressions** (`-Wno-incompatible-pointer-types`,
+  `-Wno-int-conversion`, `-Wno-int-to-pointer-cast`, `-Wno-pointer-to-int-cast`)
+  that were immediately overridden by their matching `-Werror=` later in the
+  same block — zero behavior change.
+- **Kept the `-Wfoo -Werror=foo` pairs** (one class per line) as a record of the
+  locked-in work, with a convention comment block at the top of the file so a
+  future agent doesn't "tidy" them into bare `-Werror=foo` and lose the history.
+- **Optimization now driven by `CMAKE_BUILD_TYPE`:** the hardcoded `-Og`/`-O1`
+  (introduced only to aid modernization) were removed, so `debug` is `-O0 -g`,
+  `release` genuinely builds at `-O3 -DNDEBUG` (previously the inlined level
+  overrode it), and `asan-ubsan` is `-O1 -g` for both targets via the preset's
+  `CMAKE_C_FLAGS_RELWITHDEBINFO`. Golden output is opt-level-independent, so all
+  three gates stay green (debug + asan-ubsan golden `YES`, asan/ubsan exit 0).
